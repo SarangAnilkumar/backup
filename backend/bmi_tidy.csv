@@ -1,0 +1,1117 @@
+bmi_sex,bmi_category_group,bmi_category,bmi_age_group,bmi_estimate_000
+Persons,Measured Body Mass Index,Underweight (less than 18.50),15–17,90.5
+Persons,Measured Body Mass Index,Total Normal range (18.50–24.99),15–17,577.1
+Persons,Measured Body Mass Index,Overweight (25.00–29.99),15–17,165.4
+Persons,Measured Body Mass Index,Total Obese (30.00 or more),15–17,84.7
+Persons,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),15–17,241.7
+Persons,Measured Body Mass Index,Total persons aged 15 years and over,15–17,924.8
+Persons,Measured waist circumference,Average measured Body Mass Index,15–17,22.6
+Persons,Measured waist circumference,Median measured Body Mass Index,15–17,21.6
+Persons,Measured waist circumference,Average measured height (cm),15–17,169.6
+Persons,Measured waist circumference,Median measured height (cm),15–17,169.0
+Persons,Measured waist circumference,Average measured weight (kg),15–17,65.4
+Persons,Measured waist circumference,Median measured weight (kg),15–17,62.0
+Persons,Measured waist circumference,Average measured waist circumference (cm),15–17,78.7
+Persons,Measured waist circumference,Median measured waist circumference (cm),15–17,77.0
+Persons,Measured waist circumference,"Total persons, 15 years and over",15–17,924.8
+Males,Measured Body Mass Index,Underweight (less than 18.50),15–17,57.1
+Males,Measured Body Mass Index,Total Normal range (18.50–24.99),15–17,273.8
+Males,Measured Body Mass Index,Overweight (25.00–29.99),15–17,89.0
+Males,Measured Body Mass Index,Total Obese (30.00 or more),15–17,48.5
+Males,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),15–17,133.6
+Males,Measured Body Mass Index,Total males aged 15 years and over,15–17,471.3
+Males,Measured waist circumference,Average measured Body Mass Index,15–17,22.6
+Males,Measured waist circumference,Median measured Body Mass Index,15–17,21.5
+Males,Measured waist circumference,Average measured height (cm),15–17,175.7
+Males,Measured waist circumference,Median measured height (cm),15–17,176.0
+Males,Measured waist circumference,Average measured weight (kg),15–17,70.1
+Males,Measured waist circumference,Median measured weight (kg),15–17,67.0
+Males,Measured waist circumference,Average measured waist circumference (cm),15–17,81.9
+Males,Measured waist circumference,Median measured waist circumference (cm),15–17,79.0
+Males,Measured waist circumference,"Total males, 15 years and over",15–17,471.3
+Females,Measured Body Mass Index,Underweight (less than 18.50),15–17,36.2
+Females,Measured Body Mass Index,Total Normal range (18.50–24.99),15–17,302.3
+Females,Measured Body Mass Index,Overweight (25.00–29.99),15–17,78.3
+Females,Measured Body Mass Index,Total Obese (30.00 or more),15–17,32.1
+Females,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),15–17,105.7
+Females,Measured Body Mass Index,Total females aged 15 years and over,15–17,444.7
+Females,Measured waist circumference,Average measured Body Mass Index,15–17,22.6
+Females,Measured waist circumference,Median measured Body Mass Index,15–17,21.7
+Females,Measured waist circumference,Average measured height (cm),15–17,163.2
+Females,Measured waist circumference,Median measured height (cm),15–17,164.0
+Females,Measured waist circumference,Average measured weight (kg),15–17,60.3
+Females,Measured waist circumference,Median measured weight (kg),15–17,58.0
+Females,Measured waist circumference,Average measured waist circumference (cm),15–17,75.2
+Females,Measured waist circumference,Median waist measured circumference (cm),15–17,72.0
+Females,Measured waist circumference,"Total females, 15 years and over",15–17,444.7
+Persons,Measured Body Mass Index,Underweight (less than 18.50),18–24,106.7
+Persons,Measured Body Mass Index,Normal range (18.50–19.99),18–24,271.4
+Persons,Measured Body Mass Index,Normal range (20.00–24.99),18–24,880.1
+Persons,Measured Body Mass Index,Total Normal range (18.50–24.99),18–24,1148.8
+Persons,Measured Body Mass Index,Overweight (25.00–29.99),18–24,590.3
+Persons,Measured Body Mass Index,Obesity class I (30.00–34.99),18–24,184.4
+Persons,Measured Body Mass Index,Obesity class II (35.00–39.99),18–24,76.5
+Persons,Measured Body Mass Index,Obesity class III (40.00 or more),18–24,63.2
+Persons,Measured Body Mass Index,Total Obese (30.00 or more),18–24,309.2
+Persons,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),18–24,908.5
+Persons,Measured Body Mass Index,Total persons aged 15 years and over,18–24,2159.7
+Persons,Measured waist circumference,Lowered risk,18–24,1348.9
+Persons,Measured waist circumference,Increased risk(i),18–24,354.6
+Persons,Measured waist circumference,Substantially increased risk(j),18–24,440.4
+Persons,Measured waist circumference,Total persons aged 18 years and over,18–24,2159.7
+Persons,Measured waist circumference,Average measured Body Mass Index,18–24,25.2
+Persons,Measured waist circumference,Median measured Body Mass Index,18–24,24.1
+Persons,Measured waist circumference,Average measured height (cm),18–24,170.4
+Persons,Measured waist circumference,Median measured height (cm),18–24,170.0
+Persons,Measured waist circumference,Average measured weight (kg),18–24,73.6
+Persons,Measured waist circumference,Median measured weight (kg),18–24,71.3
+Persons,Measured waist circumference,Average measured waist circumference (cm),18–24,85.2
+Persons,Measured waist circumference,Median measured waist circumference (cm),18–24,82.0
+Persons,Measured waist circumference,"Total persons, 15 years and over",18–24,2159.7
+Males,Measured Body Mass Index,Underweight (less than 18.50),18–24,32.4
+Males,Measured Body Mass Index,Normal range (18.50–19.99),18–24,111.6
+Males,Measured Body Mass Index,Normal range (20.00–24.99),18–24,487.7
+Males,Measured Body Mass Index,Total Normal range (18.50–24.99),18–24,601.2
+Males,Measured Body Mass Index,Overweight (25.00–29.99),18–24,327.5
+Males,Measured Body Mass Index,Obesity class I (30.00–34.99),18–24,86.1
+Males,Measured Body Mass Index,Obesity class II (35.00–39.99),18–24,37.8
+Males,Measured Body Mass Index,Obesity class III (40.00 or more),18–24,40.0
+Males,Measured Body Mass Index,Total Obese (30.00 or more),18–24,164.0
+Males,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),18–24,470.5
+Males,Measured Body Mass Index,Total males aged 15 years and over,18–24,1112.0
+Males,Measured waist circumference,Lowered risk,18–24,788.6
+Males,Measured waist circumference,Increased risk(i),18–24,137.7
+Males,Measured waist circumference,Substantially increased risk(j),18–24,171.1
+Males,Measured waist circumference,Total males aged 18 years and over,18–24,1112.0
+Males,Measured waist circumference,Average measured Body Mass Index,18–24,25.3
+Males,Measured waist circumference,Median measured Body Mass Index,18–24,24.3
+Males,Measured waist circumference,Average measured height (cm),18–24,177.4
+Males,Measured waist circumference,Median measured height (cm),18–24,178.0
+Males,Measured waist circumference,Average measured weight (kg),18–24,80.0
+Males,Measured waist circumference,Median measured weight (kg),18–24,76.0
+Males,Measured waist circumference,Average measured waist circumference (cm),18–24,88.8
+Males,Measured waist circumference,Median measured waist circumference (cm),18–24,86.0
+Males,Measured waist circumference,"Total males, 15 years and over",18–24,1112.0
+Females,Measured Body Mass Index,Underweight (less than 18.50),18–24,63.5
+Females,Measured Body Mass Index,Normal range (18.50–19.99),18–24,158.3
+Females,Measured Body Mass Index,Normal range (20.00–24.99),18–24,384.8
+Females,Measured Body Mass Index,Total Normal range (18.50–24.99),18–24,555.5
+Females,Measured Body Mass Index,Overweight (25.00–29.99),18–24,265.3
+Females,Measured Body Mass Index,Obesity class I (30.00–34.99),18–24,88.0
+Females,Measured Body Mass Index,Obesity class II (35.00–39.99),18–24,34.2
+Females,Measured Body Mass Index,Obesity class III (40.00 or more),18–24,15.2
+Females,Measured Body Mass Index,Total Obese (30.00 or more),18–24,162.8
+Females,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),18–24,433.3
+Females,Measured Body Mass Index,Total females aged 15 years and over,18–24,1051.0
+Females,Measured waist circumference,Lowered risk,18–24,560.4
+Females,Measured waist circumference,Increased risk(i),18–24,214.8
+Females,Measured waist circumference,Substantially increased risk(j),18–24,267.0
+Females,Measured waist circumference,Total females aged 18 years and over,18–24,1051.0
+Females,Measured waist circumference,Average measured Body Mass Index,18–24,25.0
+Females,Measured waist circumference,Median measured Body Mass Index,18–24,23.7
+Females,Measured waist circumference,Average measured height (cm),18–24,162.9
+Females,Measured waist circumference,Median measured height (cm),18–24,163.0
+Females,Measured waist circumference,Average measured weight (kg),18–24,66.7
+Females,Measured waist circumference,Median measured weight (kg),18–24,62.7
+Females,Measured waist circumference,Average measured waist circumference (cm),18–24,81.3
+Females,Measured waist circumference,Median waist measured circumference (cm),18–24,78.0
+Females,Measured waist circumference,"Total females, 15 years and over",18–24,1051.0
+Persons,Measured Body Mass Index,Underweight (less than 18.50),25–34,61.3
+Persons,Measured Body Mass Index,Normal range (18.50–19.99),25–34,142.6
+Persons,Measured Body Mass Index,Normal range (20.00–24.99),25–34,1230.4
+Persons,Measured Body Mass Index,Total Normal range (18.50–24.99),25–34,1375.0
+Persons,Measured Body Mass Index,Overweight (25.00–29.99),25–34,1115.8
+Persons,Measured Body Mass Index,Obesity class I (30.00–34.99),25–34,606.1
+Persons,Measured Body Mass Index,Obesity class II (35.00–39.99),25–34,287.9
+Persons,Measured Body Mass Index,Obesity class III (40.00 or more),25–34,119.6
+Persons,Measured Body Mass Index,Total Obese (30.00 or more),25–34,1022.8
+Persons,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),25–34,2133.1
+Persons,Measured Body Mass Index,Total persons aged 15 years and over,25–34,3626.7
+Persons,Measured waist circumference,Lowered risk,25–34,1571.2
+Persons,Measured waist circumference,Increased risk(i),25–34,741.4
+Persons,Measured waist circumference,Substantially increased risk(j),25–34,1265.8
+Persons,Measured waist circumference,Total persons aged 18 years and over,25–34,3626.7
+Persons,Measured waist circumference,Average measured Body Mass Index,25–34,27.5
+Persons,Measured waist circumference,Median measured Body Mass Index,25–34,26.4
+Persons,Measured waist circumference,Average measured height (cm),25–34,170.0
+Persons,Measured waist circumference,Median measured height (cm),25–34,169.0
+Persons,Measured waist circumference,Average measured weight (kg),25–34,79.8
+Persons,Measured waist circumference,Median measured weight (kg),25–34,77.4
+Persons,Measured waist circumference,Average measured waist circumference (cm),25–34,91.5
+Persons,Measured waist circumference,Median measured waist circumference (cm),25–34,90.0
+Persons,Measured waist circumference,"Total persons, 15 years and over",25–34,3626.7
+Males,Measured Body Mass Index,Underweight (less than 18.50),25–34,15.3
+Males,Measured Body Mass Index,Normal range (18.50–19.99),25–34,49.4
+Males,Measured Body Mass Index,Normal range (20.00–24.99),25–34,529.4
+Males,Measured Body Mass Index,Total Normal range (18.50–24.99),25–34,569.4
+Males,Measured Body Mass Index,Overweight (25.00–29.99),25–34,704.4
+Males,Measured Body Mass Index,Obesity class I (30.00–34.99),25–34,308.0
+Males,Measured Body Mass Index,Obesity class II (35.00–39.99),25–34,143.6
+Males,Measured Body Mass Index,Obesity class III (40.00 or more),25–34,56.3
+Males,Measured Body Mass Index,Total Obese (30.00 or more),25–34,512.9
+Males,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),25–34,1211.8
+Males,Measured Body Mass Index,Total males aged 15 years and over,25–34,1832.4
+Males,Measured waist circumference,Lowered risk,25–34,893.8
+Males,Measured waist circumference,Increased risk(i),25–34,419.8
+Males,Measured waist circumference,Substantially increased risk(j),25–34,493.5
+Males,Measured waist circumference,Total males aged 18 years and over,25–34,1832.4
+Males,Measured waist circumference,Average measured Body Mass Index,25–34,27.8
+Males,Measured waist circumference,Median measured Body Mass Index,25–34,26.8
+Males,Measured waist circumference,Average measured height (cm),25–34,176.4
+Males,Measured waist circumference,Median measured height (cm),25–34,177.0
+Males,Measured waist circumference,Average measured weight (kg),25–34,86.7
+Males,Measured waist circumference,Median measured weight (kg),25–34,82.7
+Males,Measured waist circumference,Average measured waist circumference (cm),25–34,95.3
+Males,Measured waist circumference,Median measured waist circumference (cm),25–34,94.0
+Males,Measured waist circumference,"Total males, 15 years and over",25–34,1832.4
+Females,Measured Body Mass Index,Underweight (less than 18.50),25–34,44.3
+Females,Measured Body Mass Index,Normal range (18.50–19.99),25–34,88.0
+Females,Measured Body Mass Index,Normal range (20.00–24.99),25–34,706.9
+Females,Measured Body Mass Index,Total Normal range (18.50–24.99),25–34,798.3
+Females,Measured Body Mass Index,Overweight (25.00–29.99),25–34,409.6
+Females,Measured Body Mass Index,Obesity class I (30.00–34.99),25–34,296.3
+Females,Measured Body Mass Index,Obesity class II (35.00–39.99),25–34,144.3
+Females,Measured Body Mass Index,Obesity class III (40.00 or more),25–34,69.2
+Females,Measured Body Mass Index,Total Obese (30.00 or more),25–34,517.4
+Females,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),25–34,923.1
+Females,Measured Body Mass Index,Total females aged 15 years and over,25–34,1792.4
+Females,Measured waist circumference,Lowered risk,25–34,679.4
+Females,Measured waist circumference,Increased risk(i),25–34,319.9
+Females,Measured waist circumference,Substantially increased risk(j),25–34,764.8
+Females,Measured waist circumference,Total females aged 18 years and over,25–34,1792.4
+Females,Measured waist circumference,Average measured Body Mass Index,25–34,27.2
+Females,Measured waist circumference,Median measured Body Mass Index,25–34,25.6
+Females,Measured waist circumference,Average measured height (cm),25–34,163.4
+Females,Measured waist circumference,Median measured height (cm),25–34,164.0
+Females,Measured waist circumference,Average measured weight (kg),25–34,72.8
+Females,Measured waist circumference,Median measured weight (kg),25–34,69.0
+Females,Measured waist circumference,Average measured waist circumference (cm),25–34,87.6
+Females,Measured waist circumference,Median waist measured circumference (cm),25–34,84.0
+Females,Measured waist circumference,"Total females, 15 years and over",25–34,1792.4
+Persons,Measured Body Mass Index,Underweight (less than 18.50),35–44,43.0
+Persons,Measured Body Mass Index,Normal range (18.50–19.99),35–44,92.5
+Persons,Measured Body Mass Index,Normal range (20.00–24.99),35–44,1007.7
+Persons,Measured Body Mass Index,Total Normal range (18.50–24.99),35–44,1104.4
+Persons,Measured Body Mass Index,Overweight (25.00–29.99),35–44,1230.2
+Persons,Measured Body Mass Index,Obesity class I (30.00–34.99),35–44,661.3
+Persons,Measured Body Mass Index,Obesity class II (35.00–39.99),35–44,287.5
+Persons,Measured Body Mass Index,Obesity class III (40.00 or more),35–44,163.7
+Persons,Measured Body Mass Index,Total Obese (30.00 or more),35–44,1112.8
+Persons,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),35–44,2348.9
+Persons,Measured Body Mass Index,Total persons aged 15 years and over,35–44,3521.1
+Persons,Measured waist circumference,Lowered risk,35–44,1185.2
+Persons,Measured waist circumference,Increased risk(i),35–44,804.6
+Persons,Measured waist circumference,Substantially increased risk(j),35–44,1508.0
+Persons,Measured waist circumference,Total persons aged 18 years and over,35–44,3521.1
+Persons,Measured waist circumference,Average measured Body Mass Index,35–44,28.2
+Persons,Measured waist circumference,Median measured Body Mass Index,35–44,27.0
+Persons,Measured waist circumference,Average measured height (cm),35–44,169.2
+Persons,Measured waist circumference,Median measured height (cm),35–44,169.0
+Persons,Measured waist circumference,Average measured weight (kg),35–44,81.1
+Persons,Measured waist circumference,Median measured weight (kg),35–44,79.0
+Persons,Measured waist circumference,Average measured waist circumference (cm),35–44,94.5
+Persons,Measured waist circumference,Median measured waist circumference (cm),35–44,94.0
+Persons,Measured waist circumference,"Total persons, 15 years and over",35–44,3521.1
+Males,Measured Body Mass Index,Underweight (less than 18.50),35–44,4.8
+Males,Measured Body Mass Index,Normal range (18.50–19.99),35–44,23.4
+Males,Measured Body Mass Index,Normal range (20.00–24.99),35–44,402.6
+Males,Measured Body Mass Index,Total Normal range (18.50–24.99),35–44,421.6
+Males,Measured Body Mass Index,Overweight (25.00–29.99),35–44,699.9
+Males,Measured Body Mass Index,Obesity class I (30.00–34.99),35–44,390.3
+Males,Measured Body Mass Index,Obesity class II (35.00–39.99),35–44,154.0
+Males,Measured Body Mass Index,Obesity class III (40.00 or more),35–44,59.6
+Males,Measured Body Mass Index,Total Obese (30.00 or more),35–44,611.8
+Males,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),35–44,1308.5
+Males,Measured Body Mass Index,Total males aged 15 years and over,35–44,1749.0
+Males,Measured waist circumference,Lowered risk,35–44,628.0
+Males,Measured waist circumference,Increased risk(i),35–44,414.2
+Males,Measured waist circumference,Substantially increased risk(j),35–44,699.1
+Males,Measured waist circumference,Total males aged 18 years and over,35–44,1749.0
+Males,Measured waist circumference,Average measured Body Mass Index,35–44,28.8
+Males,Measured waist circumference,Median measured Body Mass Index,35–44,28.0
+Males,Measured waist circumference,Average measured height (cm),35–44,175.6
+Males,Measured waist circumference,Median measured height (cm),35–44,176.0
+Males,Measured waist circumference,Average measured weight (kg),35–44,89.1
+Males,Measured waist circumference,Median measured weight (kg),35–44,86.5
+Males,Measured waist circumference,Average measured waist circumference (cm),35–44,99.5
+Males,Measured waist circumference,Median measured waist circumference (cm),35–44,98.0
+Males,Measured waist circumference,"Total males, 15 years and over",35–44,1749.0
+Females,Measured Body Mass Index,Underweight (less than 18.50),35–44,41.8
+Females,Measured Body Mass Index,Normal range (18.50–19.99),35–44,69.1
+Females,Measured Body Mass Index,Normal range (20.00–24.99),35–44,606.6
+Females,Measured Body Mass Index,Total Normal range (18.50–24.99),35–44,673.0
+Females,Measured Body Mass Index,Overweight (25.00–29.99),35–44,530.3
+Females,Measured Body Mass Index,Obesity class I (30.00–34.99),35–44,267.9
+Females,Measured Body Mass Index,Obesity class II (35.00–39.99),35–44,124.1
+Females,Measured Body Mass Index,Obesity class III (40.00 or more),35–44,105.2
+Females,Measured Body Mass Index,Total Obese (30.00 or more),35–44,504.2
+Females,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),35–44,1034.5
+Females,Measured Body Mass Index,Total females aged 15 years and over,35–44,1773.2
+Females,Measured waist circumference,Lowered risk,35–44,555.8
+Females,Measured waist circumference,Increased risk(i),35–44,387.7
+Females,Measured waist circumference,Substantially increased risk(j),35–44,812.0
+Females,Measured waist circumference,Total females aged 18 years and over,35–44,1773.2
+Females,Measured waist circumference,Average measured Body Mass Index,35–44,27.5
+Females,Measured waist circumference,Median measured Body Mass Index,35–44,25.9
+Females,Measured waist circumference,Average measured height (cm),35–44,162.9
+Females,Measured waist circumference,Median measured height (cm),35–44,163.0
+Females,Measured waist circumference,Average measured weight (kg),35–44,73.3
+Females,Measured waist circumference,Median measured weight (kg),35–44,69.8
+Females,Measured waist circumference,Average measured waist circumference (cm),35–44,89.6
+Females,Measured waist circumference,Median waist measured circumference (cm),35–44,86.5
+Females,Measured waist circumference,"Total females, 15 years and over",35–44,1773.2
+Persons,Measured Body Mass Index,Underweight (less than 18.50),45–54,23.2
+Persons,Measured Body Mass Index,Normal range (18.50–19.99),45–54,53.5
+Persons,Measured Body Mass Index,Normal range (20.00–24.99),45–54,776.6
+Persons,Measured Body Mass Index,Total Normal range (18.50–24.99),45–54,836.9
+Persons,Measured Body Mass Index,Overweight (25.00–29.99),45–54,1186.0
+Persons,Measured Body Mass Index,Obesity class I (30.00–34.99),45–54,652.1
+Persons,Measured Body Mass Index,Obesity class II (35.00–39.99),45–54,282.2
+Persons,Measured Body Mass Index,Obesity class III (40.00 or more),45–54,216.8
+Persons,Measured Body Mass Index,Total Obese (30.00 or more),45–54,1156.0
+Persons,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),45–54,2338.8
+Persons,Measured Body Mass Index,Total persons aged 15 years and over,45–54,3226.7
+Persons,Measured waist circumference,Lowered risk,45–54,784.6
+Persons,Measured waist circumference,Increased risk(i),45–54,656.4
+Persons,Measured waist circumference,Substantially increased risk(j),45–54,1754.6
+Persons,Measured waist circumference,Total persons aged 18 years and over,45–54,3226.7
+Persons,Measured waist circumference,Average measured Body Mass Index,45–54,29.2
+Persons,Measured waist circumference,Median measured Body Mass Index,45–54,27.9
+Persons,Measured waist circumference,Average measured height (cm),45–54,168.9
+Persons,Measured waist circumference,Median measured height (cm),45–54,168.0
+Persons,Measured waist circumference,Average measured weight (kg),45–54,83.6
+Persons,Measured waist circumference,Median measured weight (kg),45–54,80.3
+Persons,Measured waist circumference,Average measured waist circumference (cm),45–54,97.8
+Persons,Measured waist circumference,Median measured waist circumference (cm),45–54,96.0
+Persons,Measured waist circumference,"Total persons, 15 years and over",45–54,3226.7
+Males,Measured Body Mass Index,Underweight (less than 18.50),45–54,0.0
+Males,Measured Body Mass Index,Normal range (18.50–19.99),45–54,13.2
+Males,Measured Body Mass Index,Normal range (20.00–24.99),45–54,310.0
+Males,Measured Body Mass Index,Total Normal range (18.50–24.99),45–54,328.8
+Males,Measured Body Mass Index,Overweight (25.00–29.99),45–54,679.9
+Males,Measured Body Mass Index,Obesity class I (30.00–34.99),45–54,331.4
+Males,Measured Body Mass Index,Obesity class II (35.00–39.99),45–54,123.8
+Males,Measured Body Mass Index,Obesity class III (40.00 or more),45–54,99.8
+Males,Measured Body Mass Index,Total Obese (30.00 or more),45–54,568.4
+Males,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),45–54,1235.3
+Males,Measured Body Mass Index,Total males aged 15 years and over,45–54,1585.9
+Males,Measured waist circumference,Lowered risk,45–54,464.3
+Males,Measured waist circumference,Increased risk(i),45–54,367.3
+Males,Measured waist circumference,Substantially increased risk(j),45–54,741.3
+Males,Measured waist circumference,Total males aged 18 years and over,45–54,1585.9
+Males,Measured waist circumference,Average measured Body Mass Index,45–54,29.4
+Males,Measured waist circumference,Median measured Body Mass Index,45–54,28.1
+Males,Measured waist circumference,Average measured height (cm),45–54,175.6
+Males,Measured waist circumference,Median measured height (cm),45–54,176.0
+Males,Measured waist circumference,Average measured weight (kg),45–54,90.9
+Males,Measured waist circumference,Median measured weight (kg),45–54,87.6
+Males,Measured waist circumference,Average measured waist circumference (cm),45–54,102.1
+Males,Measured waist circumference,Median measured waist circumference (cm),45–54,101.0
+Males,Measured waist circumference,"Total males, 15 years and over",45–54,1585.9
+Females,Measured Body Mass Index,Underweight (less than 18.50),45–54,23.2
+Females,Measured Body Mass Index,Normal range (18.50–19.99),45–54,34.9
+Females,Measured Body Mass Index,Normal range (20.00–24.99),45–54,461.8
+Females,Measured Body Mass Index,Total Normal range (18.50–24.99),45–54,506.1
+Females,Measured Body Mass Index,Overweight (25.00–29.99),45–54,507.8
+Females,Measured Body Mass Index,Obesity class I (30.00–34.99),45–54,327.4
+Females,Measured Body Mass Index,Obesity class II (35.00–39.99),45–54,151.8
+Females,Measured Body Mass Index,Obesity class III (40.00 or more),45–54,107.5
+Females,Measured Body Mass Index,Total Obese (30.00 or more),45–54,592.4
+Females,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),45–54,1105.1
+Females,Measured Body Mass Index,Total females aged 15 years and over,45–54,1641.5
+Females,Measured waist circumference,Lowered risk,45–54,328.5
+Females,Measured waist circumference,Increased risk(i),45–54,284.1
+Females,Measured waist circumference,Substantially increased risk(j),45–54,1013.3
+Females,Measured waist circumference,Total females aged 18 years and over,45–54,1641.5
+Females,Measured waist circumference,Average measured Body Mass Index,45–54,28.9
+Females,Measured waist circumference,Median measured Body Mass Index,45–54,27.6
+Females,Measured waist circumference,Average measured height (cm),45–54,162.5
+Females,Measured waist circumference,Median measured height (cm),45–54,162.0
+Females,Measured waist circumference,Average measured weight (kg),45–54,76.5
+Females,Measured waist circumference,Median measured weight (kg),45–54,73.3
+Females,Measured waist circumference,Average measured waist circumference (cm),45–54,93.7
+Females,Measured waist circumference,Median waist measured circumference (cm),45–54,92.0
+Females,Measured waist circumference,"Total females, 15 years and over",45–54,1641.5
+Persons,Measured Body Mass Index,Underweight (less than 18.50),55–64,30.2
+Persons,Measured Body Mass Index,Normal range (18.50–19.99),55–64,53.7
+Persons,Measured Body Mass Index,Normal range (20.00–24.99),55–64,665.1
+Persons,Measured Body Mass Index,Total Normal range (18.50–24.99),55–64,720.2
+Persons,Measured Body Mass Index,Overweight (25.00–29.99),55–64,1069.3
+Persons,Measured Body Mass Index,Obesity class I (30.00–34.99),55–64,678.6
+Persons,Measured Body Mass Index,Obesity class II (35.00–39.99),55–64,286.1
+Persons,Measured Body Mass Index,Obesity class III (40.00 or more),55–64,162.0
+Persons,Measured Body Mass Index,Total Obese (30.00 or more),55–64,1121.3
+Persons,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),55–64,2187.5
+Persons,Measured Body Mass Index,Total persons aged 15 years and over,55–64,2973.3
+Persons,Measured waist circumference,Lowered risk,55–64,579.1
+Persons,Measured waist circumference,Increased risk(i),55–64,664.6
+Persons,Measured waist circumference,Substantially increased risk(j),55–64,1705.7
+Persons,Measured waist circumference,Total persons aged 18 years and over,55–64,2973.3
+Persons,Measured waist circumference,Average measured Body Mass Index,55–64,29.0
+Persons,Measured waist circumference,Median measured Body Mass Index,55–64,28.1
+Persons,Measured waist circumference,Average measured height (cm),55–64,167.0
+Persons,Measured waist circumference,Median measured height (cm),55–64,167.0
+Persons,Measured waist circumference,Average measured weight (kg),55–64,81.2
+Persons,Measured waist circumference,Median measured weight (kg),55–64,79.4
+Persons,Measured waist circumference,Average measured waist circumference (cm),55–64,98.2
+Persons,Measured waist circumference,Median measured waist circumference (cm),55–64,98.0
+Persons,Measured waist circumference,"Total persons, 15 years and over",55–64,2973.3
+Males,Measured Body Mass Index,Underweight (less than 18.50),55–64,18.6
+Males,Measured Body Mass Index,Normal range (18.50–19.99),55–64,21.5
+Males,Measured Body Mass Index,Normal range (20.00–24.99),55–64,281.3
+Males,Measured Body Mass Index,Total Normal range (18.50–24.99),55–64,296.8
+Males,Measured Body Mass Index,Overweight (25.00–29.99),55–64,555.2
+Males,Measured Body Mass Index,Obesity class I (30.00–34.99),55–64,372.8
+Males,Measured Body Mass Index,Obesity class II (35.00–39.99),55–64,119.4
+Males,Measured Body Mass Index,Obesity class III (40.00 or more),55–64,77.3
+Males,Measured Body Mass Index,Total Obese (30.00 or more),55–64,565.0
+Males,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),55–64,1129.2
+Males,Measured Body Mass Index,Total males aged 15 years and over,55–64,1445.2
+Males,Measured waist circumference,Lowered risk,55–64,344.4
+Males,Measured waist circumference,Increased risk(i),55–64,347.0
+Males,Measured waist circumference,Substantially increased risk(j),55–64,747.2
+Males,Measured waist circumference,Total males aged 18 years and over,55–64,1445.2
+Males,Measured waist circumference,Average measured Body Mass Index,55–64,29.2
+Males,Measured waist circumference,Median measured Body Mass Index,55–64,28.4
+Males,Measured waist circumference,Average measured height (cm),55–64,173.6
+Males,Measured waist circumference,Median measured height (cm),55–64,173.0
+Males,Measured waist circumference,Average measured weight (kg),55–64,88.1
+Males,Measured waist circumference,Median measured weight (kg),55–64,87.1
+Males,Measured waist circumference,Average measured waist circumference (cm),55–64,102.5
+Males,Measured waist circumference,Median measured waist circumference (cm),55–64,102.0
+Males,Measured waist circumference,"Total males, 15 years and over",55–64,1445.2
+Females,Measured Body Mass Index,Underweight (less than 18.50),55–64,19.3
+Females,Measured Body Mass Index,Normal range (18.50–19.99),55–64,41.9
+Females,Measured Body Mass Index,Normal range (20.00–24.99),55–64,386.2
+Females,Measured Body Mass Index,Total Normal range (18.50–24.99),55–64,421.5
+Females,Measured Body Mass Index,Overweight (25.00–29.99),55–64,509.5
+Females,Measured Body Mass Index,Obesity class I (30.00–34.99),55–64,310.0
+Females,Measured Body Mass Index,Obesity class II (35.00–39.99),55–64,160.9
+Females,Measured Body Mass Index,Obesity class III (40.00 or more),55–64,85.9
+Females,Measured Body Mass Index,Total Obese (30.00 or more),55–64,556.0
+Females,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),55–64,1062.7
+Females,Measured Body Mass Index,Total females aged 15 years and over,55–64,1529.0
+Females,Measured waist circumference,Lowered risk,55–64,234.7
+Females,Measured waist circumference,Increased risk(i),55–64,314.8
+Females,Measured waist circumference,Substantially increased risk(j),55–64,947.2
+Females,Measured waist circumference,Total females aged 18 years and over,55–64,1529.0
+Females,Measured waist circumference,Average measured Body Mass Index,55–64,28.9
+Females,Measured waist circumference,Median measured Body Mass Index,55–64,27.8
+Females,Measured waist circumference,Average measured height (cm),55–64,160.7
+Females,Measured waist circumference,Median measured height (cm),55–64,161.0
+Females,Measured waist circumference,Average measured weight (kg),55–64,74.7
+Females,Measured waist circumference,Median measured weight (kg),55–64,73.3
+Females,Measured waist circumference,Average measured waist circumference (cm),55–64,94.1
+Females,Measured waist circumference,Median waist measured circumference (cm),55–64,93.0
+Females,Measured waist circumference,"Total females, 15 years and over",55–64,1529.0
+Persons,Measured Body Mass Index,Underweight (less than 18.50),65 years and over,53.7
+Persons,Measured Body Mass Index,Normal range (18.50–19.99),65 years and over,77.6
+Persons,Measured Body Mass Index,Normal range (20.00–24.99),65 years and over,974.7
+Persons,Measured Body Mass Index,Total Normal range (18.50–24.99),65 years and over,1056.9
+Persons,Measured Body Mass Index,Overweight (25.00–29.99),65 years and over,1529.7
+Persons,Measured Body Mass Index,Obesity class I (30.00–34.99),65 years and over,954.5
+Persons,Measured Body Mass Index,Obesity class II (35.00–39.99),65 years and over,362.2
+Persons,Measured Body Mass Index,Obesity class III (40.00 or more),65 years and over,203.7
+Persons,Measured Body Mass Index,Total Obese (30.00 or more),65 years and over,1520.4
+Persons,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),65 years and over,3044.4
+Persons,Measured Body Mass Index,Total persons aged 15 years and over,65 years and over,4199.8
+Persons,Measured waist circumference,Lowered risk,65 years and over,674.6
+Persons,Measured waist circumference,Increased risk(i),65 years and over,885.2
+Persons,Measured waist circumference,Substantially increased risk(j),65 years and over,2600.9
+Persons,Measured waist circumference,Total persons aged 18 years and over,65 years and over,4199.8
+Persons,Measured waist circumference,Average measured Body Mass Index,65 years and over,28.8
+Persons,Measured waist circumference,Median measured Body Mass Index,65 years and over,28.0
+Persons,Measured waist circumference,Average measured height (cm),65 years and over,164.3
+Persons,Measured waist circumference,Median measured height (cm),65 years and over,164.0
+Persons,Measured waist circumference,Average measured weight (kg),65 years and over,78.0
+Persons,Measured waist circumference,Median measured weight (kg),65 years and over,76.9
+Persons,Measured waist circumference,Average measured waist circumference (cm),65 years and over,99.6
+Persons,Measured waist circumference,Median measured waist circumference (cm),65 years and over,99.0
+Persons,Measured waist circumference,"Total persons, 15 years and over",65 years and over,4199.8
+Males,Measured Body Mass Index,Underweight (less than 18.50),65 years and over,11.1
+Males,Measured Body Mass Index,Normal range (18.50–19.99),65 years and over,8.0
+Males,Measured Body Mass Index,Normal range (20.00–24.99),65 years and over,393.9
+Males,Measured Body Mass Index,Total Normal range (18.50–24.99),65 years and over,404.7
+Males,Measured Body Mass Index,Overweight (25.00–29.99),65 years and over,797.1
+Males,Measured Body Mass Index,Obesity class I (30.00–34.99),65 years and over,513.2
+Males,Measured Body Mass Index,Obesity class II (35.00–39.99),65 years and over,190.2
+Males,Measured Body Mass Index,Obesity class III (40.00 or more),65 years and over,55.6
+Males,Measured Body Mass Index,Total Obese (30.00 or more),65 years and over,752.0
+Males,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),65 years and over,1551.5
+Males,Measured Body Mass Index,Total males aged 15 years and over,65 years and over,1983.6
+Males,Measured waist circumference,Lowered risk,65 years and over,360.7
+Males,Measured waist circumference,Increased risk(i),65 years and over,519.4
+Males,Measured waist circumference,Substantially increased risk(j),65 years and over,1097.8
+Males,Measured waist circumference,Total males aged 18 years and over,65 years and over,1983.6
+Males,Measured waist circumference,Average measured Body Mass Index,65 years and over,29.0
+Males,Measured waist circumference,Median measured Body Mass Index,65 years and over,28.4
+Males,Measured waist circumference,Average measured height (cm),65 years and over,171.4
+Males,Measured waist circumference,Median measured height (cm),65 years and over,171.0
+Males,Measured waist circumference,Average measured weight (kg),65 years and over,85.2
+Males,Measured waist circumference,Median measured weight (kg),65 years and over,83.7
+Males,Measured waist circumference,Average measured waist circumference (cm),65 years and over,104.1
+Males,Measured waist circumference,Median measured waist circumference (cm),65 years and over,104.0
+Males,Measured waist circumference,"Total males, 15 years and over",65 years and over,1983.6
+Females,Measured Body Mass Index,Underweight (less than 18.50),65 years and over,44.9
+Females,Measured Body Mass Index,Normal range (18.50–19.99),65 years and over,72.4
+Females,Measured Body Mass Index,Normal range (20.00–24.99),65 years and over,581.1
+Females,Measured Body Mass Index,Total Normal range (18.50–24.99),65 years and over,654.5
+Females,Measured Body Mass Index,Overweight (25.00–29.99),65 years and over,735.9
+Females,Measured Body Mass Index,Obesity class I (30.00–34.99),65 years and over,437.7
+Females,Measured Body Mass Index,Obesity class II (35.00–39.99),65 years and over,178.9
+Females,Measured Body Mass Index,Obesity class III (40.00 or more),65 years and over,154.9
+Females,Measured Body Mass Index,Total Obese (30.00 or more),65 years and over,761.5
+Females,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),65 years and over,1499.6
+Females,Measured Body Mass Index,Total females aged 15 years and over,65 years and over,2207.1
+Females,Measured waist circumference,Lowered risk,65 years and over,316.4
+Females,Measured waist circumference,Increased risk(i),65 years and over,363.8
+Females,Measured waist circumference,Substantially increased risk(j),65 years and over,1510.1
+Females,Measured waist circumference,Total females aged 18 years and over,65 years and over,2207.1
+Females,Measured waist circumference,Average measured Body Mass Index,65 years and over,28.6
+Females,Measured waist circumference,Median measured Body Mass Index,65 years and over,27.7
+Females,Measured waist circumference,Average measured height (cm),65 years and over,158.0
+Females,Measured waist circumference,Median measured height (cm),65 years and over,158.0
+Females,Measured waist circumference,Average measured weight (kg),65 years and over,71.5
+Females,Measured waist circumference,Median measured weight (kg),65 years and over,70.0
+Females,Measured waist circumference,Average measured waist circumference (cm),65 years and over,95.4
+Females,Measured waist circumference,Median waist measured circumference (cm),65 years and over,95.0
+Females,Measured waist circumference,"Total females, 15 years and over",65 years and over,2207.1
+Persons,Measured Body Mass Index,Underweight (less than 18.50),15–24,200.0
+Persons,Measured Body Mass Index,Total Normal range (18.50–24.99),15–24,1709.5
+Persons,Measured Body Mass Index,Overweight (25.00–29.99),15–24,746.1
+Persons,Measured Body Mass Index,Total Obese (30.00 or more),15–24,394.9
+Persons,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),15–24,1145.0
+Persons,Measured Body Mass Index,Total persons aged 15 years and over,15–24,3076.7
+Persons,Measured waist circumference,Average measured Body Mass Index,15–24,24.4
+Persons,Measured waist circumference,Median measured Body Mass Index,15–24,23.4
+Persons,Measured waist circumference,Average measured height (cm),15–24,170.2
+Persons,Measured waist circumference,Median measured height (cm),15–24,170.0
+Persons,Measured waist circumference,Average measured weight (kg),15–24,71.1
+Persons,Measured waist circumference,Median measured weight (kg),15–24,68.0
+Persons,Measured waist circumference,Average measured waist circumference (cm),15–24,83.2
+Persons,Measured waist circumference,Median measured waist circumference (cm),15–24,81.0
+Persons,Measured waist circumference,"Total persons, 15 years and over",15–24,3076.7
+Males,Measured Body Mass Index,Underweight (less than 18.50),15–24,92.9
+Males,Measured Body Mass Index,Total Normal range (18.50–24.99),15–24,872.2
+Males,Measured Body Mass Index,Overweight (25.00–29.99),15–24,411.7
+Males,Measured Body Mass Index,Total Obese (30.00 or more),15–24,205.7
+Males,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),15–24,611.5
+Males,Measured Body Mass Index,Total males aged 15 years and over,15–24,1590.7
+Males,Measured waist circumference,Average measured Body Mass Index,15–24,24.5
+Males,Measured waist circumference,Median measured Body Mass Index,15–24,23.8
+Males,Measured waist circumference,Average measured height (cm),15–24,176.9
+Males,Measured waist circumference,Median measured height (cm),15–24,177.0
+Males,Measured waist circumference,Average measured weight (kg),15–24,77.0
+Males,Measured waist circumference,Median measured weight (kg),15–24,73.3
+Males,Measured waist circumference,Average measured waist circumference (cm),15–24,86.7
+Males,Measured waist circumference,Median measured waist circumference (cm),15–24,84.0
+Males,Measured waist circumference,"Total males, 15 years and over",15–24,1590.7
+Females,Measured Body Mass Index,Underweight (less than 18.50),15–24,102.5
+Females,Measured Body Mass Index,Total Normal range (18.50–24.99),15–24,840.8
+Females,Measured Body Mass Index,Overweight (25.00–29.99),15–24,340.0
+Females,Measured Body Mass Index,Total Obese (30.00 or more),15–24,183.5
+Females,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),15–24,531.4
+Females,Measured Body Mass Index,Total females aged 15 years and over,15–24,1485.9
+Females,Measured waist circumference,Average measured Body Mass Index,15–24,24.3
+Females,Measured waist circumference,Median measured Body Mass Index,15–24,23.2
+Females,Measured waist circumference,Average measured height (cm),15–24,163.0
+Females,Measured waist circumference,Median measured height (cm),15–24,163.0
+Females,Measured waist circumference,Average measured weight (kg),15–24,64.8
+Females,Measured waist circumference,Median measured weight (kg),15–24,61.2
+Females,Measured waist circumference,Average measured waist circumference (cm),15–24,79.5
+Females,Measured waist circumference,Median waist measured circumference (cm),15–24,77.0
+Females,Measured waist circumference,"Total females, 15 years and over",15–24,1485.9
+Persons,Measured Body Mass Index,Underweight (less than 18.50),15–44,306.3
+Persons,Measured Body Mass Index,Total Normal range (18.50–24.99),15–44,4182.7
+Persons,Measured Body Mass Index,Overweight (25.00–29.99),15–44,3100.8
+Persons,Measured Body Mass Index,Total Obese (30.00 or more),15–44,2533.8
+Persons,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),15–44,5629.4
+Persons,Measured Body Mass Index,Total persons aged 15 years and over,15–44,10232.8
+Persons,Measured waist circumference,Average measured Body Mass Index,15–44,26.8
+Persons,Measured waist circumference,Median measured Body Mass Index,15–44,25.8
+Persons,Measured waist circumference,Average measured height (cm),15–44,169.8
+Persons,Measured waist circumference,Median measured height (cm),15–44,169.0
+Persons,Measured waist circumference,Average measured weight (kg),15–44,77.6
+Persons,Measured waist circumference,Median measured weight (kg),15–44,75.0
+Persons,Measured waist circumference,Average measured waist circumference (cm),15–44,90.0
+Persons,Measured waist circumference,Median measured waist circumference (cm),15–44,88.0
+Persons,Measured waist circumference,"Total persons, 15 years and over",15–44,10232.8
+Males,Measured Body Mass Index,Underweight (less than 18.50),15–44,119.5
+Males,Measured Body Mass Index,Total Normal range (18.50–24.99),15–44,1871.5
+Males,Measured Body Mass Index,Overweight (25.00–29.99),15–44,1810.2
+Males,Measured Body Mass Index,Total Obese (30.00 or more),15–44,1326.9
+Males,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),15–44,3135.5
+Males,Measured Body Mass Index,Total males aged 15 years and over,15–44,5171.6
+Males,Measured waist circumference,Average measured Body Mass Index,15–44,27.1
+Males,Measured waist circumference,Median measured Body Mass Index,15–44,26.3
+Males,Measured waist circumference,Average measured height (cm),15–44,176.3
+Males,Measured waist circumference,Median measured height (cm),15–44,177.0
+Males,Measured waist circumference,Average measured weight (kg),15–44,84.5
+Males,Measured waist circumference,Median measured weight (kg),15–44,81.1
+Males,Measured waist circumference,Average measured waist circumference (cm),15–44,94.1
+Males,Measured waist circumference,Median measured waist circumference (cm),15–44,92.0
+Males,Measured waist circumference,"Total males, 15 years and over",15–44,5171.6
+Females,Measured Body Mass Index,Underweight (less than 18.50),15–44,187.1
+Females,Measured Body Mass Index,Total Normal range (18.50–24.99),15–44,2318.3
+Females,Measured Body Mass Index,Overweight (25.00–29.99),15–44,1285.5
+Females,Measured Body Mass Index,Total Obese (30.00 or more),15–44,1205.1
+Females,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),15–44,2490.6
+Females,Measured Body Mass Index,Total females aged 15 years and over,15–44,5057.4
+Females,Measured waist circumference,Average measured Body Mass Index,15–44,26.5
+Females,Measured waist circumference,Median measured Body Mass Index,15–44,25.0
+Females,Measured waist circumference,Average measured height (cm),15–44,163.1
+Females,Measured waist circumference,Median measured height (cm),15–44,163.0
+Females,Measured waist circumference,Average measured weight (kg),15–44,70.6
+Females,Measured waist circumference,Median measured weight (kg),15–44,67.0
+Females,Measured waist circumference,Average measured waist circumference (cm),15–44,85.9
+Females,Measured waist circumference,Median waist measured circumference (cm),15–44,82.0
+Females,Measured waist circumference,"Total females, 15 years and over",15–44,5057.4
+Persons,Measured Body Mass Index,Underweight (less than 18.50),25–44,109.7
+Persons,Measured Body Mass Index,Normal range (18.50–19.99),25–44,236.7
+Persons,Measured Body Mass Index,Normal range (20.00–24.99),25–44,2239.2
+Persons,Measured Body Mass Index,Total Normal range (18.50–24.99),25–44,2472.5
+Persons,Measured Body Mass Index,Overweight (25.00–29.99),25–44,2355.0
+Persons,Measured Body Mass Index,Obesity class I (30.00–34.99),25–44,1272.5
+Persons,Measured Body Mass Index,Obesity class II (35.00–39.99),25–44,575.8
+Persons,Measured Body Mass Index,Obesity class III (40.00 or more),25–44,285.1
+Persons,Measured Body Mass Index,Total Obese (30.00 or more),25–44,2131.9
+Persons,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),25–44,4482.3
+Persons,Measured Body Mass Index,Total persons aged 15 years and over,25–44,7148.9
+Persons,Measured waist circumference,Lowered risk,25–44,2760.0
+Persons,Measured waist circumference,Increased risk(i),25–44,1539.7
+Persons,Measured waist circumference,Substantially increased risk(j),25–44,2770.6
+Persons,Measured waist circumference,Total persons aged 18 years and over,25–44,7148.9
+Persons,Measured waist circumference,Average measured Body Mass Index,25–44,27.8
+Persons,Measured waist circumference,Median measured Body Mass Index,25–44,26.7
+Persons,Measured waist circumference,Average measured height (cm),25–44,169.6
+Persons,Measured waist circumference,Median measured height (cm),25–44,169.0
+Persons,Measured waist circumference,Average measured weight (kg),25–44,80.5
+Persons,Measured waist circumference,Median measured weight (kg),25–44,78.0
+Persons,Measured waist circumference,Average measured waist circumference (cm),25–44,93.0
+Persons,Measured waist circumference,Median measured waist circumference (cm),25–44,92.0
+Persons,Measured waist circumference,"Total persons, 15 years and over",25–44,7148.9
+Males,Measured Body Mass Index,Underweight (less than 18.50),25–44,31.5
+Males,Measured Body Mass Index,Normal range (18.50–19.99),25–44,70.9
+Males,Measured Body Mass Index,Normal range (20.00–24.99),25–44,933.7
+Males,Measured Body Mass Index,Total Normal range (18.50–24.99),25–44,999.5
+Males,Measured Body Mass Index,Overweight (25.00–29.99),25–44,1402.8
+Males,Measured Body Mass Index,Obesity class I (30.00–34.99),25–44,710.0
+Males,Measured Body Mass Index,Obesity class II (35.00–39.99),25–44,305.1
+Males,Measured Body Mass Index,Obesity class III (40.00 or more),25–44,116.0
+Males,Measured Body Mass Index,Total Obese (30.00 or more),25–44,1122.8
+Males,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),25–44,2520.5
+Males,Measured Body Mass Index,Total males aged 15 years and over,25–44,3581.2
+Males,Measured waist circumference,Lowered risk,25–44,1525.3
+Males,Measured waist circumference,Increased risk(i),25–44,838.3
+Males,Measured waist circumference,Substantially increased risk(j),25–44,1188.2
+Males,Measured waist circumference,Total males aged 18 years and over,25–44,3581.2
+Males,Measured waist circumference,Average measured Body Mass Index,25–44,28.3
+Males,Measured waist circumference,Median measured Body Mass Index,25–44,27.4
+Males,Measured waist circumference,Average measured height (cm),25–44,176.0
+Males,Measured waist circumference,Median measured height (cm),25–44,176.0
+Males,Measured waist circumference,Average measured weight (kg),25–44,87.8
+Males,Measured waist circumference,Median measured weight (kg),25–44,84.3
+Males,Measured waist circumference,Average measured waist circumference (cm),25–44,97.4
+Males,Measured waist circumference,Median measured waist circumference (cm),25–44,96.0
+Males,Measured waist circumference,"Total males, 15 years and over",25–44,3581.2
+Females,Measured Body Mass Index,Underweight (less than 18.50),25–44,88.7
+Females,Measured Body Mass Index,Normal range (18.50–19.99),25–44,159.2
+Females,Measured Body Mass Index,Normal range (20.00–24.99),25–44,1310.5
+Females,Measured Body Mass Index,Total Normal range (18.50–24.99),25–44,1473.0
+Females,Measured Body Mass Index,Overweight (25.00–29.99),25–44,939.7
+Females,Measured Body Mass Index,Obesity class I (30.00–34.99),25–44,567.5
+Females,Measured Body Mass Index,Obesity class II (35.00–39.99),25–44,279.3
+Females,Measured Body Mass Index,Obesity class III (40.00 or more),25–44,172.2
+Females,Measured Body Mass Index,Total Obese (30.00 or more),25–44,1017.5
+Females,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),25–44,1958.6
+Females,Measured Body Mass Index,Total females aged 15 years and over,25–44,3573.7
+Females,Measured waist circumference,Lowered risk,25–44,1233.1
+Females,Measured waist circumference,Increased risk(i),25–44,706.1
+Females,Measured waist circumference,Substantially increased risk(j),25–44,1579.0
+Females,Measured waist circumference,Total females aged 18 years and over,25–44,3573.7
+Females,Measured waist circumference,Average measured Body Mass Index,25–44,27.4
+Females,Measured waist circumference,Median measured Body Mass Index,25–44,25.8
+Females,Measured waist circumference,Average measured height (cm),25–44,163.2
+Females,Measured waist circumference,Median measured height (cm),25–44,164.0
+Females,Measured waist circumference,Average measured weight (kg),25–44,73.0
+Females,Measured waist circumference,Median measured weight (kg),25–44,69.4
+Females,Measured waist circumference,Average measured waist circumference (cm),25–44,88.6
+Females,Measured waist circumference,Median waist measured circumference (cm),25–44,85.0
+Females,Measured waist circumference,"Total females, 15 years and over",25–44,3573.7
+Persons,Measured Body Mass Index,Underweight (less than 18.50),45–64,48.7
+Persons,Measured Body Mass Index,Normal range (18.50–19.99),45–64,116.6
+Persons,Measured Body Mass Index,Normal range (20.00–24.99),45–64,1449.1
+Persons,Measured Body Mass Index,Total Normal range (18.50–24.99),45–64,1562.8
+Persons,Measured Body Mass Index,Overweight (25.00–29.99),45–64,2250.7
+Persons,Measured Body Mass Index,Obesity class I (30.00–34.99),45–64,1335.6
+Persons,Measured Body Mass Index,Obesity class II (35.00–39.99),45–64,565.6
+Persons,Measured Body Mass Index,Obesity class III (40.00 or more),45–64,376.0
+Persons,Measured Body Mass Index,Total Obese (30.00 or more),45–64,2275.8
+Persons,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),45–64,4527.8
+Persons,Measured Body Mass Index,Total persons aged 15 years and over,45–64,6199.6
+Persons,Measured waist circumference,Lowered risk,45–64,1360.8
+Persons,Measured waist circumference,Increased risk(i),45–64,1317.7
+Persons,Measured waist circumference,Substantially increased risk(j),45–64,3462.3
+Persons,Measured waist circumference,Total persons aged 18 years and over,45–64,6199.6
+Persons,Measured waist circumference,Average measured Body Mass Index,45–64,29.1
+Persons,Measured waist circumference,Median measured Body Mass Index,45–64,28.0
+Persons,Measured waist circumference,Average measured height (cm),45–64,168.0
+Persons,Measured waist circumference,Median measured height (cm),45–64,168.0
+Persons,Measured waist circumference,Average measured weight (kg),45–64,82.4
+Persons,Measured waist circumference,Median measured weight (kg),45–64,79.9
+Persons,Measured waist circumference,Average measured waist circumference (cm),45–64,98.0
+Persons,Measured waist circumference,Median measured waist circumference (cm),45–64,97.0
+Persons,Measured waist circumference,"Total persons, 15 years and over",45–64,6199.6
+Males,Measured Body Mass Index,Underweight (less than 18.50),45–64,18.6
+Males,Measured Body Mass Index,Normal range (18.50–19.99),45–64,37.4
+Males,Measured Body Mass Index,Normal range (20.00–24.99),45–64,597.9
+Males,Measured Body Mass Index,Total Normal range (18.50–24.99),45–64,628.8
+Males,Measured Body Mass Index,Overweight (25.00–29.99),45–64,1236.4
+Males,Measured Body Mass Index,Obesity class I (30.00–34.99),45–64,705.7
+Males,Measured Body Mass Index,Obesity class II (35.00–39.99),45–64,251.3
+Males,Measured Body Mass Index,Obesity class III (40.00 or more),45–64,177.2
+Males,Measured Body Mass Index,Total Obese (30.00 or more),45–64,1128.5
+Males,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),45–64,2361.6
+Males,Measured Body Mass Index,Total males aged 15 years and over,45–64,3037.2
+Males,Measured waist circumference,Lowered risk,45–64,802.0
+Males,Measured waist circumference,Increased risk(i),45–64,721.9
+Males,Measured waist circumference,Substantially increased risk(j),45–64,1491.4
+Males,Measured waist circumference,Total males aged 18 years and over,45–64,3037.2
+Males,Measured waist circumference,Average measured Body Mass Index,45–64,29.3
+Males,Measured waist circumference,Median measured Body Mass Index,45–64,28.2
+Males,Measured waist circumference,Average measured height (cm),45–64,174.6
+Males,Measured waist circumference,Median measured height (cm),45–64,174.0
+Males,Measured waist circumference,Average measured weight (kg),45–64,89.5
+Males,Measured waist circumference,Median measured weight (kg),45–64,87.3
+Males,Measured waist circumference,Average measured waist circumference (cm),45–64,102.3
+Males,Measured waist circumference,Median measured waist circumference (cm),45–64,101.0
+Males,Measured waist circumference,"Total males, 15 years and over",45–64,3037.2
+Females,Measured Body Mass Index,Underweight (less than 18.50),45–64,39.3
+Females,Measured Body Mass Index,Normal range (18.50–19.99),45–64,79.2
+Females,Measured Body Mass Index,Normal range (20.00–24.99),45–64,848.4
+Females,Measured Body Mass Index,Total Normal range (18.50–24.99),45–64,928.9
+Females,Measured Body Mass Index,Overweight (25.00–29.99),45–64,1009.8
+Females,Measured Body Mass Index,Obesity class I (30.00–34.99),45–64,637.2
+Females,Measured Body Mass Index,Obesity class II (35.00–39.99),45–64,317.4
+Females,Measured Body Mass Index,Obesity class III (40.00 or more),45–64,193.0
+Females,Measured Body Mass Index,Total Obese (30.00 or more),45–64,1148.7
+Females,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),45–64,2160.1
+Females,Measured Body Mass Index,Total females aged 15 years and over,45–64,3166.1
+Females,Measured waist circumference,Lowered risk,45–64,563.2
+Females,Measured waist circumference,Increased risk(i),45–64,597.2
+Females,Measured waist circumference,Substantially increased risk(j),45–64,1966.4
+Females,Measured waist circumference,Total females aged 18 years and over,45–64,3166.1
+Females,Measured waist circumference,Average measured Body Mass Index,45–64,28.9
+Females,Measured waist circumference,Median measured Body Mass Index,45–64,27.8
+Females,Measured waist circumference,Average measured height (cm),45–64,161.6
+Females,Measured waist circumference,Median measured height (cm),45–64,161.0
+Females,Measured waist circumference,Average measured weight (kg),45–64,75.6
+Females,Measured waist circumference,Median measured weight (kg),45–64,73.3
+Females,Measured waist circumference,Average measured waist circumference (cm),45–64,93.9
+Females,Measured waist circumference,Median waist measured circumference (cm),45–64,92.0
+Females,Measured waist circumference,"Total females, 15 years and over",45–64,3166.1
+Persons,Measured Body Mass Index,Underweight (less than 18.50),65–74,27.3
+Persons,Measured Body Mass Index,Normal range (18.50–19.99),65–74,28.7
+Persons,Measured Body Mass Index,Normal range (20.00–24.99),65–74,520.1
+Persons,Measured Body Mass Index,Total Normal range (18.50–24.99),65–74,549.6
+Persons,Measured Body Mass Index,Overweight (25.00–29.99),65–74,878.1
+Persons,Measured Body Mass Index,Obesity class I (30.00–34.99),65–74,549.2
+Persons,Measured Body Mass Index,Obesity class II (35.00–39.99),65–74,237.7
+Persons,Measured Body Mass Index,Obesity class III (40.00 or more),65–74,141.2
+Persons,Measured Body Mass Index,Total Obese (30.00 or more),65–74,927.0
+Persons,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),65–74,1805.1
+Persons,Measured Body Mass Index,Total persons aged 15 years and over,65–74,2404.7
+Persons,Measured waist circumference,Lowered risk,65–74,342.1
+Persons,Measured waist circumference,Increased risk(i),65–74,528.9
+Persons,Measured waist circumference,Substantially increased risk(j),65–74,1510.2
+Persons,Measured waist circumference,Total persons aged 18 years and over,65–74,2404.7
+Persons,Measured waist circumference,Average measured Body Mass Index,65–74,29.3
+Persons,Measured waist circumference,Median measured Body Mass Index,65–74,28.4
+Persons,Measured waist circumference,Average measured height (cm),65–74,165.2
+Persons,Measured waist circumference,Median measured height (cm),65–74,165.0
+Persons,Measured waist circumference,Average measured weight (kg),65–74,80.2
+Persons,Measured waist circumference,Median measured weight (kg),65–74,79.0
+Persons,Measured waist circumference,Average measured waist circumference (cm),65–74,100.5
+Persons,Measured waist circumference,Median measured waist circumference (cm),65–74,100.0
+Persons,Measured waist circumference,"Total persons, 15 years and over",65–74,2404.7
+Males,Measured Body Mass Index,Underweight (less than 18.50),65–74,7.4
+Males,Measured Body Mass Index,Normal range (18.50–19.99),65–74,0.0
+Males,Measured Body Mass Index,Normal range (20.00–24.99),65–74,199.0
+Males,Measured Body Mass Index,Total Normal range (18.50–24.99),65–74,204.0
+Males,Measured Body Mass Index,Overweight (25.00–29.99),65–74,470.5
+Males,Measured Body Mass Index,Obesity class I (30.00–34.99),65–74,308.0
+Males,Measured Body Mass Index,Obesity class II (35.00–39.99),65–74,126.5
+Males,Measured Body Mass Index,Obesity class III (40.00 or more),65–74,31.7
+Males,Measured Body Mass Index,Total Obese (30.00 or more),65–74,466.0
+Males,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),65–74,935.4
+Males,Measured Body Mass Index,Total males aged 15 years and over,65–74,1149.1
+Males,Measured waist circumference,Lowered risk,65–74,184.1
+Males,Measured waist circumference,Increased risk(i),65–74,297.3
+Males,Measured waist circumference,Substantially increased risk(j),65–74,661.4
+Males,Measured waist circumference,Total males aged 18 years and over,65–74,1149.1
+Males,Measured waist circumference,Average measured Body Mass Index,65–74,29.4
+Males,Measured waist circumference,Median measured Body Mass Index,65–74,28.6
+Males,Measured waist circumference,Average measured height (cm),65–74,172.3
+Males,Measured waist circumference,Median measured height (cm),65–74,172.0
+Males,Measured waist circumference,Average measured weight (kg),65–74,87.4
+Males,Measured waist circumference,Median measured weight (kg),65–74,85.2
+Males,Measured waist circumference,Average measured waist circumference (cm),65–74,105.0
+Males,Measured waist circumference,Median measured waist circumference (cm),65–74,104.0
+Males,Measured waist circumference,"Total males, 15 years and over",65–74,1149.1
+Females,Measured Body Mass Index,Underweight (less than 18.50),65–74,18.3
+Females,Measured Body Mass Index,Normal range (18.50–19.99),65–74,33.3
+Females,Measured Body Mass Index,Normal range (20.00–24.99),65–74,315.3
+Females,Measured Body Mass Index,Total Normal range (18.50–24.99),65–74,344.6
+Females,Measured Body Mass Index,Overweight (25.00–29.99),65–74,407.7
+Females,Measured Body Mass Index,Obesity class I (30.00–34.99),65–74,241.0
+Females,Measured Body Mass Index,Obesity class II (35.00–39.99),65–74,114.8
+Females,Measured Body Mass Index,Obesity class III (40.00 or more),65–74,107.3
+Females,Measured Body Mass Index,Total Obese (30.00 or more),65–74,466.6
+Females,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),65–74,869.8
+Females,Measured Body Mass Index,Total females aged 15 years and over,65–74,1254.2
+Females,Measured waist circumference,Lowered risk,65–74,161.3
+Females,Measured waist circumference,Increased risk(i),65–74,232.6
+Females,Measured waist circumference,Substantially increased risk(j),65–74,844.3
+Females,Measured waist circumference,Total females aged 18 years and over,65–74,1254.2
+Females,Measured waist circumference,Average measured Body Mass Index,65–74,29.2
+Females,Measured waist circumference,Median measured Body Mass Index,65–74,27.9
+Females,Measured waist circumference,Average measured height (cm),65–74,158.7
+Females,Measured waist circumference,Median measured height (cm),65–74,159.0
+Females,Measured waist circumference,Average measured weight (kg),65–74,73.6
+Females,Measured waist circumference,Median measured weight (kg),65–74,71.6
+Females,Measured waist circumference,Average measured waist circumference (cm),65–74,96.3
+Females,Measured waist circumference,Median waist measured circumference (cm),65–74,96.0
+Females,Measured waist circumference,"Total females, 15 years and over",65–74,1254.2
+Persons,Measured Body Mass Index,Underweight (less than 18.50),75 years and over,34.3
+Persons,Measured Body Mass Index,Normal range (18.50–19.99),75 years and over,50.9
+Persons,Measured Body Mass Index,Normal range (20.00–24.99),75 years and over,459.1
+Persons,Measured Body Mass Index,Total Normal range (18.50–24.99),75 years and over,509.5
+Persons,Measured Body Mass Index,Overweight (25.00–29.99),75 years and over,657.3
+Persons,Measured Body Mass Index,Obesity class I (30.00–34.99),75 years and over,400.8
+Persons,Measured Body Mass Index,Obesity class II (35.00–39.99),75 years and over,127.9
+Persons,Measured Body Mass Index,Obesity class III (40.00 or more),75 years and over,62.5
+Persons,Measured Body Mass Index,Total Obese (30.00 or more),75 years and over,592.2
+Persons,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),75 years and over,1239.2
+Persons,Measured Body Mass Index,Total persons aged 15 years and over,75 years and over,1792.9
+Persons,Measured waist circumference,Lowered risk,75 years and over,331.4
+Persons,Measured waist circumference,Increased risk(i),75 years and over,351.9
+Persons,Measured waist circumference,Substantially increased risk(j),75 years and over,1097.5
+Persons,Measured waist circumference,Total persons aged 18 years and over,75 years and over,1792.9
+Persons,Measured waist circumference,Average measured Body Mass Index,75 years and over,28.1
+Persons,Measured waist circumference,Median measured Body Mass Index,75 years and over,27.5
+Persons,Measured waist circumference,Average measured height (cm),75 years and over,163.2
+Persons,Measured waist circumference,Median measured height (cm),75 years and over,163.0
+Persons,Measured waist circumference,Average measured weight (kg),75 years and over,75.0
+Persons,Measured waist circumference,Median measured weight (kg),75 years and over,74.2
+Persons,Measured waist circumference,Average measured waist circumference (cm),75 years and over,98.3
+Persons,Measured waist circumference,Median measured waist circumference (cm),75 years and over,98.0
+Persons,Measured waist circumference,"Total persons, 15 years and over",75 years and over,1792.9
+Males,Measured Body Mass Index,Underweight (less than 18.50),75 years and over,6.7
+Males,Measured Body Mass Index,Normal range (18.50–19.99),75 years and over,7.6
+Males,Measured Body Mass Index,Normal range (20.00–24.99),75 years and over,193.7
+Males,Measured Body Mass Index,Total Normal range (18.50–24.99),75 years and over,204.4
+Males,Measured Body Mass Index,Overweight (25.00–29.99),75 years and over,331.3
+Males,Measured Body Mass Index,Obesity class I (30.00–34.99),75 years and over,205.4
+Males,Measured Body Mass Index,Obesity class II (35.00–39.99),75 years and over,60.7
+Males,Measured Body Mass Index,Obesity class III (40.00 or more),75 years and over,20.8
+Males,Measured Body Mass Index,Total Obese (30.00 or more),75 years and over,287.2
+Males,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),75 years and over,619.8
+Males,Measured Body Mass Index,Total males aged 15 years and over,75 years and over,835.7
+Males,Measured waist circumference,Lowered risk,75 years and over,172.6
+Males,Measured waist circumference,Increased risk(i),75 years and over,222.1
+Males,Measured waist circumference,Substantially increased risk(j),75 years and over,427.9
+Males,Measured waist circumference,Total males aged 18 years and over,75 years and over,835.7
+Males,Measured waist circumference,Average measured Body Mass Index,75 years and over,28.4
+Males,Measured waist circumference,Median measured Body Mass Index,75 years and over,27.8
+Males,Measured waist circumference,Average measured height (cm),75 years and over,170.2
+Males,Measured waist circumference,Median measured height (cm),75 years and over,170.0
+Males,Measured waist circumference,Average measured weight (kg),75 years and over,82.2
+Males,Measured waist circumference,Median measured weight (kg),75 years and over,80.5
+Males,Measured waist circumference,Average measured waist circumference (cm),75 years and over,102.9
+Males,Measured waist circumference,Median measured waist circumference (cm),75 years and over,102.0
+Males,Measured waist circumference,"Total males, 15 years and over",75 years and over,835.7
+Females,Measured Body Mass Index,Underweight (less than 18.50),75 years and over,23.4
+Females,Measured Body Mass Index,Normal range (18.50–19.99),75 years and over,38.7
+Females,Measured Body Mass Index,Normal range (20.00–24.99),75 years and over,269.8
+Females,Measured Body Mass Index,Total Normal range (18.50–24.99),75 years and over,302.4
+Females,Measured Body Mass Index,Overweight (25.00–29.99),75 years and over,321.8
+Females,Measured Body Mass Index,Obesity class I (30.00–34.99),75 years and over,199.8
+Females,Measured Body Mass Index,Obesity class II (35.00–39.99),75 years and over,61.0
+Females,Measured Body Mass Index,Obesity class III (40.00 or more),75 years and over,40.6
+Females,Measured Body Mass Index,Total Obese (30.00 or more),75 years and over,302.6
+Females,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),75 years and over,628.6
+Females,Measured Body Mass Index,Total females aged 15 years and over,75 years and over,957.4
+Females,Measured waist circumference,Lowered risk,75 years and over,155.1
+Females,Measured waist circumference,Increased risk(i),75 years and over,138.6
+Females,Measured waist circumference,Substantially increased risk(j),75 years and over,662.5
+Females,Measured waist circumference,Total females aged 18 years and over,75 years and over,957.4
+Females,Measured waist circumference,Average measured Body Mass Index,75 years and over,27.8
+Females,Measured waist circumference,Median measured Body Mass Index,75 years and over,27.3
+Females,Measured waist circumference,Average measured height (cm),75 years and over,157.1
+Females,Measured waist circumference,Median measured height (cm),75 years and over,157.0
+Females,Measured waist circumference,Average measured weight (kg),75 years and over,68.7
+Females,Measured waist circumference,Median measured weight (kg),75 years and over,67.4
+Females,Measured waist circumference,Average measured waist circumference (cm),75 years and over,94.3
+Females,Measured waist circumference,Median waist measured circumference (cm),75 years and over,94.0
+Females,Measured waist circumference,"Total females, 15 years and over",75 years and over,957.4
+Persons,Measured Body Mass Index,Underweight (less than 18.50),18–44,206.8
+Persons,Measured Body Mass Index,Normal range (18.50–19.99),18–44,506.0
+Persons,Measured Body Mass Index,Normal range (20.00–24.99),18–44,3111.9
+Persons,Measured Body Mass Index,Total Normal range (18.50–24.99),18–44,3611.7
+Persons,Measured Body Mass Index,Overweight (25.00–29.99),18–44,2939.8
+Persons,Measured Body Mass Index,Obesity class I (30.00–34.99),18–44,1454.6
+Persons,Measured Body Mass Index,Obesity class II (35.00–39.99),18–44,655.8
+Persons,Measured Body Mass Index,Obesity class III (40.00 or more),18–44,337.3
+Persons,Measured Body Mass Index,Total Obese (30.00 or more),18–44,2447.6
+Persons,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),18–44,5390.9
+Persons,Measured Body Mass Index,Total persons aged 15 years and over,18–44,9311.8
+Persons,Measured waist circumference,Lowered risk,18–44,4102.0
+Persons,Measured waist circumference,Increased risk(i),18–44,1900.6
+Persons,Measured waist circumference,Substantially increased risk(j),18–44,3209.4
+Persons,Measured waist circumference,Total persons aged 18 years and over,18–44,9311.8
+Persons,Measured waist circumference,Average measured Body Mass Index,18–44,27.2
+Persons,Measured waist circumference,Median measured Body Mass Index,18–44,26.2
+Persons,Measured waist circumference,Average measured height (cm),18–44,169.8
+Persons,Measured waist circumference,Median measured height (cm),18–44,170.0
+Persons,Measured waist circumference,Average measured weight (kg),18–44,78.9
+Persons,Measured waist circumference,Median measured weight (kg),18–44,76.2
+Persons,Measured waist circumference,Average measured waist circumference (cm),18–44,91.2
+Persons,Measured waist circumference,Median measured waist circumference (cm),18–44,90.0
+Persons,Measured waist circumference,"Total persons, 15 years and over",18–44,9311.8
+Males,Measured Body Mass Index,Underweight (less than 18.50),18–44,67.7
+Males,Measured Body Mass Index,Normal range (18.50–19.99),18–44,169.5
+Males,Measured Body Mass Index,Normal range (20.00–24.99),18–44,1413.1
+Males,Measured Body Mass Index,Total Normal range (18.50–24.99),18–44,1589.0
+Males,Measured Body Mass Index,Overweight (25.00–29.99),18–44,1720.9
+Males,Measured Body Mass Index,Obesity class I (30.00–34.99),18–44,795.1
+Males,Measured Body Mass Index,Obesity class II (35.00–39.99),18–44,344.2
+Males,Measured Body Mass Index,Obesity class III (40.00 or more),18–44,143.1
+Males,Measured Body Mass Index,Total Obese (30.00 or more),18–44,1278.8
+Males,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),18–44,3001.3
+Males,Measured Body Mass Index,Total males aged 15 years and over,18–44,4691.3
+Males,Measured waist circumference,Lowered risk,18–44,2307.6
+Males,Measured waist circumference,Increased risk(i),18–44,974.8
+Males,Measured waist circumference,Substantially increased risk(j),18–44,1369.3
+Males,Measured waist circumference,Total males aged 18 years and over,18–44,4691.3
+Males,Measured waist circumference,Average measured Body Mass Index,18–44,27.6
+Males,Measured waist circumference,Median measured Body Mass Index,18–44,26.6
+Males,Measured waist circumference,Average measured height (cm),18–44,176.4
+Males,Measured waist circumference,Median measured height (cm),18–44,177.0
+Males,Measured waist circumference,Average measured weight (kg),18–44,86.0
+Males,Measured waist circumference,Median measured weight (kg),18–44,82.5
+Males,Measured waist circumference,Average measured waist circumference (cm),18–44,95.3
+Males,Measured waist circumference,Median measured waist circumference (cm),18–44,94.0
+Males,Measured waist circumference,"Total males, 15 years and over",18–44,4691.3
+Females,Measured Body Mass Index,Underweight (less than 18.50),18–44,150.2
+Females,Measured Body Mass Index,Normal range (18.50–19.99),18–44,323.1
+Females,Measured Body Mass Index,Normal range (20.00–24.99),18–44,1687.7
+Females,Measured Body Mass Index,Total Normal range (18.50–24.99),18–44,2013.3
+Females,Measured Body Mass Index,Overweight (25.00–29.99),18–44,1217.3
+Females,Measured Body Mass Index,Obesity class I (30.00–34.99),18–44,666.4
+Females,Measured Body Mass Index,Obesity class II (35.00–39.99),18–44,310.2
+Females,Measured Body Mass Index,Obesity class III (40.00 or more),18–44,192.3
+Females,Measured Body Mass Index,Total Obese (30.00 or more),18–44,1168.9
+Females,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),18–44,2387.9
+Females,Measured Body Mass Index,Total females aged 15 years and over,18–44,4614.8
+Females,Measured waist circumference,Lowered risk,18–44,1792.5
+Females,Measured waist circumference,Increased risk(i),18–44,924.2
+Females,Measured waist circumference,Substantially increased risk(j),18–44,1843.6
+Females,Measured waist circumference,Total females aged 18 years and over,18–44,4614.8
+Females,Measured waist circumference,Average measured Body Mass Index,18–44,26.8
+Females,Measured waist circumference,Median measured Body Mass Index,18–44,25.4
+Females,Measured waist circumference,Average measured height (cm),18–44,163.1
+Females,Measured waist circumference,Median measured height (cm),18–44,163.0
+Females,Measured waist circumference,Average measured weight (kg),18–44,71.6
+Females,Measured waist circumference,Median measured weight (kg),18–44,67.9
+Females,Measured waist circumference,Average measured waist circumference (cm),18–44,86.9
+Females,Measured waist circumference,Median waist measured circumference (cm),18–44,83.0
+Females,Measured waist circumference,"Total females, 15 years and over",18–44,4614.8
+Persons,Measured Body Mass Index,Underweight (less than 18.50),45 years and over,110.2
+Persons,Measured Body Mass Index,Normal range (18.50–19.99),45 years and over,192.5
+Persons,Measured Body Mass Index,Normal range (20.00–24.99),45 years and over,2424.2
+Persons,Measured Body Mass Index,Total Normal range (18.50–24.99),45 years and over,2618.0
+Persons,Measured Body Mass Index,Overweight (25.00–29.99),45 years and over,3775.9
+Persons,Measured Body Mass Index,Obesity class I (30.00–34.99),45 years and over,2285.0
+Persons,Measured Body Mass Index,Obesity class II (35.00–39.99),45 years and over,935.1
+Persons,Measured Body Mass Index,Obesity class III (40.00 or more),45 years and over,574.2
+Persons,Measured Body Mass Index,Total Obese (30.00 or more),45 years and over,3800.8
+Persons,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),45 years and over,7571.4
+Persons,Measured Body Mass Index,Total persons aged 15 years and over,45 years and over,10392.0
+Persons,Measured waist circumference,Lowered risk,45 years and over,2039.5
+Persons,Measured waist circumference,Increased risk(i),45 years and over,2204.6
+Persons,Measured waist circumference,Substantially increased risk(j),45 years and over,6060.9
+Persons,Measured waist circumference,Total persons aged 18 years and over,45 years and over,10392.0
+Persons,Measured waist circumference,Average measured Body Mass Index,45 years and over,29.0
+Persons,Measured waist circumference,Median measured Body Mass Index,45 years and over,28.0
+Persons,Measured waist circumference,Average measured height (cm),45 years and over,166.5
+Persons,Measured waist circumference,Median measured height (cm),45 years and over,166.0
+Persons,Measured waist circumference,Average measured weight (kg),45 years and over,80.6
+Persons,Measured waist circumference,Median measured weight (kg),45 years and over,78.8
+Persons,Measured waist circumference,Average measured waist circumference (cm),45 years and over,98.6
+Persons,Measured waist circumference,Median measured waist circumference (cm),45 years and over,98.0
+Persons,Measured waist circumference,"Total persons, 15 years and over",45 years and over,10392.0
+Males,Measured Body Mass Index,Underweight (less than 18.50),45 years and over,28.3
+Males,Measured Body Mass Index,Normal range (18.50–19.99),45 years and over,50.2
+Males,Measured Body Mass Index,Normal range (20.00–24.99),45 years and over,988.7
+Males,Measured Body Mass Index,Total Normal range (18.50–24.99),45 years and over,1038.6
+Males,Measured Body Mass Index,Overweight (25.00–29.99),45 years and over,2033.3
+Males,Measured Body Mass Index,Obesity class I (30.00–34.99),45 years and over,1212.9
+Males,Measured Body Mass Index,Obesity class II (35.00–39.99),45 years and over,434.9
+Males,Measured Body Mass Index,Obesity class III (40.00 or more),45 years and over,231.3
+Males,Measured Body Mass Index,Total Obese (30.00 or more),45 years and over,1888.8
+Males,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),45 years and over,3913.7
+Males,Measured Body Mass Index,Total males aged 15 years and over,45 years and over,5019.6
+Males,Measured waist circumference,Lowered risk,45 years and over,1156.1
+Males,Measured waist circumference,Increased risk(i),45 years and over,1234.8
+Males,Measured waist circumference,Substantially increased risk(j),45 years and over,2588.2
+Males,Measured waist circumference,Total males aged 18 years and over,45 years and over,5019.6
+Males,Measured waist circumference,Average measured Body Mass Index,45 years and over,29.2
+Males,Measured waist circumference,Median measured Body Mass Index,45 years and over,28.3
+Males,Measured waist circumference,Average measured height (cm),45 years and over,173.4
+Males,Measured waist circumference,Median measured height (cm),45 years and over,173.0
+Males,Measured waist circumference,Average measured weight (kg),45 years and over,87.8
+Males,Measured waist circumference,Median measured weight (kg),45 years and over,85.8
+Males,Measured waist circumference,Average measured waist circumference (cm),45 years and over,103.0
+Males,Measured waist circumference,Median measured waist circumference (cm),45 years and over,102.0
+Males,Measured waist circumference,"Total males, 15 years and over",45 years and over,5019.6
+Females,Measured Body Mass Index,Underweight (less than 18.50),45 years and over,76.7
+Females,Measured Body Mass Index,Normal range (18.50–19.99),45 years and over,149.4
+Females,Measured Body Mass Index,Normal range (20.00–24.99),45 years and over,1433.9
+Females,Measured Body Mass Index,Total Normal range (18.50–24.99),45 years and over,1580.8
+Females,Measured Body Mass Index,Overweight (25.00–29.99),45 years and over,1745.5
+Females,Measured Body Mass Index,Obesity class I (30.00–34.99),45 years and over,1072.0
+Females,Measured Body Mass Index,Obesity class II (35.00–39.99),45 years and over,494.6
+Females,Measured Body Mass Index,Obesity class III (40.00 or more),45 years and over,345.7
+Females,Measured Body Mass Index,Total Obese (30.00 or more),45 years and over,1914.8
+Females,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),45 years and over,3660.3
+Females,Measured Body Mass Index,Total females aged 15 years and over,45 years and over,5373.9
+Females,Measured waist circumference,Lowered risk,45 years and over,876.5
+Females,Measured waist circumference,Increased risk(i),45 years and over,966.8
+Females,Measured waist circumference,Substantially increased risk(j),45 years and over,3478.1
+Females,Measured waist circumference,Total females aged 18 years and over,45 years and over,5373.9
+Females,Measured waist circumference,Average measured Body Mass Index,45 years and over,28.8
+Females,Measured waist circumference,Median measured Body Mass Index,45 years and over,27.7
+Females,Measured waist circumference,Average measured height (cm),45 years and over,160.1
+Females,Measured waist circumference,Median measured height (cm),45 years and over,160.0
+Females,Measured waist circumference,Average measured weight (kg),45 years and over,73.9
+Females,Measured waist circumference,Median measured weight (kg),45 years and over,72.0
+Females,Measured waist circumference,Average measured waist circumference (cm),45 years and over,94.5
+Females,Measured waist circumference,Median waist measured circumference (cm),45 years and over,93.0
+Females,Measured waist circumference,"Total females, 15 years and over",45 years and over,5373.9
+Persons,Measured Body Mass Index,Underweight (less than 18.50),Total 18 years and over,319.7
+Persons,Measured Body Mass Index,Normal range (18.50–19.99),Total 18 years and over,693.5
+Persons,Measured Body Mass Index,Normal range (20.00–24.99),Total 18 years and over,5528.3
+Persons,Measured Body Mass Index,Total Normal range (18.50–24.99),Total 18 years and over,6226.8
+Persons,Measured Body Mass Index,Overweight (25.00–29.99),Total 18 years and over,6709.8
+Persons,Measured Body Mass Index,Obesity class I (30.00–34.99),Total 18 years and over,3747.3
+Persons,Measured Body Mass Index,Obesity class II (35.00–39.99),Total 18 years and over,1584.9
+Persons,Measured Body Mass Index,Obesity class III (40.00 or more),Total 18 years and over,915.5
+Persons,Measured Body Mass Index,Total Obese (30.00 or more),Total 18 years and over,6250.6
+Persons,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),Total 18 years and over,12963.3
+Persons,Measured Body Mass Index,Total persons aged 15 years and over,Total 18 years and over,19709.3
+Persons,Measured waist circumference,Lowered risk,Total 18 years and over,6140.3
+Persons,Measured waist circumference,Increased risk(i),Total 18 years and over,4099.5
+Persons,Measured waist circumference,Substantially increased risk(j),Total 18 years and over,9268.8
+Persons,Measured waist circumference,Total persons aged 18 years and over,Total 18 years and over,19709.3
+Persons,Measured waist circumference,Average measured Body Mass Index,Total 18 years and over,28.1
+Persons,Measured waist circumference,Median measured Body Mass Index,Total 18 years and over,27.2
+Persons,Measured waist circumference,Average measured height (cm),Total 18 years and over,168.1
+Persons,Measured waist circumference,Median measured height (cm),Total 18 years and over,168.0
+Persons,Measured waist circumference,Average measured weight (kg),Total 18 years and over,79.8
+Persons,Measured waist circumference,Median measured weight (kg),Total 18 years and over,77.5
+Persons,Measured waist circumference,Average measured waist circumference (cm),Total 18 years and over,95.1
+Persons,Measured waist circumference,Median measured waist circumference (cm),Total 18 years and over,94.0
+Persons,Measured waist circumference,"Total persons, 15 years and over",Total 18 years and over,19709.3
+Males,Measured Body Mass Index,Underweight (less than 18.50),Total 18 years and over,89.0
+Males,Measured Body Mass Index,Normal range (18.50–19.99),Total 18 years and over,225.2
+Males,Measured Body Mass Index,Normal range (20.00–24.99),Total 18 years and over,2405.7
+Males,Measured Body Mass Index,Total Normal range (18.50–24.99),Total 18 years and over,2635.2
+Males,Measured Body Mass Index,Overweight (25.00–29.99),Total 18 years and over,3750.5
+Males,Measured Body Mass Index,Obesity class I (30.00–34.99),Total 18 years and over,2015.0
+Males,Measured Body Mass Index,Obesity class II (35.00–39.99),Total 18 years and over,778.2
+Males,Measured Body Mass Index,Obesity class III (40.00 or more),Total 18 years and over,369.6
+Males,Measured Body Mass Index,Total Obese (30.00 or more),Total 18 years and over,3160.0
+Males,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),Total 18 years and over,6916.6
+Males,Measured Body Mass Index,Total males aged 15 years and over,Total 18 years and over,9712.9
+Males,Measured waist circumference,Lowered risk,Total 18 years and over,3474.0
+Males,Measured waist circumference,Increased risk(i),Total 18 years and over,2219.9
+Males,Measured waist circumference,Substantially increased risk(j),Total 18 years and over,3947.1
+Males,Measured waist circumference,Total males aged 18 years and over,Total 18 years and over,9712.9
+Males,Measured waist circumference,Average measured Body Mass Index,Total 18 years and over,28.4
+Males,Measured waist circumference,Median measured Body Mass Index,Total 18 years and over,27.5
+Males,Measured waist circumference,Average measured height (cm),Total 18 years and over,174.8
+Males,Measured waist circumference,Median measured height (cm),Total 18 years and over,175.0
+Males,Measured waist circumference,Average measured weight (kg),Total 18 years and over,86.9
+Males,Measured waist circumference,Median measured weight (kg),Total 18 years and over,84.0
+Males,Measured waist circumference,Average measured waist circumference (cm),Total 18 years and over,99.3
+Males,Measured waist circumference,Median measured waist circumference (cm),Total 18 years and over,98.0
+Males,Measured waist circumference,"Total males, 15 years and over",Total 18 years and over,9712.9
+Females,Measured Body Mass Index,Underweight (less than 18.50),Total 18 years and over,234.3
+Females,Measured Body Mass Index,Normal range (18.50–19.99),Total 18 years and over,474.4
+Females,Measured Body Mass Index,Normal range (20.00–24.99),Total 18 years and over,3123.9
+Females,Measured Body Mass Index,Total Normal range (18.50–24.99),Total 18 years and over,3598.3
+Females,Measured Body Mass Index,Overweight (25.00–29.99),Total 18 years and over,2956.2
+Females,Measured Body Mass Index,Obesity class I (30.00–34.99),Total 18 years and over,1735.2
+Females,Measured Body Mass Index,Obesity class II (35.00–39.99),Total 18 years and over,803.9
+Females,Measured Body Mass Index,Obesity class III (40.00 or more),Total 18 years and over,544.1
+Females,Measured Body Mass Index,Total Obese (30.00 or more),Total 18 years and over,3089.0
+Females,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),Total 18 years and over,6045.2
+Females,Measured Body Mass Index,Total females aged 15 years and over,Total 18 years and over,9990.2
+Females,Measured waist circumference,Lowered risk,Total 18 years and over,2673.1
+Females,Measured waist circumference,Increased risk(i),Total 18 years and over,1882.6
+Females,Measured waist circumference,Substantially increased risk(j),Total 18 years and over,5321.5
+Females,Measured waist circumference,Total females aged 18 years and over,Total 18 years and over,9990.2
+Females,Measured waist circumference,Average measured Body Mass Index,Total 18 years and over,27.9
+Females,Measured waist circumference,Median measured Body Mass Index,Total 18 years and over,26.7
+Females,Measured waist circumference,Average measured height (cm),Total 18 years and over,161.5
+Females,Measured waist circumference,Median measured height (cm),Total 18 years and over,162.0
+Females,Measured waist circumference,Average measured weight (kg),Total 18 years and over,72.9
+Females,Measured waist circumference,Median measured weight (kg),Total 18 years and over,70.0
+Females,Measured waist circumference,Average measured waist circumference (cm),Total 18 years and over,91.0
+Females,Measured waist circumference,Median waist measured circumference (cm),Total 18 years and over,90.0
+Females,Measured waist circumference,"Total females, 15 years and over",Total 18 years and over,9990.2
+Persons,Measured Body Mass Index,Underweight (less than 18.50),Total 15 years and over,418.2
+Persons,Measured Body Mass Index,Total Normal range (18.50–24.99),Total 15 years and over,6804.5
+Persons,Measured Body Mass Index,Overweight (25.00–29.99),Total 15 years and over,6877.0
+Persons,Measured Body Mass Index,Total Obese (30.00 or more),Total 15 years and over,6327.2
+Persons,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),Total 15 years and over,13207.1
+Persons,Measured Body Mass Index,Total persons aged 15 years and over,Total 15 years and over,20633.3
+Persons,Measured waist circumference,Average measured Body Mass Index,Total 15 years and over,27.9
+Persons,Measured waist circumference,Median measured Body Mass Index,Total 15 years and over,27.0
+Persons,Measured waist circumference,Average measured height (cm),Total 15 years and over,168.1
+Persons,Measured waist circumference,Median measured height (cm),Total 15 years and over,168.0
+Persons,Measured waist circumference,Average measured weight (kg),Total 15 years and over,79.2
+Persons,Measured waist circumference,Median measured weight (kg),Total 15 years and over,77.0
+Persons,Measured waist circumference,Average measured waist circumference (cm),Total 15 years and over,94.4
+Persons,Measured waist circumference,Median measured waist circumference (cm),Total 15 years and over,94.0
+Persons,Measured waist circumference,"Total persons, 15 years and over",Total 15 years and over,20633.3
+Males,Measured Body Mass Index,Underweight (less than 18.50),Total 15 years and over,154.4
+Males,Measured Body Mass Index,Total Normal range (18.50–24.99),Total 15 years and over,2903.4
+Males,Measured Body Mass Index,Overweight (25.00–29.99),Total 15 years and over,3838.0
+Males,Measured Body Mass Index,Total Obese (30.00 or more),Total 15 years and over,3208.4
+Males,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),Total 15 years and over,7050.9
+Males,Measured Body Mass Index,Total males aged 15 years and over,Total 15 years and over,10191.0
+Males,Measured waist circumference,Average measured Body Mass Index,Total 15 years and over,28.1
+Males,Measured waist circumference,Median measured Body Mass Index,Total 15 years and over,27.4
+Males,Measured waist circumference,Average measured height (cm),Total 15 years and over,174.8
+Males,Measured waist circumference,Median measured height (cm),Total 15 years and over,175.0
+Males,Measured waist circumference,Average measured weight (kg),Total 15 years and over,86.2
+Males,Measured waist circumference,Median measured weight (kg),Total 15 years and over,83.5
+Males,Measured waist circumference,Average measured waist circumference (cm),Total 15 years and over,98.5
+Males,Measured waist circumference,Median measured waist circumference (cm),Total 15 years and over,97.0
+Males,Measured waist circumference,"Total males, 15 years and over",Total 15 years and over,10191.0
+Females,Measured Body Mass Index,Underweight (less than 18.50),Total 15 years and over,263.8
+Females,Measured Body Mass Index,Total Normal range (18.50–24.99),Total 15 years and over,3900.8
+Females,Measured Body Mass Index,Overweight (25.00–29.99),Total 15 years and over,3031.7
+Females,Measured Body Mass Index,Total Obese (30.00 or more),Total 15 years and over,3117.2
+Females,Measured Body Mass Index,Total Overweight / Obese (25.00 or more),Total 15 years and over,6154.6
+Females,Measured Body Mass Index,Total females aged 15 years and over,Total 15 years and over,10439.1
+Females,Measured waist circumference,Average measured Body Mass Index,Total 15 years and over,27.7
+Females,Measured waist circumference,Median measured Body Mass Index,Total 15 years and over,26.4
+Females,Measured waist circumference,Average measured height (cm),Total 15 years and over,161.6
+Females,Measured waist circumference,Median measured height (cm),Total 15 years and over,162.0
+Females,Measured waist circumference,Average measured weight (kg),Total 15 years and over,72.3
+Females,Measured waist circumference,Median measured weight (kg),Total 15 years and over,69.3
+Females,Measured waist circumference,Average measured waist circumference (cm),Total 15 years and over,90.3
+Females,Measured waist circumference,Median waist measured circumference (cm),Total 15 years and over,89.0
+Females,Measured waist circumference,"Total females, 15 years and over",Total 15 years and over,10439.1
