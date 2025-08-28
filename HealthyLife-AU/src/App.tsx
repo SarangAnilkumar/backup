@@ -7,6 +7,7 @@ import Footer from './components/common/Footer'
 import MyHealth from './pages/MyHealth'
 import Recipes from './pages/Recipes'
 import MealPlan from './pages/MealPlan'
+import RegionalHealthAnalytics from './pages/RegionalHealthAnalytics'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="/my-health" element={<MyHealth />} />
             <Route path="/recipes" element={<Recipes />} />
             <Route path="/meal-plan" element={<MealPlan />} />
+            <Route path="/regional-health-analytics" element={<RegionalHealthAnalytics />} />
           </Routes>
         </main>
         <Footer />

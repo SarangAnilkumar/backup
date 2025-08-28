@@ -63,8 +63,8 @@ const Navigation: React.FC = () => {
       )
     },
     {
-      path: '/city-overview',
-      label: 'City Overview',
+      path: '/regional-health-analytics',
+      label: 'Regional Health Analytics',
       icon: (
         <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
           <path
@@ -99,8 +99,8 @@ const Navigation: React.FC = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-3 hover:opacity-80 transition-opacity">
-              <img src={logo} alt="HealthyLife AU Logo" className="w-15 h-15 object-contain" />
-              <span className="text-2xl font-bold text-green-600 hover:text-green-700 transition-colors">HealthyLife AU</span>
+              <img src={logo} alt="AUVida Logo" className="w-15 h-15 object-contain" />
+              <span className="text-2xl font-bold text-green-600 hover:text-green-700 transition-colors">AUVida</span>
             </Link>
           </div>
 
