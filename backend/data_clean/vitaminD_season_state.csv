@@ -1,0 +1,136 @@
+season,state,vitaminD_status,measure,value,starred_flag
+"Summer (December, January, February)",NSW,deficient,count_000,238.0,0
+"Summer (December, January, February)",Vic.,deficient,count_000,218.8,0
+"Summer (December, January, February)",Qld,deficient,count_000,59.7,0
+"Summer (December, January, February)",SA,deficient,count_000,18.3,0
+"Summer (December, January, February)",WA,deficient,count_000,60.0,0
+"Summer (December, January, February)",Tas.,deficient,count_000,14.1,0
+"Summer (December, January, February)",NT,deficient,count_000,5.8,0
+"Summer (December, January, February)",ACT,deficient,count_000,18.3,0
+"Summer (December, January, February)",Australia,deficient,count_000,627.4,0
+"Summer (December, January, February)",NSW,sufficient,count_000,1271.0,0
+"Summer (December, January, February)",Vic.,sufficient,count_000,791.0,0
+"Summer (December, January, February)",Qld,sufficient,count_000,551.5,0
+"Summer (December, January, February)",SA,sufficient,count_000,253.6,0
+"Summer (December, January, February)",WA,sufficient,count_000,338.9,0
+"Summer (December, January, February)",Tas.,sufficient,count_000,88.3,0
+"Summer (December, January, February)",NT,sufficient,count_000,21.0,0
+"Summer (December, January, February)",ACT,sufficient,count_000,87.1,0
+"Summer (December, January, February)",Australia,sufficient,count_000,3408.2,0
+"Summer (December, January, February)",NSW,,denominator_blood_test,1477.8,0
+"Summer (December, January, February)",Vic.,,denominator_blood_test,1020.2,0
+"Summer (December, January, February)",Qld,,denominator_blood_test,630.1,0
+"Summer (December, January, February)",SA,,denominator_blood_test,269.2,0
+"Summer (December, January, February)",WA,,denominator_blood_test,400.1,0
+"Summer (December, January, February)",Tas.,,denominator_blood_test,98.7,0
+"Summer (December, January, February)",NT,,denominator_blood_test,29.1,0
+"Summer (December, January, February)",ACT,,denominator_blood_test,106.0,0
+"Summer (December, January, February)",Australia,,denominator_blood_test,4050.2,0
+"Autumn (March, April, May)",NSW,deficient,count_000,364.8,0
+"Autumn (March, April, May)",Vic.,deficient,count_000,253.1,0
+"Autumn (March, April, May)",Qld,deficient,count_000,80.4,0
+"Autumn (March, April, May)",SA,deficient,count_000,28.1,0
+"Autumn (March, April, May)",WA,deficient,count_000,119.4,0
+"Autumn (March, April, May)",Tas.,deficient,count_000,17.0,0
+"Autumn (March, April, May)",NT,deficient,count_000,3.2,0
+"Autumn (March, April, May)",ACT,deficient,count_000,22.1,0
+"Autumn (March, April, May)",Australia,deficient,count_000,911.2,0
+"Autumn (March, April, May)",NSW,sufficient,count_000,1817.0,0
+"Autumn (March, April, May)",Vic.,sufficient,count_000,1308.9,0
+"Autumn (March, April, May)",Qld,sufficient,count_000,1206.0,0
+"Autumn (March, April, May)",SA,sufficient,count_000,309.8,0
+"Autumn (March, April, May)",WA,sufficient,count_000,496.7,0
+"Autumn (March, April, May)",Tas.,sufficient,count_000,118.8,0
+"Autumn (March, April, May)",NT,sufficient,count_000,38.7,0
+"Autumn (March, April, May)",ACT,sufficient,count_000,72.7,0
+"Autumn (March, April, May)",Australia,sufficient,count_000,5341.8,0
+"Autumn (March, April, May)",NSW,,denominator_blood_test,2202.4,0
+"Autumn (March, April, May)",Vic.,,denominator_blood_test,1563.2,0
+"Autumn (March, April, May)",Qld,,denominator_blood_test,1281.9,0
+"Autumn (March, April, May)",SA,,denominator_blood_test,340.2,0
+"Autumn (March, April, May)",WA,,denominator_blood_test,608.8,0
+"Autumn (March, April, May)",Tas.,,denominator_blood_test,134.0,0
+"Autumn (March, April, May)",NT,,denominator_blood_test,39.0,0
+"Autumn (March, April, May)",ACT,,denominator_blood_test,96.1,0
+"Autumn (March, April, May)",Australia,,denominator_blood_test,6270.2,0
+"Winter (June, July, August)",NSW,deficient,count_000,283.5,0
+"Winter (June, July, August)",Vic.,deficient,count_000,372.6,0
+"Winter (June, July, August)",Qld,deficient,count_000,149.7,0
+"Winter (June, July, August)",SA,deficient,count_000,98.3,0
+"Winter (June, July, August)",WA,deficient,count_000,136.7,0
+"Winter (June, July, August)",Tas.,deficient,count_000,53.2,0
+"Winter (June, July, August)",NT,deficient,count_000,4.8,0
+"Winter (June, July, August)",ACT,deficient,count_000,32.1,0
+"Winter (June, July, August)",Australia,deficient,count_000,1131.5,0
+"Winter (June, July, August)",NSW,sufficient,count_000,942.4,0
+"Winter (June, July, August)",Vic.,sufficient,count_000,794.3,0
+"Winter (June, July, August)",Qld,sufficient,count_000,816.8,0
+"Winter (June, July, August)",SA,sufficient,count_000,242.2,0
+"Winter (June, July, August)",WA,sufficient,count_000,270.3,0
+"Winter (June, July, August)",Tas.,sufficient,count_000,63.6,0
+"Winter (June, July, August)",NT,sufficient,count_000,29.3,0
+"Winter (June, July, August)",ACT,sufficient,count_000,46.1,0
+"Winter (June, July, August)",Australia,sufficient,count_000,3196.3,0
+"Winter (June, July, August)",NSW,,denominator_blood_test,1216.2,0
+"Winter (June, July, August)",Vic.,,denominator_blood_test,1155.9,0
+"Winter (June, July, August)",Qld,,denominator_blood_test,948.2,0
+"Winter (June, July, August)",SA,,denominator_blood_test,344.2,0
+"Winter (June, July, August)",WA,,denominator_blood_test,410.1,0
+"Winter (June, July, August)",Tas.,,denominator_blood_test,116.4,0
+"Winter (June, July, August)",NT,,denominator_blood_test,36.1,0
+"Winter (June, July, August)",ACT,,denominator_blood_test,74.8,0
+"Winter (June, July, August)",Australia,,denominator_blood_test,4339.2,0
+"Spring (September, October, November)",NSW,deficient,count_000,331.7,0
+"Spring (September, October, November)",Vic.,deficient,count_000,462.9,0
+"Spring (September, October, November)",Qld,deficient,count_000,191.6,0
+"Spring (September, October, November)",SA,deficient,count_000,135.0,0
+"Spring (September, October, November)",WA,deficient,count_000,212.9,0
+"Spring (September, October, November)",Tas.,deficient,count_000,30.9,0
+"Spring (September, October, November)",NT,deficient,count_000,7.4,0
+"Spring (September, October, November)",ACT,deficient,count_000,22.9,0
+"Spring (September, October, November)",Australia,deficient,count_000,1383.3,0
+"Spring (September, October, November)",NSW,sufficient,count_000,989.1,0
+"Spring (September, October, November)",Vic.,sufficient,count_000,911.8,0
+"Spring (September, October, November)",Qld,sufficient,count_000,942.4,0
+"Spring (September, October, November)",SA,sufficient,count_000,325.5,0
+"Spring (September, October, November)",WA,sufficient,count_000,465.4,0
+"Spring (September, October, November)",Tas.,sufficient,count_000,60.7,0
+"Spring (September, October, November)",NT,sufficient,count_000,37.9,0
+"Spring (September, October, November)",ACT,sufficient,count_000,49.7,0
+"Spring (September, October, November)",Australia,sufficient,count_000,3778.1,0
+"Spring (September, October, November)",NSW,,denominator_blood_test,1327.1,0
+"Spring (September, October, November)",Vic.,,denominator_blood_test,1392.9,0
+"Spring (September, October, November)",Qld,,denominator_blood_test,1150.4,0
+"Spring (September, October, November)",SA,,denominator_blood_test,448.4,0
+"Spring (September, October, November)",WA,,denominator_blood_test,673.8,0
+"Spring (September, October, November)",Tas.,,denominator_blood_test,91.8,0
+"Spring (September, October, November)",NT,,denominator_blood_test,43.7,0
+"Spring (September, October, November)",ACT,,denominator_blood_test,74.8,0
+"Spring (September, October, November)",Australia,,denominator_blood_test,5169.1,0
+Total,NSW,deficient,count_000,1217.1,0
+Total,Vic.,deficient,count_000,1343.7,0
+Total,Qld,deficient,count_000,484.3,0
+Total,SA,deficient,count_000,273.1,0
+Total,WA,deficient,count_000,518.3,0
+Total,Tas.,deficient,count_000,114.2,0
+Total,NT,deficient,count_000,20.1,0
+Total,ACT,deficient,count_000,97.6,0
+Total,Australia,deficient,count_000,4082.3,0
+Total,NSW,sufficient,count_000,5015.0,0
+Total,Vic.,sufficient,count_000,3782.0,0
+Total,Qld,sufficient,count_000,3520.4,0
+Total,SA,sufficient,count_000,1126.6,0
+Total,WA,sufficient,count_000,1573.0,0
+Total,Tas.,sufficient,count_000,326.5,0
+Total,NT,sufficient,count_000,126.3,0
+Total,ACT,sufficient,count_000,254.1,0
+Total,Australia,sufficient,count_000,15736.3,0
+Total,NSW,,denominator_blood_test,6219.5,0
+Total,Vic.,,denominator_blood_test,5131.1,0
+Total,Qld,,denominator_blood_test,4012.9,0
+Total,SA,,denominator_blood_test,1407.8,0
+Total,WA,,denominator_blood_test,2082.8,0
+Total,Tas.,,denominator_blood_test,444.5,0
+Total,NT,,denominator_blood_test,148.1,0
+Total,ACT,,denominator_blood_test,351.8,0
+Total,Australia,,denominator_blood_test,19814.1,0

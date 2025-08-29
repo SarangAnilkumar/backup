@@ -1,0 +1,73 @@
+sex,indicator,measure,value,starred_flag
+Males,eGFR (mL/min/1.73m²) range – None – ≥90,count_000,5512.6,0
+Females,eGFR (mL/min/1.73m²) range – None – ≥90,count_000,6068.7,0
+Persons,eGFR (mL/min/1.73m²) range – None – ≥90,count_000,11597.8,0
+Males,eGFR (mL/min/1.73m²) range – None – 75-89,count_000,2512.9,0
+Females,eGFR (mL/min/1.73m²) range – None – 75-89,count_000,2311.1,0
+Persons,eGFR (mL/min/1.73m²) range – None – 75-89,count_000,4825.0,0
+Males,eGFR (mL/min/1.73m²) range – None – 60-74,count_000,1191.3,0
+Females,eGFR (mL/min/1.73m²) range – None – 60-74,count_000,1160.5,0
+Persons,eGFR (mL/min/1.73m²) range – None – 60-74,count_000,2349.3,0
+Males,eGFR (mL/min/1.73m²) range – None – 45-59,count_000,339.2,0
+Females,eGFR (mL/min/1.73m²) range – None – 45-59,count_000,403.4,0
+Persons,eGFR (mL/min/1.73m²) range – None – 45-59,count_000,738.6,0
+Males,eGFR (mL/min/1.73m²) range – None – 30-44,count_000,107.0,0
+Females,eGFR (mL/min/1.73m²) range – None – 30-44,count_000,154.6,0
+Persons,eGFR (mL/min/1.73m²) range – None – 30-44,count_000,276.7,0
+Males,eGFR (mL/min/1.73m²) range – None – <30,count_000,18.4,0
+Females,eGFR (mL/min/1.73m²) range – None – <30,count_000,19.8,0
+Persons,eGFR (mL/min/1.73m²) range – None – <30,count_000,27.7,0
+Males,eGFR (mL/min/1.73m²) range – denominator,normal  (≥60 mL/min/1.73m²),9205.3,0
+Females,eGFR (mL/min/1.73m²) range – denominator,normal  (≥60 mL/min/1.73m²),9561.2,0
+Persons,eGFR (mL/min/1.73m²) range – denominator,normal  (≥60 mL/min/1.73m²),18761.9,0
+Males,eGFR (mL/min/1.73m²) range – denominator,abnormal  (<60 mL/min/1.73m²),462.7,0
+Females,eGFR (mL/min/1.73m²) range – denominator,abnormal  (<60 mL/min/1.73m²),569.8,0
+Persons,eGFR (mL/min/1.73m²) range – denominator,abnormal  (<60 mL/min/1.73m²),1039.2,0
+Males,eGFR (mL/min/1.73m²) range – denominator,blood test,9679.6,0
+Females,eGFR (mL/min/1.73m²) range – denominator,blood test,10142.3,0
+Persons,eGFR (mL/min/1.73m²) range – denominator,blood test,19814.1,0
+Males,eGFR (mL/min/1.73m²) range – None – Mean eGFR (mL/min/1.73m²),count_000,83.0,0
+Females,eGFR (mL/min/1.73m²) range – None – Mean eGFR (mL/min/1.73m²),count_000,83.0,0
+Persons,eGFR (mL/min/1.73m²) range – None – Mean eGFR (mL/min/1.73m²),count_000,83.0,0
+Males,eGFR (mL/min/1.73m²) range – None – Median eGFR (mL/min/1.73m²),count_000,90.0,0
+Females,eGFR (mL/min/1.73m²) range – None – Median eGFR (mL/min/1.73m²),count_000,90.0,0
+Persons,eGFR (mL/min/1.73m²) range – None – Median eGFR (mL/min/1.73m²),count_000,90.0,0
+Males,Albumin Creatinine Ratio (ACR) – None – Normoalbuminuria,count_000,8330.7,0
+Females,Albumin Creatinine Ratio (ACR) – None – Normoalbuminuria,count_000,8778.2,0
+Persons,Albumin Creatinine Ratio (ACR) – None – Normoalbuminuria,count_000,17116.3,0
+Males,Albuminuria – None – Microalbuminuria,count_000,999.7,0
+Females,Albuminuria – None – Microalbuminuria,count_000,872.2,0
+Persons,Albuminuria – None – Microalbuminuria,count_000,1866.2,0
+Males,Albuminuria – None – Macroalbuminuria,count_000,139.5,0
+Females,Albuminuria – None – Macroalbuminuria,count_000,52.9,0
+Persons,Albuminuria – None – Macroalbuminuria,count_000,209.8,0
+Males,Albuminuria – denominator,urine test,9472.9,0
+Females,Albuminuria – denominator,urine test,9725.8,0
+Persons,Albuminuria – denominator,urine test,19205.8,0
+Males,Albuminuria – None – Mean ACR (mg/mmol),count_000,2.5,0
+Females,Albuminuria – None – Mean ACR (mg/mmol),count_000,2.3,0
+Persons,Albuminuria – None – Mean ACR (mg/mmol),count_000,2.4,0
+Males,Albuminuria – None – Median ACR (mg/mmol),count_000,0.7,0
+Females,Albuminuria – None – Median ACR (mg/mmol),count_000,1.0,0
+Persons,Albuminuria – None – Median ACR (mg/mmol),count_000,0.9,0
+Males,Indicators of Chronic Kidney Disease – None – No indicators of Chronic Kidney Disease,count_000,7991.0,0
+Females,Indicators of Chronic Kidney Disease – None – No indicators of Chronic Kidney Disease,count_000,8286.4,0
+Persons,Indicators of Chronic Kidney Disease – None – No indicators of Chronic Kidney Disease,count_000,16292.2,0
+Males,Indicators of Chronic Kidney Disease – None – Stage 1: eGFR ≥90 mL/min/1.73 m² & micro- or macroalbuminuria,count_000,496.7,0
+Females,Indicators of Chronic Kidney Disease – None – Stage 1: eGFR ≥90 mL/min/1.73 m² & micro- or macroalbuminuria,count_000,471.8,0
+Persons,Indicators of Chronic Kidney Disease – None – Stage 1: eGFR ≥90 mL/min/1.73 m² & micro- or macroalbuminuria,count_000,965.8,0
+Males,Indicators of Chronic Kidney Disease – None – Stage 2: eGFR 60-89 mL/min/1.73 m² & micro- or macroalbuminuria,count_000,404.0,0
+Females,Indicators of Chronic Kidney Disease – None – Stage 2: eGFR 60-89 mL/min/1.73 m² & micro- or macroalbuminuria,count_000,330.7,0
+Persons,Indicators of Chronic Kidney Disease – None – Stage 2: eGFR 60-89 mL/min/1.73 m² & micro- or macroalbuminuria,count_000,739.2,0
+Males,Indicators of Chronic Kidney Disease – None – Stage 3a: eGFR 45-59 mL/min/1.73 m²,count_000,329.2,0
+Females,Indicators of Chronic Kidney Disease – None – Stage 3a: eGFR 45-59 mL/min/1.73 m²,count_000,396.3,0
+Persons,Indicators of Chronic Kidney Disease – None – Stage 3a: eGFR 45-59 mL/min/1.73 m²,count_000,723.3,0
+Males,Indicators of Chronic Kidney Disease – None – Stage 3b: eGFR 30-44 mL/min/1.73 m²,count_000,113.3,0
+Females,Indicators of Chronic Kidney Disease – None – Stage 3b: eGFR 30-44 mL/min/1.73 m²,count_000,144.6,0
+Persons,Indicators of Chronic Kidney Disease – None – Stage 3b: eGFR 30-44 mL/min/1.73 m²,count_000,259.1,0
+Males,Indicators of Chronic Kidney Disease – None – Stages 4-5: eGFR <30 mL/min/1.73 m²,count_000,18.4,0
+Females,Indicators of Chronic Kidney Disease – None – Stages 4-5: eGFR <30 mL/min/1.73 m²,count_000,19.8,0
+Persons,Indicators of Chronic Kidney Disease – None – Stages 4-5: eGFR <30 mL/min/1.73 m²,count_000,27.7,0
+Males,Indicators of Chronic Kidney Disease – denominator,blood and urine test,9349.5,0
+Females,Indicators of Chronic Kidney Disease – denominator,blood and urine test,9672.3,0
+Persons,Indicators of Chronic Kidney Disease – denominator,blood and urine test,19011.1,0

@@ -1,0 +1,133 @@
+risk_factor_type,risk_factor_category,group,subgroup,test_scope,denominator_000,starred_flag
+Current smoker status,Current smoker,Cardiovascular disease biomarkers,Total cholesterol,blood,1588.3,0
+Current smoker status,Non-smoker,Cardiovascular disease biomarkers,Total cholesterol,blood,18233.4,0
+Measured Body Mass Index,Underweight/ normal (less than 25.00),Cardiovascular disease biomarkers,Total cholesterol,blood,6341.7,0
+Measured Body Mass Index,Overweight (25.00-29.99),Cardiovascular disease biomarkers,Total cholesterol,blood,6643.7,0
+Measured Body Mass Index,Obese (30.00 or more),Cardiovascular disease biomarkers,Total cholesterol,blood,6639.0,0
+Measured Body Mass Index,Total overweight/ obese (25.00 or more),Cardiovascular disease biomarkers,Total cholesterol,blood,13282.7,0
+Measured waist circumference,Lowered risk,Cardiovascular disease biomarkers,Total cholesterol,blood,6182.7,0
+Measured waist circumference,Increased risk,Cardiovascular disease biomarkers,Total cholesterol,blood,3715.8,0
+Measured waist circumference,Substantially increased risk,Cardiovascular disease biomarkers,Total cholesterol,blood,9708.4,0
+Measured waist circumference,Total increased risk/substantially increased risk,Cardiovascular disease biomarkers,Total cholesterol,blood,13433.0,0
+Measured blood pressure,Normal/low blood pressure (<140/90 mmHg),Cardiovascular disease biomarkers,Total cholesterol,blood,15112.9,0
+Measured blood pressure,High blood pressure (≥140/90 mmHg),Cardiovascular disease biomarkers,Total cholesterol,blood,4664.0,0
+Current smoker status,Current smoker,Cardiovascular disease biomarkers,HDL (good) cholesterol,blood,1588.3,0
+Current smoker status,Non-smoker,Cardiovascular disease biomarkers,HDL (good) cholesterol,blood,18233.4,0
+Measured Body Mass Index,Underweight/ normal (less than 25.00),Cardiovascular disease biomarkers,HDL (good) cholesterol,blood,6341.7,0
+Measured Body Mass Index,Overweight (25.00-29.99),Cardiovascular disease biomarkers,HDL (good) cholesterol,blood,6643.7,0
+Measured Body Mass Index,Obese (30.00 or more),Cardiovascular disease biomarkers,HDL (good) cholesterol,blood,6639.0,0
+Measured Body Mass Index,Total overweight/ obese (25.00 or more),Cardiovascular disease biomarkers,HDL (good) cholesterol,blood,13282.7,0
+Measured waist circumference,Lowered risk,Cardiovascular disease biomarkers,HDL (good) cholesterol,blood,6182.7,0
+Measured waist circumference,Increased risk,Cardiovascular disease biomarkers,HDL (good) cholesterol,blood,3715.8,0
+Measured waist circumference,Substantially increased risk,Cardiovascular disease biomarkers,HDL (good) cholesterol,blood,9708.4,0
+Measured waist circumference,Total increased risk/substantially increased risk,Cardiovascular disease biomarkers,HDL (good) cholesterol,blood,13433.0,0
+Measured blood pressure,Normal/low blood pressure (<140/90 mmHg),Cardiovascular disease biomarkers,HDL (good) cholesterol,blood,15112.9,0
+Measured blood pressure,High blood pressure (≥140/90 mmHg),Cardiovascular disease biomarkers,HDL (good) cholesterol,blood,4664.0,0
+Current smoker status,Current smoker,Cardiovascular disease biomarkers,LDL (bad) cholesterol,fasting_blood,1053.8,0
+Current smoker status,Non-smoker,Cardiovascular disease biomarkers,LDL (bad) cholesterol,fasting_blood,12446.2,0
+Measured Body Mass Index,Underweight/ normal (less than 25.00),Cardiovascular disease biomarkers,LDL (bad) cholesterol,fasting_blood,4424.1,0
+Measured Body Mass Index,Overweight (25.00-29.99),Cardiovascular disease biomarkers,LDL (bad) cholesterol,fasting_blood,4358.7,0
+Measured Body Mass Index,Obese (30.00 or more),Cardiovascular disease biomarkers,LDL (bad) cholesterol,fasting_blood,4564.3,0
+Measured Body Mass Index,Total overweight/ obese (25.00 or more),Cardiovascular disease biomarkers,LDL (bad) cholesterol,fasting_blood,8939.6,0
+Measured waist circumference,Lowered risk,Cardiovascular disease biomarkers,LDL (bad) cholesterol,fasting_blood,4204.2,0
+Measured waist circumference,Increased risk,Cardiovascular disease biomarkers,LDL (bad) cholesterol,fasting_blood,2509.6,0
+Measured waist circumference,Substantially increased risk,Cardiovascular disease biomarkers,LDL (bad) cholesterol,fasting_blood,6654.3,0
+Measured waist circumference,Total increased risk/substantially increased risk,Cardiovascular disease biomarkers,LDL (bad) cholesterol,fasting_blood,9153.2,0
+Measured blood pressure,Normal/low blood pressure (<140/90 mmHg),Cardiovascular disease biomarkers,LDL (bad) cholesterol,fasting_blood,10227.6,0
+Measured blood pressure,High blood pressure (≥140/90 mmHg),Cardiovascular disease biomarkers,LDL (bad) cholesterol,fasting_blood,3236.2,0
+Current smoker status,Current smoker,Cardiovascular disease biomarkers,Triglycerides,fasting_blood,1053.8,0
+Current smoker status,Non-smoker,Cardiovascular disease biomarkers,Triglycerides,fasting_blood,12446.2,0
+Measured Body Mass Index,Underweight/ normal (less than 25.00),Cardiovascular disease biomarkers,Triglycerides,fasting_blood,4424.1,0
+Measured Body Mass Index,Overweight (25.00-29.99),Cardiovascular disease biomarkers,Triglycerides,fasting_blood,4358.7,0
+Measured Body Mass Index,Obese (30.00 or more),Cardiovascular disease biomarkers,Triglycerides,fasting_blood,4564.3,0
+Measured Body Mass Index,Total overweight/ obese (25.00 or more),Cardiovascular disease biomarkers,Triglycerides,fasting_blood,8939.6,0
+Measured waist circumference,Lowered risk,Cardiovascular disease biomarkers,Triglycerides,fasting_blood,4204.2,0
+Measured waist circumference,Increased risk,Cardiovascular disease biomarkers,Triglycerides,fasting_blood,2509.6,0
+Measured waist circumference,Substantially increased risk,Cardiovascular disease biomarkers,Triglycerides,fasting_blood,6654.3,0
+Measured waist circumference,Total increased risk/substantially increased risk,Cardiovascular disease biomarkers,Triglycerides,fasting_blood,9153.2,0
+Measured blood pressure,Normal/low blood pressure (<140/90 mmHg),Cardiovascular disease biomarkers,Triglycerides,fasting_blood,10227.6,0
+Measured blood pressure,High blood pressure (≥140/90 mmHg),Cardiovascular disease biomarkers,Triglycerides,fasting_blood,3236.2,0
+Current smoker status,Current smoker,Cardiovascular disease biomarkers,Fasting plasma glucose,fasting_blood,1053.8,0
+Current smoker status,Non-smoker,Cardiovascular disease biomarkers,Fasting plasma glucose,fasting_blood,12446.2,0
+Measured Body Mass Index,Underweight/ normal (less than 25.00),Cardiovascular disease biomarkers,Fasting plasma glucose,fasting_blood,4424.1,0
+Measured Body Mass Index,Overweight (25.00-29.99),Cardiovascular disease biomarkers,Fasting plasma glucose,fasting_blood,4358.7,0
+Measured Body Mass Index,Obese (30.00 or more),Cardiovascular disease biomarkers,Fasting plasma glucose,fasting_blood,4564.3,0
+Measured Body Mass Index,Total overweight/ obese (25.00 or more),Cardiovascular disease biomarkers,Fasting plasma glucose,fasting_blood,8939.6,0
+Measured waist circumference,Lowered risk,Cardiovascular disease biomarkers,Fasting plasma glucose,fasting_blood,4204.2,0
+Measured waist circumference,Increased risk,Cardiovascular disease biomarkers,Fasting plasma glucose,fasting_blood,2509.6,0
+Measured waist circumference,Substantially increased risk,Cardiovascular disease biomarkers,Fasting plasma glucose,fasting_blood,6654.3,0
+Measured waist circumference,Total increased risk/substantially increased risk,Cardiovascular disease biomarkers,Fasting plasma glucose,fasting_blood,9153.2,0
+Measured blood pressure,Normal/low blood pressure (<140/90 mmHg),Cardiovascular disease biomarkers,Fasting plasma glucose,fasting_blood,10227.6,0
+Measured blood pressure,High blood pressure (≥140/90 mmHg),Cardiovascular disease biomarkers,Fasting plasma glucose,fasting_blood,3236.2,0
+Current smoker status,Current smoker,Cardiovascular disease biomarkers,HbA1c,blood,1588.3,0
+Current smoker status,Non-smoker,Cardiovascular disease biomarkers,HbA1c,blood,18233.4,0
+Measured Body Mass Index,Underweight/ normal (less than 25.00),Cardiovascular disease biomarkers,HbA1c,blood,6341.7,0
+Measured Body Mass Index,Overweight (25.00-29.99),Cardiovascular disease biomarkers,HbA1c,blood,6643.7,0
+Measured Body Mass Index,Obese (30.00 or more),Cardiovascular disease biomarkers,HbA1c,blood,6639.0,0
+Measured Body Mass Index,Total overweight/ obese (25.00 or more),Cardiovascular disease biomarkers,HbA1c,blood,13282.7,0
+Measured waist circumference,Lowered risk,Cardiovascular disease biomarkers,HbA1c,blood,6182.7,0
+Measured waist circumference,Increased risk,Cardiovascular disease biomarkers,HbA1c,blood,3715.8,0
+Measured waist circumference,Substantially increased risk,Cardiovascular disease biomarkers,HbA1c,blood,9708.4,0
+Measured waist circumference,Total increased risk/substantially increased risk,Cardiovascular disease biomarkers,HbA1c,blood,13433.0,0
+Measured blood pressure,Normal/low blood pressure (<140/90 mmHg),Cardiovascular disease biomarkers,HbA1c,blood,15112.9,0
+Measured blood pressure,High blood pressure (≥140/90 mmHg),Cardiovascular disease biomarkers,HbA1c,blood,4664.0,0
+Current smoker status,Current smoker,Cardiovascular disease biomarkers,Estimated glomerular filtration rate (eGFR),blood,1588.3,0
+Current smoker status,Non-smoker,Cardiovascular disease biomarkers,Estimated glomerular filtration rate (eGFR),blood,18233.4,0
+Measured Body Mass Index,Underweight/ normal (less than 25.00),Cardiovascular disease biomarkers,Estimated glomerular filtration rate (eGFR),blood,6341.7,0
+Measured Body Mass Index,Overweight (25.00-29.99),Cardiovascular disease biomarkers,Estimated glomerular filtration rate (eGFR),blood,6643.7,0
+Measured Body Mass Index,Obese (30.00 or more),Cardiovascular disease biomarkers,Estimated glomerular filtration rate (eGFR),blood,6639.0,0
+Measured Body Mass Index,Total overweight/ obese (25.00 or more),Cardiovascular disease biomarkers,Estimated glomerular filtration rate (eGFR),blood,13282.7,0
+Measured waist circumference,Lowered risk,Cardiovascular disease biomarkers,Estimated glomerular filtration rate (eGFR),blood,6182.7,0
+Measured waist circumference,Increased risk,Cardiovascular disease biomarkers,Estimated glomerular filtration rate (eGFR),blood,3715.8,0
+Measured waist circumference,Substantially increased risk,Cardiovascular disease biomarkers,Estimated glomerular filtration rate (eGFR),blood,9708.4,0
+Measured waist circumference,Total increased risk/substantially increased risk,Cardiovascular disease biomarkers,Estimated glomerular filtration rate (eGFR),blood,13433.0,0
+Measured blood pressure,Normal/low blood pressure (<140/90 mmHg),Cardiovascular disease biomarkers,Estimated glomerular filtration rate (eGFR),blood,15112.9,0
+Measured blood pressure,High blood pressure (≥140/90 mmHg),Cardiovascular disease biomarkers,Estimated glomerular filtration rate (eGFR),blood,4664.0,0
+Current smoker status,Current smoker,Cardiovascular disease biomarkers,Albumin Creatinine Ratio (ACR),urine,1568.6,0
+Current smoker status,Non-smoker,Cardiovascular disease biomarkers,Albumin Creatinine Ratio (ACR),urine,17623.5,0
+Measured Body Mass Index,Underweight/ normal (less than 25.00),Cardiovascular disease biomarkers,Albumin Creatinine Ratio (ACR),urine,6123.8,0
+Measured Body Mass Index,Overweight (25.00-29.99),Cardiovascular disease biomarkers,Albumin Creatinine Ratio (ACR),urine,6561.7,0
+Measured Body Mass Index,Obese (30.00 or more),Cardiovascular disease biomarkers,Albumin Creatinine Ratio (ACR),urine,6324.3,0
+Measured Body Mass Index,Total overweight/ obese (25.00 or more),Cardiovascular disease biomarkers,Albumin Creatinine Ratio (ACR),urine,12883.1,0
+Measured waist circumference,Lowered risk,Cardiovascular disease biomarkers,Albumin Creatinine Ratio (ACR),urine,6035.2,0
+Measured waist circumference,Increased risk,Cardiovascular disease biomarkers,Albumin Creatinine Ratio (ACR),urine,3649.8,0
+Measured waist circumference,Substantially increased risk,Cardiovascular disease biomarkers,Albumin Creatinine Ratio (ACR),urine,9325.0,0
+Measured waist circumference,Total increased risk/substantially increased risk,Cardiovascular disease biomarkers,Albumin Creatinine Ratio (ACR),urine,12976.8,0
+Measured blood pressure,Normal/low blood pressure (<140/90 mmHg),Cardiovascular disease biomarkers,Albumin Creatinine Ratio (ACR),urine,14592.7,0
+Measured blood pressure,High blood pressure (≥140/90 mmHg),Cardiovascular disease biomarkers,Albumin Creatinine Ratio (ACR),urine,4557.9,0
+Current smoker status,Current smoker,Cardiovascular disease biomarkers,Alanine aminotransferase (ALT),blood,1588.3,0
+Current smoker status,Non-smoker,Cardiovascular disease biomarkers,Alanine aminotransferase (ALT),blood,18233.4,0
+Measured Body Mass Index,Underweight/ normal (less than 25.00),Cardiovascular disease biomarkers,Alanine aminotransferase (ALT),blood,6341.7,0
+Measured Body Mass Index,Overweight (25.00-29.99),Cardiovascular disease biomarkers,Alanine aminotransferase (ALT),blood,6643.7,0
+Measured Body Mass Index,Obese (30.00 or more),Cardiovascular disease biomarkers,Alanine aminotransferase (ALT),blood,6639.0,0
+Measured Body Mass Index,Total overweight/ obese (25.00 or more),Cardiovascular disease biomarkers,Alanine aminotransferase (ALT),blood,13282.7,0
+Measured waist circumference,Lowered risk,Cardiovascular disease biomarkers,Alanine aminotransferase (ALT),blood,6182.7,0
+Measured waist circumference,Increased risk,Cardiovascular disease biomarkers,Alanine aminotransferase (ALT),blood,3715.8,0
+Measured waist circumference,Substantially increased risk,Cardiovascular disease biomarkers,Alanine aminotransferase (ALT),blood,9708.4,0
+Measured waist circumference,Total increased risk/substantially increased risk,Cardiovascular disease biomarkers,Alanine aminotransferase (ALT),blood,13433.0,0
+Measured blood pressure,Normal/low blood pressure (<140/90 mmHg),Cardiovascular disease biomarkers,Alanine aminotransferase (ALT),blood,15112.9,0
+Measured blood pressure,High blood pressure (≥140/90 mmHg),Cardiovascular disease biomarkers,Alanine aminotransferase (ALT),blood,4664.0,0
+Current smoker status,Current smoker,Cardiovascular disease biomarkers,Gamma glutamyl transferase (GGT),blood,1588.3,0
+Current smoker status,Non-smoker,Cardiovascular disease biomarkers,Gamma glutamyl transferase (GGT),blood,18233.4,0
+Measured Body Mass Index,Underweight/ normal (less than 25.00),Cardiovascular disease biomarkers,Gamma glutamyl transferase (GGT),blood,6341.7,0
+Measured Body Mass Index,Overweight (25.00-29.99),Cardiovascular disease biomarkers,Gamma glutamyl transferase (GGT),blood,6643.7,0
+Measured Body Mass Index,Obese (30.00 or more),Cardiovascular disease biomarkers,Gamma glutamyl transferase (GGT),blood,6639.0,0
+Measured Body Mass Index,Total overweight/ obese (25.00 or more),Cardiovascular disease biomarkers,Gamma glutamyl transferase (GGT),blood,13282.7,0
+Measured waist circumference,Lowered risk,Cardiovascular disease biomarkers,Gamma glutamyl transferase (GGT),blood,6182.7,0
+Measured waist circumference,Increased risk,Cardiovascular disease biomarkers,Gamma glutamyl transferase (GGT),blood,3715.8,0
+Measured waist circumference,Substantially increased risk,Cardiovascular disease biomarkers,Gamma glutamyl transferase (GGT),blood,9708.4,0
+Measured waist circumference,Total increased risk/substantially increased risk,Cardiovascular disease biomarkers,Gamma glutamyl transferase (GGT),blood,13433.0,0
+Measured blood pressure,Normal/low blood pressure (<140/90 mmHg),Cardiovascular disease biomarkers,Gamma glutamyl transferase (GGT),blood,15112.9,0
+Measured blood pressure,High blood pressure (≥140/90 mmHg),Cardiovascular disease biomarkers,Gamma glutamyl transferase (GGT),blood,4664.0,0
+Current smoker status,Current smoker,Cardiovascular disease biomarkers,Haemoglobin,blood,1588.3,0
+Current smoker status,Non-smoker,Cardiovascular disease biomarkers,Haemoglobin,blood,18233.4,0
+Measured Body Mass Index,Underweight/ normal (less than 25.00),Cardiovascular disease biomarkers,Haemoglobin,blood,6341.7,0
+Measured Body Mass Index,Overweight (25.00-29.99),Cardiovascular disease biomarkers,Haemoglobin,blood,6643.7,0
+Measured Body Mass Index,Obese (30.00 or more),Cardiovascular disease biomarkers,Haemoglobin,blood,6639.0,0
+Measured Body Mass Index,Total overweight/ obese (25.00 or more),Cardiovascular disease biomarkers,Haemoglobin,blood,13282.7,0
+Measured waist circumference,Lowered risk,Cardiovascular disease biomarkers,Haemoglobin,blood,6182.7,0
+Measured waist circumference,Increased risk,Cardiovascular disease biomarkers,Haemoglobin,blood,3715.8,0
+Measured waist circumference,Substantially increased risk,Cardiovascular disease biomarkers,Haemoglobin,blood,9708.4,0
+Measured waist circumference,Total increased risk/substantially increased risk,Cardiovascular disease biomarkers,Haemoglobin,blood,13433.0,0
+Measured blood pressure,Normal/low blood pressure (<140/90 mmHg),Cardiovascular disease biomarkers,Haemoglobin,blood,15112.9,0
+Measured blood pressure,High blood pressure (≥140/90 mmHg),Cardiovascular disease biomarkers,Haemoglobin,blood,4664.0,0

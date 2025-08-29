@@ -1,0 +1,23 @@
+block,subgroup,year,denominator_label,test_scope,denominator_000,starred_flag
+Cardiovascular disease biomarkers,Total cholesterol,2011-12,Total blood test results,blood,16828.6,0
+Cardiovascular disease biomarkers,Total cholesterol,2022-24,Total blood test results,blood,19814.1,0
+Cardiovascular disease biomarkers,HDL (good) cholesterol,2011-12,Total blood test results,blood,16828.6,0
+Cardiovascular disease biomarkers,HDL (good) cholesterol,2022-24,Total blood test results,blood,19814.1,0
+Cardiovascular disease biomarkers,LDL (bad) cholesterol,2011-12,Total fasting blood test results,fasting_blood,13521.8,0
+Cardiovascular disease biomarkers,LDL (bad) cholesterol,2022-24,Total fasting blood test results,fasting_blood,13487.8,0
+Cardiovascular disease biomarkers,Triglycerides,2011-12,Total fasting blood test results,fasting_blood,13521.8,0
+Cardiovascular disease biomarkers,Triglycerides,2022-24,Total fasting blood test results,fasting_blood,13487.8,0
+Cardiovascular disease biomarkers,Dyslipidaemia,2011-12,Total fasting blood test results,fasting_blood,13521.8,0
+Cardiovascular disease biomarkers,Dyslipidaemia,2022-24,Total fasting blood test results,fasting_blood,13487.8,0
+Diabetes,Fasting plasma glucose,2011-12,Total fasting blood test results,fasting_blood,13521.8,0
+Diabetes,Fasting plasma glucose,2022-24,Total fasting blood test results,fasting_blood,13487.8,0
+Diabetes,HbA1c,2011-12,Total blood test results,blood,16828.6,0
+Diabetes,HbA1c,2022-24,Total blood test results,blood,19814.1,0
+Kidney disease biomarkers,Estimated glomerular filtration rate (eGFR),2011-12,Total blood test results,blood,16828.6,0
+Kidney disease biomarkers,Estimated glomerular filtration rate (eGFR),2022-24,Total blood test results,blood,19814.1,0
+Kidney disease biomarkers,Albumin Creatinine Ratio (ACR),2011-12,Total urine test results,urine,15813.3,0
+Kidney disease biomarkers,Albumin Creatinine Ratio (ACR),2022-24,Total urine test results,urine,19205.8,0
+Kidney disease biomarkers,Indicators of Chronic Kidney Disease,2011-12,Total blood and urine test results,blood_and_urine,15599.8,0
+Kidney disease biomarkers,Indicators of Chronic Kidney Disease,2022-24,Total blood and urine test results,blood_and_urine,19011.1,0
+Anaemia,Haemoglobin,2011-12,Total blood test results,blood,16828.6,0
+Anaemia,Haemoglobin,2022-24,Total blood test results,blood,19814.1,0
