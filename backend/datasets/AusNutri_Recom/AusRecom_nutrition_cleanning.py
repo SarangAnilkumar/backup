@@ -85,5 +85,8 @@ if __name__ == "__main__":
     merged_df = merge_sections(sections_named, genders)
     merged_df = merged_df.dropna()
     
+    
+    
+    
     # 5. output CSV
     merged_df.to_csv("AusRecom_nutrition_cleanning.csv", index=False)

@@ -1,0 +1,58 @@
+,Nutrient,Unit,2-3,4-8,9-13,14-18,19-30,31-50,51-70,71_and_over,2-18,19_and_over,Total_2_years_and_over,Category,Gender,Nutrient_with_unit,Nutrient_standard
+0,Energy(a),(kJ),6044.1,7637.6,9209.4,10186.0,11003.7,10219.9,9344.7,8174.0,8635.8,9954.5,9654.8,Energy(a),Males,Energy(a) ((kJ)),energy_with_fibre_kj
+2,Protein,(g),57.5,69.2,86.4,101.2,117.2,107.7,97.5,82.6,82.0,104.6,99.4,Macronutrients,Males,Protein ((g)),protein_g
+3,Total Fat(c),(g),49.8,64.8,80.4,88.1,92.5,86.3,78.6,66.9,74.3,83.7,81.5,Macronutrients,Males,Total Fat(c) ((g)),fat_total_g
+11,Carbohydrate(c),(g),184.3,233.0,273.9,297.1,297.2,263.9,233.8,219.4,257.5,258.8,258.5,Macronutrients,Males,Carbohydrate(c) ((g)),available_carbohydrate_without_sugar_alcohols_g
+12,Total sugars,(g),94.3,110.7,125.4,134.1,131.0,119.4,101.0,101.8,119.7,115.2,116.2,Macronutrients,Males,Total sugars ((g)),total_sugars_g
+14,Dietary Fibre,(g),17.0,20.1,22.8,22.4,24.4,24.9,24.8,25.1,21.2,24.8,24.0,Macronutrients,Males,Dietary Fibre ((g)),total_dietary_fibre_g
+19,Thiamin (B1),(mg),1.3,1.7,1.9,1.9,1.9,1.7,1.7,1.7,1.8,1.8,1.8,Vitamins,Males,Thiamin (B1) ((mg)),thiamin_b1_mg
+20,Riboflavin (B2),(mg),1.8,1.9,2.1,2.1,2.4,2.2,1.9,1.8,2.0,2.1,2.1,Vitamins,Males,Riboflavin (B2) ((mg)),riboflavin_b2_mg
+21,Niacin (B3),(mg),13.8,18.2,22.3,24.6,31.6,28.9,25.9,21.9,20.7,28.0,26.3,Vitamins,Males,Niacin (B3) ((mg)),niacin_b3_mg
+25,Total Folates,(µg),385.1,486.3,538.7,567.2,546.4,535.5,520.7,526.5,512.7,533.0,528.4,Vitamins,Males,Total Folates ((µg)),folate_ug
+27,Vitamin B6,(mg),0.9,1.1,1.3,1.4,2.2,1.8,1.5,1.3,1.2,1.7,1.6,Vitamins,Males,Vitamin B6 ((mg)),pyridoxine_b6_mg
+29,Vitamin C,(mg),78.3,88.7,99.6,103.9,116.8,110.6,107.1,100.0,95.0,110.1,106.6,Vitamins,Males,Vitamin C ((mg)),vitamin_c_mg
+30,Vitamin E,(mg),6.1,8.2,9.4,10.4,12.4,11.7,10.4,9.3,8.9,11.3,10.7,Vitamins,Males,Vitamin E ((mg)),vitamin_e_mg
+31,Calcium,(mg),775.0,805.1,900.1,924.6,954.3,910.8,780.8,726.4,864.0,865.8,865.4,Minerals,Males,Calcium ((mg)),calcium_mg
+33,Iron,(mg),7.9,9.6,11.6,12.5,13.5,12.7,12.2,11.6,10.8,12.6,12.2,Minerals,Males,Iron ((mg)),iron_mg
+34,Magnesium,(mg),216.1,245.0,286.8,314.5,390.6,392.6,364.4,315.7,273.6,376.5,353.1,Minerals,Males,Magnesium ((mg)),magnesium_mg
+36,Potassium,(mg),2104.7,2298.4,2690.1,2830.0,3279.9,3305.8,3144.2,2889.9,2543.5,3212.3,3060.3,Minerals,Males,Potassium ((mg)),potassium_mg
+38,Sodium(e),(mg),1516.6,2235.9,2656.5,3116.8,3120.2,2915.4,2509.8,2216.7,2521.8,2779.2,2720.7,Minerals,Males,Sodium(e) ((mg)),sodium_mg
+39,Zinc,(mg),7.3,8.7,10.5,12.8,13.5,12.9,12.1,10.5,10.2,12.6,12.0,Minerals,Males,Zinc ((mg)),zinc_mg
+42,Energy(a),(kJ),5850.2,6427.6,7984.8,8114.3,7863.1,7539.6,7268.1,6569.9,7333.6,7420.3,7401.6,Energy(a),Females,Energy(a) ((kJ)),energy_with_fibre_kj
+44,Protein,(g),56.0,57.4,73.7,76.5,78.1,79.7,77.9,71.5,67.8,77.9,75.7,Macronutrients,Females,Protein ((g)),protein_g
+45,Total Fat(c),(g),48.8,53.3,70.2,73.1,69.9,65.3,62.0,55.6,63.8,64.2,64.1,Macronutrients,Females,Total Fat(c) ((g)),fat_total_g
+53,Carbohydrate(c),(g),177.2,199.4,238.0,235.3,213.7,196.5,183.6,172.3,219.3,193.8,199.3,Macronutrients,Females,Carbohydrate(c) ((g)),available_carbohydrate_without_sugar_alcohols_g
+54,Total sugars,(g),88.7,94.8,115.3,109.2,99.0,91.1,87.0,84.4,104.7,90.9,93.9,Macronutrients,Females,Total sugars ((g)),total_sugars_g
+56,Dietary Fibre,(g),15.3,17.3,19.2,19.3,20.3,20.7,22.2,21.0,18.2,21.1,20.5,Macronutrients,Females,Dietary Fibre ((g)),total_dietary_fibre_g
+61,Thiamin (B1),(mg),1.3,1.5,1.5,1.5,1.4,1.3,1.3,1.3,1.5,1.3,1.4,Vitamins,Females,Thiamin (B1) ((mg)),thiamin_b1_mg
+62,Riboflavin (B2),(mg),1.7,1.6,1.8,1.7,1.8,1.7,1.6,1.6,1.7,1.7,1.7,Vitamins,Females,Riboflavin (B2) ((mg)),riboflavin_b2_mg
+63,Niacin (B3),(mg),13.9,15.4,17.7,19.4,20.5,20.6,19.7,17.9,17.1,20.0,19.4,Vitamins,Females,Niacin (B3) ((mg)),niacin_b3_mg
+67,Total Folates,(µg),375.1,424.5,454.6,431.2,424.5,424.2,438.7,437.0,430.4,429.9,430.0,Vitamins,Females,Total Folates ((µg)),folate_ug
+69,Vitamin B6,(mg),0.9,0.8,1.0,1.2,1.4,1.3,1.3,1.1,1.0,1.3,1.2,Vitamins,Females,Vitamin B6 ((mg)),pyridoxine_b6_mg
+71,Vitamin C,(mg),65.3,77.5,94.9,101.9,96.4,93.7,97.3,88.2,88.5,94.7,93.4,Vitamins,Females,Vitamin C ((mg)),vitamin_c_mg
+72,Vitamin E,(mg),5.9,6.6,8.8,8.9,10.0,9.9,10.0,8.3,7.9,9.8,9.4,Vitamins,Females,Vitamin E ((mg)),vitamin_e_mg
+73,Calcium,(mg),768.3,675.8,805.7,740.7,765.3,758.1,740.7,674.2,746.5,744.9,745.2,Minerals,Females,Calcium ((mg)),calcium_mg
+75,Iron,(mg),7.1,8.0,9.1,9.2,9.7,9.6,9.9,9.2,8.6,9.7,9.4,Minerals,Females,Iron ((mg)),iron_mg
+76,Magnesium,(mg),201.4,207.1,248.0,266.1,291.9,308.8,313.3,270.7,236.1,301.9,287.6,Minerals,Females,Magnesium ((mg)),magnesium_mg
+78,Potassium,(mg),1972.9,1966.4,2432.5,2465.5,2509.7,2659.6,2699.9,2508.6,2256.6,2620.0,2541.5,Minerals,Females,Potassium ((mg)),potassium_mg
+80,Sodium(e),(mg),1448.3,1867.5,2262.8,2399.2,2303.4,2153.9,1972.1,1772.5,2094.9,2090.4,2091.4,Minerals,Females,Sodium(e) ((mg)),sodium_mg
+81,Zinc,(mg),7.0,7.1,8.7,8.7,9.2,9.4,9.8,9.0,8.0,9.4,9.1,Minerals,Females,Zinc ((mg)),zinc_mg
+84,Energy(a),(kJ),5951.2,7053.4,8603.5,9158.6,9465.5,8871.9,8289.6,7295.2,7998.0,8671.7,8522.4,Energy(a),Persons,Energy(a) ((kJ)),energy_with_fibre_kj
+86,Protein,(g),56.8,63.5,80.1,89.0,98.0,93.6,87.5,76.5,75.0,91.0,87.5,Macronutrients,Persons,Protein ((g)),protein_g
+87,Total Fat(c),(g),49.3,59.3,75.4,80.7,81.4,75.8,70.2,60.7,69.1,73.8,72.8,Macronutrients,Persons,Total Fat(c) ((g)),fat_total_g
+95,Carbohydrate(c),(g),180.9,216.8,256.1,266.5,256.3,230.0,208.3,193.6,238.8,225.9,228.8,Macronutrients,Persons,Carbohydrate(c) ((g)),available_carbohydrate_without_sugar_alcohols_g
+96,Total sugars,(g),91.6,103.0,120.4,121.7,115.3,105.2,93.9,92.2,112.4,102.9,105.0,Macronutrients,Persons,Total sugars ((g)),total_sugars_g
+98,Dietary Fibre,(g),16.1,18.7,21.0,20.8,22.4,22.8,23.5,22.9,19.7,22.9,22.2,Macronutrients,Persons,Dietary Fibre ((g)),total_dietary_fibre_g
+103,Thiamin (B1),(mg),1.3,1.6,1.7,1.7,1.7,1.5,1.5,1.5,1.6,1.5,1.6,Vitamins,Persons,Thiamin (B1) ((mg)),thiamin_b1_mg
+104,Riboflavin (B2),(mg),1.8,1.8,1.9,1.9,2.1,1.9,1.8,1.6,1.9,1.9,1.9,Vitamins,Persons,Riboflavin (B2) ((mg)),riboflavin_b2_mg
+105,Niacin (B3),(mg),13.8,16.9,20.0,22.0,26.2,24.7,22.8,19.7,18.9,23.9,22.8,Vitamins,Persons,Niacin (B3) ((mg)),niacin_b3_mg
+109,Total Folates,(µg),380.3,456.5,497.1,499.7,486.7,479.5,479.1,477.5,472.4,480.8,478.9,Vitamins,Persons,Total Folates ((µg)),folate_ug
+111,Vitamin B6,(mg),0.9,1.0,1.2,1.3,1.8,1.5,1.4,1.2,1.1,1.5,1.4,Vitamins,Persons,Vitamin B6 ((mg)),pyridoxine_b6_mg
+113,Vitamin C,(mg),72.1,83.3,97.3,102.9,106.8,102.1,102.1,93.6,91.8,102.3,100.0,Vitamins,Persons,Vitamin C ((mg)),vitamin_c_mg
+114,Vitamin E,(mg),6.0,7.4,9.1,9.7,11.2,10.8,10.2,8.8,8.4,10.5,10.0,Vitamins,Persons,Vitamin E ((mg)),vitamin_e_mg
+115,Calcium,(mg),771.8,742.6,853.4,833.4,861.7,834.0,760.5,697.8,806.4,804.6,805.0,Minerals,Persons,Calcium ((mg)),calcium_mg
+117,Iron,(mg),7.5,8.8,10.4,10.8,11.6,11.1,11.0,10.3,9.7,11.1,10.8,Minerals,Persons,Iron ((mg)),iron_mg
+118,Magnesium,(mg),209.1,226.7,267.6,290.5,342.2,350.5,338.5,291.0,255.2,338.7,320.2,Minerals,Persons,Magnesium ((mg)),magnesium_mg
+120,Potassium,(mg),2041.6,2138.1,2562.6,2649.3,2902.7,2980.8,2918.5,2681.0,2403.0,2912.5,2799.6,Minerals,Persons,Potassium ((mg)),potassium_mg
+122,Sodium(e),(mg),1483.8,2058.0,2461.7,2760.9,2720.2,2532.5,2236.6,1973.4,2312.7,2430.5,2404.4,Minerals,Persons,Sodium(e) ((mg)),sodium_mg
+123,Zinc,(mg),7.2,7.9,9.6,10.8,11.4,11.1,10.9,9.7,9.2,11.0,10.6,Minerals,Persons,Zinc ((mg)),zinc_mg
