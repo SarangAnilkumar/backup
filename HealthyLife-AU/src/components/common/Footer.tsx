@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
           <div className="col-span-1 md:col-span-2">
             <Link to="/" className="flex items-center space-x-3 mb-4">
               <img src={logo} alt="AUVida Logo" className="w-12 h-12 object-contain" />
-              <span className="text-2xl font-bold text-green-600">AUVida</span>
+              <span className="text-2xl font-bold text-green-600">HealthyLife AU</span>
             </Link>
             <p className="text-gray-600 mb-6 max-w-md">
               Your personal health companion for making informed lifestyle decisions. Built with Australian health standards and privacy-first approach.
@@ -111,7 +111,7 @@ const Footer: React.FC = () => {
             </div>
 
             <div className="text-center md:text-right">
-              <p className="text-sm text-gray-500">© 2025 AUVida. All rights reserved.</p>
+              <p className="text-sm text-gray-500">© 2025 HealthyLife AU. All rights reserved.</p>
               <p className="text-xs text-gray-400 mt-1">Health information is for educational purposes only</p>
             </div>
           </div>

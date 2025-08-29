@@ -100,7 +100,7 @@ const Navigation: React.FC = () => {
           <div className="flex items-center">
             <Link to="/" className="flex items-center space-x-3 hover:opacity-80 transition-opacity">
               <img src={logo} alt="AUVida Logo" className="w-15 h-15 object-contain" />
-              <span className="text-2xl font-bold text-green-600 hover:text-green-700 transition-colors">AUVida</span>
+              <span className="text-2xl font-bold text-green-600 hover:text-green-700 transition-colors">HealthyLife AU</span>
             </Link>
           </div>
 
