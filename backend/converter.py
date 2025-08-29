@@ -4,7 +4,7 @@ import os
 # 1.data readin
 folder = "./datasets/"   
 food_file = os.path.join(folder, "Nutrient/master_nutrients_final.csv")
-recom_file = os.path.join(folder, "AusNutri_RecomFinal/nutritionRecom.csv")
+recom_file = os.path.join(folder, "AusNutri_Recom/Final_nutritionRecom.csv")
 food_df = pd.read_csv(food_file)
 recom_df = pd.read_csv(recom_file)
 
@@ -68,6 +68,6 @@ food_nutrients = food_long.merge(nutrient_dim, on="nutrient_code", how="left")
 recom_final = recom_long.merge(nutrient_dim, left_on="Nutrient_standard", right_on="nutrient_code", how="inner")
 
 # 6. save to csv
-food_nutrients.to_csv(os.path.join(folder,"food_nutrients_long.csv"), index=False)
-nutrient_dim.to_csv(os.path.join(folder,"nutrient_dimension.csv"), index=False)
-recom_final.to_csv(os.path.join(folder,"nutrition_recommendations_long.csv"), index=False)
+food_nutrients.to_csv(os.path.join(folder,"output/food_nutrients_long.csv"), index=False)
+nutrient_dim.to_csv(os.path.join(folder,"output/nutrient_dimension.csv"), index=False)
+recom_final.to_csv(os.path.join(folder,"output/nutrition_recommendations_long.csv"), index=False)

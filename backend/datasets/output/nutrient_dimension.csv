@@ -1,0 +1,20 @@
+nutrient_code,nutrient_name,unit,category,nutrient_id
+energy_with_fibre_kj,Energy(a),(kJ),Energy(a),1
+protein_g,Protein,(g),Macronutrients,2
+fat_total_g,Total Fat(c),(g),Macronutrients,3
+available_carbohydrate_without_sugar_alcohols_g,Carbohydrate(c),(g),Macronutrients,4
+total_sugars_g,Total sugars,(g),Macronutrients,5
+total_dietary_fibre_g,Dietary Fibre,(g),Macronutrients,6
+thiamin_b1_mg,Thiamin (B1),(mg),Vitamins,7
+riboflavin_b2_mg,Riboflavin (B2),(mg),Vitamins,8
+niacin_b3_mg,Niacin (B3),(mg),Vitamins,9
+folate_ug,Total Folates,(µg),Vitamins,10
+pyridoxine_b6_mg,Vitamin B6,(mg),Vitamins,11
+vitamin_c_mg,Vitamin C,(mg),Vitamins,12
+vitamin_e_mg,Vitamin E,(mg),Vitamins,13
+calcium_mg,Calcium,(mg),Minerals,14
+iron_mg,Iron,(mg),Minerals,15
+magnesium_mg,Magnesium,(mg),Minerals,16
+potassium_mg,Potassium,(mg),Minerals,17
+sodium_mg,Sodium(e),(mg),Minerals,18
+zinc_mg,Zinc,(mg),Minerals,19
