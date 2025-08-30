@@ -63,8 +63,8 @@ for _, rec in recom.iterrows():
                 "sex": rec["Gender"],
                 "recommended_amount": rec["recommended_amount"],
                 "filter_id": filter_id,
-                "new_age_start": f_start,
-                "new_age_end": None if f_end == 200 else f_end
+                "age_start": f_start,
+                "age_end": None if f_end == 200 else f_end
             })
 
 new_recom = pd.DataFrame(rows)

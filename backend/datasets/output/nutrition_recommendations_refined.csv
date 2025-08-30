@@ -1,4 +1,4 @@
-nutrient_id,nutrient_name,unit,sex,recommended_amount,filter_id,new_age_start,new_age_end
+nutrient_id,nutrient_name,unit,sex,recommended_amount,filter_id,age_start,age_end
 1,Energy(a),(kJ),Males,10186.0,2,15,17.0
 2,Protein,(g),Males,101.2,2,15,17.0
 3,Total Fat(c),(g),Males,88.1,2,15,17.0
