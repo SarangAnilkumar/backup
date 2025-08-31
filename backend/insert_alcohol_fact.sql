@@ -1,106 +1,110 @@
-INSERT INTO ALCOHOL_FACT (filter_id, alco_fact_status, alco_fact_label, alco_fact_low_bound, alco_fact_up_bound, alco_fact_est_000) VALUES
-(1, 'Did not exceed guideline', 'Never consumed alcohol', NULL, NULL, 575.5)
-(1, 'Did not exceed guideline', 'Total did not exceed guideline', NULL, NULL, 862.4)
-(1, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 10 to 12', 10.0, 12.0, 11.9)
-(1, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 12 to 14', 12.0, 14.0, 7.2)
-(1, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 14', 14.0, NULL, 15.4)
-(2, 'Did not exceed guideline', 'Never consumed alcohol', NULL, NULL, 287.9)
-(2, 'Did not exceed guideline', 'Total did not exceed guideline', NULL, NULL, 435.6)
-(2, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 10 to 12', 10.0, 12.0, 11.9)
-(2, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 12 to 14', 12.0, 14.0, 0.0)
-(2, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 14', 14.0, NULL, 10.3)
-(3, 'Did not exceed guideline', 'Never consumed alcohol', NULL, NULL, 283.9)
-(3, 'Did not exceed guideline', 'Total did not exceed guideline', NULL, NULL, 428.2)
-(3, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 10 to 12', 10.0, 12.0, 0.0)
-(3, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 12 to 14', 12.0, 14.0, 0.0)
-(3, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 14', 14.0, NULL, 0.0)
-(4, 'Did not exceed guideline', 'Never consumed alcohol', NULL, NULL, 300.9)
-(4, 'Did not exceed guideline', 'Total did not exceed guideline', NULL, NULL, 1385.2)
-(4, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 10 to 12', 10.0, 12.0, 59.4)
-(4, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 12 to 14', 12.0, 14.0, 35.5)
-(4, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 14', 14.0, NULL, 219.6)
-(5, 'Did not exceed guideline', 'Never consumed alcohol', NULL, NULL, 161.5)
-(5, 'Did not exceed guideline', 'Total did not exceed guideline', NULL, NULL, 648.8)
-(5, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 10 to 12', 10.0, 12.0, 51.2)
-(5, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 12 to 14', 12.0, 14.0, 29.2)
-(5, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 14', 14.0, NULL, 137.2)
-(6, 'Did not exceed guideline', 'Never consumed alcohol', NULL, NULL, 135.5)
-(6, 'Did not exceed guideline', 'Total did not exceed guideline', NULL, NULL, 735.5)
-(6, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 10 to 12', 10.0, 12.0, 17.7)
-(6, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 12 to 14', 12.0, 14.0, 4.2)
-(6, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 14', 14.0, NULL, 86.6)
-(7, 'Did not exceed guideline', 'Never consumed alcohol', NULL, NULL, 413.7)
-(7, 'Did not exceed guideline', 'Total did not exceed guideline', NULL, NULL, 2696.1)
-(7, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 10 to 12', 10.0, 12.0, 65.8)
-(7, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 12 to 14', 12.0, 14.0, 72.4)
-(7, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 14', 14.0, NULL, 367.3)
-(8, 'Did not exceed guideline', 'Never consumed alcohol', NULL, NULL, 209.8)
-(8, 'Did not exceed guideline', 'Total did not exceed guideline', NULL, NULL, 1182.7)
-(8, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 10 to 12', 10.0, 12.0, 47.9)
-(8, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 12 to 14', 12.0, 14.0, 51.1)
-(8, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 14', 14.0, NULL, 275.8)
-(9, 'Did not exceed guideline', 'Never consumed alcohol', NULL, NULL, 209.4)
-(9, 'Did not exceed guideline', 'Total did not exceed guideline', NULL, NULL, 1518.9)
-(9, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 10 to 12', 10.0, 12.0, 16.7)
-(9, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 12 to 14', 12.0, 14.0, 20.4)
-(9, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 14', 14.0, NULL, 96.4)
-(10, 'Did not exceed guideline', 'Never consumed alcohol', NULL, NULL, 356.2)
-(10, 'Did not exceed guideline', 'Total did not exceed guideline', NULL, NULL, 2628.0)
-(10, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 10 to 12', 10.0, 12.0, 129.9)
-(10, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 12 to 14', 12.0, 14.0, 73.8)
-(10, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 14', 14.0, NULL, 425.5)
-(11, 'Did not exceed guideline', 'Never consumed alcohol', NULL, NULL, 133.1)
-(11, 'Did not exceed guideline', 'Total did not exceed guideline', NULL, NULL, 1115.4)
-(11, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 10 to 12', 10.0, 12.0, 93.0)
-(11, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 12 to 14', 12.0, 14.0, 59.8)
-(11, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 14', 14.0, NULL, 301.5)
-(12, 'Did not exceed guideline', 'Never consumed alcohol', NULL, NULL, 222.9)
-(12, 'Did not exceed guideline', 'Total did not exceed guideline', NULL, NULL, 1522.9)
-(12, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 10 to 12', 10.0, 12.0, 42.1)
-(12, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 12 to 14', 12.0, 14.0, 19.5)
-(12, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 14', 14.0, NULL, 120.0)
-(13, 'Did not exceed guideline', 'Never consumed alcohol', NULL, NULL, 291.3)
-(13, 'Did not exceed guideline', 'Total did not exceed guideline', NULL, NULL, 2299.8)
-(13, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 10 to 12', 10.0, 12.0, 117.4)
-(13, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 12 to 14', 12.0, 14.0, 77.8)
-(13, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 14', 14.0, NULL, 477.9)
-(14, 'Did not exceed guideline', 'Never consumed alcohol', NULL, NULL, 86.2)
-(14, 'Did not exceed guideline', 'Total did not exceed guideline', NULL, NULL, 1027.2)
-(14, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 10 to 12', 10.0, 12.0, 42.6)
-(14, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 12 to 14', 12.0, 14.0, 63.0)
-(14, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 14', 14.0, NULL, 307.1)
-(15, 'Did not exceed guideline', 'Never consumed alcohol', NULL, NULL, 203.9)
-(15, 'Did not exceed guideline', 'Total did not exceed guideline', NULL, NULL, 1271.7)
-(15, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 10 to 12', 10.0, 12.0, 73.7)
-(15, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 12 to 14', 12.0, 14.0, 10.1)
-(15, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 14', 14.0, NULL, 166.2)
-(16, 'Did not exceed guideline', 'Never consumed alcohol', NULL, NULL, 266.8)
-(16, 'Did not exceed guideline', 'Total did not exceed guideline', NULL, NULL, 2034.0)
-(16, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 10 to 12', 10.0, 12.0, 111.6)
-(16, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 12 to 14', 12.0, 14.0, 95.2)
-(16, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 14', 14.0, NULL, 522.6)
-(17, 'Did not exceed guideline', 'Never consumed alcohol', NULL, NULL, 84.7)
-(17, 'Did not exceed guideline', 'Total did not exceed guideline', NULL, NULL, 839.5)
-(17, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 10 to 12', 10.0, 12.0, 62.3)
-(17, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 12 to 14', 12.0, 14.0, 58.3)
-(17, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 14', 14.0, NULL, 347.1)
-(18, 'Did not exceed guideline', 'Never consumed alcohol', NULL, NULL, 185.5)
-(18, 'Did not exceed guideline', 'Total did not exceed guideline', NULL, NULL, 1193.3)
-(18, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 10 to 12', 10.0, 12.0, 41.6)
-(18, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 12 to 14', 12.0, 14.0, 36.6)
-(18, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 14', 14.0, NULL, 178.1)
-(19, 'Did not exceed guideline', 'Never consumed alcohol', NULL, NULL, 467.1)
-(19, 'Did not exceed guideline', 'Total did not exceed guideline', NULL, NULL, 3198.5)
-(19, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 10 to 12', 10.0, 12.0, 145.9)
-(19, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 12 to 14', 12.0, 14.0, 83.1)
-(19, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 14', 14.0, NULL, 568.6)
-(20, 'Did not exceed guideline', 'Never consumed alcohol', NULL, NULL, 111.0)
-(20, 'Did not exceed guideline', 'Total did not exceed guideline', NULL, NULL, 1324.6)
-(20, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 10 to 12', 10.0, 12.0, 88.5)
-(20, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 12 to 14', 12.0, 14.0, 57.5)
-(20, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 14', 14.0, NULL, 403.6)
-(21, 'Did not exceed guideline', 'Never consumed alcohol', NULL, NULL, 353.4)
-(21, 'Did not exceed guideline', 'Total did not exceed guideline', NULL, NULL, 1872.6)
-(21, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 10 to 12', 10.0, 12.0, 63.7)
-(21, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 12 to 14', 12.0, 14.0, 30.1)
+USE epic1;
+
+INSERT INTO ALCOHOL_FACT 
+(filter_id, alco_fact_status, alco_fact_label, alco_fact_low_bound, alco_fact_up_bound, alco_fact_est_000) 
+VALUES
+(1, 'Did not exceed guideline', 'Never consumed alcohol', NULL, NULL, 575.5),
+(1, 'Did not exceed guideline', 'Total did not exceed guideline', NULL, NULL, 862.4),
+(1, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 10 to 12', 10.0, 12.0, 11.9),
+(1, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 12 to 14', 12.0, 14.0, 7.2),
+(1, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 14', 14.0, NULL, 15.4),
+(2, 'Did not exceed guideline', 'Never consumed alcohol', NULL, NULL, 287.9),
+(2, 'Did not exceed guideline', 'Total did not exceed guideline', NULL, NULL, 435.6),
+(2, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 10 to 12', 10.0, 12.0, 11.9),
+(2, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 12 to 14', 12.0, 14.0, 0.0),
+(2, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 14', 14.0, NULL, 10.3),
+(3, 'Did not exceed guideline', 'Never consumed alcohol', NULL, NULL, 283.9),
+(3, 'Did not exceed guideline', 'Total did not exceed guideline', NULL, NULL, 428.2),
+(3, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 10 to 12', 10.0, 12.0, 0.0),
+(3, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 12 to 14', 12.0, 14.0, 0.0),
+(3, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 14', 14.0, NULL, 0.0),
+(4, 'Did not exceed guideline', 'Never consumed alcohol', NULL, NULL, 300.9),
+(4, 'Did not exceed guideline', 'Total did not exceed guideline', NULL, NULL, 1385.2),
+(4, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 10 to 12', 10.0, 12.0, 59.4),
+(4, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 12 to 14', 12.0, 14.0, 35.5),
+(4, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 14', 14.0, NULL, 219.6),
+(5, 'Did not exceed guideline', 'Never consumed alcohol', NULL, NULL, 161.5),
+(5, 'Did not exceed guideline', 'Total did not exceed guideline', NULL, NULL, 648.8),
+(5, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 10 to 12', 10.0, 12.0, 51.2),
+(5, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 12 to 14', 12.0, 14.0, 29.2),
+(5, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 14', 14.0, NULL, 137.2),
+(6, 'Did not exceed guideline', 'Never consumed alcohol', NULL, NULL, 135.5),
+(6, 'Did not exceed guideline', 'Total did not exceed guideline', NULL, NULL, 735.5),
+(6, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 10 to 12', 10.0, 12.0, 17.7),
+(6, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 12 to 14', 12.0, 14.0, 4.2),
+(6, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 14', 14.0, NULL, 86.6),
+(7, 'Did not exceed guideline', 'Never consumed alcohol', NULL, NULL, 413.7),
+(7, 'Did not exceed guideline', 'Total did not exceed guideline', NULL, NULL, 2696.1),
+(7, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 10 to 12', 10.0, 12.0, 65.8),
+(7, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 12 to 14', 12.0, 14.0, 72.4),
+(7, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 14', 14.0, NULL, 367.3),
+(8, 'Did not exceed guideline', 'Never consumed alcohol', NULL, NULL, 209.8),
+(8, 'Did not exceed guideline', 'Total did not exceed guideline', NULL, NULL, 1182.7),
+(8, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 10 to 12', 10.0, 12.0, 47.9),
+(8, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 12 to 14', 12.0, 14.0, 51.1),
+(8, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 14', 14.0, NULL, 275.8),
+(9, 'Did not exceed guideline', 'Never consumed alcohol', NULL, NULL, 209.4),
+(9, 'Did not exceed guideline', 'Total did not exceed guideline', NULL, NULL, 1518.9),
+(9, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 10 to 12', 10.0, 12.0, 16.7),
+(9, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 12 to 14', 12.0, 14.0, 20.4),
+(9, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 14', 14.0, NULL, 96.4),
+(10, 'Did not exceed guideline', 'Never consumed alcohol', NULL, NULL, 356.2),
+(10, 'Did not exceed guideline', 'Total did not exceed guideline', NULL, NULL, 2628.0),
+(10, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 10 to 12', 10.0, 12.0, 129.9),
+(10, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 12 to 14', 12.0, 14.0, 73.8),
+(10, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 14', 14.0, NULL, 425.5),
+(11, 'Did not exceed guideline', 'Never consumed alcohol', NULL, NULL, 133.1),
+(11, 'Did not exceed guideline', 'Total did not exceed guideline', NULL, NULL, 1115.4),
+(11, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 10 to 12', 10.0, 12.0, 93.0),
+(11, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 12 to 14', 12.0, 14.0, 59.8),
+(11, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 14', 14.0, NULL, 301.5),
+(12, 'Did not exceed guideline', 'Never consumed alcohol', NULL, NULL, 222.9),
+(12, 'Did not exceed guideline', 'Total did not exceed guideline', NULL, NULL, 1522.9),
+(12, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 10 to 12', 10.0, 12.0, 42.1),
+(12, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 12 to 14', 12.0, 14.0, 19.5),
+(12, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 14', 14.0, NULL, 120.0),
+(13, 'Did not exceed guideline', 'Never consumed alcohol', NULL, NULL, 291.3),
+(13, 'Did not exceed guideline', 'Total did not exceed guideline', NULL, NULL, 2299.8),
+(13, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 10 to 12', 10.0, 12.0, 117.4),
+(13, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 12 to 14', 12.0, 14.0, 77.8),
+(13, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 14', 14.0, NULL, 477.9),
+(14, 'Did not exceed guideline', 'Never consumed alcohol', NULL, NULL, 86.2),
+(14, 'Did not exceed guideline', 'Total did not exceed guideline', NULL, NULL, 1027.2),
+(14, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 10 to 12', 10.0, 12.0, 42.6),
+(14, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 12 to 14', 12.0, 14.0, 63.0),
+(14, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 14', 14.0, NULL, 307.1),
+(15, 'Did not exceed guideline', 'Never consumed alcohol', NULL, NULL, 203.9),
+(15, 'Did not exceed guideline', 'Total did not exceed guideline', NULL, NULL, 1271.7),
+(15, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 10 to 12', 10.0, 12.0, 73.7),
+(15, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 12 to 14', 12.0, 14.0, 10.1),
+(15, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 14', 14.0, NULL, 166.2),
+(16, 'Did not exceed guideline', 'Never consumed alcohol', NULL, NULL, 266.8),
+(16, 'Did not exceed guideline', 'Total did not exceed guideline', NULL, NULL, 2034.0),
+(16, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 10 to 12', 10.0, 12.0, 111.6),
+(16, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 12 to 14', 12.0, 14.0, 95.2),
+(16, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 14', 14.0, NULL, 522.6),
+(17, 'Did not exceed guideline', 'Never consumed alcohol', NULL, NULL, 84.7),
+(17, 'Did not exceed guideline', 'Total did not exceed guideline', NULL, NULL, 839.5),
+(17, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 10 to 12', 10.0, 12.0, 62.3),
+(17, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 12 to 14', 12.0, 14.0, 58.3),
+(17, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 14', 14.0, NULL, 347.1),
+(18, 'Did not exceed guideline', 'Never consumed alcohol', NULL, NULL, 185.5),
+(18, 'Did not exceed guideline', 'Total did not exceed guideline', NULL, NULL, 1193.3),
+(18, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 10 to 12', 10.0, 12.0, 41.6),
+(18, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 12 to 14', 12.0, 14.0, 36.6),
+(18, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 14', 14.0, NULL, 178.1),
+(19, 'Did not exceed guideline', 'Never consumed alcohol', NULL, NULL, 467.1),
+(19, 'Did not exceed guideline', 'Total did not exceed guideline', NULL, NULL, 3198.5),
+(19, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 10 to 12', 10.0, 12.0, 145.9),
+(19, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 12 to 14', 12.0, 14.0, 83.1),
+(19, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 14', 14.0, NULL, 568.6),
+(20, 'Did not exceed guideline', 'Never consumed alcohol', NULL, NULL, 111.0),
+(20, 'Did not exceed guideline', 'Total did not exceed guideline', NULL, NULL, 1324.6),
+(20, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 10 to 12', 10.0, 12.0, 88.5),
+(20, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 12 to 14', 12.0, 14.0, 57.5),
+(20, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 14', 14.0, NULL, 403.6),
+(21, 'Did not exceed guideline', 'Never consumed alcohol', NULL, NULL, 353.4),
+(21, 'Did not exceed guideline', 'Total did not exceed guideline', NULL, NULL, 1872.6),
+(21, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 10 to 12', 10.0, 12.0, 63.7),
+(21, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 12 to 14', 12.0, 14.0, 30.1),
 (21, 'Number of standard drinks consumed in a week when exceeding the guideline', 'More than 14', 14.0, NULL, 170.3);
