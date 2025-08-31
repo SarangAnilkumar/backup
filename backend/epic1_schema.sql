@@ -1,3 +1,4 @@
+-- Choose and use database (name)
 USE epic1;
 
 DROP TABLE IF EXISTS ALCOHOL_FACT;
@@ -14,22 +15,22 @@ CREATE TABLE AGE_SEX_FILTER (
       );
 
 CREATE TABLE SMOKE_FACT (
-    smo_fact_id INT AUTO_INCREMENT PRIMARY KEY,
-    filter_id INT NOT NULL,
-    smo_fact_status ENUM('Current smoker', 'Ex-smoker', 'Never smoked') NOT NULL,
-    smo_fact_device ENUM('Cigarette', 'Vape') NULL,
-    smo_fact_frequency ENUM('Daily', 'Weekly', '1–2 days', '3–6 days') NULL,
-    smo_fact_est_000 INT NOT NULL,
+  smo_fact_id        INT AUTO_INCREMENT PRIMARY KEY,
+  filter_id          INT NOT NULL,
+  smo_fact_status    ENUM('Current smoker','Ex-smoker','Never smoked') NOT NULL,
+  -- include Weekly if it appears in your data (recommended)
+  smo_fact_frequency ENUM('Daily','Weekly','1–2 days','3–6 days') NULL,
+  smo_fact_est_000   DECIMAL(10,1) NOT NULL,
 
-    CONSTRAINT fk_smoke_fact_filter FOREIGN KEY (filter_id)
-        REFERENCES AGE_SEX_FILTER(filter_id),
+  CONSTRAINT fk_smoke_fact_filter
+    FOREIGN KEY (filter_id) REFERENCES AGE_SEX_FILTER(filter_id),
 
-    CONSTRAINT chk_device_frequency
-        CHECK (
-            (smo_fact_status = 'Current smoker' AND smo_fact_device IS NOT NULL AND smo_fact_frequency IS NOT NULL)
-            OR
-            (smo_fact_status IN ('Ex-smoker', 'Never smoked') AND smo_fact_device IS NULL AND smo_fact_frequency IS NULL)
-        )
+  -- require a frequency for current smokers (no need for ex/never)
+  CONSTRAINT chk_frequency_only
+    CHECK (
+      (smo_fact_status = 'Current smoker' AND smo_fact_frequency IS NOT NULL)
+      OR (smo_fact_status IN ('Ex-smoker','Never smoked') AND smo_fact_frequency IS NULL)
+    )
 );
 
 CREATE TABLE ALCOHOL_FACT (
@@ -50,6 +51,7 @@ CREATE TABLE ALCOHOL_FACT (
 );
 
 -- check
-SELECT * FROM AGE_SEX_FILTER;
+SELECT COUNT(*) AS n_rows FROM AGE_SEX_FILTER;
 SELECT * FROM SMOKE_FACT;
 SELECT * FROM ALCOHOL_FACT;
+
