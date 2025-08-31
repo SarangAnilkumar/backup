@@ -33,16 +33,20 @@ CREATE TABLE SMOKE_FACT (
 );
 
 CREATE TABLE ALCOHOL_FACT (
-    alco_fact_id INT AUTO_INCREMENT PRIMARY KEY,
-    filter_id INT NOT NULL,
-    alco_fact_status ENUM('Exceeded', 'Not Exceeded') NOT NULL,
-    alco_fact_label VARCHAR(255) NOT NULL,
-    alco_fact_low_bound FLOAT,
-    alco_fact_up_bound FLOAT,
-    alco_fact_est_000 INT NOT NULL,
-
-    CONSTRAINT fk_alcohol_fact_filter FOREIGN KEY (filter_id)
-        REFERENCES AGE_SEX_FILTER(filter_id)
+  alco_fact_id       INT AUTO_INCREMENT PRIMARY KEY,
+  filter_id          INT NOT NULL,
+  alco_fact_status   VARCHAR(255) NOT NULL,
+  alco_fact_label    VARCHAR(255) NOT NULL,
+  alco_fact_low_bound DECIMAL(5,1) NULL,
+  alco_fact_up_bound  DECIMAL(5,1) NULL,
+  alco_fact_est_000   DECIMAL(10,1) NOT NULL,
+  CONSTRAINT fk_alcohol_fact_filter
+    FOREIGN KEY (filter_id) REFERENCES AGE_SEX_FILTER(filter_id),
+  CONSTRAINT chk_alco_bounds
+    CHECK (
+      (alco_fact_low_bound IS NULL AND alco_fact_up_bound IS NULL)
+      OR (alco_fact_up_bound IS NULL OR alco_fact_low_bound <= alco_fact_up_bound)
+    )
 );
 
 -- check
