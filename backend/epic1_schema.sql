@@ -7,9 +7,11 @@ DROP TABLE IF EXISTS AGE_SEX_FILTER;
 CREATE TABLE AGE_SEX_FILTER (
     filter_id INT AUTO_INCREMENT PRIMARY KEY,
     filter_age_start INT NOT NULL,
-    filter_age_end INT NOT NULL,
-    filter_sex ENUM('Male', 'Female', 'Other') NOT NULL
-);
+    filter_age_end INT NULL,  -- allow NULL for open end (sucg as 65+)
+    filter_sex ENUM('Persons','Male','Female','Males','Females','Other') NOT NULL,
+    CONSTRAINT chk_age_bounds
+      CHECK (filter_age_end IS NULL OR filter_age_end >= filter_age_start)
+      );
 
 CREATE TABLE SMOKE_FACT (
     smo_fact_id INT AUTO_INCREMENT PRIMARY KEY,
