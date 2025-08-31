@@ -64,7 +64,7 @@ const Dashboard: React.FC = () => {
               A <span className="text-green-600">Healthy</span> Mind
               <br /> is an Asset
             </h1>
-            <p className="mt-5 max-w-xl text-gray-600">Take control of your health journey with personalized insights.</p>
+            <p className="mt-5 max-w-xl text-gray-600">We weight your Health as the weight of Gold.</p>
 
             <div className="mt-10">
               <button
