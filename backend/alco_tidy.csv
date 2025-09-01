@@ -1,0 +1,919 @@
+alco_sex,alco_category_group,alco_category,alco_age_group,alco_estimate_000
+Persons,Exceeded guideline,Consumed more than 10 drinks in the last week,15–17,22.0
+Persons,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,15–17,21.1
+Persons,Exceeded guideline,Total exceeded guideline,15–17,45.9
+Persons,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,15–17,67.7
+Persons,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,15–17,192.9
+Persons,Did not exceed guideline,Never consumed alcohol,15–17,575.5
+Persons,Did not exceed guideline,Consumed alcohol 12 or more months ago,15–17,28.5
+Persons,Did not exceed guideline,Total did not exceed guideline,15–17,862.4
+Persons,Did not exceed guideline,"Total persons, 15 years and over",15–17,924.8
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,15–17,11.9
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,15–17,7.2
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,15–17,15.4
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,Total persons who exceeded guideline and consumed in the last week,15–17,22.0
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,15–17,7.6
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,15–17,18.7
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,15–17,0.0
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total persons who exceeded guideline and consumed in the last month,15–17,21.1
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total persons, 15 years and over",15–17,924.8
+Males,Exceeded guideline,Consumed more than 10 drinks in the last week,15–17,12.5
+Males,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,15–17,18.2
+Males,Exceeded guideline,Total exceeded guideline,15–17,28.7
+Males,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,15–17,32.1
+Males,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,15–17,93.7
+Males,Did not exceed guideline,Never consumed alcohol,15–17,287.9
+Males,Did not exceed guideline,Consumed alcohol 12 or more months ago,15–17,19.3
+Males,Did not exceed guideline,Total did not exceed guideline,15–17,435.6
+Males,Did not exceed guideline,"Total males, 15 years and over",15–17,471.3
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,15–17,11.9
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,15–17,0.0
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,15–17,10.3
+Males,Number of standard drinks consumed in a week when exceeding the guideline,Total males who exceeded guideline and consumed in the last week,15–17,12.5
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,15–17,3.0
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,15–17,10.8
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,15–17,0.0
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total males who exceeded guideline and consumed in the last month,15–17,18.2
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total males, 15 years and over",15–17,471.3
+Females,Exceeded guideline,Consumed more than 10 drinks in the last week,15–17,9.5
+Females,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,15–17,6.6
+Females,Exceeded guideline,Total exceeded guideline,15–17,17.8
+Females,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,15–17,33.9
+Females,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,15–17,97.9
+Females,Did not exceed guideline,Never consumed alcohol,15–17,283.9
+Females,Did not exceed guideline,Consumed alcohol 12 or more months ago,15–17,10.5
+Females,Did not exceed guideline,Total did not exceed guideline,15–17,428.2
+Females,Did not exceed guideline,"Total females, 15 years and over",15–17,444.7
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,15–17,0.0
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,15–17,0.0
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,15–17,0.0
+Females,Number of standard drinks consumed in a week when exceeding the guideline,Total females who exceeded guideline and consumed in the last week,15–17,9.5
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,15–17,0.0
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,15–17,6.3
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,15–17,0.0
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total females who exceeded guideline and consumed in the last month,15–17,6.6
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total females, 15 years and over",15–17,444.7
+Persons,Exceeded guideline,Consumed more than 10 drinks in the last week,18–24,318.6
+Persons,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,18–24,732.9
+Persons,Exceeded guideline,Total exceeded guideline,18–24,783.6
+Persons,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,18–24,432.0
+Persons,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,18–24,545.8
+Persons,Did not exceed guideline,Never consumed alcohol,18–24,300.9
+Persons,Did not exceed guideline,Consumed alcohol 12 or more months ago,18–24,90.3
+Persons,Did not exceed guideline,Total did not exceed guideline,18–24,1385.2
+Persons,Did not exceed guideline,"Total persons, 15 years and over",18–24,2171.9
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,18–24,59.4
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,18–24,35.5
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,18–24,219.6
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,Total persons who exceeded guideline and consumed in the last week,18–24,318.6
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,18–24,267.5
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,18–24,245.3
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,18–24,237.9
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total persons who exceeded guideline and consumed in the last month,18–24,732.9
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total persons, 15 years and over",18–24,2171.9
+Males,Exceeded guideline,Consumed more than 10 drinks in the last week,18–24,212.6
+Males,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,18–24,446.1
+Males,Exceeded guideline,Total exceeded guideline,18–24,470.6
+Males,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,18–24,187.3
+Males,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,18–24,255.6
+Males,Did not exceed guideline,Never consumed alcohol,18–24,161.5
+Males,Did not exceed guideline,Consumed alcohol 12 or more months ago,18–24,31.1
+Males,Did not exceed guideline,Total did not exceed guideline,18–24,648.8
+Males,Did not exceed guideline,"Total males, 15 years and over",18–24,1112.0
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,18–24,51.2
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,18–24,29.2
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,18–24,137.2
+Males,Number of standard drinks consumed in a week when exceeding the guideline,Total males who exceeded guideline and consumed in the last week,18–24,212.6
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,18–24,139.6
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,18–24,139.5
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,18–24,172.7
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total males who exceeded guideline and consumed in the last month,18–24,446.1
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total males, 15 years and over",18–24,1112.0
+Females,Exceeded guideline,Consumed more than 10 drinks in the last week,18–24,114.4
+Females,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,18–24,290.7
+Females,Exceeded guideline,Total exceeded guideline,18–24,304.1
+Females,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,18–24,247.1
+Females,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,18–24,287.2
+Females,Did not exceed guideline,Never consumed alcohol,18–24,135.5
+Females,Did not exceed guideline,Consumed alcohol 12 or more months ago,18–24,63.8
+Females,Did not exceed guideline,Total did not exceed guideline,18–24,735.5
+Females,Did not exceed guideline,"Total females, 15 years and over",18–24,1053.1
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,18–24,17.7
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,18–24,4.2
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,18–24,86.6
+Females,Number of standard drinks consumed in a week when exceeding the guideline,Total females who exceeded guideline and consumed in the last week,18–24,114.4
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,18–24,128.5
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,18–24,107.7
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,18–24,55.5
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total females who exceeded guideline and consumed in the last month,18–24,290.7
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total females, 15 years and over",18–24,1053.1
+Persons,Exceeded guideline,Consumed more than 10 drinks in the last week,25–34,508.9
+Persons,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,25–34,860.3
+Persons,Exceeded guideline,Total exceeded guideline,25–34,948.8
+Persons,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,25–34,939.5
+Persons,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,25–34,1004.3
+Persons,Did not exceed guideline,Never consumed alcohol,25–34,413.7
+Persons,Did not exceed guideline,Consumed alcohol 12 or more months ago,25–34,336.4
+Persons,Did not exceed guideline,Total did not exceed guideline,25–34,2696.1
+Persons,Did not exceed guideline,"Total persons, 15 years and over",25–34,3686.3
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,25–34,65.8
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,25–34,72.4
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,25–34,367.3
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,Total persons who exceeded guideline and consumed in the last week,25–34,511.7
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,25–34,310.6
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,25–34,303.1
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,25–34,241.2
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total persons who exceeded guideline and consumed in the last month,25–34,860.3
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total persons, 15 years and over",25–34,3686.3
+Males,Exceeded guideline,Consumed more than 10 drinks in the last week,25–34,370.9
+Males,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,25–34,564.3
+Males,Exceeded guideline,Total exceeded guideline,25–34,627.2
+Males,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,25–34,418.4
+Males,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,25–34,437.6
+Males,Did not exceed guideline,Never consumed alcohol,25–34,209.8
+Males,Did not exceed guideline,Consumed alcohol 12 or more months ago,25–34,117.7
+Males,Did not exceed guideline,Total did not exceed guideline,25–34,1182.7
+Males,Did not exceed guideline,"Total males, 15 years and over",25–34,1832.4
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,25–34,47.9
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,25–34,51.1
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,25–34,275.8
+Males,Number of standard drinks consumed in a week when exceeding the guideline,Total males who exceeded guideline and consumed in the last week,25–34,370.6
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,25–34,187.5
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,25–34,189.2
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,25–34,192.0
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total males who exceeded guideline and consumed in the last month,25–34,564.3
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total males, 15 years and over",25–34,1832.4
+Females,Exceeded guideline,Consumed more than 10 drinks in the last week,25–34,140.9
+Females,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,25–34,286.5
+Females,Exceeded guideline,Total exceeded guideline,25–34,323.5
+Females,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,25–34,521.0
+Females,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,25–34,580.4
+Females,Did not exceed guideline,Never consumed alcohol,25–34,209.4
+Females,Did not exceed guideline,Consumed alcohol 12 or more months ago,25–34,214.0
+Females,Did not exceed guideline,Total did not exceed guideline,25–34,1518.9
+Females,Did not exceed guideline,"Total females, 15 years and over",25–34,1850.2
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,25–34,16.7
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,25–34,20.4
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,25–34,96.4
+Females,Number of standard drinks consumed in a week when exceeding the guideline,Total females who exceeded guideline and consumed in the last week,25–34,140.9
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,25–34,118.4
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,25–34,120.1
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,25–34,42.6
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total females who exceeded guideline and consumed in the last month,25–34,286.5
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total females, 15 years and over",25–34,1850.2
+Persons,Exceeded guideline,Consumed more than 10 drinks in the last week,35–44,636.0
+Persons,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,35–44,734.1
+Persons,Exceeded guideline,Total exceeded guideline,35–44,890.6
+Persons,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,35–44,1091.8
+Persons,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,35–44,807.8
+Persons,Did not exceed guideline,Never consumed alcohol,35–44,356.2
+Persons,Did not exceed guideline,Consumed alcohol 12 or more months ago,35–44,366.0
+Persons,Did not exceed guideline,Total did not exceed guideline,35–44,2628.0
+Persons,Did not exceed guideline,"Total persons, 15 years and over",35–44,3557.3
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,35–44,129.9
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,35–44,73.8
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,35–44,425.5
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,Total persons who exceeded guideline and consumed in the last week,35–44,636.0
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,35–44,277.6
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,35–44,259.8
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,35–44,188.8
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total persons who exceeded guideline and consumed in the last month,35–44,734.1
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total persons, 15 years and over",35–44,3557.3
+Males,Exceeded guideline,Consumed more than 10 drinks in the last week,35–44,454.0
+Males,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,35–44,519.7
+Males,Exceeded guideline,Total exceeded guideline,35–44,622.2
+Males,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,35–44,510.5
+Males,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,35–44,331.1
+Males,Did not exceed guideline,Never consumed alcohol,35–44,133.1
+Males,Did not exceed guideline,Consumed alcohol 12 or more months ago,35–44,136.0
+Males,Did not exceed guideline,Total did not exceed guideline,35–44,1115.4
+Males,Did not exceed guideline,"Total males, 15 years and over",35–44,1749.0
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,35–44,93.0
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,35–44,59.8
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,35–44,301.5
+Males,Number of standard drinks consumed in a week when exceeding the guideline,Total males who exceeded guideline and consumed in the last week,35–44,454.0
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,35–44,183.3
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,35–44,190.7
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,35–44,140.0
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total males who exceeded guideline and consumed in the last month,35–44,519.7
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total males, 15 years and over",35–44,1749.0
+Females,Exceeded guideline,Consumed more than 10 drinks in the last week,35–44,181.3
+Females,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,35–44,213.2
+Females,Exceeded guideline,Total exceeded guideline,35–44,266.1
+Females,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,35–44,581.5
+Females,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,35–44,482.2
+Females,Did not exceed guideline,Never consumed alcohol,35–44,222.9
+Females,Did not exceed guideline,Consumed alcohol 12 or more months ago,35–44,231.1
+Females,Did not exceed guideline,Total did not exceed guideline,35–44,1522.9
+Females,Did not exceed guideline,"Total females, 15 years and over",35–44,1805.1
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,35–44,42.1
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,35–44,19.5
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,35–44,120.0
+Females,Number of standard drinks consumed in a week when exceeding the guideline,Total females who exceeded guideline and consumed in the last week,35–44,181.3
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,35–44,104.6
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,35–44,68.7
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,35–44,41.4
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total females who exceeded guideline and consumed in the last month,35–44,213.2
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total females, 15 years and over",35–44,1805.1
+Persons,Exceeded guideline,Consumed more than 10 drinks in the last week,45–54,665.6
+Persons,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,45–54,682.1
+Persons,Exceeded guideline,Total exceeded guideline,45–54,894.0
+Persons,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,45–54,933.7
+Persons,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,45–54,705.6
+Persons,Did not exceed guideline,Never consumed alcohol,45–54,291.3
+Persons,Did not exceed guideline,Consumed alcohol 12 or more months ago,45–54,373.5
+Persons,Did not exceed guideline,Total did not exceed guideline,45–54,2299.8
+Persons,Did not exceed guideline,"Total persons, 15 years and over",45–54,3226.7
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,45–54,117.4
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,45–54,77.8
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,45–54,477.9
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,Total persons who exceeded guideline and consumed in the last week,45–54,665.6
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,45–54,323.2
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,45–54,193.4
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,45–54,168.4
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total persons who exceeded guideline and consumed in the last month,45–54,682.1
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total persons, 15 years and over",45–54,3226.7
+Males,Exceeded guideline,Consumed more than 10 drinks in the last week,45–54,415.6
+Males,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,45–54,453.3
+Males,Exceeded guideline,Total exceeded guideline,45–54,545.0
+Males,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,45–54,446.8
+Males,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,45–54,336.5
+Males,Did not exceed guideline,Never consumed alcohol,45–54,86.2
+Males,Did not exceed guideline,Consumed alcohol 12 or more months ago,45–54,156.0
+Males,Did not exceed guideline,Total did not exceed guideline,45–54,1027.2
+Males,Did not exceed guideline,"Total males, 15 years and over",45–54,1585.9
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,45–54,42.6
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,45–54,63.0
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,45–54,307.1
+Males,Number of standard drinks consumed in a week when exceeding the guideline,Total males who exceeded guideline and consumed in the last week,45–54,415.6
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,45–54,186.2
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,45–54,127.4
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,45–54,141.1
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total males who exceeded guideline and consumed in the last month,45–54,453.3
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total males, 15 years and over",45–54,1585.9
+Females,Exceeded guideline,Consumed more than 10 drinks in the last week,45–54,256.0
+Females,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,45–54,233.2
+Females,Exceeded guideline,Total exceeded guideline,45–54,340.0
+Females,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,45–54,475.7
+Females,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,45–54,371.4
+Females,Did not exceed guideline,Never consumed alcohol,45–54,203.9
+Females,Did not exceed guideline,Consumed alcohol 12 or more months ago,45–54,212.0
+Females,Did not exceed guideline,Total did not exceed guideline,45–54,1271.7
+Females,Did not exceed guideline,"Total females, 15 years and over",45–54,1641.5
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,45–54,73.7
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,45–54,10.1
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,45–54,166.2
+Females,Number of standard drinks consumed in a week when exceeding the guideline,Total females who exceeded guideline and consumed in the last week,45–54,256.0
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,45–54,132.7
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,45–54,63.3
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,45–54,32.8
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total females who exceeded guideline and consumed in the last month,45–54,233.2
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total females, 15 years and over",45–54,1641.5
+Persons,Exceeded guideline,Consumed more than 10 drinks in the last week,55–64,731.8
+Persons,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,55–64,593.6
+Persons,Exceeded guideline,Total exceeded guideline,55–64,876.1
+Persons,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,55–64,877.3
+Persons,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,55–64,551.4
+Persons,Did not exceed guideline,Never consumed alcohol,55–64,266.8
+Persons,Did not exceed guideline,Consumed alcohol 12 or more months ago,55–64,334.2
+Persons,Did not exceed guideline,Total did not exceed guideline,55–64,2034.0
+Persons,Did not exceed guideline,"Total persons, 15 years and over",55–64,2973.3
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,55–64,111.6
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,55–64,95.2
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,55–64,522.6
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,Total persons who exceeded guideline and consumed in the last week,55–64,731.8
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,55–64,269.7
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,55–64,176.6
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,55–64,151.1
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total persons who exceeded guideline and consumed in the last month,55–64,593.6
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total persons, 15 years and over",55–64,2973.3
+Males,Exceeded guideline,Consumed more than 10 drinks in the last week,55–64,476.2
+Males,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,55–64,441.6
+Males,Exceeded guideline,Total exceeded guideline,55–64,585.4
+Males,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,55–64,376.1
+Males,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,55–64,226.4
+Males,Did not exceed guideline,Never consumed alcohol,55–64,84.7
+Males,Did not exceed guideline,Consumed alcohol 12 or more months ago,55–64,149.5
+Males,Did not exceed guideline,Total did not exceed guideline,55–64,839.5
+Males,Did not exceed guideline,"Total males, 15 years and over",55–64,1445.2
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,55–64,62.3
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,55–64,58.3
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,55–64,347.1
+Males,Number of standard drinks consumed in a week when exceeding the guideline,Total males who exceeded guideline and consumed in the last week,55–64,476.2
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,55–64,177.4
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,55–64,132.4
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,55–64,136.2
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total males who exceeded guideline and consumed in the last month,55–64,441.6
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total males, 15 years and over",55–64,1445.2
+Females,Exceeded guideline,Consumed more than 10 drinks in the last week,55–64,255.7
+Females,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,55–64,157.5
+Females,Exceeded guideline,Total exceeded guideline,55–64,302.0
+Females,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,55–64,492.8
+Females,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,55–64,328.2
+Females,Did not exceed guideline,Never consumed alcohol,55–64,185.5
+Females,Did not exceed guideline,Consumed alcohol 12 or more months ago,55–64,179.0
+Females,Did not exceed guideline,Total did not exceed guideline,55–64,1193.3
+Females,Did not exceed guideline,"Total females, 15 years and over",55–64,1529.0
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,55–64,41.6
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,55–64,36.6
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,55–64,178.1
+Females,Number of standard drinks consumed in a week when exceeding the guideline,Total females who exceeded guideline and consumed in the last week,55–64,255.7
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,55–64,90.7
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,55–64,51.1
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,55–64,18.1
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total females who exceeded guideline and consumed in the last month,55–64,157.5
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total females, 15 years and over",55–64,1529.0
+Persons,Exceeded guideline,Consumed more than 10 drinks in the last week,65 years and over,802.1
+Persons,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,65 years and over,448.9
+Persons,Exceeded guideline,Total exceeded guideline,65 years and over,918.5
+Persons,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,65 years and over,1238.7
+Persons,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,65 years and over,792.2
+Persons,Did not exceed guideline,Never consumed alcohol,65 years and over,467.1
+Persons,Did not exceed guideline,Consumed alcohol 12 or more months ago,65 years and over,697.9
+Persons,Did not exceed guideline,Total did not exceed guideline,65 years and over,3198.5
+Persons,Did not exceed guideline,"Total persons, 15 years and over",65 years and over,4199.8
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,65 years and over,145.9
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,65 years and over,83.1
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,65 years and over,568.6
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,Total persons who exceeded guideline and consumed in the last week,65 years and over,802.1
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,65 years and over,259.9
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,65 years and over,147.2
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,65 years and over,44.3
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total persons who exceeded guideline and consumed in the last month,65 years and over,448.9
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total persons, 15 years and over",65 years and over,4199.8
+Males,Exceeded guideline,Consumed more than 10 drinks in the last week,65 years and over,549.5
+Males,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,65 years and over,368.8
+Males,Exceeded guideline,Total exceeded guideline,65 years and over,633.4
+Males,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,65 years and over,587.8
+Males,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,65 years and over,350.6
+Males,Did not exceed guideline,Never consumed alcohol,65 years and over,111.0
+Males,Did not exceed guideline,Consumed alcohol 12 or more months ago,65 years and over,284.5
+Males,Did not exceed guideline,Total did not exceed guideline,65 years and over,1324.6
+Males,Did not exceed guideline,"Total males, 15 years and over",65 years and over,1983.6
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,65 years and over,88.5
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,65 years and over,57.5
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,65 years and over,403.6
+Males,Number of standard drinks consumed in a week when exceeding the guideline,Total males who exceeded guideline and consumed in the last week,65 years and over,549.5
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,65 years and over,198.3
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,65 years and over,123.7
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,65 years and over,42.4
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total males who exceeded guideline and consumed in the last month,65 years and over,368.8
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total males, 15 years and over",65 years and over,1983.6
+Females,Exceeded guideline,Consumed more than 10 drinks in the last week,65 years and over,260.3
+Females,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,65 years and over,88.0
+Females,Exceeded guideline,Total exceeded guideline,65 years and over,281.8
+Females,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,65 years and over,647.9
+Females,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,65 years and over,445.4
+Females,Did not exceed guideline,Never consumed alcohol,65 years and over,353.4
+Females,Did not exceed guideline,Consumed alcohol 12 or more months ago,65 years and over,422.9
+Females,Did not exceed guideline,Total did not exceed guideline,65 years and over,1872.6
+Females,Did not exceed guideline,"Total females, 15 years and over",65 years and over,2207.1
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,65 years and over,63.7
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,65 years and over,30.1
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,65 years and over,170.3
+Females,Number of standard drinks consumed in a week when exceeding the guideline,Total females who exceeded guideline and consumed in the last week,65 years and over,260.3
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,65 years and over,62.2
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,65 years and over,19.9
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,65 years and over,4.3
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total females who exceeded guideline and consumed in the last month,65 years and over,88.0
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total females, 15 years and over",65 years and over,2207.1
+Persons,Exceeded guideline,Consumed more than 10 drinks in the last week,15–24,346.3
+Persons,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,15–24,761.1
+Persons,Exceeded guideline,Total exceeded guideline,15–24,829.3
+Persons,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,15–24,500.4
+Persons,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,15–24,743.1
+Persons,Did not exceed guideline,Never consumed alcohol,15–24,868.6
+Persons,Did not exceed guideline,Consumed alcohol 12 or more months ago,15–24,123.3
+Persons,Did not exceed guideline,Total did not exceed guideline,15–24,2238.5
+Persons,Did not exceed guideline,"Total persons, 15 years and over",15–24,3086.5
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,15–24,74.0
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,15–24,45.3
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,15–24,232.0
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,Total persons who exceeded guideline and consumed in the last week,15–24,346.3
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,15–24,272.4
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,15–24,254.9
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,15–24,241.1
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total persons who exceeded guideline and consumed in the last month,15–24,761.1
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total persons, 15 years and over",15–24,3086.5
+Males,Exceeded guideline,Consumed more than 10 drinks in the last week,15–24,229.0
+Males,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,15–24,450.9
+Males,Exceeded guideline,Total exceeded guideline,15–24,493.7
+Males,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,15–24,219.2
+Males,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,15–24,349.7
+Males,Did not exceed guideline,Never consumed alcohol,15–24,459.8
+Males,Did not exceed guideline,Consumed alcohol 12 or more months ago,15–24,51.8
+Males,Did not exceed guideline,Total did not exceed guideline,15–24,1083.4
+Males,Did not exceed guideline,"Total males, 15 years and over",15–24,1590.7
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,15–24,59.4
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,15–24,26.5
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,15–24,156.3
+Males,Number of standard drinks consumed in a week when exceeding the guideline,Total males who exceeded guideline and consumed in the last week,15–24,229.0
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,15–24,126.1
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,15–24,145.8
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,15–24,173.5
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total males who exceeded guideline and consumed in the last month,15–24,450.9
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total males, 15 years and over",15–24,1590.7
+Females,Exceeded guideline,Consumed more than 10 drinks in the last week,15–24,123.8
+Females,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,15–24,306.9
+Females,Exceeded guideline,Total exceeded guideline,15–24,321.9
+Females,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,15–24,281.1
+Females,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,15–24,385.3
+Females,Did not exceed guideline,Never consumed alcohol,15–24,411.8
+Females,Did not exceed guideline,Consumed alcohol 12 or more months ago,15–24,71.2
+Females,Did not exceed guideline,Total did not exceed guideline,15–24,1159.2
+Females,Did not exceed guideline,"Total females, 15 years and over",15–24,1503.7
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,15–24,17.7
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,15–24,16.9
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,15–24,88.6
+Females,Number of standard drinks consumed in a week when exceeding the guideline,Total females who exceeded guideline and consumed in the last week,15–24,123.8
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,15–24,140.4
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,15–24,104.7
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,15–24,55.5
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total females who exceeded guideline and consumed in the last month,15–24,306.9
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total females, 15 years and over",15–24,1503.7
+Persons,Exceeded guideline,Consumed more than 10 drinks in the last week,15–44,1487.0
+Persons,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,15–44,2343.1
+Persons,Exceeded guideline,Total exceeded guideline,15–44,2657.7
+Persons,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,15–44,2528.3
+Persons,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,15–44,2565.4
+Persons,Did not exceed guideline,Never consumed alcohol,15–44,1651.8
+Persons,Did not exceed guideline,Consumed alcohol 12 or more months ago,15–44,839.9
+Persons,Did not exceed guideline,Total did not exceed guideline,15–44,7571.4
+Persons,Did not exceed guideline,"Total persons, 15 years and over",15–44,10326.9
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,15–44,274.3
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,15–44,183.6
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,15–44,1035.2
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,Total persons who exceeded guideline and consumed in the last week,15–44,1488.2
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,15–44,850.4
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,15–44,830.6
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,15–44,662.4
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total persons who exceeded guideline and consumed in the last month,15–44,2343.1
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total persons, 15 years and over",15–44,10326.9
+Males,Exceeded guideline,Consumed more than 10 drinks in the last week,15–44,1049.4
+Males,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,15–44,1545.2
+Males,Exceeded guideline,Total exceeded guideline,15–44,1739.9
+Males,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,15–44,1144.6
+Males,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,15–44,1117.3
+Males,Did not exceed guideline,Never consumed alcohol,15–44,808.3
+Males,Did not exceed guideline,Consumed alcohol 12 or more months ago,15–44,312.5
+Males,Did not exceed guideline,Total did not exceed guideline,15–44,3375.7
+Males,Did not exceed guideline,"Total males, 15 years and over",15–44,5171.6
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,15–44,194.4
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,15–44,125.1
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,15–44,730.9
+Males,Number of standard drinks consumed in a week when exceeding the guideline,Total males who exceeded guideline and consumed in the last week,15–44,1050.6
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,15–44,501.0
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,15–44,530.6
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,15–44,511.9
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total males who exceeded guideline and consumed in the last month,15–44,1545.2
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total males, 15 years and over",15–44,5171.6
+Females,Exceeded guideline,Consumed more than 10 drinks in the last week,15–44,437.5
+Females,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,15–44,808.9
+Females,Exceeded guideline,Total exceeded guideline,15–44,918.6
+Females,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,15–44,1390.7
+Females,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,15–44,1442.3
+Females,Did not exceed guideline,Never consumed alcohol,15–44,845.1
+Females,Did not exceed guideline,Consumed alcohol 12 or more months ago,15–44,527.0
+Females,Did not exceed guideline,Total did not exceed guideline,15–44,4199.9
+Females,Did not exceed guideline,"Total females, 15 years and over",15–44,5161.8
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,15–44,82.9
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,15–44,53.6
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,15–44,296.1
+Females,Number of standard drinks consumed in a week when exceeding the guideline,Total females who exceeded guideline and consumed in the last week,15–44,437.5
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,15–44,359.3
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,15–44,296.6
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,15–44,156.1
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total females who exceeded guideline and consumed in the last month,15–44,808.9
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total females, 15 years and over",15–44,5161.8
+Persons,Exceeded guideline,Consumed more than 10 drinks in the last week,25–44,1138.9
+Persons,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,25–44,1584.0
+Persons,Exceeded guideline,Total exceeded guideline,25–44,1843.6
+Persons,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,25–44,2029.7
+Persons,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,25–44,1820.5
+Persons,Did not exceed guideline,Never consumed alcohol,25–44,778.7
+Persons,Did not exceed guideline,Consumed alcohol 12 or more months ago,25–44,707.3
+Persons,Did not exceed guideline,Total did not exceed guideline,25–44,5331.0
+Persons,Did not exceed guideline,"Total persons, 15 years and over",25–44,7244.8
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,25–44,200.0
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,25–44,150.2
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,25–44,801.3
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,Total persons who exceeded guideline and consumed in the last week,25–44,1141.4
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,25–44,589.3
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,25–44,566.0
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,25–44,427.0
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total persons who exceeded guideline and consumed in the last month,25–44,1584.0
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total persons, 15 years and over",25–44,7244.8
+Males,Exceeded guideline,Consumed more than 10 drinks in the last week,25–44,826.6
+Males,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,25–44,1086.0
+Males,Exceeded guideline,Total exceeded guideline,25–44,1253.8
+Males,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,25–44,922.6
+Males,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,25–44,760.7
+Males,Did not exceed guideline,Never consumed alcohol,25–44,348.1
+Males,Did not exceed guideline,Consumed alcohol 12 or more months ago,25–44,262.5
+Males,Did not exceed guideline,Total did not exceed guideline,25–44,2295.7
+Males,Did not exceed guideline,"Total males, 15 years and over",25–44,3581.2
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,25–44,139.8
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,25–44,97.2
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,25–44,578.1
+Males,Number of standard drinks consumed in a week when exceeding the guideline,Total males who exceeded guideline and consumed in the last week,25–44,821.7
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,25–44,364.1
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,25–44,380.8
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,25–44,343.0
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total males who exceeded guideline and consumed in the last month,25–44,1086.0
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total males, 15 years and over",25–44,3581.2
+Females,Exceeded guideline,Consumed more than 10 drinks in the last week,25–44,323.9
+Females,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,25–44,496.4
+Females,Exceeded guideline,Total exceeded guideline,25–44,588.3
+Females,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,25–44,1102.2
+Females,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,25–44,1056.3
+Females,Did not exceed guideline,Never consumed alcohol,25–44,423.4
+Females,Did not exceed guideline,Consumed alcohol 12 or more months ago,25–44,444.4
+Females,Did not exceed guideline,Total did not exceed guideline,25–44,3033.2
+Females,Did not exceed guideline,"Total females, 15 years and over",25–44,3661.5
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,25–44,61.2
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,25–44,45.7
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,25–44,220.3
+Females,Number of standard drinks consumed in a week when exceeding the guideline,Total females who exceeded guideline and consumed in the last week,25–44,323.9
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,25–44,219.7
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,25–44,193.0
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,25–44,88.6
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total females who exceeded guideline and consumed in the last month,25–44,496.4
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total females, 15 years and over",25–44,3661.5
+Persons,Exceeded guideline,Consumed more than 10 drinks in the last week,45–64,1401.9
+Persons,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,45–64,1275.6
+Persons,Exceeded guideline,Total exceeded guideline,45–64,1774.2
+Persons,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,45–64,1809.3
+Persons,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,45–64,1255.4
+Persons,Did not exceed guideline,Never consumed alcohol,45–64,556.4
+Persons,Did not exceed guideline,Consumed alcohol 12 or more months ago,45–64,705.7
+Persons,Did not exceed guideline,Total did not exceed guideline,45–64,4327.8
+Persons,Did not exceed guideline,"Total persons, 15 years and over",45–64,6199.6
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,45–64,230.7
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,45–64,171.4
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,45–64,995.9
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,Total persons who exceeded guideline and consumed in the last week,45–64,1401.9
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,45–64,591.7
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,45–64,368.5
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,45–64,319.5
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total persons who exceeded guideline and consumed in the last month,45–64,1275.6
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total persons, 15 years and over",45–64,6199.6
+Males,Exceeded guideline,Consumed more than 10 drinks in the last week,45–64,890.2
+Males,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,45–64,893.4
+Males,Exceeded guideline,Total exceeded guideline,45–64,1128.8
+Males,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,45–64,825.8
+Males,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,45–64,549.6
+Males,Did not exceed guideline,Never consumed alcohol,45–64,174.5
+Males,Did not exceed guideline,Consumed alcohol 12 or more months ago,45–64,305.4
+Males,Did not exceed guideline,Total did not exceed guideline,45–64,1868.4
+Males,Did not exceed guideline,"Total males, 15 years and over",45–64,3037.2
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,45–64,105.5
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,45–64,123.2
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,45–64,651.3
+Males,Number of standard drinks consumed in a week when exceeding the guideline,Total males who exceeded guideline and consumed in the last week,45–64,890.2
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,45–64,366.5
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,45–64,258.4
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,45–64,270.9
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total males who exceeded guideline and consumed in the last month,45–64,893.4
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total males, 15 years and over",45–64,3037.2
+Females,Exceeded guideline,Consumed more than 10 drinks in the last week,45–64,510.4
+Females,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,45–64,389.3
+Females,Exceeded guideline,Total exceeded guideline,45–64,639.8
+Females,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,45–64,979.3
+Females,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,45–64,705.7
+Females,Did not exceed guideline,Never consumed alcohol,45–64,389.1
+Females,Did not exceed guideline,Consumed alcohol 12 or more months ago,45–64,398.3
+Females,Did not exceed guideline,Total did not exceed guideline,45–64,2463.3
+Females,Did not exceed guideline,"Total females, 15 years and over",45–64,3166.1
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,45–64,119.6
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,45–64,44.9
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,45–64,346.0
+Females,Number of standard drinks consumed in a week when exceeding the guideline,Total females who exceeded guideline and consumed in the last week,45–64,510.4
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,45–64,223.9
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,45–64,119.7
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,45–64,48.9
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total females who exceeded guideline and consumed in the last month,45–64,389.3
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total females, 15 years and over",45–64,3166.1
+Persons,Exceeded guideline,Consumed more than 10 drinks in the last week,65–74,519.9
+Persons,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,65–74,337.1
+Persons,Exceeded guideline,Total exceeded guideline,65–74,606.2
+Persons,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,65–74,698.9
+Persons,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,65–74,488.7
+Persons,Did not exceed guideline,Never consumed alcohol,65–74,217.8
+Persons,Did not exceed guideline,Consumed alcohol 12 or more months ago,65–74,352.8
+Persons,Did not exceed guideline,Total did not exceed guideline,65–74,1759.2
+Persons,Did not exceed guideline,"Total persons, 15 years and over",65–74,2404.7
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,65–74,80.4
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,65–74,56.3
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,65–74,381.0
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,Total persons who exceeded guideline and consumed in the last week,65–74,519.9
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,65–74,182.7
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,65–74,119.0
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,65–74,38.4
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total persons who exceeded guideline and consumed in the last month,65–74,337.1
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total persons, 15 years and over",65–74,2404.7
+Males,Exceeded guideline,Consumed more than 10 drinks in the last week,65–74,347.2
+Males,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,65–74,269.8
+Males,Exceeded guideline,Total exceeded guideline,65–74,417.8
+Males,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,65–74,317.3
+Males,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,65–74,216.2
+Males,Did not exceed guideline,Never consumed alcohol,65–74,57.5
+Males,Did not exceed guideline,Consumed alcohol 12 or more months ago,65–74,140.3
+Males,Did not exceed guideline,Total did not exceed guideline,65–74,726.5
+Males,Did not exceed guideline,"Total males, 15 years and over",65–74,1149.1
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,65–74,36.7
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,65–74,32.4
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,65–74,270.3
+Males,Number of standard drinks consumed in a week when exceeding the guideline,Total males who exceeded guideline and consumed in the last week,65–74,347.2
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,65–74,135.9
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,65–74,97.6
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,65–74,35.8
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total males who exceeded guideline and consumed in the last month,65–74,269.8
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total males, 15 years and over",65–74,1149.1
+Females,Exceeded guideline,Consumed more than 10 drinks in the last week,65–74,170.6
+Females,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,65–74,68.0
+Females,Exceeded guideline,Total exceeded guideline,65–74,189.5
+Females,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,65–74,386.2
+Females,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,65–74,272.4
+Females,Did not exceed guideline,Never consumed alcohol,65–74,161.5
+Females,Did not exceed guideline,Consumed alcohol 12 or more months ago,65–74,206.6
+Females,Did not exceed guideline,Total did not exceed guideline,65–74,1033.8
+Females,Did not exceed guideline,"Total females, 15 years and over",65–74,1254.2
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,65–74,40.8
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,65–74,21.0
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,65–74,107.5
+Females,Number of standard drinks consumed in a week when exceeding the guideline,Total females who exceeded guideline and consumed in the last week,65–74,170.6
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,65–74,46.8
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,65–74,19.9
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,65–74,4.5
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total females who exceeded guideline and consumed in the last month,65–74,68.0
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total females, 15 years and over",65–74,1254.2
+Persons,Exceeded guideline,Consumed more than 10 drinks in the last week,75 years and over,285.5
+Persons,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,75 years and over,113.0
+Persons,Exceeded guideline,Total exceeded guideline,75 years and over,313.4
+Persons,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,75 years and over,537.6
+Persons,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,75 years and over,307.7
+Persons,Did not exceed guideline,Never consumed alcohol,75 years and over,246.6
+Persons,Did not exceed guideline,Consumed alcohol 12 or more months ago,75 years and over,348.6
+Persons,Did not exceed guideline,Total did not exceed guideline,75 years and over,1435.9
+Persons,Did not exceed guideline,"Total persons, 15 years and over",75 years and over,1792.9
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,75 years and over,65.5
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,75 years and over,27.9
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,75 years and over,186.4
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,Total persons who exceeded guideline and consumed in the last week,75 years and over,285.5
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,75 years and over,79.1
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,75 years and over,27.9
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,75 years and over,2.8
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total persons who exceeded guideline and consumed in the last month,75 years and over,113.0
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total persons, 15 years and over",75 years and over,1792.9
+Males,Exceeded guideline,Consumed more than 10 drinks in the last week,75 years and over,198.8
+Males,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,75 years and over,93.4
+Males,Exceeded guideline,Total exceeded guideline,75 years and over,215.2
+Males,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,75 years and over,271.5
+Males,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,75 years and over,130.6
+Males,Did not exceed guideline,Never consumed alcohol,75 years and over,60.3
+Males,Did not exceed guideline,Consumed alcohol 12 or more months ago,75 years and over,138.2
+Males,Did not exceed guideline,Total did not exceed guideline,75 years and over,602.9
+Males,Did not exceed guideline,"Total males, 15 years and over",75 years and over,835.7
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,75 years and over,45.1
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,75 years and over,16.0
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,75 years and over,128.6
+Males,Number of standard drinks consumed in a week when exceeding the guideline,Total males who exceeded guideline and consumed in the last week,75 years and over,198.8
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,75 years and over,62.9
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,75 years and over,22.5
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,75 years and over,1.6
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total males who exceeded guideline and consumed in the last month,75 years and over,93.4
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total males, 15 years and over",75 years and over,835.7
+Females,Exceeded guideline,Consumed more than 10 drinks in the last week,75 years and over,83.9
+Females,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,75 years and over,23.1
+Females,Exceeded guideline,Total exceeded guideline,75 years and over,93.3
+Females,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,75 years and over,262.5
+Females,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,75 years and over,173.3
+Females,Did not exceed guideline,Never consumed alcohol,75 years and over,195.7
+Females,Did not exceed guideline,Consumed alcohol 12 or more months ago,75 years and over,212.8
+Females,Did not exceed guideline,Total did not exceed guideline,75 years and over,837.7
+Females,Did not exceed guideline,"Total females, 15 years and over",75 years and over,957.4
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,75 years and over,18.0
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,75 years and over,7.2
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,75 years and over,56.6
+Females,Number of standard drinks consumed in a week when exceeding the guideline,Total females who exceeded guideline and consumed in the last week,75 years and over,83.9
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,75 years and over,13.5
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,75 years and over,5.6
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,75 years and over,0.0
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total females who exceeded guideline and consumed in the last month,75 years and over,23.1
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total females, 15 years and over",75 years and over,957.4
+Persons,Exceeded guideline,Consumed more than 10 drinks in the last week,18–44,1460.2
+Persons,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,18–44,2322.7
+Persons,Exceeded guideline,Total exceeded guideline,18–44,2615.2
+Persons,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,18–44,2463.4
+Persons,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,18–44,2374.5
+Persons,Did not exceed guideline,Never consumed alcohol,18–44,1075.0
+Persons,Did not exceed guideline,Consumed alcohol 12 or more months ago,18–44,802.2
+Persons,Did not exceed guideline,Total did not exceed guideline,18–44,6707.6
+Persons,Did not exceed guideline,"Total persons, 15 years and over",18–44,9414.7
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,18–44,261.2
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,18–44,174.1
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,18–44,1016.4
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,Total persons who exceeded guideline and consumed in the last week,18–44,1456.6
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,18–44,844.3
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,18–44,808.3
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,18–44,666.9
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total persons who exceeded guideline and consumed in the last month,18–44,2322.7
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total persons, 15 years and over",18–44,9414.7
+Males,Exceeded guideline,Consumed more than 10 drinks in the last week,18–44,1030.6
+Males,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,18–44,1520.7
+Males,Exceeded guideline,Total exceeded guideline,18–44,1717.5
+Males,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,18–44,1114.3
+Males,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,18–44,1027.4
+Males,Did not exceed guideline,Never consumed alcohol,18–44,520.4
+Males,Did not exceed guideline,Consumed alcohol 12 or more months ago,18–44,284.5
+Males,Did not exceed guideline,Total did not exceed guideline,18–44,2935.1
+Males,Did not exceed guideline,"Total males, 15 years and over",18–44,4691.3
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,18–44,179.1
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,18–44,132.1
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,18–44,715.8
+Males,Number of standard drinks consumed in a week when exceeding the guideline,Total males who exceeded guideline and consumed in the last week,18–44,1028.6
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,18–44,498.0
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,18–44,514.9
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,18–44,511.1
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total males who exceeded guideline and consumed in the last month,18–44,1520.7
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total males, 15 years and over",18–44,4691.3
+Females,Exceeded guideline,Consumed more than 10 drinks in the last week,18–44,429.6
+Females,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,18–44,799.7
+Females,Exceeded guideline,Total exceeded guideline,18–44,903.3
+Females,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,18–44,1352.7
+Females,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,18–44,1341.3
+Females,Did not exceed guideline,Never consumed alcohol,18–44,551.2
+Females,Did not exceed guideline,Consumed alcohol 12 or more months ago,18–44,506.2
+Females,Did not exceed guideline,Total did not exceed guideline,18–44,3774.8
+Females,Did not exceed guideline,"Total females, 15 years and over",18–44,4712.3
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,18–44,82.9
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,18–44,47.2
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,18–44,295.7
+Females,Number of standard drinks consumed in a week when exceeding the guideline,Total females who exceeded guideline and consumed in the last week,18–44,429.6
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,18–44,352.9
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,18–44,298.2
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,18–44,156.1
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total females who exceeded guideline and consumed in the last month,18–44,799.7
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total females, 15 years and over",18–44,4712.3
+Persons,Exceeded guideline,Consumed more than 10 drinks in the last week,45 years and over,2207.4
+Persons,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,45 years and over,1736.3
+Persons,Exceeded guideline,Total exceeded guideline,45 years and over,2684.9
+Persons,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,45 years and over,3043.0
+Persons,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,45 years and over,2054.3
+Persons,Did not exceed guideline,Never consumed alcohol,45 years and over,1025.6
+Persons,Did not exceed guideline,Consumed alcohol 12 or more months ago,45 years and over,1409.7
+Persons,Did not exceed guideline,Total did not exceed guideline,45 years and over,7538.4
+Persons,Did not exceed guideline,"Total persons, 15 years and over",45 years and over,10392.0
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,45 years and over,373.5
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,45 years and over,259.0
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,45 years and over,1569.4
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,Total persons who exceeded guideline and consumed in the last week,45 years and over,2207.4
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,45 years and over,850.9
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,45 years and over,519.8
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,45 years and over,365.8
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total persons who exceeded guideline and consumed in the last month,45 years and over,1736.3
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total persons, 15 years and over",45 years and over,10392.0
+Males,Exceeded guideline,Consumed more than 10 drinks in the last week,45 years and over,1433.2
+Males,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,45 years and over,1255.9
+Males,Exceeded guideline,Total exceeded guideline,45 years and over,1761.9
+Males,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,45 years and over,1414.0
+Males,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,45 years and over,899.9
+Males,Did not exceed guideline,Never consumed alcohol,45 years and over,290.1
+Males,Did not exceed guideline,Consumed alcohol 12 or more months ago,45 years and over,595.3
+Males,Did not exceed guideline,Total did not exceed guideline,45 years and over,3197.6
+Males,Did not exceed guideline,"Total males, 15 years and over",45 years and over,5019.6
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,45 years and over,186.6
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,45 years and over,190.0
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,45 years and over,1063.0
+Males,Number of standard drinks consumed in a week when exceeding the guideline,Total males who exceeded guideline and consumed in the last week,45 years and over,1433.2
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,45 years and over,565.3
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,45 years and over,381.6
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,45 years and over,309.8
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total males who exceeded guideline and consumed in the last month,45 years and over,1255.9
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total males, 15 years and over",45 years and over,5019.6
+Females,Exceeded guideline,Consumed more than 10 drinks in the last week,45 years and over,769.0
+Females,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,45 years and over,474.8
+Females,Exceeded guideline,Total exceeded guideline,45 years and over,925.5
+Females,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,45 years and over,1627.7
+Females,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,45 years and over,1151.9
+Females,Did not exceed guideline,Never consumed alcohol,45 years and over,743.2
+Females,Did not exceed guideline,Consumed alcohol 12 or more months ago,45 years and over,813.1
+Females,Did not exceed guideline,Total did not exceed guideline,45 years and over,4335.9
+Females,Did not exceed guideline,"Total females, 15 years and over",45 years and over,5373.9
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,45 years and over,186.7
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,45 years and over,75.7
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,45 years and over,510.4
+Females,Number of standard drinks consumed in a week when exceeding the guideline,Total females who exceeded guideline and consumed in the last week,45 years and over,769.0
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,45 years and over,289.3
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,45 years and over,136.9
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,45 years and over,48.2
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total females who exceeded guideline and consumed in the last month,45 years and over,474.8
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total females, 15 years and over",45 years and over,5373.9
+Persons,Exceeded guideline,Consumed more than 10 drinks in the last week,Total 18 years and over,3668.0
+Persons,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,Total 18 years and over,4056.3
+Persons,Exceeded guideline,Total exceeded guideline,Total 18 years and over,5298.4
+Persons,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,Total 18 years and over,5514.2
+Persons,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,Total 18 years and over,4426.3
+Persons,Did not exceed guideline,Never consumed alcohol,Total 18 years and over,2101.4
+Persons,Did not exceed guideline,Consumed alcohol 12 or more months ago,Total 18 years and over,2204.7
+Persons,Did not exceed guideline,Total did not exceed guideline,Total 18 years and over,14242.5
+Persons,Did not exceed guideline,"Total persons, 15 years and over",Total 18 years and over,19806.8
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,Total 18 years and over,639.5
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,Total 18 years and over,440.7
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,Total 18 years and over,2591.6
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,Total persons who exceeded guideline and consumed in the last week,Total 18 years and over,3669.1
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,Total 18 years and over,1695.6
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,Total 18 years and over,1325.8
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,Total 18 years and over,1030.9
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total persons who exceeded guideline and consumed in the last month,Total 18 years and over,4056.3
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total persons, 15 years and over",Total 18 years and over,19806.8
+Males,Exceeded guideline,Consumed more than 10 drinks in the last week,Total 18 years and over,2468.4
+Males,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,Total 18 years and over,2788.9
+Males,Exceeded guideline,Total exceeded guideline,Total 18 years and over,3478.9
+Males,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,Total 18 years and over,2518.4
+Males,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,Total 18 years and over,1923.4
+Males,Did not exceed guideline,Never consumed alcohol,Total 18 years and over,801.0
+Males,Did not exceed guideline,Consumed alcohol 12 or more months ago,Total 18 years and over,885.5
+Males,Did not exceed guideline,Total did not exceed guideline,Total 18 years and over,6137.0
+Males,Did not exceed guideline,"Total males, 15 years and over",Total 18 years and over,9712.9
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,Total 18 years and over,373.7
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,Total 18 years and over,315.1
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,Total 18 years and over,1776.6
+Males,Number of standard drinks consumed in a week when exceeding the guideline,Total males who exceeded guideline and consumed in the last week,Total 18 years and over,2465.1
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,Total 18 years and over,1067.6
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,Total 18 years and over,898.5
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,Total 18 years and over,827.2
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total males who exceeded guideline and consumed in the last month,Total 18 years and over,2788.9
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total males, 15 years and over",Total 18 years and over,9712.9
+Females,Exceeded guideline,Consumed more than 10 drinks in the last week,Total 18 years and over,1205.1
+Females,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,Total 18 years and over,1269.4
+Females,Exceeded guideline,Total exceeded guideline,Total 18 years and over,1821.6
+Females,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,Total 18 years and over,2980.2
+Females,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,Total 18 years and over,2503.8
+Females,Did not exceed guideline,Never consumed alcohol,Total 18 years and over,1299.8
+Females,Did not exceed guideline,Consumed alcohol 12 or more months ago,Total 18 years and over,1328.0
+Females,Did not exceed guideline,Total did not exceed guideline,Total 18 years and over,8108.3
+Females,Did not exceed guideline,"Total females, 15 years and over",Total 18 years and over,10083.3
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,Total 18 years and over,265.6
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,Total 18 years and over,128.5
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,Total 18 years and over,805.3
+Females,Number of standard drinks consumed in a week when exceeding the guideline,Total females who exceeded guideline and consumed in the last week,Total 18 years and over,1205.1
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,Total 18 years and over,635.1
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,Total 18 years and over,429.1
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,Total 18 years and over,198.5
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total females who exceeded guideline and consumed in the last month,Total 18 years and over,1269.4
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total females, 15 years and over",Total 18 years and over,10083.3
+Persons,Exceeded guideline,Consumed more than 10 drinks in the last week,Total 15 years and over,3687.5
+Persons,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,Total 15 years and over,4080.3
+Persons,Exceeded guideline,Total exceeded guideline,Total 15 years and over,5350.2
+Persons,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,Total 15 years and over,5568.7
+Persons,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,Total 15 years and over,4613.0
+Persons,Did not exceed guideline,Never consumed alcohol,Total 15 years and over,2675.4
+Persons,Did not exceed guideline,Consumed alcohol 12 or more months ago,Total 15 years and over,2239.9
+Persons,Did not exceed guideline,Total did not exceed guideline,Total 15 years and over,15104.7
+Persons,Did not exceed guideline,"Total persons, 15 years and over",Total 15 years and over,20726.3
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,Total 15 years and over,648.8
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,Total 15 years and over,450.1
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,Total 15 years and over,2595.5
+Persons,Number of standard drinks consumed in a week when exceeding the guideline,Total persons who exceeded guideline and consumed in the last week,Total 15 years and over,3688.5
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,Total 15 years and over,1703.3
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,Total 15 years and over,1346.0
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,Total 15 years and over,1026.7
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total persons who exceeded guideline and consumed in the last month,Total 15 years and over,4080.3
+Persons,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total persons, 15 years and over",Total 15 years and over,20726.3
+Males,Exceeded guideline,Consumed more than 10 drinks in the last week,Total 15 years and over,2487.2
+Males,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,Total 15 years and over,2797.4
+Males,Exceeded guideline,Total exceeded guideline,Total 15 years and over,3503.6
+Males,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,Total 15 years and over,2550.5
+Males,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,Total 15 years and over,2012.3
+Males,Did not exceed guideline,Never consumed alcohol,Total 15 years and over,1100.2
+Males,Did not exceed guideline,Consumed alcohol 12 or more months ago,Total 15 years and over,903.2
+Males,Did not exceed guideline,Total did not exceed guideline,Total 15 years and over,6569.0
+Males,Did not exceed guideline,"Total males, 15 years and over",Total 15 years and over,10191.0
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,Total 15 years and over,386.2
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,Total 15 years and over,317.4
+Males,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,Total 15 years and over,1785.4
+Males,Number of standard drinks consumed in a week when exceeding the guideline,Total males who exceeded guideline and consumed in the last week,Total 15 years and over,2479.5
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,Total 15 years and over,1063.5
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,Total 15 years and over,903.2
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,Total 15 years and over,824.7
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total males who exceeded guideline and consumed in the last month,Total 15 years and over,2797.4
+Males,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total males, 15 years and over",Total 15 years and over,10191.0
+Females,Exceeded guideline,Consumed more than 10 drinks in the last week,Total 15 years and over,1210.1
+Females,Exceeded guideline,Consumed 5 or more drinks on any day in the last 12 months at least monthly,Total 15 years and over,1277.3
+Females,Exceeded guideline,Total exceeded guideline,Total 15 years and over,1838.3
+Females,Did not exceed guideline,Consumed alcohol in the last week but did not exceed guideline,Total 15 years and over,3015.4
+Females,Did not exceed guideline,Did not consume alcohol in the last week but did less than 12 months ago and did not exceed guideline,Total 15 years and over,2602.9
+Females,Did not exceed guideline,Never consumed alcohol,Total 15 years and over,1583.4
+Females,Did not exceed guideline,Consumed alcohol 12 or more months ago,Total 15 years and over,1333.4
+Females,Did not exceed guideline,Total did not exceed guideline,Total 15 years and over,8533.7
+Females,Did not exceed guideline,"Total females, 15 years and over",Total 15 years and over,10530.8
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 10 to 12,Total 15 years and over,265.6
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 12 to 14,Total 15 years and over,129.3
+Females,Number of standard drinks consumed in a week when exceeding the guideline,More than 14,Total 15 years and over,808.7
+Females,Number of standard drinks consumed in a week when exceeding the guideline,Total females who exceeded guideline and consumed in the last week,Total 15 years and over,1210.1
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,5 to less than 7,Total 15 years and over,642.7
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,7 to less than 11,Total 15 years and over,435.4
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,11 or more,Total 15 years and over,198.5
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,Total females who exceeded guideline and consumed in the last month,Total 15 years and over,1277.3
+Females,Number of standard drinks consumed on a single day within the last month when exceeding the guideline,"Total females, 15 years and over",Total 15 years and over,10530.8

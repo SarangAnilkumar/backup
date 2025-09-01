@@ -1,0 +1,24 @@
+USE epic1;
+
+INSERT INTO AGE_SEX_FILTER (filter_id, filter_age_start, filter_age_end, filter_sex) VALUES
+(1, 15, 17, 'Persons'),
+(2, 15, 17, 'Male'),
+(3, 15, 17, 'Female'),
+(4, 18, 24, 'Persons'),
+(5, 18, 24, 'Male'),
+(6, 18, 24, 'Female'),
+(7, 25, 34, 'Persons'),
+(8, 25, 34, 'Male'),
+(9, 25, 34, 'Female'),
+(10, 35, 44, 'Persons'),
+(11, 35, 44, 'Male'),
+(12, 35, 44, 'Female'),
+(13, 45, 54, 'Persons'),
+(14, 45, 54, 'Male'),
+(15, 45, 54, 'Female'),
+(16, 55, 64, 'Persons'),
+(17, 55, 64, 'Male'),
+(18, 55, 64, 'Female'),
+(19, 65, NULL, 'Persons'),
+(20, 65, NULL, 'Male'),
+(21, 65, NULL, 'Female');
