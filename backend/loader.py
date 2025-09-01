@@ -31994,7 +31994,7 @@ def qa_counts(cur):
 # ----------------------------------------------------------------------
 def main():
     parser = argparse.ArgumentParser(description="HealthyLife unified loader")
-    parser.add_argument("--config", required=False, default="loader.yml", help="YAML config file")
+    parser.add_argument("--config", required=False, default="backend/loader.yml", help="YAML config file")
     parser.add_argument("--create-staging", action="store_true", help="Create staging tables")
     parser.add_argument("--load-csvs", action="store_true", help="Load CSVs into staging")
     parser.add_argument("--transform", action="store_true", help="Upsert dims & facts from staging")
