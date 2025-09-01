@@ -1,55 +1,15 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { Heart, Clock, Users, ChefHat, Search } from 'lucide-react'
+import axios from 'axios' // Make sure you have axios installed or use fetch if preferred
 
 const Recipes = () => {
   const [searchTerm, setSearchTerm] = useState('')
   const [selectedCategory, setSelectedCategory] = useState('all')
+  const [recipes, setRecipes] = useState([]) // Initial value set to an empty array
+  const [loading, setLoading] = useState(true) // Loading state
+  const [featuredRecipe, setFeaturedRecipe] = useState(null) // Add dynamic featured recipe state
 
-  const featuredRecipe = {
-    id: 1,
-    title: 'Mediterranean Grilled Chicken',
-    description:
-      'Tender and juicy Mediterranean-style Grilled Chicken. Marinated in a blend of aromatic herbs, this dish is served with creamy tzatziki sauce for an exquisite experience.',
-    image: '/api/placeholder/600/400',
-    cookTime: '35 mins',
-    servings: 4,
-    difficulty: 'Medium',
-    tags: ['High Protein', 'Low Carb', 'Gluten Free']
-  }
-
-  const recipes = [
-    {
-      id: 2,
-      title: 'Spicy Vermicelli Noodles Salad',
-      description: 'Fresh and vibrant Vietnamese-style salad with herbs and tangy dressing',
-      image: '/api/placeholder/300/200',
-      cookTime: '20 mins',
-      servings: 2,
-      category: 'salad',
-      tags: ['Vegetarian', 'Spicy', 'Fresh']
-    },
-    {
-      id: 3,
-      title: 'Classic Italian Beef Maltagliati',
-      description: 'Traditional Italian pasta with tender beef and rich tomato sauce',
-      image: '/api/placeholder/300/200',
-      cookTime: '45 mins',
-      servings: 4,
-      category: 'main',
-      tags: ['Italian', 'Pasta', 'Beef']
-    },
-    {
-      id: 4,
-      title: 'Sour & Spicy Korean Kimchi',
-      description: 'Authentic fermented Korean kimchi with bold flavors',
-      image: '/api/placeholder/300/200',
-      cookTime: '15 mins',
-      servings: 6,
-      category: 'side',
-      tags: ['Korean', 'Fermented', 'Spicy']
-    }
-  ]
-
+  // Static categories and featured recipe
   const categories = [
     { id: 'all', name: 'All Recipes' },
     { id: 'main', name: 'Main Dishes' },
@@ -58,11 +18,88 @@ const Recipes = () => {
     { id: 'dessert', name: 'Desserts' }
   ]
 
+  // const featuredRecipe = {
+  //   id: 1,
+  //   title: 'Mediterranean Grilled Chicken',
+  //   description:
+  //     'Tender and juicy Mediterranean-style Grilled Chicken. Marinated in a blend of aromatic herbs, this dish is served with creamy tzatziki sauce for an exquisite experience.',
+  //   image: '/api/placeholder/600/400',
+  //   cookTime: '35 mins',
+  //   servings: 4,
+  //   difficulty: 'Medium',
+  //   tags: ['High Protein', 'Low Carb', 'Gluten Free']
+  // }
+
+  // Fetch recipes from API based on search
+  const fetchRecipes = async (query) => {
+    const apiUrl = `/api/recipe/search/?query=${query}&page=1`
+    setLoading(true) // Set loading to true when fetching data
+    try {
+      const response = await axios.get(apiUrl, {
+        headers: {
+          Authorization: 'Token 9c8b06d329136da358c2d00e76946b0111ce2c48'
+        }
+      })
+      console.log('Fetched recipes:', response.data.results)
+      const recipesWithDefaults = (response.data.results || []).map((recipe) => ({
+        ...recipe,
+        tags: recipe.tags || ['Healthy', 'Delicious'],
+        cookTime: recipe.cookTime || '25 mins',
+        servings: recipe.servings || 4
+      }))
+      setRecipes(recipesWithDefaults)
+      setLoading(false) // Set loading to false when data is fetched
+    } catch (error) {
+      console.error('Error fetching recipes:', error)
+      setLoading(false) // Set loading to false in case of error
+    }
+  }
+
+  // Fetch featured recipe - flexible for future changes
+  const fetchFeaturedRecipe = async (query = 'Mediterranean Grilled Chicken') => {
+    try {
+      const response = await axios.get(`/api/recipe/search/?query=${query}&page=1`, {
+        headers: {
+          Authorization: 'Token 9c8b06d329136da358c2d00e76946b0111ce2c48'
+        }
+      })
+
+      if (response.data.results && response.data.results.length > 0) {
+        const firstRecipe = response.data.results[0]
+        setFeaturedRecipe({
+          id: firstRecipe.pk,
+          title: firstRecipe.title,
+          description: firstRecipe.description || 'Delicious featured recipe.',
+          image: firstRecipe.featured_image,
+          cookTime: firstRecipe.cookTime || '35 mins',
+          servings: firstRecipe.servings || 4,
+          tags: firstRecipe.tags || ['High Protein', 'Low Carb', 'Gluten Free'],
+          source_url: firstRecipe.source_url
+        })
+      }
+    } catch (error) {
+      console.error('Error fetching featured recipe:', error)
+    }
+  }
+
+  // Handle search term change
+  const handleSearchChange = (e) => {
+    setSearchTerm(e.target.value)
+    fetchRecipes(e.target.value)
+  }
+
+  // Filter recipes by category
   const filteredRecipes = recipes.filter((recipe) => {
     const matchesSearch = recipe.title.toLowerCase().includes(searchTerm.toLowerCase())
     const matchesCategory = selectedCategory === 'all' || recipe.category === selectedCategory
     return matchesSearch && matchesCategory
   })
+
+  // Initial fetch for static recipes when page loads
+  useEffect(() => {
+    fetchFeaturedRecipe()
+    fetchRecipes('vermicelli noodle salad')
+  }, [])
 
   return (
     <div className="min-h-screen bg-transparent">
@@ -83,7 +120,7 @@ const Recipes = () => {
               type="text"
               placeholder="Search recipes..."
               value={searchTerm}
-              onChange={(e) => setSearchTerm(e.target.value)}
+              onChange={handleSearchChange}
               className="w-full pl-10 pr-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-green-500 focus:border-transparent"
             />
           </div>
@@ -103,51 +140,59 @@ const Recipes = () => {
         </div>
 
         {/* Featured Recipe */}
-        <div className="mb-16">
-          <div className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-green-50 to-blue-50 p-8 md:p-12">
-            <div className="grid md:grid-cols-2 gap-8 items-center">
-              <div>
-                <div className="flex items-center gap-2 mb-4">
-                  <ChefHat className="w-6 h-6 text-green-600" />
-                  <span className="text-green-600 font-semibold">Featured Recipe</span>
-                </div>
-                <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">{featuredRecipe.title}</h2>
-                <p className="text-gray-600 mb-6 text-lg">{featuredRecipe.description}</p>
-
-                <div className="flex items-center gap-6 mb-6">
-                  <div className="flex items-center gap-2 text-gray-700">
-                    <Clock className="w-5 h-5" />
-                    <span>{featuredRecipe.cookTime}</span>
+        {featuredRecipe && (
+          <div className="mb-16">
+            <div className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-green-50 to-blue-50 p-8 md:p-12">
+              <div className="grid md:grid-cols-2 gap-8 items-center">
+                <div>
+                  <div className="flex items-center gap-2 mb-4">
+                    <ChefHat className="w-6 h-6 text-green-600" />
+                    <span className="text-green-600 font-semibold">Featured Recipe</span>
                   </div>
-                  <div className="flex items-center gap-2 text-gray-700">
-                    <Users className="w-5 h-5" />
-                    <span>{featuredRecipe.servings} servings</span>
+                  <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">{featuredRecipe.title}</h2>
+                  <p className="text-gray-600 mb-6 text-lg">{featuredRecipe.description}</p>
+
+                  <div className="flex items-center gap-6 mb-6">
+                    <div className="flex items-center gap-2 text-gray-700">
+                      <Clock className="w-5 h-5" />
+                      <span>{featuredRecipe.cookTime}</span>
+                    </div>
+                    <div className="flex items-center gap-2 text-gray-700">
+                      <Users className="w-5 h-5" />
+                      <span>{featuredRecipe.servings} servings</span>
+                    </div>
                   </div>
+
+                  <div className="flex flex-wrap gap-2 mb-6">
+                    {featuredRecipe.tags.map((tag) => (
+                      <span key={tag} className="px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm font-medium">
+                        {tag}
+                      </span>
+                    ))}
+                  </div>
+
+                  <button className="inline-flex items-center px-8 py-3 bg-green-600 text-white font-semibold rounded-xl hover:bg-green-700 transition-colors shadow-lg">
+                    View Recipe
+                  </button>
                 </div>
 
-                <div className="flex flex-wrap gap-2 mb-6">
-                  {featuredRecipe.tags.map((tag) => (
-                    <span key={tag} className="px-3 py-1 bg-green-100 text-green-700 rounded-full text-sm font-medium">
-                      {tag}
-                    </span>
-                  ))}
+                <div className="relative">
+                  <div className="aspect-square w-full max-w-md mx-auto rounded-3xl overflow-hidden shadow-2xl">
+                    {featuredRecipe.image ? (
+                      <img src={featuredRecipe.image} alt={featuredRecipe.title} className="w-full h-full object-cover" />
+                    ) : (
+                      <div className="w-full h-full bg-gradient-to-br from-orange-100 to-green-100 flex items-center justify-center">
+                        <ChefHat className="w-32 h-32 text-green-600 opacity-50" />
+                      </div>
+                    )}
+                  </div>
+                  <div className="absolute -top-4 -right-4 w-20 h-20 bg-orange-200 rounded-full opacity-60"></div>
+                  <div className="absolute -bottom-6 -left-6 w-16 h-16 bg-green-200 rounded-full opacity-60"></div>
                 </div>
-
-                <button className="inline-flex items-center px-8 py-3 bg-green-600 text-white font-semibold rounded-xl hover:bg-green-700 transition-colors shadow-lg">
-                  View Recipe
-                </button>
-              </div>
-
-              <div className="relative">
-                <div className="aspect-square w-full max-w-md mx-auto bg-gradient-to-br from-orange-100 to-green-100 rounded-3xl p-8 flex items-center justify-center">
-                  <ChefHat className="w-32 h-32 text-green-600 opacity-50" />
-                </div>
-                <div className="absolute -top-4 -right-4 w-20 h-20 bg-orange-200 rounded-full opacity-60"></div>
-                <div className="absolute -bottom-6 -left-6 w-16 h-16 bg-green-200 rounded-full opacity-60"></div>
               </div>
             </div>
           </div>
-        </div>
+        )}
 
         {/* Recipe Grid */}
         <div className="mb-8">
@@ -160,44 +205,61 @@ const Recipes = () => {
             </span>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-            {filteredRecipes.map((recipe) => (
-              <div key={recipe.id} className="group cursor-pointer">
-                <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 group-hover:-translate-y-1">
-                  <div className="relative h-48 bg-gradient-to-br from-orange-100 to-green-100 flex items-center justify-center">
-                    <ChefHat className="w-16 h-16 text-green-600 opacity-50" />
-                    <button className="absolute top-3 right-3 p-2 bg-white rounded-full shadow-md hover:bg-gray-50 transition-colors">
-                      <Heart className="w-5 h-5 text-gray-600" />
-                    </button>
-                  </div>
-
-                  <div className="p-6">
-                    <h4 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-green-600 transition-colors">{recipe.title}</h4>
-                    <p className="text-gray-600 mb-4 text-sm leading-relaxed">{recipe.description}</p>
-
-                    <div className="flex items-center justify-between text-sm text-gray-500 mb-4">
-                      <div className="flex items-center gap-1">
-                        <Clock className="w-4 h-4" />
-                        <span>{recipe.cookTime}</span>
-                      </div>
-                      <div className="flex items-center gap-1">
-                        <Users className="w-4 h-4" />
-                        <span>{recipe.servings} servings</span>
-                      </div>
+          {/* Show loading spinner if data is still loading */}
+          {loading ? (
+            <div className="text-center">Loading...</div>
+          ) : (
+            <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+              {filteredRecipes.map((recipe) => (
+                <div key={recipe.id} className="group cursor-pointer">
+                  <div className="bg-white rounded-2xl overflow-hidden shadow-lg hover:shadow-xl transition-all duration-300 group-hover:-translate-y-1">
+                    <div className="relative h-48 overflow-hidden">
+                      <img
+                        src={recipe.featured_image}
+                        alt={recipe.title}
+                        className="w-full h-full object-cover"
+                        onError={(e) => {
+                          // 图片加载失败时的fallback
+                          e.target.style.display = 'none'
+                          e.target.parentElement.className = 'relative h-48 bg-gradient-to-br from-orange-100 to-green-100 flex items-center justify-center'
+                        }}
+                      />
+                      {/* ChefHat 作为 fallback，当图片加载失败时显示 */}
+                      <ChefHat className="w-16 h-16 text-green-600 opacity-50 absolute inset-0 m-auto" style={{ display: 'none' }} />
+                      <button className="absolute top-3 right-3 p-2 bg-white rounded-full shadow-md hover:bg-gray-50 transition-colors">
+                        <Heart className="w-5 h-5 text-gray-600" />
+                      </button>
                     </div>
 
-                    <div className="flex flex-wrap gap-2">
-                      {recipe.tags.map((tag) => (
-                        <span key={tag} className="px-2 py-1 bg-green-50 text-green-600 rounded-lg text-xs font-medium">
-                          {tag}
-                        </span>
-                      ))}
+                    <div className="p-6">
+                      <h4 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-green-600 transition-colors">{recipe.title}</h4>
+                      <p className="text-gray-600 mb-4 text-sm leading-relaxed">{recipe.description}</p>
+
+                      <div className="flex items-center justify-between text-sm text-gray-500 mb-4">
+                        <div className="flex items-center gap-1">
+                          <Clock className="w-4 h-4" />
+                          <span>{recipe.cookTime}</span>
+                        </div>
+                        <div className="flex items-center gap-1">
+                          <Users className="w-4 h-4" />
+                          <span>{recipe.servings} servings</span>
+                        </div>
+                      </div>
+
+                      <div className="flex flex-wrap gap-2">
+                        {recipe.tags &&
+                          recipe.tags.map((tag) => (
+                            <span key={tag} className="px-2 py-1 bg-green-50 text-green-600 rounded-lg text-xs font-medium">
+                              {tag}
+                            </span>
+                          ))}
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-            ))}
-          </div>
+              ))}
+            </div>
+          )}
         </div>
 
         {/* Load More Button */}
