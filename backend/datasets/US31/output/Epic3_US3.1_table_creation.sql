@@ -3,6 +3,15 @@ DROP DATABASE IF EXISTS recommend;
 CREATE DATABASE recommend;
 USE recommend;
 
+CREATE TABLE AGE_SEX_FILTER (
+    filter_id INT AUTO_INCREMENT PRIMARY KEY,
+    filter_age_start INT NOT NULL,
+    filter_age_end INT NULL,  -- allow NULL for open end (sucg as 65+)
+    filter_sex ENUM('Persons','Male','Female','Males','Females','Other') NOT NULL,
+    CONSTRAINT chk_age_bounds
+      CHECK (filter_age_end IS NULL OR filter_age_end >= filter_age_start)
+);
+
 -- 1.  NutrientDimension (from nutrient_dimension.csv)
 CREATE TABLE NutrientDimension (
     nutrient_id INT PRIMARY KEY,
@@ -33,3 +42,4 @@ CREATE TABLE NutrientRecommendation (
     filter_id int,
     FOREIGN KEY (nutrient_id) REFERENCES NutrientDimension(nutrient_id)
 );
+
