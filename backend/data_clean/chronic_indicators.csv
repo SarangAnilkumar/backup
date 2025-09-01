@@ -1,71 +1,71 @@
-block,subgroup,year,category,count_000,starred_flag,test_scope
-Cardiovascular disease biomarkers,Total cholesterol,2011-12,Total cholesterol – Normal (<5.5 mmol/L),11228.9,0,blood
-Cardiovascular disease biomarkers,Total cholesterol,2022-24,Total cholesterol – Normal (<5.5 mmol/L),13798.4,0,blood
-Cardiovascular disease biomarkers,Total cholesterol,2011-12,Total cholesterol – Abnormal (≥5.5 mmol/L),5592.4,0,blood
-Cardiovascular disease biomarkers,Total cholesterol,2022-24,Total cholesterol – Abnormal (≥5.5 mmol/L),5981.3,0,blood
-Cardiovascular disease biomarkers,HDL (good) cholesterol,2011-12,HDL (good) cholesterol – Normal,12880.0,0,blood
-Cardiovascular disease biomarkers,HDL (good) cholesterol,2022-24,HDL (good) cholesterol – Normal,16850.8,0,blood
-Cardiovascular disease biomarkers,HDL (good) cholesterol,2011-12,HDL (good) cholesterol – Abnormal,3941.3,0,blood
-Cardiovascular disease biomarkers,HDL (good) cholesterol,2022-24,HDL (good) cholesterol – Abnormal,2955.0,0,blood
-Cardiovascular disease biomarkers,LDL (bad) cholesterol,2011-12,LDL (bad) cholesterol – Normal (<3.5 mmol/L),8885.7,0,fasting_blood
-Cardiovascular disease biomarkers,LDL (bad) cholesterol,2022-24,LDL (bad) cholesterol – Normal (<3.5 mmol/L),9583.6,0,fasting_blood
-Cardiovascular disease biomarkers,LDL (bad) cholesterol,2011-12,LDL (bad) cholesterol – Abnormal (≥3.5 mmol/L),4495.9,0,fasting_blood
-Cardiovascular disease biomarkers,LDL (bad) cholesterol,2022-24,LDL (bad) cholesterol – Abnormal (≥3.5 mmol/L),3749.6,0,fasting_blood
-Cardiovascular disease biomarkers,Triglycerides,2011-12,Triglycerides – Normal (<2.0 mmol/L),11638.3,0,fasting_blood
-Cardiovascular disease biomarkers,Triglycerides,2022-24,Triglycerides – Normal (<2.0 mmol/L),11522.8,0,fasting_blood
-Cardiovascular disease biomarkers,Triglycerides,2011-12,Triglycerides – Abnormal (≥2.0 mmol/L),1882.3,0,fasting_blood
-Cardiovascular disease biomarkers,Triglycerides,2022-24,Triglycerides – Abnormal (≥2.0 mmol/L),1952.1,0,fasting_blood
-Cardiovascular disease biomarkers,Dyslipidaemia,2011-12,Dyslipidaemia – Does not have dyslipidaemia,4750.1,0,fasting_blood
-Cardiovascular disease biomarkers,Dyslipidaemia,2022-24,Dyslipidaemia – Does not have dyslipidaemia,5161.7,0,fasting_blood
-Cardiovascular disease biomarkers,Dyslipidaemia,2011-12,Dyslipidaemia – Has dyslipidaemia,8551.0,0,fasting_blood
-Cardiovascular disease biomarkers,Dyslipidaemia,2022-24,Dyslipidaemia – Has dyslipidaemia,7949.0,0,fasting_blood
-Diabetes,Fasting plasma glucose,2011-12,Has diabetes – Known diabetes,562.5,0,fasting_blood
-Diabetes,Fasting plasma glucose,2022-24,Has diabetes – Known diabetes,776.9,0,fasting_blood
-Diabetes,Fasting plasma glucose,2011-12,Has diabetes – Newly diagnosed diabetes,125.8,0,fasting_blood
-Diabetes,Fasting plasma glucose,2022-24,Has diabetes – Newly diagnosed diabetes,130.8,0,fasting_blood
-Diabetes,Fasting plasma glucose,2011-12,Has diabetes – Total with diabetes,688.3,0,fasting_blood
-Diabetes,Fasting plasma glucose,2022-24,Has diabetes – Total with diabetes,893.7,0,fasting_blood
-Diabetes,Fasting plasma glucose,2011-12,Does not have diabetes – Impaired fasting plasma glucose,415.8,0,fasting_blood
-Diabetes,Fasting plasma glucose,2022-24,Does not have diabetes – Impaired fasting plasma glucose,361.0,0,fasting_blood
-Diabetes,Fasting plasma glucose,2011-12,Does not have diabetes – Normal,12417.8,0,fasting_blood
-Diabetes,Fasting plasma glucose,2022-24,Does not have diabetes – Normal,12048.8,0,fasting_blood
-Diabetes,Fasting plasma glucose,2011-12,Does not have diabetes – Total without diabetes,12833.5,0,fasting_blood
-Diabetes,Fasting plasma glucose,2022-24,Does not have diabetes – Total without diabetes,12395.1,0,fasting_blood
-Diabetes,HbA1c,2011-12,Has diabetes – Known diabetes,720.5,0,blood
-Diabetes,HbA1c,2022-24,Has diabetes – Known diabetes,1098.6,0,blood
-Diabetes,HbA1c,2011-12,Has diabetes – Newly diagnosed diabetes,197.3,0,blood
-Diabetes,HbA1c,2022-24,Has diabetes – Newly diagnosed diabetes,179.6,0,blood
-Diabetes,HbA1c,2011-12,Has diabetes – Total with diabetes,917.8,0,blood
-Diabetes,HbA1c,2022-24,Has diabetes – Total with diabetes,1274.2,0,blood
-Diabetes,HbA1c,2011-12,Does not have diabetes – At high risk of diabetes,921.4,0,blood
-Diabetes,HbA1c,2022-24,Does not have diabetes – At high risk of diabetes,957.5,0,blood
-Diabetes,HbA1c,2011-12,Does not have diabetes – Normal,14947.6,0,blood
-Diabetes,HbA1c,2022-24,Does not have diabetes – Normal,17415.7,0,blood
-Diabetes,HbA1c,2011-12,Does not have diabetes – Total without diabetes,15869.0,0,blood
-Diabetes,HbA1c,2022-24,Does not have diabetes – Total without diabetes,18383.5,0,blood
-Kidney disease biomarkers,Estimated glomerular filtration rate (eGFR),2011-12,Estimated glomerular filtration rate (eGFR) – Normal (≥60 mL/min/1.73 m²),16192.9,0,blood
-Kidney disease biomarkers,Estimated glomerular filtration rate (eGFR),2022-24,Estimated glomerular filtration rate (eGFR) – Normal (≥60 mL/min/1.73 m²),18761.9,0,blood
-Kidney disease biomarkers,Estimated glomerular filtration rate (eGFR),2011-12,Estimated glomerular filtration rate (eGFR) – Abnormal (<60 mL/min/1.73 m²),620.9,0,blood
-Kidney disease biomarkers,Estimated glomerular filtration rate (eGFR),2022-24,Estimated glomerular filtration rate (eGFR) – Abnormal (<60 mL/min/1.73 m²),1039.2,0,blood
-Kidney disease biomarkers,Albumin Creatinine Ratio (ACR),2011-12,Albumin Creatinine Ratio (ACR) – No presence of albuminuria,14503.4,0,urine
-Kidney disease biomarkers,Albumin Creatinine Ratio (ACR),2022-24,Albumin Creatinine Ratio (ACR) – No presence of albuminuria,17116.3,0,urine
-Kidney disease biomarkers,Albumin Creatinine Ratio (ACR),2011-12,Albumin Creatinine Ratio (ACR) – Presence of albuminuria,1306.6,0,urine
-Kidney disease biomarkers,Albumin Creatinine Ratio (ACR),2022-24,Albumin Creatinine Ratio (ACR) – Presence of albuminuria,2073.8,0,urine
-Kidney disease biomarkers,Indicators of Chronic Kidney Disease,2011-12,Indicators of Chronic Kidney Disease – No indicators of Chronic Kidney Disease,13902.8,0,blood_and_urine
-Kidney disease biomarkers,Indicators of Chronic Kidney Disease,2022-24,Indicators of Chronic Kidney Disease – No indicators of Chronic Kidney Disease,16292.2,0,blood_and_urine
-Kidney disease biomarkers,Indicators of Chronic Kidney Disease,2011-12,Indicators of Chronic Kidney Disease – Stage 1: eGFR ≥90 mL/min/1.73 m² and micro- or macroalbuminuria,667.9,0,blood_and_urine
-Kidney disease biomarkers,Indicators of Chronic Kidney Disease,2022-24,Indicators of Chronic Kidney Disease – Stage 1: eGFR ≥90 mL/min/1.73 m² and micro- or macroalbuminuria,965.8,0,blood_and_urine
-Kidney disease biomarkers,Indicators of Chronic Kidney Disease,2011-12,Indicators of Chronic Kidney Disease – Stage 2: eGFR 60-89 mL/min/1.73 m² and micro- or macroalbuminuria,423.7,0,blood_and_urine
-Kidney disease biomarkers,Indicators of Chronic Kidney Disease,2022-24,Indicators of Chronic Kidney Disease – Stage 2: eGFR 60-89 mL/min/1.73 m² and micro- or macroalbuminuria,739.2,0,blood_and_urine
-Kidney disease biomarkers,Indicators of Chronic Kidney Disease,2011-12,Indicators of Chronic Kidney Disease – Stage 3a: eGFR 45-59 mL/min/1.73 m²,441.2,0,blood_and_urine
-Kidney disease biomarkers,Indicators of Chronic Kidney Disease,2022-24,Indicators of Chronic Kidney Disease – Stage 3a: eGFR 45-59 mL/min/1.73 m²,723.3,0,blood_and_urine
-Kidney disease biomarkers,Indicators of Chronic Kidney Disease,2011-12,Indicators of Chronic Kidney Disease – Stage 3b: eGFR 30-44 mL/min/1.73 m²,98.2,0,blood_and_urine
-Kidney disease biomarkers,Indicators of Chronic Kidney Disease,2022-24,Indicators of Chronic Kidney Disease – Stage 3b: eGFR 30-44 mL/min/1.73 m²,259.1,0,blood_and_urine
-Kidney disease biomarkers,Indicators of Chronic Kidney Disease,2011-12,Indicators of Chronic Kidney Disease – Stages 4-5: eGFR <30 mL/min/1.73 m²,50.4,0,blood_and_urine
-Kidney disease biomarkers,Indicators of Chronic Kidney Disease,2022-24,Indicators of Chronic Kidney Disease – Stages 4-5: eGFR <30 mL/min/1.73 m²,27.7,0,blood_and_urine
-Kidney disease biomarkers,Indicators of Chronic Kidney Disease,2011-12,Indicators of Chronic Kidney Disease – Total indicators of Chronic Kidney Disease,1681.4,0,blood_and_urine
-Kidney disease biomarkers,Indicators of Chronic Kidney Disease,2022-24,Indicators of Chronic Kidney Disease – Total indicators of Chronic Kidney Disease,2696.7,0,blood_and_urine
-Anaemia,Haemoglobin,2011-12,Haemoglobin – Normal haemoglobin level,16010.6,0,blood
-Anaemia,Haemoglobin,2022-24,Haemoglobin – Normal haemoglobin level,18278.9,0,blood
-Anaemia,Haemoglobin,2011-12,Haemoglobin – Abnormal haemoglobin level,762.5,0,blood
-Anaemia,Haemoglobin,2022-24,Haemoglobin – Abnormal haemoglobin level,1535.3,0,blood
+survey_period,sex,age_group,indicator,category,value_pct,est_thousand,note
+,,<NA>,,Total cholesterol – Normal (<5.5 mmol/L),,11228.9,
+,,<NA>,,Total cholesterol – Normal (<5.5 mmol/L),,13798.4,
+,,<NA>,,Total cholesterol – Abnormal (≥5.5 mmol/L),,5592.4,
+,,<NA>,,Total cholesterol – Abnormal (≥5.5 mmol/L),,5981.3,
+,,<NA>,,HDL (good) cholesterol – Normal,,12880.0,
+,,<NA>,,HDL (good) cholesterol – Normal,,16850.8,
+,,<NA>,,HDL (good) cholesterol – Abnormal,,3941.3,
+,,<NA>,,HDL (good) cholesterol – Abnormal,,2955.0,
+,,<NA>,,LDL (bad) cholesterol – Normal (<3.5 mmol/L),,8885.7,
+,,<NA>,,LDL (bad) cholesterol – Normal (<3.5 mmol/L),,9583.6,
+,,<NA>,,LDL (bad) cholesterol – Abnormal (≥3.5 mmol/L),,4495.9,
+,,<NA>,,LDL (bad) cholesterol – Abnormal (≥3.5 mmol/L),,3749.6,
+,,<NA>,,Triglycerides – Normal (<2.0 mmol/L),,11638.3,
+,,<NA>,,Triglycerides – Normal (<2.0 mmol/L),,11522.8,
+,,<NA>,,Triglycerides – Abnormal (≥2.0 mmol/L),,1882.3,
+,,<NA>,,Triglycerides – Abnormal (≥2.0 mmol/L),,1952.1,
+,,<NA>,,Dyslipidaemia – Does not have dyslipidaemia,,4750.1,
+,,<NA>,,Dyslipidaemia – Does not have dyslipidaemia,,5161.7,
+,,<NA>,,Dyslipidaemia – Has dyslipidaemia,,8551.0,
+,,<NA>,,Dyslipidaemia – Has dyslipidaemia,,7949.0,
+,,<NA>,,Has diabetes – Known diabetes,,562.5,
+,,<NA>,,Has diabetes – Known diabetes,,776.9,
+,,<NA>,,Has diabetes – Newly diagnosed diabetes,,125.8,
+,,<NA>,,Has diabetes – Newly diagnosed diabetes,,130.8,
+,,<NA>,,Has diabetes – Total with diabetes,,688.3,
+,,<NA>,,Has diabetes – Total with diabetes,,893.7,
+,,<NA>,,Does not have diabetes – Impaired fasting plasma glucose,,415.8,
+,,<NA>,,Does not have diabetes – Impaired fasting plasma glucose,,361.0,
+,,<NA>,,Does not have diabetes – Normal,,12417.8,
+,,<NA>,,Does not have diabetes – Normal,,12048.8,
+,,<NA>,,Does not have diabetes – Total without diabetes,,12833.5,
+,,<NA>,,Does not have diabetes – Total without diabetes,,12395.1,
+,,<NA>,,Has diabetes – Known diabetes,,720.5,
+,,<NA>,,Has diabetes – Known diabetes,,1098.6,
+,,<NA>,,Has diabetes – Newly diagnosed diabetes,,197.3,
+,,<NA>,,Has diabetes – Newly diagnosed diabetes,,179.6,
+,,<NA>,,Has diabetes – Total with diabetes,,917.8,
+,,<NA>,,Has diabetes – Total with diabetes,,1274.2,
+,,<NA>,,Does not have diabetes – At high risk of diabetes,,921.4,
+,,<NA>,,Does not have diabetes – At high risk of diabetes,,957.5,
+,,<NA>,,Does not have diabetes – Normal,,14947.6,
+,,<NA>,,Does not have diabetes – Normal,,17415.7,
+,,<NA>,,Does not have diabetes – Total without diabetes,,15869.0,
+,,<NA>,,Does not have diabetes – Total without diabetes,,18383.5,
+,,<NA>,,Estimated glomerular filtration rate (eGFR) – Normal (≥60 mL/min/1.73 m²),,16192.9,
+,,<NA>,,Estimated glomerular filtration rate (eGFR) – Normal (≥60 mL/min/1.73 m²),,18761.9,
+,,<NA>,,Estimated glomerular filtration rate (eGFR) – Abnormal (<60 mL/min/1.73 m²),,620.9,
+,,<NA>,,Estimated glomerular filtration rate (eGFR) – Abnormal (<60 mL/min/1.73 m²),,1039.2,
+,,<NA>,,Albumin Creatinine Ratio (ACR) – No presence of albuminuria,,14503.4,
+,,<NA>,,Albumin Creatinine Ratio (ACR) – No presence of albuminuria,,17116.3,
+,,<NA>,,Albumin Creatinine Ratio (ACR) – Presence of albuminuria,,1306.6,
+,,<NA>,,Albumin Creatinine Ratio (ACR) – Presence of albuminuria,,2073.8,
+,,<NA>,,Indicators of Chronic Kidney Disease – No indicators of Chronic Kidney Disease,,13902.8,
+,,<NA>,,Indicators of Chronic Kidney Disease – No indicators of Chronic Kidney Disease,,16292.2,
+,,<NA>,,Indicators of Chronic Kidney Disease – Stage 1: eGFR ≥90 mL/min/1.73 m² and micro- or macroalbuminuria,,667.9,
+,,<NA>,,Indicators of Chronic Kidney Disease – Stage 1: eGFR ≥90 mL/min/1.73 m² and micro- or macroalbuminuria,,965.8,
+,,<NA>,,Indicators of Chronic Kidney Disease – Stage 2: eGFR 60-89 mL/min/1.73 m² and micro- or macroalbuminuria,,423.7,
+,,<NA>,,Indicators of Chronic Kidney Disease – Stage 2: eGFR 60-89 mL/min/1.73 m² and micro- or macroalbuminuria,,739.2,
+,,<NA>,,Indicators of Chronic Kidney Disease – Stage 3a: eGFR 45-59 mL/min/1.73 m²,,441.2,
+,,<NA>,,Indicators of Chronic Kidney Disease – Stage 3a: eGFR 45-59 mL/min/1.73 m²,,723.3,
+,,<NA>,,Indicators of Chronic Kidney Disease – Stage 3b: eGFR 30-44 mL/min/1.73 m²,,98.2,
+,,<NA>,,Indicators of Chronic Kidney Disease – Stage 3b: eGFR 30-44 mL/min/1.73 m²,,259.1,
+,,<NA>,,Indicators of Chronic Kidney Disease – Stages 4-5: eGFR <30 mL/min/1.73 m²,,50.4,
+,,<NA>,,Indicators of Chronic Kidney Disease – Stages 4-5: eGFR <30 mL/min/1.73 m²,,27.7,
+,,<NA>,,Indicators of Chronic Kidney Disease – Total indicators of Chronic Kidney Disease,,1681.4,
+,,<NA>,,Indicators of Chronic Kidney Disease – Total indicators of Chronic Kidney Disease,,2696.7,
+,,<NA>,,Haemoglobin – Normal haemoglobin level,,16010.6,
+,,<NA>,,Haemoglobin – Normal haemoglobin level,,18278.9,
+,,<NA>,,Haemoglobin – Abnormal haemoglobin level,,762.5,
+,,<NA>,,Haemoglobin – Abnormal haemoglobin level,,1535.3,
