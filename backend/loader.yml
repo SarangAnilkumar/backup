@@ -1,14 +1,10 @@
 mysql:
-  # host: healthylife-rds.c54oswsus7c6.ap-southeast-2.rds.amazonaws.com
-  # port: 3306
-  # user: admin
-  # password: healthylife123
-  # database: healthylife
-  host: 127.0.0.1
+  host: healthylife-rds.c54oswsus7c6.ap-southeast-2.rds.amazonaws.com
   port: 3306
-  user: root
-  password: Siddhang5#
+  user: admin
+  password: healthylife123
   database: healthylife
+
 files:
   - { path: "backend/data_clean/S1_Disease_5yrs_clean.csv", staging: "stg_s1_disease_5yr" }
   - { path: "backend/data_clean/S8_Risk_factor_linked_disease_clean.csv", staging: "stg_s8_risk_linked" }
