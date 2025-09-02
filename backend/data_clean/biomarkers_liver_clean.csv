@@ -1,0 +1,169 @@
+survey_period,sex,age_group,indicator,category,value_pct,est_thousand,note
+2022–24,Males,All 18+,ALT (U/L) range,≤10,0.7,68.1,
+2022–24,Females,All 18+,ALT (U/L) range,≤10,3.1,311.2,
+2022–24,Persons,All 18+,ALT (U/L) range,≤10,1.9,373.6,
+2022–24,Males,All 18+,ALT (U/L) range,>10 to ≤15,4.9,473.5,
+2022–24,Females,All 18+,ALT (U/L) range,>10 to ≤15,17.5,1779.7,
+2022–24,Persons,All 18+,ALT (U/L) range,>10 to ≤15,11.5,2269.5,
+2022–24,Males,All 18+,ALT (U/L) range,>15 to ≤20,10.9,1059.1,
+2022–24,Females,All 18+,ALT (U/L) range,>15 to ≤20,27.8,2816.1,
+2022–24,Persons,All 18+,ALT (U/L) range,>15 to ≤20,19.6,3880.1,
+2022–24,Males,All 18+,ALT (U/L) range,>20 to ≤25,15.8,1525.5,
+2022–24,Females,All 18+,ALT (U/L) range,>20 to ≤25,18.7,1898.8,
+2022–24,Persons,All 18+,ALT (U/L) range,>20 to ≤25,17.3,3418.3,
+2022–24,Males,All 18+,ALT (U/L) range,>25 to ≤30,16.6,1603.8,
+2022–24,Females,All 18+,ALT (U/L) range,>25 to ≤30,11.9,1209.5,
+2022–24,Persons,All 18+,ALT (U/L) range,>25 to ≤30,14.2,2807.7,
+2022–24,Males,All 18+,ALT (U/L) range,>30 to ≤35,12.1,1174.8,
+2022–24,Females,All 18+,ALT (U/L) range,>30 to ≤35,6.8,691.9,
+2022–24,Persons,All 18+,ALT (U/L) range,>30 to ≤35,9.4,1863.5,
+2022–24,Males,All 18+,ALT (U/L) range,>35 to ≤40,8.7,837.5,
+2022–24,Females,All 18+,ALT (U/L) range,>35 to ≤40,4.6,462.7,
+2022–24,Persons,All 18+,ALT (U/L) range,>35 to ≤40,6.6,1309.5,
+2022–24,Males,All 18+,ALT (U/L) range,>40 to ≤45,7.9,763.1,
+2022–24,Females,All 18+,ALT (U/L) range,>40 to ≤45,2.6,263.7,
+2022–24,Persons,All 18+,ALT (U/L) range,>40 to ≤45,5.2,1035.4,
+2022–24,Males,All 18+,ALT (U/L) range,>45 to ≤50,5.6,541.0,
+2022–24,Females,All 18+,ALT (U/L) range,>45 to ≤50,1.6,158.9,
+2022–24,Persons,All 18+,ALT (U/L) range,>45 to ≤50,3.5,691.2,
+2022–24,Males,All 18+,ALT (U/L) range,>50,17.1,1655.0,
+2022–24,Females,All 18+,ALT (U/L) range,>50,5.2,523.9,
+2022–24,Persons,All 18+,ALT (U/L) range,>50,10.9,2169.0,
+2022–24,Males,All 18+,ALT (U/L) range,,69.5,6732.2,Total normal results(c)
+2022–24,Males,All 18+,ALT (U/L) range,,69.5,2947.7,Total normal results(c)
+2022–24,Males,All 18+,ALT (U/L) range,,69.5,9679.6,Total normal results(c)
+2022–24,Males,All 18+,ALT (U/L) range,,69.5,37.0,Total normal results(c)
+2022–24,Males,All 18+,ALT (U/L) range,,69.5,31.0,Total normal results(c)
+2022–24,Males,All 18+,ALT (U/L) range,,30.5,6732.2,Total abnormal results(c)
+2022–24,Males,All 18+,ALT (U/L) range,,30.5,2947.7,Total abnormal results(c)
+2022–24,Males,All 18+,ALT (U/L) range,,30.5,9679.6,Total abnormal results(c)
+2022–24,Males,All 18+,ALT (U/L) range,,30.5,37.0,Total abnormal results(c)
+2022–24,Males,All 18+,ALT (U/L) range,,30.5,31.0,Total abnormal results(c)
+2022–24,Males,All 18+,ALT (U/L) range,,100.0,6732.2,Total blood test results(d)
+2022–24,Males,All 18+,ALT (U/L) range,,100.0,2947.7,Total blood test results(d)
+2022–24,Males,All 18+,ALT (U/L) range,,100.0,9679.6,Total blood test results(d)
+2022–24,Males,All 18+,ALT (U/L) range,,100.0,37.0,Total blood test results(d)
+2022–24,Males,All 18+,ALT (U/L) range,,100.0,31.0,Total blood test results(d)
+2022–24,Females,All 18+,ALT (U/L) range,,79.1,8025.7,Total normal results(c)
+2022–24,Females,All 18+,ALT (U/L) range,,79.1,2098.1,Total normal results(c)
+2022–24,Females,All 18+,ALT (U/L) range,,79.1,10142.3,Total normal results(c)
+2022–24,Females,All 18+,ALT (U/L) range,,79.1,25.0,Total normal results(c)
+2022–24,Females,All 18+,ALT (U/L) range,,79.1,21.0,Total normal results(c)
+2022–24,Females,All 18+,ALT (U/L) range,,20.7,8025.7,Total abnormal results(c)
+2022–24,Females,All 18+,ALT (U/L) range,,20.7,2098.1,Total abnormal results(c)
+2022–24,Females,All 18+,ALT (U/L) range,,20.7,10142.3,Total abnormal results(c)
+2022–24,Females,All 18+,ALT (U/L) range,,20.7,25.0,Total abnormal results(c)
+2022–24,Females,All 18+,ALT (U/L) range,,20.7,21.0,Total abnormal results(c)
+2022–24,Females,All 18+,ALT (U/L) range,,100.0,8025.7,Total blood test results(d)
+2022–24,Females,All 18+,ALT (U/L) range,,100.0,2098.1,Total blood test results(d)
+2022–24,Females,All 18+,ALT (U/L) range,,100.0,10142.3,Total blood test results(d)
+2022–24,Females,All 18+,ALT (U/L) range,,100.0,25.0,Total blood test results(d)
+2022–24,Females,All 18+,ALT (U/L) range,,100.0,21.0,Total blood test results(d)
+2022–24,Persons,All 18+,ALT (U/L) range,,74.5,14760.8,Total normal results(c)
+2022–24,Persons,All 18+,ALT (U/L) range,,74.5,5050.8,Total normal results(c)
+2022–24,Persons,All 18+,ALT (U/L) range,,74.5,19814.1,Total normal results(c)
+2022–24,Persons,All 18+,ALT (U/L) range,,74.5,31.0,Total normal results(c)
+2022–24,Persons,All 18+,ALT (U/L) range,,74.5,25.0,Total normal results(c)
+2022–24,Persons,All 18+,ALT (U/L) range,,25.5,14760.8,Total abnormal results(c)
+2022–24,Persons,All 18+,ALT (U/L) range,,25.5,5050.8,Total abnormal results(c)
+2022–24,Persons,All 18+,ALT (U/L) range,,25.5,19814.1,Total abnormal results(c)
+2022–24,Persons,All 18+,ALT (U/L) range,,25.5,31.0,Total abnormal results(c)
+2022–24,Persons,All 18+,ALT (U/L) range,,25.5,25.0,Total abnormal results(c)
+2022–24,Persons,All 18+,ALT (U/L) range,,100.0,14760.8,Total blood test results(d)
+2022–24,Persons,All 18+,ALT (U/L) range,,100.0,5050.8,Total blood test results(d)
+2022–24,Persons,All 18+,ALT (U/L) range,,100.0,19814.1,Total blood test results(d)
+2022–24,Persons,All 18+,ALT (U/L) range,,100.0,31.0,Total blood test results(d)
+2022–24,Persons,All 18+,ALT (U/L) range,,100.0,25.0,Total blood test results(d)
+2022–24,Males,All 18+,GGT (U/L) range,≤10,0.6,55.9,
+2022–24,Females,All 18+,GGT (U/L) range,≤10,7.4,750.2,
+2022–24,Persons,All 18+,GGT (U/L) range,≤10,4.1,816.0,
+2022–24,Males,All 18+,GGT (U/L) range,>10 to ≤15,11.3,1095.1,
+2022–24,Females,All 18+,GGT (U/L) range,>10 to ≤15,30.3,3073.2,
+2022–24,Persons,All 18+,GGT (U/L) range,>10 to ≤15,21.1,4174.5,
+2022–24,Males,All 18+,GGT (U/L) range,>15 to ≤20,17.3,1671.3,
+2022–24,Females,All 18+,GGT (U/L) range,>15 to ≤20,22.0,2234.4,
+2022–24,Persons,All 18+,GGT (U/L) range,>15 to ≤20,19.7,3907.9,
+2022–24,Males,All 18+,GGT (U/L) range,>20 to ≤25,16.1,1558.1,
+2022–24,Females,All 18+,GGT (U/L) range,>20 to ≤25,13.1,1327.4,
+2022–24,Persons,All 18+,GGT (U/L) range,>20 to ≤25,14.6,2890.6,
+2022–24,Males,All 18+,GGT (U/L) range,>25 to ≤30,15.7,1515.3,
+2022–24,Females,All 18+,GGT (U/L) range,>25 to ≤30,7.9,802.8,
+2022–24,Persons,All 18+,GGT (U/L) range,>25 to ≤30,11.7,2322.7,
+2022–24,Males,All 18+,GGT (U/L) range,>30 to ≤35,10.3,993.9,
+2022–24,Females,All 18+,GGT (U/L) range,>30 to ≤35,4.7,473.4,
+2022–24,Persons,All 18+,GGT (U/L) range,>30 to ≤35,7.4,1469.9,
+2022–24,Males,All 18+,GGT (U/L) range,>35 to ≤40,6.2,603.7,
+2022–24,Females,All 18+,GGT (U/L) range,>35 to ≤40,3.0,308.4,
+2022–24,Persons,All 18+,GGT (U/L) range,>35 to ≤40,4.7,937.2,
+2022–24,Males,All 18+,GGT (U/L) range,>40 to ≤45,4.3,414.6,
+2022–24,Females,All 18+,GGT (U/L) range,>40 to ≤45,2.3,230.7,
+2022–24,Persons,All 18+,GGT (U/L) range,>40 to ≤45,3.3,648.6,
+2022–24,Males,All 18+,GGT (U/L) range,>45 to ≤50,3.5,335.0,
+2022–24,Females,All 18+,GGT (U/L) range,>45 to ≤50,1.2,125.8,
+2022–24,Persons,All 18+,GGT (U/L) range,>45 to ≤50,2.3,454.1,
+2022–24,Males,All 18+,GGT (U/L) range,>50 to ≤55,2.2,213.7,
+2022–24,Females,All 18+,GGT (U/L) range,>50 to ≤55,1.0,97.1,
+2022–24,Persons,All 18+,GGT (U/L) range,>50 to ≤55,1.6,312.9,
+2022–24,Males,All 18+,GGT (U/L) range,>55 to ≤60,1.9,180.2,
+2022–24,Females,All 18+,GGT (U/L) range,>55 to ≤60,1.5,153.4,
+2022–24,Persons,All 18+,GGT (U/L) range,>55 to ≤60,1.8,351.0,
+2022–24,Males,All 18+,GGT (U/L) range,>60,10.6,1025.0,
+2022–24,Females,All 18+,GGT (U/L) range,>60,5.2,525.4,
+2022–24,Persons,All 18+,GGT (U/L) range,>60,7.8,1551.5,
+2022–24,Males,All 18+,GGT (U/L) range,,85.2,8247.5,Total normal results(c)
+2022–24,Males,All 18+,GGT (U/L) range,,85.2,1432.2,Total normal results(c)
+2022–24,Males,All 18+,GGT (U/L) range,,85.2,9679.6,Total normal results(c)
+2022–24,Males,All 18+,GGT (U/L) range,,85.2,37.0,Total normal results(c)
+2022–24,Males,All 18+,GGT (U/L) range,,85.2,27.0,Total normal results(c)
+2022–24,Males,All 18+,GGT (U/L) range,,85.2,9803.0,Total normal results(c)
+2022–24,Males,All 18+,GGT (U/L) range,,14.8,8247.5,Total abnormal results(c)
+2022–24,Males,All 18+,GGT (U/L) range,,14.8,1432.2,Total abnormal results(c)
+2022–24,Males,All 18+,GGT (U/L) range,,14.8,9679.6,Total abnormal results(c)
+2022–24,Males,All 18+,GGT (U/L) range,,14.8,37.0,Total abnormal results(c)
+2022–24,Males,All 18+,GGT (U/L) range,,14.8,27.0,Total abnormal results(c)
+2022–24,Males,All 18+,GGT (U/L) range,,14.8,9803.0,Total abnormal results(c)
+2022–24,Males,All 18+,GGT (U/L) range,,100.0,8247.5,Total blood test results(d)
+2022–24,Males,All 18+,GGT (U/L) range,,100.0,1432.2,Total blood test results(d)
+2022–24,Males,All 18+,GGT (U/L) range,,100.0,9679.6,Total blood test results(d)
+2022–24,Males,All 18+,GGT (U/L) range,,100.0,37.0,Total blood test results(d)
+2022–24,Males,All 18+,GGT (U/L) range,,100.0,27.0,Total blood test results(d)
+2022–24,Males,All 18+,GGT (U/L) range,,100.0,9803.0,Total blood test results(d)
+2022–24,Females,All 18+,GGT (U/L) range,,85.7,8689.3,Total normal results(c)
+2022–24,Females,All 18+,GGT (U/L) range,,85.7,1429.8,Total normal results(c)
+2022–24,Females,All 18+,GGT (U/L) range,,85.7,10142.3,Total normal results(c)
+2022–24,Females,All 18+,GGT (U/L) range,,85.7,26.0,Total normal results(c)
+2022–24,Females,All 18+,GGT (U/L) range,,85.7,18.0,Total normal results(c)
+2022–24,Females,All 18+,GGT (U/L) range,,85.7,10184.7,Total normal results(c)
+2022–24,Females,All 18+,GGT (U/L) range,,14.1,8689.3,Total abnormal results(c)
+2022–24,Females,All 18+,GGT (U/L) range,,14.1,1429.8,Total abnormal results(c)
+2022–24,Females,All 18+,GGT (U/L) range,,14.1,10142.3,Total abnormal results(c)
+2022–24,Females,All 18+,GGT (U/L) range,,14.1,26.0,Total abnormal results(c)
+2022–24,Females,All 18+,GGT (U/L) range,,14.1,18.0,Total abnormal results(c)
+2022–24,Females,All 18+,GGT (U/L) range,,14.1,10184.7,Total abnormal results(c)
+2022–24,Females,All 18+,GGT (U/L) range,,100.0,8689.3,Total blood test results(d)
+2022–24,Females,All 18+,GGT (U/L) range,,100.0,1429.8,Total blood test results(d)
+2022–24,Females,All 18+,GGT (U/L) range,,100.0,10142.3,Total blood test results(d)
+2022–24,Females,All 18+,GGT (U/L) range,,100.0,26.0,Total blood test results(d)
+2022–24,Females,All 18+,GGT (U/L) range,,100.0,18.0,Total blood test results(d)
+2022–24,Females,All 18+,GGT (U/L) range,,100.0,10184.7,Total blood test results(d)
+2022–24,Persons,All 18+,GGT (U/L) range,,85.5,16933.6,Total normal results(c)
+2022–24,Persons,All 18+,GGT (U/L) range,,85.5,2863.8,Total normal results(c)
+2022–24,Persons,All 18+,GGT (U/L) range,,85.5,19814.1,Total normal results(c)
+2022–24,Persons,All 18+,GGT (U/L) range,,85.5,31.0,Total normal results(c)
+2022–24,Persons,All 18+,GGT (U/L) range,,85.5,22.0,Total normal results(c)
+2022–24,Persons,All 18+,GGT (U/L) range,,85.5,20003.0,Total normal results(c)
+2022–24,Persons,All 18+,GGT (U/L) range,,14.5,16933.6,Total abnormal results(c)
+2022–24,Persons,All 18+,GGT (U/L) range,,14.5,2863.8,Total abnormal results(c)
+2022–24,Persons,All 18+,GGT (U/L) range,,14.5,19814.1,Total abnormal results(c)
+2022–24,Persons,All 18+,GGT (U/L) range,,14.5,31.0,Total abnormal results(c)
+2022–24,Persons,All 18+,GGT (U/L) range,,14.5,22.0,Total abnormal results(c)
+2022–24,Persons,All 18+,GGT (U/L) range,,14.5,20003.0,Total abnormal results(c)
+2022–24,Persons,All 18+,GGT (U/L) range,,100.0,16933.6,Total blood test results(d)
+2022–24,Persons,All 18+,GGT (U/L) range,,100.0,2863.8,Total blood test results(d)
+2022–24,Persons,All 18+,GGT (U/L) range,,100.0,19814.1,Total blood test results(d)
+2022–24,Persons,All 18+,GGT (U/L) range,,100.0,31.0,Total blood test results(d)
+2022–24,Persons,All 18+,GGT (U/L) range,,100.0,22.0,Total blood test results(d)
+2022–24,Persons,All 18+,GGT (U/L) range,,100.0,20003.0,Total blood test results(d)
+2022–24,Males,All 18+,Median GGT (U/L),,100.0,,"Total, 18 years and over"
+2022–24,Females,All 18+,Median GGT (U/L),,100.0,,"Total, 18 years and over"
+2022–24,Persons,All 18+,Median GGT (U/L),,100.0,,"Total, 18 years and over"

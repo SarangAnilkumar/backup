@@ -1,3 +1,4 @@
+from __future__ import annotations
 import os
 import sys
 import argparse
@@ -7,7 +8,185 @@ import mysql.connector as mysql
 import pandas as pd
 import numpy as np
 import math
+import re
 from datetime import datetime, date
+# ----------------------------------------------------------------------
+#  Biomarker CSV preprocessing helper
+# ----------------------------------------------------------------------
+def preprocess_biomarker_df(table, df: pd.DataFrame) -> pd.DataFrame:
+    """Light cleanup for biomarker CSVs so they load nicely into staging.
+    - Derive base indicator and category from long indicator strings like
+      "eGFR (mL/min/1.73m²) range – None – ≥90" -> indicator="eGFR (mL/min/1.73m²) range", category="≥90"
+    - Default survey_period to '2022–24' if missing
+    - Try to populate value_pct from any column that looks like a percent
+    - Try to populate est_thousand from any column that mentions '000'
+    - Keep existing columns if already present
+    """
+    if df is None or df.empty:
+        return df
+
+    # Normalise column names for detection (won't rename in-place yet)
+    norm_map = {c: c.strip() for c in df.columns}
+    df = df.rename(columns=norm_map)
+
+    # Ensure required columns exist
+    for col in ["sex", "indicator", "category", "survey_period", "value_pct", "est_thousand", "age_group", "note"]:
+        if col not in df.columns:
+            df[col] = None
+
+    # If CSV includes an auxiliary column like 'indicator.1', keep that info in note
+    if "indicator.1" in df.columns:
+        # Only fill note where it is missing/blank
+        mask_blank_note = df["note"].isna() | (df["note"].astype(str).str.strip() == "")
+        df.loc[mask_blank_note, "note"] = df.loc[mask_blank_note, "indicator.1"].astype(str).str.strip()
+
+    # Derive indicator/category if possible
+    # Pattern: parts separated by en-dash/"–" or hyphen "-"
+    def split_indicator(val):
+        if not isinstance(val, str) or not val.strip():
+            return (None, None)
+        s = str(val).strip()
+        # normalise dashes and collapse spaces
+        s = s.replace(" — ", " – ").replace(" - ", " – ")
+        parts = [p.strip() for p in s.split(" – ") if p.strip()]
+        if len(parts) >= 3:
+            # typical: <indicator> – <scope/None> – <category>
+            base = parts[0]
+            cat = parts[-1]
+            return (base, cat)
+        if len(parts) == 2:
+            base, cat = parts[0], parts[1]
+            return (base, cat)
+        return (s, None)
+
+    # Only overwrite when category missing
+    missing_cat = df["category"].isna() | (df["category"].astype(str).str.strip() == "")
+    if "indicator" in df.columns:
+        derived = df.loc[missing_cat, "indicator"].apply(split_indicator)
+        if not derived.empty:
+            df.loc[missing_cat, "indicator"] = derived.apply(lambda x: x[0])
+            df.loc[missing_cat, "category"] = derived.apply(lambda x: x[1])
+
+    # --- Normalise category labels to avoid duplicates like "30-44" vs "30–44" ---
+    def _normalise_category(val):
+        if val is None:
+            return None
+        s = str(val).strip()
+        if not s or s.lower() == 'nan':
+            return None
+        # remove trailing ABS-style footnote markers like (d), (e), etc.
+        s = re.sub(r"\(([a-z])\)$", "", s, flags=re.IGNORECASE).strip()
+        # 30-44 -> 30–44 (use en dash only when a hyphen separates digits)
+        s = re.sub(r"(?<=\d)\s*-\s*(?=\d)", "–", s)
+        # collapse multiple spaces
+        s = re.sub(r"\s+", " ", s)
+        return s
+
+    if "category" in df.columns:
+        df["category"] = df["category"].apply(_normalise_category)
+
+    # Drop non-analytic total/stat rows and denominator categories for biomarkers
+    def _is_total_or_stat(x):
+        if x is None:
+            return False
+        s = str(x).strip().lower()
+        return (
+            s.startswith('total ') or s.startswith('total,') or s == 'total' or
+            s.startswith('mean') or s.startswith('median') or
+            'total blood' in s or 'total urine' in s or '18 years and over' in s
+        )
+
+    # rows with empty category and notes indicating totals/means/medians should be removed
+    cat_blank = df["category"].isna() | (df["category"].astype(str).str.strip() == "")
+    note_total = df["note"].apply(_is_total_or_stat)
+    drop_mask = cat_blank & note_total
+
+    # also drop explicit denominator categories
+    denom_mask = df["category"].astype(str).str.contains(r"\bdenominator\b", case=False, na=False)
+
+    df = df[~(drop_mask | denom_mask)].reset_index(drop=True)
+
+    # Default survey period
+    if "survey_period" in df.columns:
+        df["survey_period"] = df["survey_period"].fillna("2022–24").replace("", "2022–24")
+    else:
+        df["survey_period"] = "2022–24"
+
+    # Guess percent column if value_pct empty
+    if (df["value_pct"].isna() | (df["value_pct"].astype(str).str.strip()=="")).all():
+        percent_cols = [c for c in df.columns if "%" in c or c.lower().strip() in ("percent", "percentage", "value (%)", "value_pct")]
+        for c in percent_cols:
+            try:
+                ser = df[c].astype(str).str.replace("%", "", regex=False).str.replace(",", "", regex=False)
+                df.loc[:, "value_pct"] = pd.to_numeric(ser, errors="coerce")
+                break
+            except Exception:
+                continue
+
+    # Guess estimate-thousand column if empty
+    if (df["est_thousand"].isna() | (df["est_thousand"].astype(str).str.strip()=="")).all():
+        thou_cols = [c for c in df.columns if "000" in c or c.lower().strip() in ("estimate_000", "est_thousand")]
+        for c in thou_cols:
+            try:
+                ser = df[c].astype(str).str.replace(",", "", regex=False)
+                df.loc[:, "est_thousand"] = pd.to_numeric(ser, errors="coerce")
+                break
+            except Exception:
+                continue
+
+    # Age-group fallback
+    if "age_group" in df.columns:
+        df["age_group"] = df["age_group"].fillna("All 18+").replace("", "All 18+")
+    else:
+        df["age_group"] = "All 18+"
+
+    return df
+
+
+FOOTNOTE_RE_DIET = re.compile(
+    r'^(?:Total |Total persons|Total males|Total females|\.\s|\(i\)|\(j\)|\*{1,2}|#|©|Cells in this table|na not available)',
+    re.IGNORECASE
+)
+
+def preprocess_nhs_cube_df(df: pd.DataFrame) -> pd.DataFrame:
+    """Light cleanup for NHS cube (e.g., C09 dietary behaviour) before staging."""
+    if df is None or df.empty:
+        return df
+    # Ensure required columns
+    for col in ["sex","age_group","indicator","category","survey_period","value_pct","est_thousand","note"]:
+        if col not in df.columns:
+            df[col] = None
+
+    # Normalise dashes/whitespace
+    def norm_text(s):
+        if pd.isna(s): return s
+        t = str(s).strip()
+        t = re.sub(r"(?<=\d)\s*-\s*(?=\d)", "–", t)  # 45-54 -> 45–54
+        t = re.sub(r"\s+", " ", t)
+        return t
+    for col in ["sex","age_group","indicator","category","survey_period","note"]:
+        df[col] = df[col].apply(norm_text)
+
+    # Normalise sexes & periods
+    df["sex"] = df["sex"].replace({"Male":"Males","Female":"Females"}).fillna("Persons").replace({"": "Persons"})
+    df["age_group"] = df["age_group"].replace({"18 years and over":"All 18+"}).fillna("All 18+").replace({"": "All 18+"})
+    df["survey_period"] = df["survey_period"].replace({"2022-24":"2022–24","2022–2024":"2022–24"}).fillna("2022–24")
+
+    # Drop non-analytic categories & indicators
+    drop_mask = (
+        df["category"].fillna("").astype(str).str.match(FOOTNOTE_RE_DIET)
+        | df["indicator"].fillna("").astype(str).str.match(FOOTNOTE_RE_DIET)
+    )
+    df = df[~drop_mask].copy()
+
+    # Coerce numerics
+    for col in ["value_pct","est_thousand"]:
+        df[col] = (df[col].astype(str)
+                           .str.replace("%","", regex=False)
+                           .str.replace(",","", regex=False))
+        df[col] = pd.to_numeric(df[col], errors="coerce")
+
+    return df
 
 # ----------------------------------------------------------------------
 #  MySQL connection and SQL helpers
@@ -359,14 +538,14 @@ def ensure_staging_tables(cur):
     ) ENGINE=InnoDB;
 
     CREATE TABLE IF NOT EXISTS stg_nhs_cube09 (
-      sex              VARCHAR(20),
-      age_group        VARCHAR(32),
-      indicator        VARCHAR(120),
-      category         VARCHAR(200),
-      survey_period    VARCHAR(16),
-      value_pct        DECIMAL(18,6),
-      est_thousand     DECIMAL(18,3),
-      note             VARCHAR(120)
+      sex            VARCHAR(20),
+      age_group      VARCHAR(32),
+      indicator      VARCHAR(200),   
+      category       VARCHAR(200),
+      survey_period  VARCHAR(16),
+      value_pct      DECIMAL(18,6),
+      est_thousand   DECIMAL(18,3),
+      note           VARCHAR(200)   
     ) ENGINE=InnoDB;
 
     CREATE TABLE IF NOT EXISTS stg_nhs_cube10 (
@@ -389,6 +568,40 @@ def ensure_staging_tables(cur):
       value_pct        DECIMAL(18,6),
       est_thousand     DECIMAL(18,3),
       note             VARCHAR(120)
+    ) ENGINE=InnoDB;
+
+    CREATE TABLE IF NOT EXISTS stg_biomarkers_kidney (
+      sex              VARCHAR(20),
+      age_group        VARCHAR(32),
+      indicator        VARCHAR(120),
+      category         VARCHAR(200),
+      survey_period    VARCHAR(16),
+      value_pct        DECIMAL(18,6),
+      est_thousand     DECIMAL(18,3),
+      note             VARCHAR(120)
+    ) ENGINE=InnoDB;
+
+    CREATE TABLE IF NOT EXISTS stg_biomarkers_liver (
+      sex              VARCHAR(20),
+      age_group        VARCHAR(32),
+      indicator        VARCHAR(120),
+      category         VARCHAR(200),
+      survey_period    VARCHAR(16),
+      value_pct        DECIMAL(18,6),
+      est_thousand     DECIMAL(18,3),
+      note             VARCHAR(120)
+    ) ENGINE=InnoDB;
+    
+    CREATE TABLE IF NOT EXISTS stg_obesity_anthro (
+      sex              VARCHAR(20),
+      age_group        VARCHAR(32),
+      indicator        VARCHAR(200),
+      category         VARCHAR(200),
+      survey_period    VARCHAR(16),
+      value            DECIMAL(18,6),
+      est_thousand     DECIMAL(18,3),
+      unit             VARCHAR(20),
+      note             VARCHAR(200)
     ) ENGINE=InnoDB;
     """)
     for stmt in ddl.split(";"):
@@ -519,6 +732,11 @@ def load_csv_to_staging(cur, file_items):
         print(f"Loading {path} -> {table}")
         # read as strings for robust type detection
         df = pd.read_csv(path, dtype=str, keep_default_na=True, na_values=["", "NA", "NaN"])
+        # special pre-processing for biomarker CSVs
+        if table in ("stg_biomarkers_kidney", "stg_biomarkers_liver"):
+          df = preprocess_biomarker_df(table, df)
+        elif table == "stg_nhs_cube09":  
+          df = preprocess_nhs_cube_df(df)
         # numeric columns auto-detected (best effort)
         for c in df.columns:
             series = df[c].dropna()
@@ -693,6 +911,21 @@ def run_transform_sql(cur):
     WHERE indicator IS NOT NULL AND indicator <> ''
     ON DUPLICATE KEY UPDATE indicator_unit=VALUES(indicator_unit);
 
+    INSERT INTO dim_health_indicator (indicator_name, indicator_unit)
+    SELECT DISTINCT indicator, '%' FROM stg_biomarkers_kidney
+    WHERE indicator IS NOT NULL AND indicator <> ''
+    ON DUPLICATE KEY UPDATE indicator_unit=VALUES(indicator_unit);
+
+    INSERT INTO dim_health_indicator (indicator_name, indicator_unit)
+    SELECT DISTINCT indicator, '%' FROM stg_biomarkers_liver
+    WHERE indicator IS NOT NULL AND indicator <> ''
+    ON DUPLICATE KEY UPDATE indicator_unit=VALUES(indicator_unit);
+
+    INSERT INTO dim_health_indicator (indicator_name, indicator_unit)
+    SELECT DISTINCT TRIM(indicator), TRIM(unit) FROM stg_obesity_anthro
+    WHERE indicator IS NOT NULL AND indicator <> ''
+    ON DUPLICATE KEY UPDATE indicator_unit=VALUES(indicator_unit);
+
     INSERT INTO dim_category (indicator_id, category_name)
     SELECT hi.indicator_id, t.category
     FROM (
@@ -700,6 +933,9 @@ def run_transform_sql(cur):
       UNION SELECT indicator, category FROM stg_nhs_cube09
       UNION SELECT indicator, category FROM stg_nhs_cube10
       UNION SELECT indicator, category FROM stg_chronic_indicators
+      UNION SELECT indicator, category FROM stg_biomarkers_kidney
+      UNION SELECT indicator, category FROM stg_biomarkers_liver
+      UNION SELECT indicator, category FROM stg_obesity_anthro
     ) t
     JOIN dim_health_indicator hi ON hi.indicator_name = t.indicator
     LEFT JOIN dim_category c ON c.indicator_id = hi.indicator_id AND c.category_name = t.category
@@ -771,6 +1007,28 @@ def run_transform_sql(cur):
     ON DUPLICATE KEY UPDATE
       value=VALUES(value), est_thousand=VALUES(est_thousand), note=VALUES(note);
 
+    -- 12b. Insert Obesity & Anthropometrics (BMI, waist, height, weight) facts
+    INSERT INTO fact_health_indicator
+    (survey_period, sex_id, age_group_id, indicator_id, category_id, value, est_thousand, note)
+    SELECT s.survey_period,
+           sx.sex_id,
+           ag.age_group_id,
+           hi.indicator_id,
+           dc.category_id,
+           s.value,
+           s.est_thousand,
+           s.note
+    FROM stg_obesity_anthro s
+    JOIN dim_sex sx ON sx.sex_name = CASE
+      WHEN s.sex IN ('Male') THEN 'Males'
+      WHEN s.sex IN ('Female') THEN 'Females'
+      ELSE 'Persons' END
+    JOIN dim_age_group ag ON ag.age_group_label = s.age_group
+    JOIN dim_health_indicator hi ON hi.indicator_name = s.indicator
+    JOIN dim_category dc ON dc.indicator_id = hi.indicator_id AND dc.category_name = s.category
+    ON DUPLICATE KEY UPDATE
+      value=VALUES(value), est_thousand=VALUES(est_thousand), note=VALUES(note);
+
     -- 13. Insert chronic indicator facts
     INSERT INTO fact_health_indicator
     (survey_period, sex_id, age_group_id, indicator_id, category_id, value, est_thousand, note)
@@ -791,6 +1049,58 @@ def run_transform_sql(cur):
     LEFT JOIN dim_age_group ag_all ON ag_all.age_group_label = 'All 18+'
     JOIN dim_health_indicator hi ON hi.indicator_name = s.indicator
     JOIN dim_category dc ON dc.indicator_id = hi.indicator_id AND dc.category_name = s.category
+    ON DUPLICATE KEY UPDATE
+      value=VALUES(value), est_thousand=VALUES(est_thousand), note=VALUES(note);
+
+    -- 14. Insert Kidney biomarker facts
+    INSERT INTO fact_health_indicator
+    (survey_period, sex_id, age_group_id, indicator_id, category_id, value, est_thousand, note)
+    SELECT s.survey_period,
+           sx.sex_id,
+           COALESCE(ag.age_group_id, ag_all.age_group_id) AS age_group_id,
+           hi.indicator_id,
+           dc.category_id,
+           COALESCE(s.value_pct,0),
+           s.est_thousand,
+           s.note
+    FROM stg_biomarkers_kidney s
+    JOIN dim_sex sx ON sx.sex_name = CASE
+      WHEN s.sex IN ('Male') THEN 'Males'
+      WHEN s.sex IN ('Female') THEN 'Females'
+      ELSE 'Persons' END
+    LEFT JOIN dim_age_group ag     ON ag.age_group_label = s.age_group
+    LEFT JOIN dim_age_group ag_all ON ag_all.age_group_label = 'All 18+'
+    JOIN dim_health_indicator hi ON hi.indicator_name = s.indicator
+    JOIN dim_category dc ON dc.indicator_id = hi.indicator_id AND dc.category_name = s.category
+    WHERE s.value_pct IS NOT NULL
+      AND (s.category IS NULL OR s.category NOT LIKE '%denominator%')
+      AND (s.indicator NOT LIKE '%Mean %' AND s.indicator NOT LIKE '%Median %')
+    ON DUPLICATE KEY UPDATE
+      value=VALUES(value), est_thousand=VALUES(est_thousand), note=VALUES(note);
+
+    -- 15. Insert Liver biomarker facts
+    INSERT INTO fact_health_indicator
+    (survey_period, sex_id, age_group_id, indicator_id, category_id, value, est_thousand, note)
+    SELECT s.survey_period,
+           sx.sex_id,
+           COALESCE(ag.age_group_id, ag_all.age_group_id) AS age_group_id,
+           hi.indicator_id,
+           dc.category_id,
+           COALESCE(s.value_pct,0),
+           s.est_thousand,
+           s.note
+    FROM stg_biomarkers_liver s
+    JOIN dim_sex sx ON sx.sex_name = CASE
+      WHEN s.sex IN ('Male') THEN 'Males'
+      WHEN s.sex IN ('Female') THEN 'Females'
+      ELSE 'Persons' END
+    LEFT JOIN dim_age_group ag     ON ag.age_group_label = s.age_group
+    LEFT JOIN dim_age_group ag_all ON ag_all.age_group_label = 'All 18+'
+    JOIN dim_health_indicator hi ON hi.indicator_name = s.indicator
+    JOIN dim_category dc ON dc.indicator_id = hi.indicator_id AND dc.category_name = s.category
+    WHERE s.value_pct IS NOT NULL
+      AND (s.category IS NULL OR s.category NOT LIKE '%denominator%')
+      AND (s.indicator NOT LIKE '%Mean %' AND s.indicator NOT LIKE '%Median %')
     ON DUPLICATE KEY UPDATE
       value=VALUES(value), est_thousand=VALUES(est_thousand), note=VALUES(note);
     """
