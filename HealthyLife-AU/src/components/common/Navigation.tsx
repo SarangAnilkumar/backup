@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import logo from './logo.jpg'
+import logo from './logo.png'
 
 const Navigation: React.FC = () => {
   const location = useLocation()
