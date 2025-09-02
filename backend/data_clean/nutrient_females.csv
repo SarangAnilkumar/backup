@@ -1,0 +1,112 @@
+age_group,indicator,measure,value,starred_flag
+16-44,Folate – serum folate (nmol/L),mean,30.0,0
+45 years and over,Folate – serum folate (nmol/L),mean,31.6,0
+Total 16 years and over,Folate – serum folate (nmol/L),mean,30.8,0
+16-44,Folate – serum folate (nmol/L),median,30.1,0
+45 years and over,Folate – serum folate (nmol/L),median,31.8,0
+Total 16 years and over,Folate – serum folate (nmol/L),median,30.9,0
+16-44,Folate – (nmol/L),iqr_low,21.4,0
+16-44,Folate – (nmol/L),iqr_high,39.6,0
+45 years and over,Folate – (nmol/L),iqr_low,23.1,0
+45 years and over,Folate – (nmol/L),iqr_high,41.9,0
+Total 16 years and over,Folate – (nmol/L),iqr_low,22.1,0
+Total 16 years and over,Folate – (nmol/L),iqr_high,41.0,0
+16-44,Vitamin B12 – vitamin B12 (pmol/L),mean,390.0,0
+45 years and over,Vitamin B12 – vitamin B12 (pmol/L),mean,411.0,0
+Total 16 years and over,Vitamin B12 – vitamin B12 (pmol/L),mean,401.0,0
+16-44,Vitamin B12 – vitamin B12 (pmol/L),median,348.0,0
+45 years and over,Vitamin B12 – vitamin B12 (pmol/L),median,348.0,0
+Total 16 years and over,Vitamin B12 – vitamin B12 (pmol/L),median,348.0,0
+16-44,Vitamin B12 – (pmol/L),iqr_low,263.0,0
+16-44,Vitamin B12 – (pmol/L),iqr_high,462.0,0
+45 years and over,Vitamin B12 – (pmol/L),iqr_low,260.0,0
+45 years and over,Vitamin B12 – (pmol/L),iqr_high,466.0,0
+Total 16 years and over,Vitamin B12 – (pmol/L),iqr_low,260.0,0
+Total 16 years and over,Vitamin B12 – (pmol/L),iqr_high,463.0,0
+16-44,Serum ferritin – serum ferritin (µg/L),mean,60.0,0
+45 years and over,Serum ferritin – serum ferritin (µg/L),mean,117.0,0
+Total 16 years and over,Serum ferritin – serum ferritin (µg/L),mean,89.0,0
+16-44,Serum ferritin – serum ferritin (µg/L),median,44.0,0
+45 years and over,Serum ferritin – serum ferritin (µg/L),median,90.0,0
+Total 16 years and over,Serum ferritin – serum ferritin (µg/L),median,64.0,0
+16-44,Serum ferritin – (µg/L),iqr_low,25.0,0
+16-44,Serum ferritin – (µg/L),iqr_high,76.0,0
+45 years and over,Serum ferritin – (µg/L),iqr_low,52.0,0
+45 years and over,Serum ferritin – (µg/L),iqr_high,152.0,0
+Total 16 years and over,Serum ferritin – (µg/L),iqr_low,34.0,0
+Total 16 years and over,Serum ferritin – (µg/L),iqr_high,113.0,0
+16-44,Serum transferrin receptor – serum transferrin receptor (mg/L),mean,2.8,0
+45 years and over,Serum transferrin receptor – serum transferrin receptor (mg/L),mean,2.8,0
+Total 16 years and over,Serum transferrin receptor – serum transferrin receptor (mg/L),mean,2.8,0
+16-44,Serum transferrin receptor – serum transferrin receptor (mg/L),median,2.6,0
+45 years and over,Serum transferrin receptor – serum transferrin receptor (mg/L),median,2.6,0
+Total 16 years and over,Serum transferrin receptor – serum transferrin receptor (mg/L),median,2.6,0
+16-44,Serum transferrin receptor – (mg/L),iqr_low,2.2,0
+16-44,Serum transferrin receptor – (mg/L),iqr_high,3.1,0
+45 years and over,Serum transferrin receptor – (mg/L),iqr_low,2.3,0
+45 years and over,Serum transferrin receptor – (mg/L),iqr_high,3.1,0
+Total 16 years and over,Serum transferrin receptor – (mg/L),iqr_low,2.3,0
+Total 16 years and over,Serum transferrin receptor – (mg/L),iqr_high,3.1,0
+16-44,Haemoglobin ('000) – Normal haemoglobin level,count_000,4551.2,0
+45 years and over,Haemoglobin ('000) – Normal haemoglobin level,count_000,4781.2,0
+Total 16 years and over,Haemoglobin ('000) – Normal haemoglobin level,count_000,9331.2,0
+16-44,Haemoglobin ('000) – Abnormal haemoglobin level,count_000,494.2,0
+45 years and over,Haemoglobin ('000) – Abnormal haemoglobin level,count_000,580.5,0
+Total 16 years and over,Haemoglobin ('000) – Abnormal haemoglobin level,count_000,1096.2,0
+16-44,Haemoglobin ('000) – denominator,blood test,5043.2,0
+45 years and over,Haemoglobin ('000) – denominator,blood test,5377.8,0
+Total 16 years and over,Haemoglobin ('000) – denominator,blood test,10423.6,0
+16-44,Iodine – urinary iodine (μg/L),median,101.0,0
+45 years and over,Iodine – urinary iodine (μg/L),median,103.0,0
+Total 16 years and over,Iodine – urinary iodine (μg/L),median,103.0,0
+16-44,Iodine – (μg/L),iqr_low,51.0,0
+16-44,Iodine – (μg/L),iqr_high,169.0,0
+45 years and over,Iodine – (μg/L),iqr_low,61.0,0
+45 years and over,Iodine – (μg/L),iqr_high,163.0,0
+Total 16 years and over,Iodine – (μg/L),iqr_low,55.0,0
+Total 16 years and over,Iodine – (μg/L),iqr_high,167.0,0
+16-44,Urinary iodine status ('000) – Adequate urinary iodine (≥100 μg/L),count_000,2449.3,0
+45 years and over,Urinary iodine status ('000) – Adequate urinary iodine (≥100 μg/L),count_000,2698.6,0
+Total 16 years and over,Urinary iodine status ('000) – Adequate urinary iodine (≥100 μg/L),count_000,5134.5,0
+16-44,Iodine deficient – Mild deficiency (50-99 μg/L),count_000,1203.4,0
+45 years and over,Iodine deficient – Mild deficiency (50-99 μg/L),count_000,1532.0,0
+Total 16 years and over,Iodine deficient – Mild deficiency (50-99 μg/L),count_000,2731.4,0
+16-44,Iodine deficient – Moderate/severe deficiency (<50 μg/L),count_000,1174.7,0
+45 years and over,Iodine deficient – Moderate/severe deficiency (<50 μg/L),count_000,931.3,0
+Total 16 years and over,Iodine deficient – Moderate/severe deficiency (<50 μg/L),count_000,2120.5,0
+16-44,Iodine deficient – Total iodine deficient (<100 μg/L),count_000,2398.0,0
+45 years and over,Iodine deficient – Total iodine deficient (<100 μg/L),count_000,2463.3,0
+Total 16 years and over,Iodine deficient – Total iodine deficient (<100 μg/L),count_000,4859.5,0
+16-44,Iodine deficient – denominator,urine test,4843.9,0
+45 years and over,Iodine deficient – denominator,urine test,5187.9,0
+Total 16 years and over,Iodine deficient – denominator,urine test,10021.3,0
+16-44,Vitamin D – vitamin D (nmol/L),mean,65.0,0
+45 years and over,Vitamin D – vitamin D (nmol/L),mean,74.0,0
+Total 16 years and over,Vitamin D – vitamin D (nmol/L),mean,70.0,0
+16-44,Vitamin D – vitamin D (nmol/L),median,64.0,0
+45 years and over,Vitamin D – vitamin D (nmol/L),median,73.0,0
+Total 16 years and over,Vitamin D – vitamin D (nmol/L),median,69.0,0
+16-44,Vitamin D – (nmol/L),iqr_low,50.0,0
+16-44,Vitamin D – (nmol/L),iqr_high,80.0,0
+45 years and over,Vitamin D – (nmol/L),iqr_low,58.0,0
+45 years and over,Vitamin D – (nmol/L),iqr_high,90.0,0
+Total 16 years and over,Vitamin D – (nmol/L),iqr_low,53.0,0
+Total 16 years and over,Vitamin D – (nmol/L),iqr_high,84.0,0
+16-44,Vitamin D status ('000) – Adequate vitamin D (≥50 nmol/L),count_000,3809.4,0
+45 years and over,Vitamin D status ('000) – Adequate vitamin D (≥50 nmol/L),count_000,4609.1,0
+Total 16 years and over,Vitamin D status ('000) – Adequate vitamin D (≥50 nmol/L),count_000,8431.3,0
+16-44,Vitamin D deficient – Mild deficiency (30-49 nmol/L),count_000,862.8,0
+45 years and over,Vitamin D deficient – Mild deficiency (30-49 nmol/L),count_000,611.3,0
+Total 16 years and over,Vitamin D deficient – Mild deficiency (30-49 nmol/L),count_000,1464.3,0
+16-44,Vitamin D deficient – Moderate/severe deficiency (<30 nmol/L),count_000,386.6,0
+45 years and over,Vitamin D deficient – Moderate/severe deficiency (<30 nmol/L),count_000,173.6,0
+Total 16 years and over,Vitamin D deficient – Moderate/severe deficiency (<30 nmol/L),count_000,549.4,0
+16-44,Vitamin D deficient – Total vitamin D deficient (<50 nmol/L),count_000,1222.7,0
+45 years and over,Vitamin D deficient – Total vitamin D deficient (<50 nmol/L),count_000,761.7,0
+Total 16 years and over,Vitamin D deficient – Total vitamin D deficient (<50 nmol/L),count_000,1986.1,0
+16-44,Vitamin D deficient – denominator,blood test,5043.2,0
+45 years and over,Vitamin D deficient – denominator,blood test,5377.8,0
+Total 16 years and over,Vitamin D deficient – denominator,blood test,10423.6,0
+16-44,Vitamin D deficient – Total females ('000),count_000,5096.7,0
+45 years and over,Vitamin D deficient – Total females ('000),count_000,5423.7,0
+Total 16 years and over,Vitamin D deficient – Total females ('000),count_000,10525.2,0

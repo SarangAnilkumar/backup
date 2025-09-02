@@ -1,0 +1,29 @@
+mysql:
+  host: healthylife-rds.c54oswsus7c6.ap-southeast-2.rds.amazonaws.com
+  port: 3306
+  user: admin
+  password: healthylife123
+  database: healthylife
+
+files:
+  - { path: "backend/data_clean/S1_Disease_5yrs_clean.csv", staging: "stg_s1_disease_5yr" }
+  - { path: "backend/data_clean/S8_Risk_factor_linked_disease_clean.csv", staging: "stg_s8_risk_linked" }
+  - { path: "backend/data_clean/S9_Risk_factor_unadjusted_clean.csv", staging: "stg_s9_risk_unadj" }
+  - { path: "backend/data_clean/nhs2022_cube08_clean.csv", staging: "stg_nhs_cube08" }
+  - { path: "backend/data_clean/nhs2022_cube09_clean.csv", staging: "stg_nhs_cube09" }
+  - { path: "backend/data_clean/nhs2022_cube10_clean.csv", staging: "stg_nhs_cube10" }
+  - { path: "backend/data_clean/kidney_biomarkers.csv", staging: "stg_chronic_indicators" }
+  - { path: "backend/data_clean/liver_biomarkers.csv", staging: "stg_chronic_indicators" }
+  - { path: "backend/data_clean/chronic_indicators.csv", staging: "stg_chronic_indicators" }
+  - { path: "backend/data_clean/chronic_prevalence.csv", staging: "stg_chronic_indicators" }
+  - { path: "backend/data_clean/chronic_denominators.csv", staging: "stg_chronic_indicators" }
+
+optional_sql:
+  insert_age_sex_filter: "backend/insert_age_sex_filter.sql"
+  insert_smoke_fact:     "backend/insert_smoke_fact.sql"
+  insert_alcohol_fact:   "backend/insert_alcohol_fact.sql"
+#  schema_table_creation: "data_clean/schema_table_creation.sql"
+  #insert_data:           "data_clean/insert_data.sql"
+
+  # Add Epic-3 nutrition insert files if you keep them separate:
+  # nutrient_inserts:     "data_clean/nutrient_inserts.sql"

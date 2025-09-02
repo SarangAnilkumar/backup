@@ -1,4 +1,4 @@
-INSERT INTO SMOKE_FACT (filter_id, smo_fact_status, smo_fact_frequency, smo_fact_est_000) VALUES
+INSERT INTO smoke_fact (filter_id, smo_fact_status, smo_fact_frequency, smo_fact_est_000) VALUES
 (1, 'Ex-smoker', NULL, 27.9),
 (1, 'Never smoked', NULL, 870.0),
 (2, 'Ex-smoker', NULL, 8.4),

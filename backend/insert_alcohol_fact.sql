@@ -1,6 +1,4 @@
-USE epic1;
-
-INSERT INTO ALCOHOL_FACT 
+INSERT INTO alcohol_fact 
 (filter_id, alco_fact_status, alco_fact_label, alco_fact_low_bound, alco_fact_up_bound, alco_fact_est_000) 
 VALUES
 (1, 'Did not exceed guideline', 'Never consumed alcohol', NULL, NULL, 575.5),

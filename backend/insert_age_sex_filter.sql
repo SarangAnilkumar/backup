@@ -1,6 +1,4 @@
-USE epic1;
-
-INSERT INTO AGE_SEX_FILTER (filter_id, filter_age_start, filter_age_end, filter_sex) VALUES
+INSERT INTO age_sex_filter (filter_id, filter_age_start, filter_age_end, filter_sex) VALUES
 (1, 15, 17, 'Persons'),
 (2, 15, 17, 'Male'),
 (3, 15, 17, 'Female'),
