@@ -1,8 +1,8 @@
 mysql:
-  host: 127.0.0.1
+  host: healthylife-rds.c54oswsus7c6.ap-southeast-2.rds.amazonaws.com
   port: 3306
-  user: root
-  password: 'password'
+  user: admin
+  password: healthylife123
   database: healthylife
 
 files:
