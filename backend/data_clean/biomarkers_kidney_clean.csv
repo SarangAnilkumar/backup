@@ -1,0 +1,154 @@
+survey_period,sex,age_group,indicator,category,value_pct,est_thousand,note
+2022–24,Males,All 18+,eGFR (mL/min/1.73m²) range,≥90,57.0,5512.6,
+2022–24,Females,All 18+,eGFR (mL/min/1.73m²) range,≥90,59.8,6068.7,
+2022–24,Persons,All 18+,eGFR (mL/min/1.73m²) range,≥90,58.5,11597.8,
+2022–24,Males,All 18+,eGFR (mL/min/1.73m²) range,75–89,26.0,2512.9,
+2022–24,Females,All 18+,eGFR (mL/min/1.73m²) range,75–89,22.8,2311.1,
+2022–24,Persons,All 18+,eGFR (mL/min/1.73m²) range,75–89,24.4,4825.0,
+2022–24,Males,All 18+,eGFR (mL/min/1.73m²) range,60–74,12.3,1191.3,
+2022–24,Females,All 18+,eGFR (mL/min/1.73m²) range,60–74,11.4,1160.5,
+2022–24,Persons,All 18+,eGFR (mL/min/1.73m²) range,60–74,11.9,2349.3,
+2022–24,Males,All 18+,eGFR (mL/min/1.73m²) range,45–59,3.5,339.2,
+2022–24,Females,All 18+,eGFR (mL/min/1.73m²) range,45–59,4.0,403.4,
+2022–24,Persons,All 18+,eGFR (mL/min/1.73m²) range,45–59,3.7,738.6,
+2022–24,Males,All 18+,eGFR (mL/min/1.73m²) range,30–44,1.1,107.0,
+2022–24,Females,All 18+,eGFR (mL/min/1.73m²) range,30–44,1.5,154.6,
+2022–24,Persons,All 18+,eGFR (mL/min/1.73m²) range,30–44,1.4,276.7,
+2022–24,Males,All 18+,eGFR (mL/min/1.73m²) range,<30,0.2,18.4,
+2022–24,Females,All 18+,eGFR (mL/min/1.73m²) range,<30,0.2,19.8,
+2022–24,Persons,All 18+,eGFR (mL/min/1.73m²) range,<30,0.1,27.7,
+2022–24,Males,All 18+,eGFR (mL/min/1.73m²) range,,95.1,9205.3,Total normal results (≥60 mL/min/1.73m²)
+2022–24,Males,All 18+,eGFR (mL/min/1.73m²) range,,95.1,462.7,Total normal results (≥60 mL/min/1.73m²)
+2022–24,Males,All 18+,eGFR (mL/min/1.73m²) range,,95.1,9679.6,Total normal results (≥60 mL/min/1.73m²)
+2022–24,Males,All 18+,eGFR (mL/min/1.73m²) range,,95.1,83.0,Total normal results (≥60 mL/min/1.73m²)
+2022–24,Males,All 18+,eGFR (mL/min/1.73m²) range,,95.1,90.0,Total normal results (≥60 mL/min/1.73m²)
+2022–24,Males,All 18+,eGFR (mL/min/1.73m²) range,,4.8,9205.3,Total abnormal results (<60 mL/min/1.73m²)
+2022–24,Males,All 18+,eGFR (mL/min/1.73m²) range,,4.8,462.7,Total abnormal results (<60 mL/min/1.73m²)
+2022–24,Males,All 18+,eGFR (mL/min/1.73m²) range,,4.8,9679.6,Total abnormal results (<60 mL/min/1.73m²)
+2022–24,Males,All 18+,eGFR (mL/min/1.73m²) range,,4.8,83.0,Total abnormal results (<60 mL/min/1.73m²)
+2022–24,Males,All 18+,eGFR (mL/min/1.73m²) range,,4.8,90.0,Total abnormal results (<60 mL/min/1.73m²)
+2022–24,Males,All 18+,eGFR (mL/min/1.73m²) range,,100.0,9205.3,Total blood test results(c)
+2022–24,Males,All 18+,eGFR (mL/min/1.73m²) range,,100.0,462.7,Total blood test results(c)
+2022–24,Males,All 18+,eGFR (mL/min/1.73m²) range,,100.0,9679.6,Total blood test results(c)
+2022–24,Males,All 18+,eGFR (mL/min/1.73m²) range,,100.0,83.0,Total blood test results(c)
+2022–24,Males,All 18+,eGFR (mL/min/1.73m²) range,,100.0,90.0,Total blood test results(c)
+2022–24,Females,All 18+,eGFR (mL/min/1.73m²) range,,94.3,9561.2,Total normal results (≥60 mL/min/1.73m²)
+2022–24,Females,All 18+,eGFR (mL/min/1.73m²) range,,94.3,569.8,Total normal results (≥60 mL/min/1.73m²)
+2022–24,Females,All 18+,eGFR (mL/min/1.73m²) range,,94.3,10142.3,Total normal results (≥60 mL/min/1.73m²)
+2022–24,Females,All 18+,eGFR (mL/min/1.73m²) range,,94.3,83.0,Total normal results (≥60 mL/min/1.73m²)
+2022–24,Females,All 18+,eGFR (mL/min/1.73m²) range,,94.3,90.0,Total normal results (≥60 mL/min/1.73m²)
+2022–24,Females,All 18+,eGFR (mL/min/1.73m²) range,,5.6,9561.2,Total abnormal results (<60 mL/min/1.73m²)
+2022–24,Females,All 18+,eGFR (mL/min/1.73m²) range,,5.6,569.8,Total abnormal results (<60 mL/min/1.73m²)
+2022–24,Females,All 18+,eGFR (mL/min/1.73m²) range,,5.6,10142.3,Total abnormal results (<60 mL/min/1.73m²)
+2022–24,Females,All 18+,eGFR (mL/min/1.73m²) range,,5.6,83.0,Total abnormal results (<60 mL/min/1.73m²)
+2022–24,Females,All 18+,eGFR (mL/min/1.73m²) range,,5.6,90.0,Total abnormal results (<60 mL/min/1.73m²)
+2022–24,Females,All 18+,eGFR (mL/min/1.73m²) range,,100.0,9561.2,Total blood test results(c)
+2022–24,Females,All 18+,eGFR (mL/min/1.73m²) range,,100.0,569.8,Total blood test results(c)
+2022–24,Females,All 18+,eGFR (mL/min/1.73m²) range,,100.0,10142.3,Total blood test results(c)
+2022–24,Females,All 18+,eGFR (mL/min/1.73m²) range,,100.0,83.0,Total blood test results(c)
+2022–24,Females,All 18+,eGFR (mL/min/1.73m²) range,,100.0,90.0,Total blood test results(c)
+2022–24,Persons,All 18+,eGFR (mL/min/1.73m²) range,,94.7,18761.9,Total normal results (≥60 mL/min/1.73m²)
+2022–24,Persons,All 18+,eGFR (mL/min/1.73m²) range,,94.7,1039.2,Total normal results (≥60 mL/min/1.73m²)
+2022–24,Persons,All 18+,eGFR (mL/min/1.73m²) range,,94.7,19814.1,Total normal results (≥60 mL/min/1.73m²)
+2022–24,Persons,All 18+,eGFR (mL/min/1.73m²) range,,94.7,83.0,Total normal results (≥60 mL/min/1.73m²)
+2022–24,Persons,All 18+,eGFR (mL/min/1.73m²) range,,94.7,90.0,Total normal results (≥60 mL/min/1.73m²)
+2022–24,Persons,All 18+,eGFR (mL/min/1.73m²) range,,5.2,18761.9,Total abnormal results (<60 mL/min/1.73m²)
+2022–24,Persons,All 18+,eGFR (mL/min/1.73m²) range,,5.2,1039.2,Total abnormal results (<60 mL/min/1.73m²)
+2022–24,Persons,All 18+,eGFR (mL/min/1.73m²) range,,5.2,19814.1,Total abnormal results (<60 mL/min/1.73m²)
+2022–24,Persons,All 18+,eGFR (mL/min/1.73m²) range,,5.2,83.0,Total abnormal results (<60 mL/min/1.73m²)
+2022–24,Persons,All 18+,eGFR (mL/min/1.73m²) range,,5.2,90.0,Total abnormal results (<60 mL/min/1.73m²)
+2022–24,Persons,All 18+,eGFR (mL/min/1.73m²) range,,100.0,18761.9,Total blood test results(c)
+2022–24,Persons,All 18+,eGFR (mL/min/1.73m²) range,,100.0,1039.2,Total blood test results(c)
+2022–24,Persons,All 18+,eGFR (mL/min/1.73m²) range,,100.0,19814.1,Total blood test results(c)
+2022–24,Persons,All 18+,eGFR (mL/min/1.73m²) range,,100.0,83.0,Total blood test results(c)
+2022–24,Persons,All 18+,eGFR (mL/min/1.73m²) range,,100.0,90.0,Total blood test results(c)
+2022–24,Males,All 18+,Albumin Creatinine Ratio (ACR),Normoalbuminuria(d),87.9,,
+2022–24,Females,All 18+,Albumin Creatinine Ratio (ACR),Normoalbuminuria(d),90.3,,
+2022–24,Persons,All 18+,Albumin Creatinine Ratio (ACR),Normoalbuminuria(d),89.1,,
+2022–24,Males,All 18+,Albuminuria,Microalbuminuria(d),10.6,,
+2022–24,Females,All 18+,Albuminuria,Microalbuminuria(d),9.0,,
+2022–24,Persons,All 18+,Albuminuria,Microalbuminuria(d),9.7,,
+2022–24,Males,All 18+,Albuminuria,Macroalbuminuria(d),1.5,,
+2022–24,Females,All 18+,Albuminuria,Macroalbuminuria(d),0.5,,
+2022–24,Persons,All 18+,Albuminuria,Macroalbuminuria(d),1.1,,
+2022–24,Males,All 18+,Albuminuria,,12.1,1144.2,Total with albuminuria
+2022–24,Males,All 18+,Albuminuria,,12.1,9472.9,Total with albuminuria
+2022–24,Males,All 18+,Albuminuria,,12.1,2.5,Total with albuminuria
+2022–24,Males,All 18+,Albuminuria,,12.1,0.7,Total with albuminuria
+2022–24,Males,All 18+,Albuminuria,,100.0,1144.2,Total urine test results(e)
+2022–24,Males,All 18+,Albuminuria,,100.0,9472.9,Total urine test results(e)
+2022–24,Males,All 18+,Albuminuria,,100.0,2.5,Total urine test results(e)
+2022–24,Males,All 18+,Albuminuria,,100.0,0.7,Total urine test results(e)
+2022–24,Females,All 18+,Albuminuria,,9.6,937.9,Total with albuminuria
+2022–24,Females,All 18+,Albuminuria,,9.6,9725.8,Total with albuminuria
+2022–24,Females,All 18+,Albuminuria,,9.6,2.3,Total with albuminuria
+2022–24,Females,All 18+,Albuminuria,,9.6,1.0,Total with albuminuria
+2022–24,Females,All 18+,Albuminuria,,100.0,937.9,Total urine test results(e)
+2022–24,Females,All 18+,Albuminuria,,100.0,9725.8,Total urine test results(e)
+2022–24,Females,All 18+,Albuminuria,,100.0,2.3,Total urine test results(e)
+2022–24,Females,All 18+,Albuminuria,,100.0,1.0,Total urine test results(e)
+2022–24,Persons,All 18+,Albuminuria,,10.8,2073.8,Total with albuminuria
+2022–24,Persons,All 18+,Albuminuria,,10.8,19205.8,Total with albuminuria
+2022–24,Persons,All 18+,Albuminuria,,10.8,2.4,Total with albuminuria
+2022–24,Persons,All 18+,Albuminuria,,10.8,0.9,Total with albuminuria
+2022–24,Persons,All 18+,Albuminuria,,100.0,2073.8,Total urine test results(e)
+2022–24,Persons,All 18+,Albuminuria,,100.0,19205.8,Total urine test results(e)
+2022–24,Persons,All 18+,Albuminuria,,100.0,2.4,Total urine test results(e)
+2022–24,Persons,All 18+,Albuminuria,,100.0,0.9,Total urine test results(e)
+2022–24,Males,All 18+,Indicators of Chronic Kidney Disease,No indicators of Chronic Kidney Disease(f),85.5,,
+2022–24,Females,All 18+,Indicators of Chronic Kidney Disease,No indicators of Chronic Kidney Disease(f),85.7,,
+2022–24,Persons,All 18+,Indicators of Chronic Kidney Disease,No indicators of Chronic Kidney Disease(f),85.7,,
+2022–24,Males,All 18+,Indicators of Chronic Kidney Disease,Stage 1: eGFR ≥90 mL/min/1.73 m² & micro- or macroalbuminuria,5.3,496.7,
+2022–24,Females,All 18+,Indicators of Chronic Kidney Disease,Stage 1: eGFR ≥90 mL/min/1.73 m² & micro- or macroalbuminuria,4.9,471.8,
+2022–24,Persons,All 18+,Indicators of Chronic Kidney Disease,Stage 1: eGFR ≥90 mL/min/1.73 m² & micro- or macroalbuminuria,5.1,965.8,
+2022–24,Males,All 18+,Indicators of Chronic Kidney Disease,Stage 2: eGFR 60–89 mL/min/1.73 m² & micro- or macroalbuminuria,4.3,404.0,
+2022–24,Females,All 18+,Indicators of Chronic Kidney Disease,Stage 2: eGFR 60–89 mL/min/1.73 m² & micro- or macroalbuminuria,3.4,330.7,
+2022–24,Persons,All 18+,Indicators of Chronic Kidney Disease,Stage 2: eGFR 60–89 mL/min/1.73 m² & micro- or macroalbuminuria,3.9,739.2,
+2022–24,Males,All 18+,Indicators of Chronic Kidney Disease,Stage 3a: eGFR 45–59 mL/min/1.73 m²,3.5,329.2,
+2022–24,Females,All 18+,Indicators of Chronic Kidney Disease,Stage 3a: eGFR 45–59 mL/min/1.73 m²,4.1,396.3,
+2022–24,Persons,All 18+,Indicators of Chronic Kidney Disease,Stage 3a: eGFR 45–59 mL/min/1.73 m²,3.8,723.3,
+2022–24,Males,All 18+,Indicators of Chronic Kidney Disease,Stage 3b: eGFR 30–44 mL/min/1.73 m²,1.2,113.3,
+2022–24,Females,All 18+,Indicators of Chronic Kidney Disease,Stage 3b: eGFR 30–44 mL/min/1.73 m²,1.5,144.6,
+2022–24,Persons,All 18+,Indicators of Chronic Kidney Disease,Stage 3b: eGFR 30–44 mL/min/1.73 m²,1.4,259.1,
+2022–24,Males,All 18+,Indicators of Chronic Kidney Disease,Stages 4–5: eGFR <30 mL/min/1.73 m²,0.2,18.4,
+2022–24,Females,All 18+,Indicators of Chronic Kidney Disease,Stages 4–5: eGFR <30 mL/min/1.73 m²,0.2,19.8,
+2022–24,Persons,All 18+,Indicators of Chronic Kidney Disease,Stages 4–5: eGFR <30 mL/min/1.73 m²,0.1,27.7,
+2022–24,Males,All 18+,Indicators of Chronic Kidney Disease,,14.4,1349.6,Total indicators of Chronic Kidney Disease
+2022–24,Males,All 18+,Indicators of Chronic Kidney Disease,,14.4,9349.5,Total indicators of Chronic Kidney Disease
+2022–24,Males,All 18+,Indicators of Chronic Kidney Disease,,14.4,9803.0,Total indicators of Chronic Kidney Disease
+2022–24,Males,All 18+,Indicators of Chronic Kidney Disease,,100.0,1349.6,Total blood and urine test results(g)
+2022–24,Males,All 18+,Indicators of Chronic Kidney Disease,,100.0,9349.5,Total blood and urine test results(g)
+2022–24,Males,All 18+,Indicators of Chronic Kidney Disease,,100.0,9803.0,Total blood and urine test results(g)
+2022–24,Males,All 18+,Indicators of Chronic Kidney Disease,,100.0,1349.6,"Total, 18 years and over"
+2022–24,Males,All 18+,Indicators of Chronic Kidney Disease,,100.0,9349.5,"Total, 18 years and over"
+2022–24,Males,All 18+,Indicators of Chronic Kidney Disease,,100.0,9803.0,"Total, 18 years and over"
+2022–24,Females,All 18+,Indicators of Chronic Kidney Disease,,13.9,1347.1,Total indicators of Chronic Kidney Disease
+2022–24,Females,All 18+,Indicators of Chronic Kidney Disease,,13.9,9672.3,Total indicators of Chronic Kidney Disease
+2022–24,Females,All 18+,Indicators of Chronic Kidney Disease,,13.9,10184.7,Total indicators of Chronic Kidney Disease
+2022–24,Females,All 18+,Indicators of Chronic Kidney Disease,,100.0,1347.1,Total blood and urine test results(g)
+2022–24,Females,All 18+,Indicators of Chronic Kidney Disease,,100.0,9672.3,Total blood and urine test results(g)
+2022–24,Females,All 18+,Indicators of Chronic Kidney Disease,,100.0,10184.7,Total blood and urine test results(g)
+2022–24,Females,All 18+,Indicators of Chronic Kidney Disease,,100.0,1347.1,"Total, 18 years and over"
+2022–24,Females,All 18+,Indicators of Chronic Kidney Disease,,100.0,9672.3,"Total, 18 years and over"
+2022–24,Females,All 18+,Indicators of Chronic Kidney Disease,,100.0,10184.7,"Total, 18 years and over"
+2022–24,Persons,All 18+,Indicators of Chronic Kidney Disease,,14.2,2696.7,Total indicators of Chronic Kidney Disease
+2022–24,Persons,All 18+,Indicators of Chronic Kidney Disease,,14.2,19011.1,Total indicators of Chronic Kidney Disease
+2022–24,Persons,All 18+,Indicators of Chronic Kidney Disease,,14.2,20003.0,Total indicators of Chronic Kidney Disease
+2022–24,Persons,All 18+,Indicators of Chronic Kidney Disease,,100.0,2696.7,Total blood and urine test results(g)
+2022–24,Persons,All 18+,Indicators of Chronic Kidney Disease,,100.0,19011.1,Total blood and urine test results(g)
+2022–24,Persons,All 18+,Indicators of Chronic Kidney Disease,,100.0,20003.0,Total blood and urine test results(g)
+2022–24,Persons,All 18+,Indicators of Chronic Kidney Disease,,100.0,2696.7,"Total, 18 years and over"
+2022–24,Persons,All 18+,Indicators of Chronic Kidney Disease,,100.0,19011.1,"Total, 18 years and over"
+2022–24,Persons,All 18+,Indicators of Chronic Kidney Disease,,100.0,20003.0,"Total, 18 years and over"
+2022–24,Males,All 18+,Albumin Creatinine Ratio (ACR),Normoalbuminuria(f),,8330.7,
+2022–24,Females,All 18+,Albumin Creatinine Ratio (ACR),Normoalbuminuria(f),,8778.2,
+2022–24,Persons,All 18+,Albumin Creatinine Ratio (ACR),Normoalbuminuria(f),,17116.3,
+2022–24,Males,All 18+,Albuminuria,Microalbuminuria(f),,999.7,
+2022–24,Females,All 18+,Albuminuria,Microalbuminuria(f),,872.2,
+2022–24,Persons,All 18+,Albuminuria,Microalbuminuria(f),,1866.2,
+2022–24,Males,All 18+,Albuminuria,Macroalbuminuria(f),,139.5,
+2022–24,Females,All 18+,Albuminuria,Macroalbuminuria(f),,52.9,
+2022–24,Persons,All 18+,Albuminuria,Macroalbuminuria(f),,209.8,
+2022–24,Males,All 18+,Indicators of Chronic Kidney Disease,No indicators of Chronic Kidney Disease(h),,7991.0,
+2022–24,Females,All 18+,Indicators of Chronic Kidney Disease,No indicators of Chronic Kidney Disease(h),,8286.4,
+2022–24,Persons,All 18+,Indicators of Chronic Kidney Disease,No indicators of Chronic Kidney Disease(h),,16292.2,
