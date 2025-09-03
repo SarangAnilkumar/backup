@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import { Activity, Heart, Cigarette, Wine, Weight, Calculator, TrendingUp, TrendingDown, AlertTriangle } from 'lucide-react'
+import HealthAdvice from '../components/health-projections/HealthAdvice'
 
-const MyHealth: React.FC = () => {
+const MyHealth: React.FC<{ healthData?: any }> = ({ healthData }) => {
   // Simulator state
   const [habits, setHabits] = useState({
     exercise: 2, // days per week
@@ -12,6 +13,47 @@ const MyHealth: React.FC = () => {
     stress: 3 // scale 1-5
   })
 
+  const [apiData, setApiData] = useState(null)
+  const [loading, setLoading] = useState(false)
+  const [error, setError] = useState(null)
+
+  const fetchHealthAnalysis = async () => {
+    if (!healthData?.age || !healthData?.gender || !healthData?.alcoholConsumption || !healthData?.smokingStatus) {
+      return // If no necessary data is sent request
+    }
+
+    setLoading(true)
+    setError(null)
+
+    try {
+      const response = await fetch('https://i5r58exmh9.execute-api.ap-southeast-2.amazonaws.com/prod/alcoholSmokeDataFetch', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'x-api-key': 'kQtOrJu6Ba9TExHVFhVAt6aI7VOwMC3pabxQMR1y'
+        },
+        body: JSON.stringify({
+          age: healthData.age,
+          gender: healthData.gender,
+          alcohol_intake: healthData.alcoholConsumption,
+          smoking_status: healthData.smokingStatus
+        })
+      })
+
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`)
+      }
+
+      const data = await response.json()
+      setApiData(data)
+    } catch (err) {
+      setError(err.message)
+      console.error('API Error:', err)
+    } finally {
+      setLoading(false)
+    }
+  }
+
   const [predictions, setPredictions] = useState({
     cardiovascularRisk: 15,
     diabetesRisk: 12,
@@ -19,6 +61,12 @@ const MyHealth: React.FC = () => {
     healthScore: 72,
     bmi: 24.5
   })
+
+  useEffect(() => {
+    if (healthData) {
+      fetchHealthAnalysis()
+    }
+  }, [healthData])
 
   const [comparison, setComparison] = useState(null)
 
@@ -144,21 +192,46 @@ const MyHealth: React.FC = () => {
     }
   ]
 
+  const getBMIStatus = (bmi: number): string => {
+    if (bmi < 18.5) return 'underweight'
+    if (bmi >= 18.5 && bmi < 25) return 'healthy'
+    if (bmi >= 25 && bmi < 30) return 'overweight'
+    return 'obese'
+  }
+
+  const getBMIColor = (bmi: number): string => {
+    if (bmi < 18.5) return 'bg-yellow-100 text-yellow-800'
+    if (bmi >= 18.5 && bmi < 25) return 'bg-green-100 text-green-800'
+    if (bmi >= 25 && bmi < 30) return 'bg-orange-100 text-orange-800'
+    return 'bg-red-100 text-red-800'
+  }
+
   return (
-    <div className="min-h-screen bg-transparent from-green-50 via-emerald-50 to-teal-50">
-      {/* Header Section - ORIGINAL CONTENT */}
-      <div className="bg-white shadow-sm border-b">
-        <div className="max-w-7xl mx-auto px-4 py-6">
+    <div className="min-h-screen bg-transparent">
+      {/* Header Section  */}
+      <div className="bg-gradient-to-r from-green-50 via-emerald-50 to-teal-50 shadow-sm border-b border-green-100 relative">
+        {/* background picture */}
+        <div className="absolute inset-0 bg-center opacity-30" style={{ backgroundImage: 'url("/myhealthbanner.gif")' }}></div>
+
+        <div className="max-w-7xl mx-auto px-4 py-8 relative z-10">
           <div className="flex items-center justify-between">
             <div>
-              <h1 className="text-4xl font-bold bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent">My Health Records</h1>
-              <p className="text-gray-600 mt-2">Comprehensive analysis report based on Australian health standards</p>
+              <div className="flex items-center mb-2">
+                <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-emerald-500 rounded-xl flex items-center justify-center mr-4">
+                  <Heart className="w-6 h-6 text-white" />
+                </div>
+                <h1 className="text-4xl font-bold bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent">Key Indicators Overview</h1>
+              </div>
+              <p className="text-gray-600 ml-16">Comprehensive analysis report based on Australian health standards</p>
             </div>
             <div className="hidden md:flex items-center space-x-4">
-              <div className="bg-green-100 px-4 py-2 rounded-full">
-                <span className="text-green-800 font-medium">Status: Healthy</span>
-              </div>
-              <button className="bg-green-600 hover:bg-green-700 text-white px-6 py-2 rounded-lg transition-colors font-medium">Reassessment</button>
+              <button
+                onClick={fetchHealthAnalysis}
+                disabled={loading}
+                className="bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white px-6 py-3 rounded-xl transition-all duration-200 font-medium disabled:opacity-50 shadow-lg hover:shadow-xl transform hover:scale-105"
+              >
+                {loading ? 'Loading...' : 'Refresh Analysis'}
+              </button>
             </div>
           </div>
         </div>
@@ -167,45 +240,45 @@ const MyHealth: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 py-6">
         {/* Key Indicators Overview - ORIGINAL CONTENT */}
         <div className="mb-8">
-          <h2 className="text-2xl font-bold text-gray-800 mb-6 flex items-center">
-            <svg className="w-6 h-6 text-green-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v4a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
-              />
-            </svg>
-            Key Indicators Overview
-          </h2>
+          {/* <div className="bg-gradient-to-r from-green-100 via-emerald-100 to-teal-100 rounded-2xl p-8 mb-8">
+            <h2 className="text-3xl font-bold text-gray-800 mb-2 flex items-center">
+              <div className="w-8 h-8 bg-gradient-to-r from-green-600 to-emerald-600 rounded-lg flex items-center justify-center mr-3">
+                <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={2}
+                    d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v4a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+                  />
+                </svg>
+              </div>
+              Key Indicators Overview
+            </h2>
+            <p className="text-gray-600 ml-11 text-sm">Your essential health metrics at a glance</p>
+          </div> */}
 
-          <div className="grid grid-cols-1 md:grid-cols-4 gap-6 mb-8">
-            <div className="bg-white p-6 rounded-xl shadow-lg border border-green-100 hover:shadow-xl transition-shadow">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
+            <div className="group bg-white/90 backdrop-blur-sm p-8 rounded-2xl shadow-xl border border-white/40 hover:shadow-2xl transition-all duration-300 hover:scale-105">
               <div className="text-center">
-                <p className="text-4xl font-bold text-green-600 mb-2">23.9</p>
-                <p className="text-sm text-gray-600 mb-2">BMI Index</p>
-                <span className="inline-block bg-green-100 text-green-800 text-xs font-medium px-3 py-1 rounded-full">healthy</span>
+                <div className="w-16 h-16 bg-gradient-to-r from-green-400 to-emerald-500 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                  <Activity className="w-8 h-8 text-white" />
+                </div>
+                <p className="text-5xl font-bold bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent mb-3">{healthData?.bmi || 23.9}</p>
+                <p className="text-gray-600 font-medium mb-3">BMI Index</p>
+                <span className={`inline-block text-sm font-semibold px-4 py-2 rounded-full ${getBMIColor(healthData?.bmi || 23.9)}`}>{getBMIStatus(healthData?.bmi || 23.9)}</span>
               </div>
             </div>
 
-            <div className="bg-white p-6 rounded-xl shadow-lg border border-green-100 hover:shadow-xl transition-shadow">
+            <div className="group bg-white/90 backdrop-blur-sm p-8 rounded-2xl shadow-xl border border-white/40 hover:shadow-2xl transition-all duration-300 hover:scale-105">
               <div className="text-center">
-                <p className="text-4xl font-bold text-green-600 mb-2">75 kg</p>
-                <p className="text-sm text-gray-600">Current weight</p>
-              </div>
-            </div>
-
-            <div className="bg-white p-6 rounded-xl shadow-lg border border-green-100 hover:shadow-xl transition-shadow">
-              <div className="text-center">
-                <p className="text-4xl font-bold text-green-600 mb-2">70 kg</p>
-                <p className="text-sm text-gray-600">Target weight</p>
-              </div>
-            </div>
-
-            <div className="bg-white p-6 rounded-xl shadow-lg border border-green-100 hover:shadow-xl transition-shadow">
-              <div className="text-center">
-                <p className="text-4xl font-bold text-purple-600 mb-2">2491</p>
-                <p className="text-sm text-gray-600">Total daily consumption (calories)</p>
+                <div className="w-16 h-16 bg-gradient-to-r from-blue-400 to-indigo-500 rounded-2xl flex items-center justify-center mx-auto mb-4">
+                  <Weight className="w-8 h-8 text-white" />
+                </div>
+                <p className="text-5xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent mb-3">{healthData?.currentWeight || 75}</p>
+                <p className="text-gray-600 font-medium mb-3">Current Weight (kg)</p>
+                <div className="w-full bg-gray-200 rounded-full h-2">
+                  <div className="bg-gradient-to-r from-blue-400 to-indigo-500 h-2 rounded-full" style={{ width: '70%' }}></div>
+                </div>
               </div>
             </div>
           </div>
@@ -213,61 +286,105 @@ const MyHealth: React.FC = () => {
 
         {/* Main Content Grid - ORIGINAL CONTENT */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-8">
-          {/* Personal Profile */}
+          {/* Alcohol Consumption Analysis */}
           <div className="bg-white rounded-xl shadow-lg border border-green-100 p-6">
             <h3 className="text-xl font-bold text-gray-800 mb-6 flex items-center">
-              <svg className="w-5 h-5 text-green-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-              </svg>
-              Personal Profile
-            </h3>
-
-            <div className="grid grid-cols-2 gap-6">
-              <div>
-                <p className="text-sm text-gray-500 mb-1">Age</p>
-                <p className="text-lg font-semibold text-gray-800">23 years old</p>
-              </div>
-              <div>
-                <p className="text-sm text-gray-500 mb-1">Gender</p>
-                <p className="text-lg font-semibold text-gray-800">Male</p>
-              </div>
-              <div>
-                <p className="text-sm text-gray-500 mb-1">Height</p>
-                <p className="text-lg font-semibold text-gray-800">177 cm</p>
-              </div>
-              <div>
-                <p className="text-sm text-gray-500 mb-1">Activity level</p>
-                <p className="text-lg font-semibold text-gray-800">Light activity</p>
-              </div>
-            </div>
-          </div>
-
-          {/* Metabolic Analysis */}
-          <div className="bg-white rounded-xl shadow-lg border border-green-100 p-6">
-            <h3 className="text-xl font-bold text-gray-800 mb-6 flex items-center">
-              <svg className="w-5 h-5 text-green-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
-              </svg>
-              Metabolic Analysis
+              <Wine className="w-5 h-5 text-green-600 mr-2" />
+              Alcohol Consumption Analysis
             </h3>
 
             <div className="space-y-4">
               <div className="flex justify-between items-center">
-                <span className="text-gray-600">Basal metabolic rate (BMR)</span>
-                <span className="font-semibold text-gray-800">1812 calories/day</span>
+                <span className="text-gray-600">Your Weekly Intake</span>
+                <span className="font-semibold text-gray-800">{healthData?.alcoholConsumption || 0} standard drinks</span>
               </div>
+
+              {apiData?.alcohol && (
+                <>
+                  <div className="flex justify-between items-center">
+                    <span className="text-gray-600">Total Population Sample</span>
+                    <span className="font-semibold text-gray-600">{apiData.alcohol.total_population}k people</span>
+                  </div>
+
+                  <div className="flex justify-between items-center">
+                    <span className="text-gray-600">Similar Intake Level</span>
+                    <span className="font-semibold text-blue-600">
+                      {apiData.alcohol.percentage_exceeding}%<span className="text-xs text-gray-500">({apiData.alcohol.exceeding_population}k people)</span>
+                    </span>
+                  </div>
+
+                  <HealthAdvice apiData={apiData} userIntake={healthData?.alcoholConsumption || 0} type="alcohol" />
+                </>
+              )}
+            </div>
+          </div>
+
+          {/* Smoking Analysis */}
+          <div className="bg-white rounded-xl shadow-lg border border-green-100 p-6">
+            <h3 className="text-xl font-bold text-gray-800 mb-6 flex items-center">
+              <Cigarette className="w-5 h-5 text-green-600 mr-2" />
+              Smoking Status Analysis
+            </h3>
+
+            <div className="space-y-4">
               <div className="flex justify-between items-center">
-                <span className="text-gray-600">Total energy expenditure (TDEE)</span>
-                <span className="font-semibold text-gray-800">2491 calories/day</span>
+                <span className="text-gray-600">Your Status</span>
+                <span className="font-semibold text-gray-800">{healthData?.smokingStatus || 'Not specified'}</span>
               </div>
-              <div className="flex justify-between items-center">
-                <span className="text-gray-600">Target caloric intake</span>
-                <span className="font-semibold text-green-600">1706 calories/day</span>
-              </div>
-              <div className="flex justify-between items-center">
-                <span className="text-gray-600">Daily caloric deficit</span>
-                <span className="font-semibold text-red-500">-786 calories</span>
-              </div>
+
+              {apiData?.smoking && (
+                <>
+                  <div className="flex justify-between items-center">
+                    <span className="text-gray-600">Total Population Sample</span>
+                    <span className="font-semibold text-gray-600">{apiData.smoking.total_population}k people</span>
+                  </div>
+
+                  <div className="flex justify-between items-center">
+                    <span className="text-gray-600">Same Status as You</span>
+                    <span className="font-semibold text-blue-600">
+                      {apiData.smoking.percentage_matching}%<span className="text-xs text-gray-500">({apiData.smoking.matching_population}k people)</span>
+                    </span>
+                  </div>
+
+                  <div
+                    className={`p-3 rounded-lg border ${
+                      healthData.smokingStatus === 'Never Smoked'
+                        ? 'bg-green-50 border-green-200'
+                        : healthData.smokingStatus === 'Ex-Smoker'
+                        ? 'bg-blue-50 border-blue-200'
+                        : 'bg-red-50 border-red-200'
+                    }`}
+                  >
+                    <div className="flex items-start space-x-2">
+                      <Heart
+                        className={`w-4 h-4 mt-0.5 ${
+                          healthData.smokingStatus === 'Never Smoked' ? 'text-green-600' : healthData.smokingStatus === 'Ex-Smoker' ? 'text-blue-600' : 'text-red-600'
+                        }`}
+                      />
+                      <div>
+                        <p
+                          className={`text-sm font-medium ${
+                            healthData.smokingStatus === 'Never Smoked' ? 'text-green-800' : healthData.smokingStatus === 'Ex-Smoker' ? 'text-blue-800' : 'text-red-800'
+                          }`}
+                        >
+                          Health Impact
+                        </p>
+                        <p
+                          className={`text-xs ${
+                            healthData.smokingStatus === 'Never Smoked' ? 'text-green-700' : healthData.smokingStatus === 'Ex-Smoker' ? 'text-blue-700' : 'text-red-700'
+                          }`}
+                        >
+                          {healthData.smokingStatus === 'Never Smoked'
+                            ? 'Excellent choice for long-term health'
+                            : healthData.smokingStatus === 'Ex-Smoker'
+                            ? 'Great progress! Health benefits continue to improve'
+                            : 'Consider seeking support to quit for better health outcomes'}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </>
+              )}
             </div>
           </div>
 

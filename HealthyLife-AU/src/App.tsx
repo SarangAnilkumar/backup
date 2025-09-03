@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Navigation from './components/common/Navigation'
 import Dashboard from './pages/Dashboard'
@@ -11,15 +11,30 @@ import RegionalHealthAnalytics from './pages/RegionalHealthAnalytics'
 import News from './pages/News'
 
 function App() {
+  const [userHealthData, setUserHealthData] = useState({
+    bmi: null,
+    currentWeight: null,
+    age: null,
+    gender: null,
+    smokingStatus: null,
+    smokingFrequency: null,
+    alcoholConsumption: null,
+    mealPreferences: []
+  })
+
+  const handleHealthDataSubmit = (healthData) => {
+    setUserHealthData(healthData)
+  }
+
   return (
     <Router>
       <div className="App">
         <Navigation />
         <main>
           <Routes>
-            <Route path="/" element={<Dashboard />} />
+            <Route path="/" element={<Dashboard onHealthDataSubmit={handleHealthDataSubmit} />} />
             <Route path="/simulator" element={<LifestyleSimulator />} />
-            <Route path="/my-health" element={<MyHealth />} />
+            <Route path="/my-health" element={<MyHealth healthData={userHealthData} />} />
             <Route path="/recipes" element={<Recipes />} />
             <Route path="/meal-plan" element={<MealPlan />} />
             <Route path="/regional-health-analytics" element={<RegionalHealthAnalytics />} />

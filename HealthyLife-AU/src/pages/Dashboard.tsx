@@ -2,14 +2,18 @@ import React, { useMemo, useState, useEffect } from 'react'
 import { Heart, Activity, Users, Target, TrendingUp, Award, CheckCircle, ArrowRight, Play, Star } from 'lucide-react'
 import { Link } from 'react-router-dom'
 
-const Dashboard: React.FC = () => {
+const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onHealthDataSubmit }) => {
   // --- Modal & form state ---
   const [open, setOpen] = useState(false)
   const [step, setStep] = useState(0)
   const [age, setAge] = useState(23)
   const [gender, setGender] = useState('Male')
-  const [activity, setActivity] = useState('3-5 days per Week')
-  const [lifestyle, setLifestyle] = useState('Non-smoking')
+  const [bmi, setBmi] = useState(23.9)
+  const [currentWeight, setCurrentWeight] = useState(75)
+  const [smokingStatus, setSmokingStatus] = useState('Never Smoked')
+  const [smokingFrequency, setSmokingFrequency] = useState('1-2 days')
+  const [alcoholConsumption, setAlcoholConsumption] = useState(0)
+  const [mealPreferences, setMealPreferences] = useState([])
 
   // Animation state
   const [isVisible, setIsVisible] = useState(false)
@@ -26,17 +30,22 @@ const Dashboard: React.FC = () => {
   const canNext = useMemo(() => {
     if (step === 0) return age > 0 && age < 120
     if (step === 1) return Boolean(gender)
-    if (step === 2) return Boolean(activity)
-    if (step === 3) return Boolean(lifestyle)
+    if (step === 2) return bmi >= 15 && bmi <= 50 // reasonable BMI range
+    if (step === 3) return currentWeight >= 30 && currentWeight <= 200 // reasonable weight range
+    if (step === 4) return Boolean(smokingStatus && alcoholConsumption >= 0 && mealPreferences.length > 0)
     return true
-  }, [step, age, gender, activity, lifestyle])
+  }, [step, age, gender, bmi, currentWeight, smokingStatus, alcoholConsumption, mealPreferences])
 
   const reset = () => {
     setStep(0)
     setAge(23)
     setGender('Male')
-    setActivity('3-5 days per Week')
-    setLifestyle('Non-smoking')
+    setBmi(23.9)
+    setCurrentWeight(75)
+    setSmokingStatus('Never Smoked')
+    setSmokingFrequency('1-2 days')
+    setAlcoholConsumption(0)
+    setMealPreferences([])
   }
 
   const handleClose = () => {
@@ -45,7 +54,7 @@ const Dashboard: React.FC = () => {
   }
 
   const handleNext = () => {
-    if (step < 3) {
+    if (step < 4) {
       setStep(step + 1)
     }
   }
@@ -54,8 +63,19 @@ const Dashboard: React.FC = () => {
     e.preventDefault()
     console.log('Form submitted at step:', step)
 
-    if (step === 3) {
-      console.log({ age, gender, activity, lifestyle })
+    if (step === 4) {
+      const healthData = {
+        age,
+        gender,
+        bmi,
+        currentWeight,
+        smokingStatus,
+        smokingFrequency,
+        alcoholConsumption,
+        mealPreferences
+      }
+
+      onHealthDataSubmit?.(healthData)
       setOpen(false)
       setTimeout(() => reset(), 150)
     } else {
@@ -139,11 +159,6 @@ const Dashboard: React.FC = () => {
           <div className="grid lg:grid-cols-3 gap-10 items-center">
             {/* Left: headline */}
             <div className={`lg:col-span-1 transition-all duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-10 opacity-0'}`}>
-              <div className="inline-flex items-center px-3 py-1 rounded-full bg-green-100 text-green-800 text-sm font-medium mb-4">
-                <CheckCircle className="w-4 h-4 mr-2" />
-                AI-Powered Wellness Platform
-              </div>
-
               <h1 className="text-[42px] sm:text-6xl font-extrabold leading-[1.05] tracking-tight text-gray-900">
                 A <span className="bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent">Healthy</span> Mind
                 <br /> is an Asset
@@ -162,32 +177,6 @@ const Dashboard: React.FC = () => {
                   Start Health Assessment
                   <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
                 </button>
-
-                <button className="inline-flex items-center justify-center rounded-xl border-2 border-gray-300 px-8 py-4 text-gray-700 font-semibold hover:border-green-300 hover:text-green-700 transition-all duration-200">
-                  <Play className="mr-2 w-5 h-5" />
-                  Watch Demo
-                </button>
-              </div>
-
-              {/* Trust indicators */}
-              <div className="mt-8 pt-6 border-t border-gray-200">
-                <p className="text-sm text-gray-500 mb-3">Trusted by health professionals</p>
-                <div className="flex items-center space-x-6">
-                  <div className="flex items-center">
-                    <div className="flex -space-x-2">
-                      {[1, 2, 3, 4].map((i) => (
-                        <div key={i} className="w-8 h-8 rounded-full bg-gradient-to-r from-green-400 to-blue-500 border-2 border-white"></div>
-                      ))}
-                    </div>
-                    <span className="ml-3 text-sm font-medium text-gray-700">2000+ experts</span>
-                  </div>
-                  <div className="flex items-center">
-                    {[1, 2, 3, 4, 5].map((i) => (
-                      <Star key={i} className="w-4 h-4 text-yellow-400 fill-current" />
-                    ))}
-                    <span className="ml-2 text-sm font-medium text-gray-700">4.9 rating</span>
-                  </div>
-                </div>
               </div>
             </div>
 
@@ -515,7 +504,7 @@ const Dashboard: React.FC = () => {
                     <input
                       type="number"
                       min={1}
-                      max={119}
+                      max={75}
                       value={age}
                       onChange={(e) => setAge(parseInt(e.target.value || '0', 10))}
                       onKeyDown={(e) => {
@@ -549,40 +538,132 @@ const Dashboard: React.FC = () => {
 
                 {step === 2 && (
                   <label className="block">
-                    <span className="block text-sm font-medium text-gray-700">Physical activity</span>
-                    <select
-                      value={activity}
-                      onChange={(e) => setActivity(e.target.value)}
-                      className="mt-1 w-full rounded-md border border-gray-300 px-3 py-2 text-gray-900 shadow-sm focus:border-green-500 focus:ring-green-500"
-                    >
-                      <option>0–1 day per Week</option>
-                      <option>2–3 days per Week</option>
-                      <option>3-5 days per Week</option>
-                      <option>6–7 days per Week</option>
-                    </select>
+                    <span className="block text-sm font-medium text-gray-700">BMI (Body Mass Index)</span>
+                    <input
+                      type="number"
+                      min={15}
+                      max={50}
+                      step={0.1}
+                      value={bmi}
+                      onChange={(e) => setBmi(parseFloat(e.target.value || '0'))}
+                      onKeyDown={(e) => {
+                        if (e.key === 'Enter') {
+                          e.preventDefault()
+                          if (canNext) handleNext()
+                        }
+                      }}
+                      className="mt-1 w-full rounded-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-400 shadow-sm focus:border-green-500 focus:ring-green-500"
+                      placeholder="e.g. 23.9"
+                      required
+                    />
+                    <p className="mt-1 text-xs text-gray-500">Normal range: 18.5-24.9 | If unknown, use an online BMI calculator</p>
                   </label>
                 )}
 
                 {step === 3 && (
                   <label className="block">
-                    <span className="block text-sm font-medium text-gray-700">Lifestyle</span>
-                    <select
-                      value={lifestyle}
-                      onChange={(e) => setLifestyle(e.target.value)}
-                      className="mt-1 w-full rounded-md border border-gray-300 px-3 py-2 text-gray-900 shadow-sm focus:border-green-500 focus:ring-green-500"
-                    >
-                      <option>Non-smoking</option>
-                      <option>Smoking</option>
-                      <option>Occasional drinking</option>
-                      <option>Vegan</option>
-                      <option>Vegetarian</option>
-                    </select>
+                    <span className="block text-sm font-medium text-gray-700">Current Weight (kg)</span>
+                    <input
+                      type="number"
+                      min={30}
+                      max={200}
+                      step={0.5}
+                      value={currentWeight}
+                      onChange={(e) => setCurrentWeight(parseFloat(e.target.value || '0'))}
+                      onKeyDown={(e) => {
+                        if (e.key === 'Enter') {
+                          e.preventDefault()
+                          if (canNext) handleNext()
+                        }
+                      }}
+                      className="mt-1 w-full rounded-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-400 shadow-sm focus:border-green-500 focus:ring-green-500"
+                      placeholder="e.g. 75"
+                      required
+                    />
+                    <p className="mt-1 text-xs text-gray-500">Enter your current weight in kilograms</p>
                   </label>
+                )}
+
+                {step === 4 && (
+                  <div className="space-y-6">
+                    {/* Smoking Status */}
+                    <div>
+                      <label className="block">
+                        <span className="block text-sm font-medium text-gray-700 mb-2">Smoke or Vape</span>
+                        <select
+                          value={smokingStatus}
+                          onChange={(e) => setSmokingStatus(e.target.value)}
+                          className="w-full rounded-md border border-gray-300 px-3 py-2 text-gray-900 shadow-sm focus:border-green-500 focus:ring-green-500"
+                        >
+                          <option value="Never Smoked">Never Smoked</option>
+                          <option value="Ex-Smoker">Ex-Smoker</option>
+                          <option value="Current Smoker">Current Smoker</option>
+                        </select>
+                      </label>
+
+                      {/* Show frequency if current smoker */}
+                      {smokingStatus === 'Current Smoker' && (
+                        <div className="mt-3">
+                          <span className="block text-sm font-medium text-gray-700 mb-2">Smoking Frequency</span>
+                          <select
+                            value={smokingFrequency}
+                            onChange={(e) => setSmokingFrequency(e.target.value)}
+                            className="w-full rounded-md border border-gray-300 px-3 py-2 text-gray-900 shadow-sm focus:border-green-500 focus:ring-green-500"
+                          >
+                            <option value="1-2 days">1-2 days per week</option>
+                            <option value="3-6 days">3-6 days per week</option>
+                            <option value="Daily">Daily</option>
+                          </select>
+                        </div>
+                      )}
+                    </div>
+
+                    {/* Alcohol Consumption */}
+                    <div>
+                      <label className="block">
+                        <span className="block text-sm font-medium text-gray-700 mb-2">Alcohol Consumption (standard drinks per week)</span>
+                        <input
+                          type="number"
+                          min={0}
+                          max={14}
+                          value={alcoholConsumption}
+                          onChange={(e) => setAlcoholConsumption(Number(e.target.value))}
+                          className="w-full rounded-md border border-gray-300 px-3 py-2 text-gray-900 shadow-sm focus:border-green-500 focus:ring-green-500"
+                          placeholder="Enter 0-14"
+                        />
+                        <p className="mt-1 text-xs text-gray-500">Australian standard drink = 10g alcohol (285ml beer, 100ml wine, 30ml spirits)</p>
+                      </label>
+                    </div>
+
+                    {/* Meal Preferences */}
+                    <div>
+                      <span className="block text-sm font-medium text-gray-700 mb-2">Primary Meal Times (select all that apply)</span>
+                      <div className="space-y-2">
+                        {['Breakfast', 'Brunch', 'Lunch', 'Dinner', 'Evening Snacks'].map((meal) => (
+                          <label key={meal} className="flex items-center">
+                            <input
+                              type="checkbox"
+                              checked={mealPreferences.includes(meal)}
+                              onChange={(e) => {
+                                if (e.target.checked) {
+                                  setMealPreferences([...mealPreferences, meal])
+                                } else {
+                                  setMealPreferences(mealPreferences.filter((m) => m !== meal))
+                                }
+                              }}
+                              className="h-4 w-4 text-green-600 focus:ring-green-500 border-gray-300 rounded"
+                            />
+                            <span className="ml-2 text-sm text-gray-700">{meal}</span>
+                          </label>
+                        ))}
+                      </div>
+                    </div>
+                  </div>
                 )}
               </div>
 
               <div className="mt-6 flex items-center justify-center gap-2">
-                {[0, 1, 2, 3].map((i) => (
+                {[0, 1, 2, 3, 4].map((i) => (
                   <span key={i} className={`h-2 w-2 rounded-full ${i === step ? 'bg-green-600' : 'bg-gray-300'}`} />
                 ))}
               </div>
@@ -601,7 +682,7 @@ const Dashboard: React.FC = () => {
                   disabled={!canNext}
                   className="inline-flex items-center gap-1 rounded-md bg-green-600 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-green-700 disabled:opacity-50 disabled:cursor-not-allowed"
                 >
-                  {step === 3 ? 'Submit' : 'Next'}
+                  {step === 4 ? 'Submit' : 'Next'}
                 </button>
               </div>
             </form>
