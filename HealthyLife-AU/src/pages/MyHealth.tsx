@@ -36,7 +36,8 @@ const MyHealth: React.FC<{ healthData?: any }> = ({ healthData }) => {
           age: healthData.age,
           gender: healthData.gender,
           alcohol_intake: healthData.alcoholConsumption,
-          smoking_status: healthData.smokingStatus
+          smoking_status: healthData.smokingStatus,
+          smoking_frequency: healthData.smokingFrequency
         })
       })
 

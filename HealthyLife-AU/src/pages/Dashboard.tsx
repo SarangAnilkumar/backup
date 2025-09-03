@@ -14,6 +14,13 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
   const [smokingFrequency, setSmokingFrequency] = useState('1-2 days')
   const [alcoholConsumption, setAlcoholConsumption] = useState(0)
   const [mealPreferences, setMealPreferences] = useState([])
+  const [mealFoodList, setMealFoodList] = useState<{ [key: string]: string[] }>({
+    Breakfast: [''],
+    Brunch: [''],
+    Lunch: [''],
+    Dinner: [''],
+    'Evening Snacks': ['']
+  })
 
   // Animation state
   const [isVisible, setIsVisible] = useState(false)
@@ -59,9 +66,41 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
     }
   }
 
+  const handleAddFood = (meal: string) => {
+    setMealFoodList((prev) => ({
+      ...prev,
+      [meal]: [...prev[meal], '']
+    }))
+  }
+
+  const handleRemoveFood = (meal: string, index: number) => {
+    setMealFoodList((prev) => {
+      const updatedFoods = [...prev[meal]]
+      updatedFoods.splice(index, 1) // Delete the food at the specified index
+      return { ...prev, [meal]: updatedFoods } // update status
+    })
+  }
+
+  const handleFoodChange = (meal: string, index: number, value: string) => {
+    const updatedFoods = [...mealFoodList[meal]]
+    updatedFoods[index] = value
+    setMealFoodList((prev) => ({
+      ...prev,
+      [meal]: updatedFoods
+    }))
+  }
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault()
     console.log('Form submitted at step:', step)
+
+    let formattedSmokingFrequency = smokingFrequency
+    // Remove the "per week" part if you selected
+    if (smokingFrequency.includes('per week')) {
+      formattedSmokingFrequency = smokingFrequency.replace(' per week', '')
+    }
+
+    console.log('Formatted Smoking Frequency:', formattedSmokingFrequency)
 
     if (step === 4) {
       const healthData = {
@@ -70,7 +109,7 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
         bmi,
         currentWeight,
         smokingStatus,
-        smokingFrequency,
+        smokingFrequency: formattedSmokingFrequency,
         alcoholConsumption,
         mealPreferences
       }
@@ -93,8 +132,8 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
   const features = [
     {
       icon: Activity,
-      title: 'Personalized Fitness Tracking',
-      description: 'Track your daily activities, exercise routines, and fitness progress with personalized insights.',
+      title: 'Lifestyle Impact Analysis',
+      description: 'Discover the effect of your current habits, such as smoking and alcohol consumption, on your overall health.',
       color: 'bg-blue-50 text-blue-600'
     },
     {
@@ -166,7 +205,7 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
 
               <p className="mt-6 text-lg text-gray-600 leading-relaxed">
                 Transform your wellness journey with personalized insights, expert guidance, and a supportive community.
-                <span className="font-medium text-green-600"> We weight your Health as the weight of Gold.</span>
+                <span className="font-medium text-green-600"> We value your Health as the weight of Gold.</span>
               </p>
 
               <div className="mt-8 flex flex-col sm:flex-row gap-4">
@@ -476,216 +515,249 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
         <div className="fixed inset-0 z-50 flex items-center justify-center p-4" role="dialog" aria-modal="true">
           <div className="absolute inset-0 bg-black/50 backdrop-blur-sm" onClick={handleClose} aria-hidden="true" />
           <div className="relative z-10 w-full max-w-md">
-            <form onSubmit={handleSubmit} className="rounded-2xl bg-white p-6 shadow-2xl ring-1 ring-black/5">
-              <div className="mb-4 flex items-center justify-between">
-                <h2 className="text-xl font-semibold text-gray-900">Health Assessment</h2>
-                <button
-                  type="button"
-                  onClick={handleClose}
-                  className="rounded-full p-2 text-gray-500 hover:bg-gray-100 hover:text-gray-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-green-600"
-                  aria-label="Close modal"
-                >
-                  <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2">
-                    <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+            <div className="relative z-10 w-full max-w-md overflow-y-auto max-h-[80vh]">
+              <form onSubmit={handleSubmit} className="rounded-2xl bg-white p-6 shadow-2xl ring-1 ring-black/5">
+                <div className="mb-4 flex items-center justify-between">
+                  <h2 className="text-xl font-semibold text-gray-900">Health Assessment</h2>
+                  <button
+                    type="button"
+                    onClick={handleClose}
+                    className="rounded-full p-2 text-gray-500 hover:bg-gray-100 hover:text-gray-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-green-600"
+                    aria-label="Close modal"
+                  >
+                    <svg viewBox="0 0 24 24" className="h-5 w-5" fill="none" stroke="currentColor" strokeWidth="2">
+                      <path strokeLinecap="round" strokeLinejoin="round" d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                  </button>
+                </div>
+
+                <div className="mx-auto mb-6 grid h-10 w-10 place-items-center rounded-full bg-green-50 text-green-600">
+                  <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.8">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M5.121 17.804A7 7 0 0112 15a7 7 0 016.879 2.804M15 10a3 3 0 11-6 0 3 3 0 016 0z" />
                   </svg>
-                </button>
-              </div>
+                </div>
 
-              <div className="mx-auto mb-6 grid h-10 w-10 place-items-center rounded-full bg-green-50 text-green-600">
-                <svg viewBox="0 0 24 24" className="h-6 w-6" fill="none" stroke="currentColor" strokeWidth="1.8">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M5.121 17.804A7 7 0 0112 15a7 7 0 016.879 2.804M15 10a3 3 0 11-6 0 3 3 0 016 0z" />
-                </svg>
-              </div>
+                <div className="space-y-4">
+                  {step === 0 && (
+                    <label className="block">
+                      <span className="block text-sm font-medium text-gray-700">Age</span>
+                      <input
+                        type="number"
+                        min={1}
+                        max={75}
+                        value={age}
+                        onChange={(e) => setAge(parseInt(e.target.value || '0', 10))}
+                        onKeyDown={(e) => {
+                          if (e.key === 'Enter') {
+                            e.preventDefault()
+                            if (canNext) handleNext()
+                          }
+                        }}
+                        className="mt-1 w-full rounded-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-400 shadow-sm focus:border-green-500 focus:ring-green-500"
+                        placeholder="e.g. 23"
+                        required
+                      />
+                    </label>
+                  )}
 
-              <div className="space-y-4">
-                {step === 0 && (
-                  <label className="block">
-                    <span className="block text-sm font-medium text-gray-700">Age</span>
-                    <input
-                      type="number"
-                      min={1}
-                      max={75}
-                      value={age}
-                      onChange={(e) => setAge(parseInt(e.target.value || '0', 10))}
-                      onKeyDown={(e) => {
-                        if (e.key === 'Enter') {
-                          e.preventDefault()
-                          if (canNext) handleNext()
-                        }
-                      }}
-                      className="mt-1 w-full rounded-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-400 shadow-sm focus:border-green-500 focus:ring-green-500"
-                      placeholder="e.g. 23"
-                      required
-                    />
-                  </label>
-                )}
+                  {step === 1 && (
+                    <label className="block">
+                      <span className="block text-sm font-medium text-gray-700">Gender</span>
+                      <select
+                        value={gender}
+                        onChange={(e) => setGender(e.target.value)}
+                        className="mt-1 w-full rounded-md border border-gray-300 px-3 py-2 text-gray-900 shadow-sm focus:border-green-500 focus:ring-green-500"
+                      >
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Non-binary</option>
+                        <option>Prefer not to say</option>
+                      </select>
+                    </label>
+                  )}
 
-                {step === 1 && (
-                  <label className="block">
-                    <span className="block text-sm font-medium text-gray-700">Gender</span>
-                    <select
-                      value={gender}
-                      onChange={(e) => setGender(e.target.value)}
-                      className="mt-1 w-full rounded-md border border-gray-300 px-3 py-2 text-gray-900 shadow-sm focus:border-green-500 focus:ring-green-500"
-                    >
-                      <option>Male</option>
-                      <option>Female</option>
-                      <option>Non-binary</option>
-                      <option>Prefer not to say</option>
-                    </select>
-                  </label>
-                )}
+                  {step === 2 && (
+                    <label className="block">
+                      <span className="block text-sm font-medium text-gray-700">BMI (Body Mass Index)</span>
+                      <input
+                        type="number"
+                        min={15}
+                        max={50}
+                        step={0.1}
+                        value={bmi}
+                        onChange={(e) => setBmi(parseFloat(e.target.value || '0'))}
+                        onKeyDown={(e) => {
+                          if (e.key === 'Enter') {
+                            e.preventDefault()
+                            if (canNext) handleNext()
+                          }
+                        }}
+                        className="mt-1 w-full rounded-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-400 shadow-sm focus:border-green-500 focus:ring-green-500"
+                        placeholder="e.g. 23.9"
+                        required
+                      />
+                      <p className="mt-1 text-xs text-gray-500">Normal range: 18.5-24.9 | If unknown, use an online BMI calculator</p>
+                    </label>
+                  )}
 
-                {step === 2 && (
-                  <label className="block">
-                    <span className="block text-sm font-medium text-gray-700">BMI (Body Mass Index)</span>
-                    <input
-                      type="number"
-                      min={15}
-                      max={50}
-                      step={0.1}
-                      value={bmi}
-                      onChange={(e) => setBmi(parseFloat(e.target.value || '0'))}
-                      onKeyDown={(e) => {
-                        if (e.key === 'Enter') {
-                          e.preventDefault()
-                          if (canNext) handleNext()
-                        }
-                      }}
-                      className="mt-1 w-full rounded-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-400 shadow-sm focus:border-green-500 focus:ring-green-500"
-                      placeholder="e.g. 23.9"
-                      required
-                    />
-                    <p className="mt-1 text-xs text-gray-500">Normal range: 18.5-24.9 | If unknown, use an online BMI calculator</p>
-                  </label>
-                )}
+                  {step === 3 && (
+                    <label className="block">
+                      <span className="block text-sm font-medium text-gray-700">Current Weight (kg)</span>
+                      <input
+                        type="number"
+                        min={30}
+                        max={200}
+                        step={0.5}
+                        value={currentWeight}
+                        onChange={(e) => setCurrentWeight(parseFloat(e.target.value || '0'))}
+                        onKeyDown={(e) => {
+                          if (e.key === 'Enter') {
+                            e.preventDefault()
+                            if (canNext) handleNext()
+                          }
+                        }}
+                        className="mt-1 w-full rounded-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-400 shadow-sm focus:border-green-500 focus:ring-green-500"
+                        placeholder="e.g. 75"
+                        required
+                      />
+                      <p className="mt-1 text-xs text-gray-500">Enter your current weight in kilograms</p>
+                    </label>
+                  )}
 
-                {step === 3 && (
-                  <label className="block">
-                    <span className="block text-sm font-medium text-gray-700">Current Weight (kg)</span>
-                    <input
-                      type="number"
-                      min={30}
-                      max={200}
-                      step={0.5}
-                      value={currentWeight}
-                      onChange={(e) => setCurrentWeight(parseFloat(e.target.value || '0'))}
-                      onKeyDown={(e) => {
-                        if (e.key === 'Enter') {
-                          e.preventDefault()
-                          if (canNext) handleNext()
-                        }
-                      }}
-                      className="mt-1 w-full rounded-md border border-gray-300 px-3 py-2 text-gray-900 placeholder-gray-400 shadow-sm focus:border-green-500 focus:ring-green-500"
-                      placeholder="e.g. 75"
-                      required
-                    />
-                    <p className="mt-1 text-xs text-gray-500">Enter your current weight in kilograms</p>
-                  </label>
-                )}
-
-                {step === 4 && (
-                  <div className="space-y-6">
-                    {/* Smoking Status */}
-                    <div>
-                      <label className="block">
-                        <span className="block text-sm font-medium text-gray-700 mb-2">Smoke or Vape</span>
-                        <select
-                          value={smokingStatus}
-                          onChange={(e) => setSmokingStatus(e.target.value)}
-                          className="w-full rounded-md border border-gray-300 px-3 py-2 text-gray-900 shadow-sm focus:border-green-500 focus:ring-green-500"
-                        >
-                          <option value="Never Smoked">Never Smoked</option>
-                          <option value="Ex-Smoker">Ex-Smoker</option>
-                          <option value="Current Smoker">Current Smoker</option>
-                        </select>
-                      </label>
-
-                      {/* Show frequency if current smoker */}
-                      {smokingStatus === 'Current Smoker' && (
-                        <div className="mt-3">
-                          <span className="block text-sm font-medium text-gray-700 mb-2">Smoking Frequency</span>
+                  {step === 4 && (
+                    <div className="space-y-6">
+                      {/* Smoking Status */}
+                      <div>
+                        <label className="block">
+                          <span className="block text-sm font-medium text-gray-700 mb-2">Smoke or Vape</span>
                           <select
-                            value={smokingFrequency}
-                            onChange={(e) => setSmokingFrequency(e.target.value)}
+                            value={smokingStatus}
+                            onChange={(e) => setSmokingStatus(e.target.value)}
                             className="w-full rounded-md border border-gray-300 px-3 py-2 text-gray-900 shadow-sm focus:border-green-500 focus:ring-green-500"
                           >
-                            <option value="1-2 days">1-2 days per week</option>
-                            <option value="3-6 days">3-6 days per week</option>
-                            <option value="Daily">Daily</option>
+                            <option value="Never Smoked">Never Smoked</option>
+                            <option value="Ex-Smoker">Ex-Smoker</option>
+                            <option value="Current Smoker">Current Smoker</option>
                           </select>
+                        </label>
+
+                        {/* Show frequency if current smoker */}
+                        {smokingStatus === 'Current Smoker' && (
+                          <div className="mt-3">
+                            <span className="block text-sm font-medium text-gray-700 mb-2">Smoking Frequency</span>
+                            <select
+                              value={smokingFrequency}
+                              onChange={(e) => setSmokingFrequency(e.target.value)}
+                              className="w-full rounded-md border border-gray-300 px-3 py-2 text-gray-900 shadow-sm focus:border-green-500 focus:ring-green-500"
+                            >
+                              <option value="1-2 days">1-2 days per week</option>
+                              <option value="3-6 days">3-6 days per week</option>
+                              <option value="Daily">Daily</option>
+                            </select>
+                          </div>
+                        )}
+                      </div>
+
+                      {/* Alcohol Consumption */}
+                      <div>
+                        <label className="block">
+                          <span className="block text-sm font-medium text-gray-700 mb-2">Alcohol Consumption (standard drinks per week)</span>
+                          <input
+                            type="number"
+                            min={0}
+                            max={14}
+                            value={alcoholConsumption}
+                            onChange={(e) => setAlcoholConsumption(Number(e.target.value))}
+                            className="w-full rounded-md border border-gray-300 px-3 py-2 text-gray-900 shadow-sm focus:border-green-500 focus:ring-green-500"
+                            placeholder="Enter 0-14"
+                          />
+                          <p className="mt-1 text-xs text-gray-500">Australian standard drink = 10g alcohol (285ml beer, 100ml wine, 30ml spirits)</p>
+                        </label>
+                      </div>
+
+                      {/* Meal Preferences */}
+                      <div>
+                        <span className="block text-sm font-medium text-gray-700 mb-2">Primary Meal Times (select all that apply)</span>
+                        <div className="space-y-2">
+                          {['Breakfast', 'Brunch', 'Lunch', 'Dinner', 'Evening Snacks'].map((meal) => (
+                            <div key={meal}>
+                              {/* Meal time checkbox */}
+                              <label className="flex items-center">
+                                <input
+                                  type="checkbox"
+                                  checked={mealPreferences.includes(meal)}
+                                  onChange={(e) => {
+                                    if (e.target.checked) {
+                                      setMealPreferences([...mealPreferences, meal])
+                                    } else {
+                                      setMealPreferences(mealPreferences.filter((m) => m !== meal))
+                                    }
+                                  }}
+                                  className="h-4 w-4 text-green-600 focus:ring-green-500 border-gray-300 rounded"
+                                />
+                                <span className="ml-2 text-sm text-gray-700">{meal}</span>
+                              </label>
+
+                              {/* If this meal is selected, show the input and add food button */}
+                              {mealPreferences.includes(meal) && (
+                                <div className="mt-2">
+                                  {/* Dynamic input for food */}
+                                  {mealFoodList[meal].map((food, index) => (
+                                    <div key={index} className="flex items-center space-x-2 mb-2">
+                                      <input
+                                        type="text"
+                                        value={food}
+                                        placeholder={`Enter food for ${meal}`}
+                                        className="w-1/2 p-1 border border-gray-300 rounded-md text-sm"
+                                        onChange={(e) => handleFoodChange(meal, index, e.target.value)}
+                                      />
+                                      {mealFoodList[meal].length > 1 && (
+                                        <button type="button" onClick={() => handleRemoveFood(meal, index)} className="text-xl text-gray-600">
+                                          ➖
+                                        </button>
+                                      )}
+                                      {index === mealFoodList[meal].length - 1 && (
+                                        <button type="button" onClick={() => handleAddFood(meal)} className="text-xl text-gray-600">
+                                          ➕
+                                        </button>
+                                      )}
+                                    </div>
+                                  ))}
+                                </div>
+                              )}
+                            </div>
+                          ))}
                         </div>
-                      )}
-                    </div>
-
-                    {/* Alcohol Consumption */}
-                    <div>
-                      <label className="block">
-                        <span className="block text-sm font-medium text-gray-700 mb-2">Alcohol Consumption (standard drinks per week)</span>
-                        <input
-                          type="number"
-                          min={0}
-                          max={14}
-                          value={alcoholConsumption}
-                          onChange={(e) => setAlcoholConsumption(Number(e.target.value))}
-                          className="w-full rounded-md border border-gray-300 px-3 py-2 text-gray-900 shadow-sm focus:border-green-500 focus:ring-green-500"
-                          placeholder="Enter 0-14"
-                        />
-                        <p className="mt-1 text-xs text-gray-500">Australian standard drink = 10g alcohol (285ml beer, 100ml wine, 30ml spirits)</p>
-                      </label>
-                    </div>
-
-                    {/* Meal Preferences */}
-                    <div>
-                      <span className="block text-sm font-medium text-gray-700 mb-2">Primary Meal Times (select all that apply)</span>
-                      <div className="space-y-2">
-                        {['Breakfast', 'Brunch', 'Lunch', 'Dinner', 'Evening Snacks'].map((meal) => (
-                          <label key={meal} className="flex items-center">
-                            <input
-                              type="checkbox"
-                              checked={mealPreferences.includes(meal)}
-                              onChange={(e) => {
-                                if (e.target.checked) {
-                                  setMealPreferences([...mealPreferences, meal])
-                                } else {
-                                  setMealPreferences(mealPreferences.filter((m) => m !== meal))
-                                }
-                              }}
-                              className="h-4 w-4 text-green-600 focus:ring-green-500 border-gray-300 rounded"
-                            />
-                            <span className="ml-2 text-sm text-gray-700">{meal}</span>
-                          </label>
-                        ))}
                       </div>
                     </div>
-                  </div>
-                )}
-              </div>
+                  )}
+                </div>
 
-              <div className="mt-6 flex items-center justify-center gap-2">
-                {[0, 1, 2, 3, 4].map((i) => (
-                  <span key={i} className={`h-2 w-2 rounded-full ${i === step ? 'bg-green-600' : 'bg-gray-300'}`} />
-                ))}
-              </div>
+                <div className="mt-6 flex items-center justify-center gap-2">
+                  {[0, 1, 2, 3, 4].map((i) => (
+                    <span key={i} className={`h-2 w-2 rounded-full ${i === step ? 'bg-green-600' : 'bg-gray-300'}`} />
+                  ))}
+                </div>
 
-              <div className="mt-6 flex items-center justify-between">
-                <button
-                  type="button"
-                  onClick={() => (step === 0 ? handleClose() : setStep((s) => Math.max(0, s - 1)))}
-                  className="inline-flex items-center gap-1 rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50"
-                >
-                  {step === 0 ? 'Cancel' : '< Back'}
-                </button>
+                <div className="mt-6 flex items-center justify-between">
+                  <button
+                    type="button"
+                    onClick={() => (step === 0 ? handleClose() : setStep((s) => Math.max(0, s - 1)))}
+                    className="inline-flex items-center gap-1 rounded-md border border-gray-300 bg-white px-4 py-2 text-sm font-medium text-gray-700 hover:bg-gray-50"
+                  >
+                    {step === 0 ? 'Cancel' : '< Back'}
+                  </button>
 
-                <button
-                  type="submit"
-                  disabled={!canNext}
-                  className="inline-flex items-center gap-1 rounded-md bg-green-600 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-green-700 disabled:opacity-50 disabled:cursor-not-allowed"
-                >
-                  {step === 4 ? 'Submit' : 'Next'}
-                </button>
-              </div>
-            </form>
+                  <button
+                    type="submit"
+                    disabled={!canNext}
+                    className="inline-flex items-center gap-1 rounded-md bg-green-600 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-green-700 disabled:opacity-50 disabled:cursor-not-allowed"
+                  >
+                    {step === 4 ? 'Submit' : 'Next'}
+                  </button>
+                </div>
+              </form>
+            </div>
           </div>
         </div>
       )}
