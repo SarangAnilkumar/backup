@@ -1,6 +1,7 @@
 import React, { useMemo, useState, useEffect } from 'react'
 import { Heart, Activity, Users, Target, TrendingUp, Award, CheckCircle, ArrowRight, Play, Star } from 'lucide-react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
+
 
 const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onHealthDataSubmit }) => {
   // --- Modal & form state ---
@@ -14,6 +15,8 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
   const [smokingFrequency, setSmokingFrequency] = useState('1-2 days')
   const [alcoholConsumption, setAlcoholConsumption] = useState(0)
   const [mealPreferences, setMealPreferences] = useState([])
+  const [allFoods, setAllFoods] = useState([])
+  const [foodSuggestions, setFoodSuggestions] = useState({})
   const [mealFoodList, setMealFoodList] = useState<{ [key: string]: string[] }>({
     Breakfast: [''],
     Brunch: [''],
@@ -21,6 +24,9 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
     Dinner: [''],
     'Evening Snacks': ['']
   })
+  const navigate = useNavigate()
+
+  
 
   // Animation state
   const [isVisible, setIsVisible] = useState(false)
@@ -39,7 +45,8 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
     if (step === 1) return Boolean(gender)
     if (step === 2) return bmi >= 15 && bmi <= 50 // reasonable BMI range
     if (step === 3) return currentWeight >= 30 && currentWeight <= 200 // reasonable weight range
-    if (step === 4) return Boolean(smokingStatus && alcoholConsumption >= 0 && mealPreferences.length > 0)
+    if (step === 4) return Boolean(smokingStatus && alcoholConsumption >= 0)
+    if (step === 5) return Boolean(mealPreferences.length>0)
     return true
   }, [step, age, gender, bmi, currentWeight, smokingStatus, alcoholConsumption, mealPreferences])
 
@@ -61,7 +68,7 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
   }
 
   const handleNext = () => {
-    if (step < 4) {
+    if (step < 5) {
       setStep(step + 1)
     }
   }
@@ -82,6 +89,7 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
   }
 
   const handleFoodChange = (meal: string, index: number, value: string) => {
+    console.log(meal, index, value, "kmsmsd,d,d")
     const updatedFoods = [...mealFoodList[meal]]
     updatedFoods[index] = value
     setMealFoodList((prev) => ({
@@ -102,7 +110,7 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
 
     console.log('Formatted Smoking Frequency:', formattedSmokingFrequency)
 
-    if (step === 4) {
+    if (step === 5) {
       const healthData = {
         age,
         gender,
@@ -116,6 +124,7 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
 
       onHealthDataSubmit?.(healthData)
       setOpen(false)
+      navigate('/my-health')
       setTimeout(() => reset(), 150)
     } else {
       handleNext()
@@ -170,6 +179,39 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
       rating: 5
     }
   ]
+
+
+
+useEffect(() => {
+  if (open) {
+    const fetchFoods = async () => {
+      try {
+        const response = await fetch(
+          "https://i5r58exmh9.execute-api.ap-southeast-2.amazonaws.com/prod/searchFoodIntake",
+          {
+            method: "POST", // ✅ must be POST
+            headers: {
+              "Content-Type": "application/json",
+              "x-api-key": "kQtOrJu6Ba9TExHVFhVAt6aI7VOwMC3pabxQMR1y",
+            },
+            body: JSON.stringify({}) // ✅ explicitly empty body
+          }
+        )
+
+        const data = await response.json()
+        // Lambda behind API Gateway often wraps result in { body: "string" }
+        const foods = typeof data.body === "string" ? JSON.parse(data.body) : data
+        setAllFoods(foods)
+
+      } catch (error) {
+        console.error("Error fetching food list:", error)
+      }
+    }
+
+    fetchFoods()
+  }
+}, [open])
+
 
   return (
     <div className="min-h-screen bg-transparent">
@@ -674,7 +716,10 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
                           <p className="mt-1 text-xs text-gray-500">Australian standard drink = 10g alcohol (285ml beer, 100ml wine, 30ml spirits)</p>
                         </label>
                       </div>
-
+                      </div>
+                  )}
+                  {step === 5 && (
+                    <div className="space-y-6">
                       {/* Meal Preferences */}
                       <div>
                         <span className="block text-sm font-medium text-gray-700 mb-2">Primary Meal Times (select all that apply)</span>
@@ -704,13 +749,62 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
                                   {/* Dynamic input for food */}
                                   {mealFoodList[meal].map((food, index) => (
                                     <div key={index} className="flex items-center space-x-2 mb-2">
+                                      <div className="relative w-1/2">
+                                              <input
+                                                type="text"
+                                                value={food.name}
+                                                placeholder={`Enter food for ${meal}`}
+                                                className="p-1 border border-gray-300 rounded-md text-sm"
+                                                onChange={(e) => {
+                                                  const value = e.target.value
+                                                  handleFoodChange(meal, index, { ...food, name: value })
+                                                  if (value.length > 1) {
+                                                    const results = allFoods
+                                                      .filter((f) =>
+                                                        f.food_name.toLowerCase().includes(value.toLowerCase())
+                                                      )
+                                                      .slice(0, 10) // limit suggestions
+                                                    setFoodSuggestions((prev) => ({ ...prev, [meal]: results }))
+                                                  } else {
+                                                    setFoodSuggestions((prev) => ({ ...prev, [meal]: [] }))
+                                                  }
+                                                }}
+                                              />
+
+                                              {foodSuggestions[meal]?.length > 0 && (
+                                                <ul className="absolute bg-white border border-gray-200 rounded-md shadow-md mt-1 max-h-40 overflow-y-auto text-sm z-50">
+                                                  {foodSuggestions[meal].map((f) => (
+                                                    <li
+                                                      key={f.public_food_key}
+                                                      onClick={() => {
+                                                        handleFoodChange(meal, index, {
+                                                          id: f.public_food_key,
+                                                          name: f.food_name,
+                                                          quantity : food.quantity
+                                                        })
+                                                        setFoodSuggestions((prev) => ({ ...prev, [meal]: [] }))
+                                                      }}
+                                                      className="px-2 py-1 cursor-pointer hover:bg-green-100"
+                                                    >
+                                                      {f.food_name}
+                                                    </li>
+                                                  ))}
+                                                </ul>
+                                              )}
+
+                                        </div>
                                       <input
-                                        type="text"
-                                        value={food}
-                                        placeholder={`Enter food for ${meal}`}
-                                        className="w-1/2 p-1 border border-gray-300 rounded-md text-sm"
-                                        onChange={(e) => handleFoodChange(meal, index, e.target.value)}
+                                        type="number"
+                                        min="1"
+                                        placeholder="g"
+                                        className="w-20 p-1 border border-gray-300 rounded-md text-sm"
+                                        value={food.quantity}
+                                        onChange={(e) =>
+                                          handleFoodChange(meal, index, { ...food, quantity: e.target.value })
+                                        }
+                                        required
                                       />
+
                                       {mealFoodList[meal].length > 1 && (
                                         <button type="button" onClick={() => handleRemoveFood(meal, index)} className="text-xl text-gray-600">
                                           ➖
@@ -734,7 +828,7 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
                 </div>
 
                 <div className="mt-6 flex items-center justify-center gap-2">
-                  {[0, 1, 2, 3, 4].map((i) => (
+                  {[0, 1, 2, 3, 4, 5].map((i) => (
                     <span key={i} className={`h-2 w-2 rounded-full ${i === step ? 'bg-green-600' : 'bg-gray-300'}`} />
                   ))}
                 </div>
@@ -753,7 +847,7 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
                     disabled={!canNext}
                     className="inline-flex items-center gap-1 rounded-md bg-green-600 px-4 py-2 text-sm font-semibold text-white shadow-sm hover:bg-green-700 disabled:opacity-50 disabled:cursor-not-allowed"
                   >
-                    {step === 4 ? 'Submit' : 'Next'}
+                    {step === 5 ? 'Submit' : 'Next'}
                   </button>
                 </div>
               </form>
