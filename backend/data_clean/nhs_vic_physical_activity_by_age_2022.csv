@@ -1,0 +1,97 @@
+state_code,state_name,sex,age_group,indicator,category,survey_period,value_pct,note
+VIC,Victoria,Persons,15–17,Physical activity (2014 guidelines),Met guidelines,2022–24,6.3,Proportion
+VIC,Victoria,Persons,18–24,Physical activity (2014 guidelines),Met guidelines,2022–24,33.1,Proportion
+VIC,Victoria,Persons,25–34,Physical activity (2014 guidelines),Met guidelines,2022–24,29.2,Proportion
+VIC,Victoria,Persons,35–44,Physical activity (2014 guidelines),Met guidelines,2022–24,22.4,Proportion
+VIC,Victoria,Persons,45–54,Physical activity (2014 guidelines),Met guidelines,2022–24,13.5,Proportion
+VIC,Victoria,Persons,55–64,Physical activity (2014 guidelines),Met guidelines,2022–24,12.4,Proportion
+VIC,Victoria,Persons,65 +,Physical activity (2014 guidelines),Met guidelines,2022–24,35.5,Proportion
+VIC,Victoria,Persons,15–24,Physical activity (2014 guidelines),Met guidelines,2022–24,26.2,Proportion
+VIC,Victoria,Persons,15–44,Physical activity (2014 guidelines),Met guidelines,2022–24,25.9,Proportion
+VIC,Victoria,Persons,25–44,Physical activity (2014 guidelines),Met guidelines,2022–24,27.1,Proportion
+VIC,Victoria,Persons,45–64,Physical activity (2014 guidelines),Met guidelines,2022–24,13.5,Proportion
+VIC,Victoria,Persons,18–64,Physical activity (2014 guidelines),Met guidelines,2022–24,22.4,Proportion
+VIC,Victoria,Persons,18–44,Physical activity (2014 guidelines),Met guidelines,2022–24,27.9,Proportion
+VIC,Victoria,Persons,45 +,Physical activity (2014 guidelines),Met guidelines,2022–24,22.8,Proportion
+VIC,Victoria,Persons,Total 18 +,Physical activity (2014 guidelines),Met guidelines,2022–24,25.2,Proportion
+VIC,Victoria,Persons,Total 15 +,Physical activity (2014 guidelines),Met guidelines,2022–24,24.5,Proportion
+VIC,Victoria,Persons,15–17,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,99.6,Proportion
+VIC,Victoria,Persons,18–24,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,62.7,Proportion
+VIC,Victoria,Persons,25–34,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,70.1,Proportion
+VIC,Victoria,Persons,35–44,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,77.6,Proportion
+VIC,Victoria,Persons,45–54,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,85.6,Proportion
+VIC,Victoria,Persons,55–64,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,88.5,Proportion
+VIC,Victoria,Persons,65 +,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,64.9,Proportion
+VIC,Victoria,Persons,15–24,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,75.4,Proportion
+VIC,Victoria,Persons,15–44,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,74.0,Proportion
+VIC,Victoria,Persons,25–44,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,73.2,Proportion
+VIC,Victoria,Persons,45–64,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,85.5,Proportion
+VIC,Victoria,Persons,18–64,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,77.2,Proportion
+VIC,Victoria,Persons,18–44,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,72.0,Proportion
+VIC,Victoria,Persons,45 +,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,77.4,Proportion
+VIC,Victoria,Persons,Total 18 +,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,74.5,Proportion
+VIC,Victoria,Persons,Total 15 +,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,75.5,Proportion
+VIC,Victoria,Males,15–17,Physical activity (2014 guidelines),Met guidelines,2022–24,9.1,Proportion
+VIC,Victoria,Males,18–24,Physical activity (2014 guidelines),Met guidelines,2022–24,38.1,Proportion
+VIC,Victoria,Males,25–34,Physical activity (2014 guidelines),Met guidelines,2022–24,33.7,Proportion
+VIC,Victoria,Males,35–44,Physical activity (2014 guidelines),Met guidelines,2022–24,25.0,Proportion
+VIC,Victoria,Males,45–54,Physical activity (2014 guidelines),Met guidelines,2022–24,16.0,Proportion
+VIC,Victoria,Males,55–64,Physical activity (2014 guidelines),Met guidelines,2022–24,14.0,Proportion
+VIC,Victoria,Males,65 +,Physical activity (2014 guidelines),Met guidelines,2022–24,36.2,Proportion
+VIC,Victoria,Males,15–24,Physical activity (2014 guidelines),Met guidelines,2022–24,29.2,Proportion
+VIC,Victoria,Males,15–44,Physical activity (2014 guidelines),Met guidelines,2022–24,29.4,Proportion
+VIC,Victoria,Males,25–44,Physical activity (2014 guidelines),Met guidelines,2022–24,29.8,Proportion
+VIC,Victoria,Males,45–64,Physical activity (2014 guidelines),Met guidelines,2022–24,14.7,Proportion
+VIC,Victoria,Males,18–64,Physical activity (2014 guidelines),Met guidelines,2022–24,24.7,Proportion
+VIC,Victoria,Males,18–44,Physical activity (2014 guidelines),Met guidelines,2022–24,31.0,Proportion
+VIC,Victoria,Males,45 +,Physical activity (2014 guidelines),Met guidelines,2022–24,23.1,Proportion
+VIC,Victoria,Males,Total 18 +,Physical activity (2014 guidelines),Met guidelines,2022–24,27.6,Proportion
+VIC,Victoria,Males,Total 15 +,Physical activity (2014 guidelines),Met guidelines,2022–24,26.3,Proportion
+VIC,Victoria,Males,15–17,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,100.0,Proportion
+VIC,Victoria,Males,18–24,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,61.9,Proportion
+VIC,Victoria,Males,25–34,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,71.1,Proportion
+VIC,Victoria,Males,35–44,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,72.4,Proportion
+VIC,Victoria,Males,45–54,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,82.6,Proportion
+VIC,Victoria,Males,55–64,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,89.1,Proportion
+VIC,Victoria,Males,65 +,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,63.3,Proportion
+VIC,Victoria,Males,15–24,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,71.4,Proportion
+VIC,Victoria,Males,15–44,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,70.8,Proportion
+VIC,Victoria,Males,25–44,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,70.8,Proportion
+VIC,Victoria,Males,45–64,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,85.6,Proportion
+VIC,Victoria,Males,18–64,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,74.8,Proportion
+VIC,Victoria,Males,18–44,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,67.9,Proportion
+VIC,Victoria,Males,45 +,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,76.7,Proportion
+VIC,Victoria,Males,Total 18 +,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,72.9,Proportion
+VIC,Victoria,Males,Total 15 +,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,73.7,Proportion
+VIC,Victoria,Females,15–17,Physical activity (2014 guidelines),Met guidelines,2022–24,0.0,Proportion
+VIC,Victoria,Females,18–24,Physical activity (2014 guidelines),Met guidelines,2022–24,28.6,Proportion
+VIC,Victoria,Females,25–34,Physical activity (2014 guidelines),Met guidelines,2022–24,27.1,Proportion
+VIC,Victoria,Females,35–44,Physical activity (2014 guidelines),Met guidelines,2022–24,22.8,Proportion
+VIC,Victoria,Females,45–54,Physical activity (2014 guidelines),Met guidelines,2022–24,12.1,Proportion
+VIC,Victoria,Females,55–64,Physical activity (2014 guidelines),Met guidelines,2022–24,13.8,Proportion
+VIC,Victoria,Females,65 +,Physical activity (2014 guidelines),Met guidelines,2022–24,34.2,Proportion
+VIC,Victoria,Females,15–24,Physical activity (2014 guidelines),Met guidelines,2022–24,18.7,Proportion
+VIC,Victoria,Females,15–44,Physical activity (2014 guidelines),Met guidelines,2022–24,24.0,Proportion
+VIC,Victoria,Females,25–44,Physical activity (2014 guidelines),Met guidelines,2022–24,23.9,Proportion
+VIC,Victoria,Females,45–64,Physical activity (2014 guidelines),Met guidelines,2022–24,12.8,Proportion
+VIC,Victoria,Females,18–64,Physical activity (2014 guidelines),Met guidelines,2022–24,20.2,Proportion
+VIC,Victoria,Females,18–44,Physical activity (2014 guidelines),Met guidelines,2022–24,25.2,Proportion
+VIC,Victoria,Females,45 +,Physical activity (2014 guidelines),Met guidelines,2022–24,22.1,Proportion
+VIC,Victoria,Females,Total 18 +,Physical activity (2014 guidelines),Met guidelines,2022–24,23.5,Proportion
+VIC,Victoria,Females,Total 15 +,Physical activity (2014 guidelines),Met guidelines,2022–24,22.8,Proportion
+VIC,Victoria,Females,15–17,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,100.0,Proportion
+VIC,Victoria,Females,18–24,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,69.4,Proportion
+VIC,Victoria,Females,25–34,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,72.1,Proportion
+VIC,Victoria,Females,35–44,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,78.3,Proportion
+VIC,Victoria,Females,45–54,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,85.7,Proportion
+VIC,Victoria,Females,55–64,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,85.8,Proportion
+VIC,Victoria,Females,65 +,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,65.2,Proportion
+VIC,Victoria,Females,15–24,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,82.1,Proportion
+VIC,Victoria,Females,15–44,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,76.7,Proportion
+VIC,Victoria,Females,25–44,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,74.2,Proportion
+VIC,Victoria,Females,45–64,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,88.4,Proportion
+VIC,Victoria,Females,18–64,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,79.0,Proportion
+VIC,Victoria,Females,18–44,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,74.8,Proportion
+VIC,Victoria,Females,45 +,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,78.0,Proportion
+VIC,Victoria,Females,Total 18 +,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,76.1,Proportion
+VIC,Victoria,Females,Total 15 +,Physical activity (2014 guidelines),Did not meet guidelines,2022–24,77.5,Proportion

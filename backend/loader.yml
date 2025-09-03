@@ -6,6 +6,10 @@ mysql:
   database: healthylife
 
 files:
+  - { path: "backend/data_clean/nhs_national_table1_proportions_2022.csv", staging: "stg_nhs_state_proportions" }
+  - { path: "backend/data_clean/nhs_state_table2_proportions_2022.csv",    staging: "stg_nhs_state_proportions" }
+  - { path: "backend/data_clean/nhs_vic_bmi_by_age_2022.csv",              staging: "stg_nhs_state_proportions" }
+  - { path: "backend/data_clean/nhs_vic_physical_activity_by_age_2022.csv", staging: "stg_nhs_state_proportions" }
   - { path: "backend/data_clean/S1_Disease_5yrs_clean.csv", staging: "stg_s1_disease_5yr" }
   - { path: "backend/data_clean/S8_Risk_factor_linked_disease_clean.csv", staging: "stg_s8_risk_linked" }
   - { path: "backend/data_clean/S9_Risk_factor_unadjusted_clean.csv", staging: "stg_s9_risk_unadj" }

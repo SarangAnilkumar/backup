@@ -1,0 +1,196 @@
+state_code,state_name,sex,age_group,indicator,category,survey_period,value_pct,note
+VIC,Victoria,Persons,18–24,Body Mass Index (BMI),Underweight / Normal range (less than 18.50–24.99),2022–24,58.8,Proportion
+VIC,Victoria,Persons,25–34,Body Mass Index (BMI),Underweight / Normal range (less than 18.50–24.99),2022–24,41.7,Proportion
+VIC,Victoria,Persons,35–44,Body Mass Index (BMI),Underweight / Normal range (less than 18.50–24.99),2022–24,32.2,Proportion
+VIC,Victoria,Persons,45–54,Body Mass Index (BMI),Underweight / Normal range (less than 18.50–24.99),2022–24,25.3,Proportion
+VIC,Victoria,Persons,55–64,Body Mass Index (BMI),Underweight / Normal range (less than 18.50–24.99),2022–24,25.1,Proportion
+VIC,Victoria,Persons,65 +,Body Mass Index (BMI),Underweight / Normal range (less than 18.50–24.99),2022–24,26.1,Proportion
+VIC,Victoria,Persons,25–44,Body Mass Index (BMI),Underweight / Normal range (less than 18.50–24.99),2022–24,37.8,Proportion
+VIC,Victoria,Persons,45–64,Body Mass Index (BMI),Underweight / Normal range (less than 18.50–24.99),2022–24,25.3,Proportion
+VIC,Victoria,Persons,65–74,Body Mass Index (BMI),Underweight / Normal range (less than 18.50–24.99),2022–24,26.8,Proportion
+VIC,Victoria,Persons,75 +,Body Mass Index (BMI),Underweight / Normal range (less than 18.50–24.99),2022–24,27.4,Proportion
+VIC,Victoria,Persons,18–44,Body Mass Index (BMI),Underweight / Normal range (less than 18.50–24.99),2022–24,42.2,Proportion
+VIC,Victoria,Persons,45 +,Body Mass Index (BMI),Underweight / Normal range (less than 18.50–24.99),2022–24,25.8,Proportion
+VIC,Victoria,Persons,Total 18 +,Body Mass Index (BMI),Underweight / Normal range (less than 18.50–24.99),2022–24,33.9,Proportion
+VIC,Victoria,Persons,18–24,Body Mass Index (BMI),Overweight (25.00–29.99),2022–24,26.1,Proportion
+VIC,Victoria,Persons,25–34,Body Mass Index (BMI),Overweight (25.00–29.99),2022–24,28.5,Proportion
+VIC,Victoria,Persons,35–44,Body Mass Index (BMI),Overweight (25.00–29.99),2022–24,33.5,Proportion
+VIC,Victoria,Persons,45–54,Body Mass Index (BMI),Overweight (25.00–29.99),2022–24,38.7,Proportion
+VIC,Victoria,Persons,55–64,Body Mass Index (BMI),Overweight (25.00–29.99),2022–24,35.8,Proportion
+VIC,Victoria,Persons,65 +,Body Mass Index (BMI),Overweight (25.00–29.99),2022–24,39.1,Proportion
+VIC,Victoria,Persons,25–44,Body Mass Index (BMI),Overweight (25.00–29.99),2022–24,31.5,Proportion
+VIC,Victoria,Persons,45–64,Body Mass Index (BMI),Overweight (25.00–29.99),2022–24,37.8,Proportion
+VIC,Victoria,Persons,65–74,Body Mass Index (BMI),Overweight (25.00–29.99),2022–24,38.1,Proportion
+VIC,Victoria,Persons,75 +,Body Mass Index (BMI),Overweight (25.00–29.99),2022–24,41.1,Proportion
+VIC,Victoria,Persons,18–44,Body Mass Index (BMI),Overweight (25.00–29.99),2022–24,30.3,Proportion
+VIC,Victoria,Persons,45 +,Body Mass Index (BMI),Overweight (25.00–29.99),2022–24,38.3,Proportion
+VIC,Victoria,Persons,Total 18 +,Body Mass Index (BMI),Overweight (25.00–29.99),2022–24,34.6,Proportion
+VIC,Victoria,Persons,18–24,Body Mass Index (BMI),Obesity class I (30.00–34.99),2022–24,3.6,Proportion
+VIC,Victoria,Persons,25–34,Body Mass Index (BMI),Obesity class I (30.00–34.99),2022–24,15.1,Proportion
+VIC,Victoria,Persons,35–44,Body Mass Index (BMI),Obesity class I (30.00–34.99),2022–24,20.4,Proportion
+VIC,Victoria,Persons,45–54,Body Mass Index (BMI),Obesity class I (30.00–34.99),2022–24,23.3,Proportion
+VIC,Victoria,Persons,55–64,Body Mass Index (BMI),Obesity class I (30.00–34.99),2022–24,23.5,Proportion
+VIC,Victoria,Persons,65 +,Body Mass Index (BMI),Obesity class I (30.00–34.99),2022–24,19.3,Proportion
+VIC,Victoria,Persons,25–44,Body Mass Index (BMI),Obesity class I (30.00–34.99),2022–24,17.4,Proportion
+VIC,Victoria,Persons,45–64,Body Mass Index (BMI),Obesity class I (30.00–34.99),2022–24,22.9,Proportion
+VIC,Victoria,Persons,65–74,Body Mass Index (BMI),Obesity class I (30.00–34.99),2022–24,20.3,Proportion
+VIC,Victoria,Persons,75 +,Body Mass Index (BMI),Obesity class I (30.00–34.99),2022–24,20.5,Proportion
+VIC,Victoria,Persons,18–44,Body Mass Index (BMI),Obesity class I (30.00–34.99),2022–24,15.2,Proportion
+VIC,Victoria,Persons,45 +,Body Mass Index (BMI),Obesity class I (30.00–34.99),2022–24,21.6,Proportion
+VIC,Victoria,Persons,Total 18 +,Body Mass Index (BMI),Obesity class I (30.00–34.99),2022–24,18.3,Proportion
+VIC,Victoria,Persons,18–24,Body Mass Index (BMI),Obesity class II (35.00–39.99),2022–24,6.4,Proportion
+VIC,Victoria,Persons,25–34,Body Mass Index (BMI),Obesity class II (35.00–39.99),2022–24,7.9,Proportion
+VIC,Victoria,Persons,35–44,Body Mass Index (BMI),Obesity class II (35.00–39.99),2022–24,8.6,Proportion
+VIC,Victoria,Persons,45–54,Body Mass Index (BMI),Obesity class II (35.00–39.99),2022–24,8.3,Proportion
+VIC,Victoria,Persons,55–64,Body Mass Index (BMI),Obesity class II (35.00–39.99),2022–24,7.6,Proportion
+VIC,Victoria,Persons,65 +,Body Mass Index (BMI),Obesity class II (35.00–39.99),2022–24,9.6,Proportion
+VIC,Victoria,Persons,25–44,Body Mass Index (BMI),Obesity class II (35.00–39.99),2022–24,8.1,Proportion
+VIC,Victoria,Persons,45–64,Body Mass Index (BMI),Obesity class II (35.00–39.99),2022–24,8.7,Proportion
+VIC,Victoria,Persons,65–74,Body Mass Index (BMI),Obesity class II (35.00–39.99),2022–24,11.5,Proportion
+VIC,Victoria,Persons,75 +,Body Mass Index (BMI),Obesity class II (35.00–39.99),2022–24,8.2,Proportion
+VIC,Victoria,Persons,18–44,Body Mass Index (BMI),Obesity class II (35.00–39.99),2022–24,8.1,Proportion
+VIC,Victoria,Persons,45 +,Body Mass Index (BMI),Obesity class II (35.00–39.99),2022–24,8.4,Proportion
+VIC,Victoria,Persons,Total 18 +,Body Mass Index (BMI),Obesity class II (35.00–39.99),2022–24,8.3,Proportion
+VIC,Victoria,Persons,18–24,Body Mass Index (BMI),Obesity class III (40.00 or more),2022–24,4.0,Proportion
+VIC,Victoria,Persons,25–34,Body Mass Index (BMI),Obesity class III (40.00 or more),2022–24,1.7,Proportion
+VIC,Victoria,Persons,35–44,Body Mass Index (BMI),Obesity class III (40.00 or more),2022–24,4.7,Proportion
+VIC,Victoria,Persons,45–54,Body Mass Index (BMI),Obesity class III (40.00 or more),2022–24,3.1,Proportion
+VIC,Victoria,Persons,55–64,Body Mass Index (BMI),Obesity class III (40.00 or more),2022–24,5.7,Proportion
+VIC,Victoria,Persons,65 +,Body Mass Index (BMI),Obesity class III (40.00 or more),2022–24,4.7,Proportion
+VIC,Victoria,Persons,25–44,Body Mass Index (BMI),Obesity class III (40.00 or more),2022–24,3.2,Proportion
+VIC,Victoria,Persons,45–64,Body Mass Index (BMI),Obesity class III (40.00 or more),2022–24,4.5,Proportion
+VIC,Victoria,Persons,65–74,Body Mass Index (BMI),Obesity class III (40.00 or more),2022–24,6.3,Proportion
+VIC,Victoria,Persons,75 +,Body Mass Index (BMI),Obesity class III (40.00 or more),2022–24,4.9,Proportion
+VIC,Victoria,Persons,18–44,Body Mass Index (BMI),Obesity class III (40.00 or more),2022–24,2.9,Proportion
+VIC,Victoria,Persons,45 +,Body Mass Index (BMI),Obesity class III (40.00 or more),2022–24,4.5,Proportion
+VIC,Victoria,Persons,Total 18 +,Body Mass Index (BMI),Obesity class III (40.00 or more),2022–24,3.8,Proportion
+VIC,Victoria,Males,18–24,Body Mass Index (BMI),Underweight / Normal range (less than 18.50–24.99),2022–24,53.1,Proportion
+VIC,Victoria,Males,25–34,Body Mass Index (BMI),Underweight / Normal range (less than 18.50–24.99),2022–24,29.8,Proportion
+VIC,Victoria,Males,35–44,Body Mass Index (BMI),Underweight / Normal range (less than 18.50–24.99),2022–24,29.5,Proportion
+VIC,Victoria,Males,45–54,Body Mass Index (BMI),Underweight / Normal range (less than 18.50–24.99),2022–24,19.4,Proportion
+VIC,Victoria,Males,55–64,Body Mass Index (BMI),Underweight / Normal range (less than 18.50–24.99),2022–24,16.1,Proportion
+VIC,Victoria,Males,65 +,Body Mass Index (BMI),Underweight / Normal range (less than 18.50–24.99),2022–24,22.4,Proportion
+VIC,Victoria,Males,25–44,Body Mass Index (BMI),Underweight / Normal range (less than 18.50–24.99),2022–24,29.4,Proportion
+VIC,Victoria,Males,45–64,Body Mass Index (BMI),Underweight / Normal range (less than 18.50–24.99),2022–24,15.2,Proportion
+VIC,Victoria,Males,65–74,Body Mass Index (BMI),Underweight / Normal range (less than 18.50–24.99),2022–24,17.5,Proportion
+VIC,Victoria,Males,75 +,Body Mass Index (BMI),Underweight / Normal range (less than 18.50–24.99),2022–24,26.9,Proportion
+VIC,Victoria,Males,18–44,Body Mass Index (BMI),Underweight / Normal range (less than 18.50–24.99),2022–24,35.3,Proportion
+VIC,Victoria,Males,45 +,Body Mass Index (BMI),Underweight / Normal range (less than 18.50–24.99),2022–24,18.9,Proportion
+VIC,Victoria,Males,Total 18 +,Body Mass Index (BMI),Underweight / Normal range (less than 18.50–24.99),2022–24,27.1,Proportion
+VIC,Victoria,Males,18–24,Body Mass Index (BMI),Overweight (25.00–29.99),2022–24,30.4,Proportion
+VIC,Victoria,Males,25–34,Body Mass Index (BMI),Overweight (25.00–29.99),2022–24,45.5,Proportion
+VIC,Victoria,Males,35–44,Body Mass Index (BMI),Overweight (25.00–29.99),2022–24,35.5,Proportion
+VIC,Victoria,Males,45–54,Body Mass Index (BMI),Overweight (25.00–29.99),2022–24,48.5,Proportion
+VIC,Victoria,Males,55–64,Body Mass Index (BMI),Overweight (25.00–29.99),2022–24,39.2,Proportion
+VIC,Victoria,Males,65 +,Body Mass Index (BMI),Overweight (25.00–29.99),2022–24,41.7,Proportion
+VIC,Victoria,Males,25–44,Body Mass Index (BMI),Overweight (25.00–29.99),2022–24,40.8,Proportion
+VIC,Victoria,Males,45–64,Body Mass Index (BMI),Overweight (25.00–29.99),2022–24,41.3,Proportion
+VIC,Victoria,Males,65–74,Body Mass Index (BMI),Overweight (25.00–29.99),2022–24,43.0,Proportion
+VIC,Victoria,Males,75 +,Body Mass Index (BMI),Overweight (25.00–29.99),2022–24,42.5,Proportion
+VIC,Victoria,Males,18–44,Body Mass Index (BMI),Overweight (25.00–29.99),2022–24,38.5,Proportion
+VIC,Victoria,Males,45 +,Body Mass Index (BMI),Overweight (25.00–29.99),2022–24,43.4,Proportion
+VIC,Victoria,Males,Total 18 +,Body Mass Index (BMI),Overweight (25.00–29.99),2022–24,41.3,Proportion
+VIC,Victoria,Males,18–24,Body Mass Index (BMI),Obesity class I (30.00–34.99),2022–24,4.8,Proportion
+VIC,Victoria,Males,25–34,Body Mass Index (BMI),Obesity class I (30.00–34.99),2022–24,13.2,Proportion
+VIC,Victoria,Males,35–44,Body Mass Index (BMI),Obesity class I (30.00–34.99),2022–24,21.3,Proportion
+VIC,Victoria,Males,45–54,Body Mass Index (BMI),Obesity class I (30.00–34.99),2022–24,27.9,Proportion
+VIC,Victoria,Males,55–64,Body Mass Index (BMI),Obesity class I (30.00–34.99),2022–24,34.1,Proportion
+VIC,Victoria,Males,65 +,Body Mass Index (BMI),Obesity class I (30.00–34.99),2022–24,24.5,Proportion
+VIC,Victoria,Males,25–44,Body Mass Index (BMI),Obesity class I (30.00–34.99),2022–24,18.3,Proportion
+VIC,Victoria,Males,45–64,Body Mass Index (BMI),Obesity class I (30.00–34.99),2022–24,28.8,Proportion
+VIC,Victoria,Males,65–74,Body Mass Index (BMI),Obesity class I (30.00–34.99),2022–24,23.9,Proportion
+VIC,Victoria,Males,75 +,Body Mass Index (BMI),Obesity class I (30.00–34.99),2022–24,18.0,Proportion
+VIC,Victoria,Males,18–44,Body Mass Index (BMI),Obesity class I (30.00–34.99),2022–24,14.6,Proportion
+VIC,Victoria,Males,45 +,Body Mass Index (BMI),Obesity class I (30.00–34.99),2022–24,27.8,Proportion
+VIC,Victoria,Males,Total 18 +,Body Mass Index (BMI),Obesity class I (30.00–34.99),2022–24,21.1,Proportion
+VIC,Victoria,Males,18–24,Body Mass Index (BMI),Obesity class II (35.00–39.99),2022–24,5.2,Proportion
+VIC,Victoria,Males,25–34,Body Mass Index (BMI),Obesity class II (35.00–39.99),2022–24,9.5,Proportion
+VIC,Victoria,Males,35–44,Body Mass Index (BMI),Obesity class II (35.00–39.99),2022–24,5.9,Proportion
+VIC,Victoria,Males,45–54,Body Mass Index (BMI),Obesity class II (35.00–39.99),2022–24,4.9,Proportion
+VIC,Victoria,Males,55–64,Body Mass Index (BMI),Obesity class II (35.00–39.99),2022–24,4.3,Proportion
+VIC,Victoria,Males,65 +,Body Mass Index (BMI),Obesity class II (35.00–39.99),2022–24,7.2,Proportion
+VIC,Victoria,Males,25–44,Body Mass Index (BMI),Obesity class II (35.00–39.99),2022–24,8.3,Proportion
+VIC,Victoria,Males,45–64,Body Mass Index (BMI),Obesity class II (35.00–39.99),2022–24,4.2,Proportion
+VIC,Victoria,Males,65–74,Body Mass Index (BMI),Obesity class II (35.00–39.99),2022–24,9.8,Proportion
+VIC,Victoria,Males,75 +,Body Mass Index (BMI),Obesity class II (35.00–39.99),2022–24,9.0,Proportion
+VIC,Victoria,Males,18–44,Body Mass Index (BMI),Obesity class II (35.00–39.99),2022–24,8.3,Proportion
+VIC,Victoria,Males,45 +,Body Mass Index (BMI),Obesity class II (35.00–39.99),2022–24,6.8,Proportion
+VIC,Victoria,Males,Total 18 +,Body Mass Index (BMI),Obesity class II (35.00–39.99),2022–24,7.3,Proportion
+VIC,Victoria,Males,18–24,Body Mass Index (BMI),Obesity class III (40.00 or more),2022–24,0.0,Proportion
+VIC,Victoria,Males,25–34,Body Mass Index (BMI),Obesity class III (40.00 or more),2022–24,0.0,Proportion
+VIC,Victoria,Males,35–44,Body Mass Index (BMI),Obesity class III (40.00 or more),2022–24,1.8,Proportion
+VIC,Victoria,Males,45–54,Body Mass Index (BMI),Obesity class III (40.00 or more),2022–24,3.1,Proportion
+VIC,Victoria,Males,55–64,Body Mass Index (BMI),Obesity class III (40.00 or more),2022–24,6.6,Proportion
+VIC,Victoria,Males,65 +,Body Mass Index (BMI),Obesity class III (40.00 or more),2022–24,1.3,Proportion
+VIC,Victoria,Males,25–44,Body Mass Index (BMI),Obesity class III (40.00 or more),2022–24,0.9,Proportion
+VIC,Victoria,Males,45–64,Body Mass Index (BMI),Obesity class III (40.00 or more),2022–24,7.2,Proportion
+VIC,Victoria,Males,65–74,Body Mass Index (BMI),Obesity class III (40.00 or more),2022–24,2.1,Proportion
+VIC,Victoria,Males,75 +,Body Mass Index (BMI),Obesity class III (40.00 or more),2022–24,0.0,Proportion
+VIC,Victoria,Males,18–44,Body Mass Index (BMI),Obesity class III (40.00 or more),2022–24,0.8,Proportion
+VIC,Victoria,Males,45 +,Body Mass Index (BMI),Obesity class III (40.00 or more),2022–24,3.9,Proportion
+VIC,Victoria,Males,Total 18 +,Body Mass Index (BMI),Obesity class III (40.00 or more),2022–24,3.1,Proportion
+VIC,Victoria,Females,18–24,Body Mass Index (BMI),Underweight / Normal range (less than 18.50–24.99),2022–24,67.6,Proportion
+VIC,Victoria,Females,25–34,Body Mass Index (BMI),Underweight / Normal range (less than 18.50–24.99),2022–24,54.8,Proportion
+VIC,Victoria,Females,35–44,Body Mass Index (BMI),Underweight / Normal range (less than 18.50–24.99),2022–24,39.0,Proportion
+VIC,Victoria,Females,45–54,Body Mass Index (BMI),Underweight / Normal range (less than 18.50–24.99),2022–24,33.8,Proportion
+VIC,Victoria,Females,55–64,Body Mass Index (BMI),Underweight / Normal range (less than 18.50–24.99),2022–24,33.8,Proportion
+VIC,Victoria,Females,65 +,Body Mass Index (BMI),Underweight / Normal range (less than 18.50–24.99),2022–24,30.7,Proportion
+VIC,Victoria,Females,25–44,Body Mass Index (BMI),Underweight / Normal range (less than 18.50–24.99),2022–24,46.4,Proportion
+VIC,Victoria,Females,45–64,Body Mass Index (BMI),Underweight / Normal range (less than 18.50–24.99),2022–24,34.3,Proportion
+VIC,Victoria,Females,65–74,Body Mass Index (BMI),Underweight / Normal range (less than 18.50–24.99),2022–24,28.9,Proportion
+VIC,Victoria,Females,75 +,Body Mass Index (BMI),Underweight / Normal range (less than 18.50–24.99),2022–24,32.0,Proportion
+VIC,Victoria,Females,18–44,Body Mass Index (BMI),Underweight / Normal range (less than 18.50–24.99),2022–24,49.1,Proportion
+VIC,Victoria,Females,45 +,Body Mass Index (BMI),Underweight / Normal range (less than 18.50–24.99),2022–24,32.1,Proportion
+VIC,Victoria,Females,Total 18 +,Body Mass Index (BMI),Underweight / Normal range (less than 18.50–24.99),2022–24,40.1,Proportion
+VIC,Victoria,Females,18–24,Body Mass Index (BMI),Overweight (25.00–29.99),2022–24,18.7,Proportion
+VIC,Victoria,Females,25–34,Body Mass Index (BMI),Overweight (25.00–29.99),2022–24,18.7,Proportion
+VIC,Victoria,Females,35–44,Body Mass Index (BMI),Overweight (25.00–29.99),2022–24,27.9,Proportion
+VIC,Victoria,Females,45–54,Body Mass Index (BMI),Overweight (25.00–29.99),2022–24,34.5,Proportion
+VIC,Victoria,Females,55–64,Body Mass Index (BMI),Overweight (25.00–29.99),2022–24,32.6,Proportion
+VIC,Victoria,Females,65 +,Body Mass Index (BMI),Overweight (25.00–29.99),2022–24,35.1,Proportion
+VIC,Victoria,Females,25–44,Body Mass Index (BMI),Overweight (25.00–29.99),2022–24,23.2,Proportion
+VIC,Victoria,Females,45–64,Body Mass Index (BMI),Overweight (25.00–29.99),2022–24,32.4,Proportion
+VIC,Victoria,Females,65–74,Body Mass Index (BMI),Overweight (25.00–29.99),2022–24,35.3,Proportion
+VIC,Victoria,Females,75 +,Body Mass Index (BMI),Overweight (25.00–29.99),2022–24,38.0,Proportion
+VIC,Victoria,Females,18–44,Body Mass Index (BMI),Overweight (25.00–29.99),2022–24,21.5,Proportion
+VIC,Victoria,Females,45 +,Body Mass Index (BMI),Overweight (25.00–29.99),2022–24,34.4,Proportion
+VIC,Victoria,Females,Total 18 +,Body Mass Index (BMI),Overweight (25.00–29.99),2022–24,28.7,Proportion
+VIC,Victoria,Females,18–24,Body Mass Index (BMI),Obesity class I (30.00–34.99),2022–24,13.0,Proportion
+VIC,Victoria,Females,25–34,Body Mass Index (BMI),Obesity class I (30.00–34.99),2022–24,19.3,Proportion
+VIC,Victoria,Females,35–44,Body Mass Index (BMI),Obesity class I (30.00–34.99),2022–24,16.6,Proportion
+VIC,Victoria,Females,45–54,Body Mass Index (BMI),Obesity class I (30.00–34.99),2022–24,17.9,Proportion
+VIC,Victoria,Females,55–64,Body Mass Index (BMI),Obesity class I (30.00–34.99),2022–24,15.0,Proportion
+VIC,Victoria,Females,65 +,Body Mass Index (BMI),Obesity class I (30.00–34.99),2022–24,16.7,Proportion
+VIC,Victoria,Females,25–44,Body Mass Index (BMI),Obesity class I (30.00–34.99),2022–24,16.6,Proportion
+VIC,Victoria,Females,45–64,Body Mass Index (BMI),Obesity class I (30.00–34.99),2022–24,17.2,Proportion
+VIC,Victoria,Females,65–74,Body Mass Index (BMI),Obesity class I (30.00–34.99),2022–24,15.9,Proportion
+VIC,Victoria,Females,75 +,Body Mass Index (BMI),Obesity class I (30.00–34.99),2022–24,17.6,Proportion
+VIC,Victoria,Females,18–44,Body Mass Index (BMI),Obesity class I (30.00–34.99),2022–24,15.2,Proportion
+VIC,Victoria,Females,45 +,Body Mass Index (BMI),Obesity class I (30.00–34.99),2022–24,16.8,Proportion
+VIC,Victoria,Females,Total 18 +,Body Mass Index (BMI),Obesity class I (30.00–34.99),2022–24,15.9,Proportion
+VIC,Victoria,Females,18–24,Body Mass Index (BMI),Obesity class II (35.00–39.99),2022–24,6.4,Proportion
+VIC,Victoria,Females,25–34,Body Mass Index (BMI),Obesity class II (35.00–39.99),2022–24,6.5,Proportion
+VIC,Victoria,Females,35–44,Body Mass Index (BMI),Obesity class II (35.00–39.99),2022–24,10.6,Proportion
+VIC,Victoria,Females,45–54,Body Mass Index (BMI),Obesity class II (35.00–39.99),2022–24,11.7,Proportion
+VIC,Victoria,Females,55–64,Body Mass Index (BMI),Obesity class II (35.00–39.99),2022–24,9.5,Proportion
+VIC,Victoria,Females,65 +,Body Mass Index (BMI),Obesity class II (35.00–39.99),2022–24,10.1,Proportion
+VIC,Victoria,Females,25–44,Body Mass Index (BMI),Obesity class II (35.00–39.99),2022–24,8.0,Proportion
+VIC,Victoria,Females,45–64,Body Mass Index (BMI),Obesity class II (35.00–39.99),2022–24,10.4,Proportion
+VIC,Victoria,Females,65–74,Body Mass Index (BMI),Obesity class II (35.00–39.99),2022–24,11.1,Proportion
+VIC,Victoria,Females,75 +,Body Mass Index (BMI),Obesity class II (35.00–39.99),2022–24,9.3,Proportion
+VIC,Victoria,Females,18–44,Body Mass Index (BMI),Obesity class II (35.00–39.99),2022–24,8.1,Proportion
+VIC,Victoria,Females,45 +,Body Mass Index (BMI),Obesity class II (35.00–39.99),2022–24,10.8,Proportion
+VIC,Victoria,Females,Total 18 +,Body Mass Index (BMI),Obesity class II (35.00–39.99),2022–24,9.1,Proportion
+VIC,Victoria,Females,18–24,Body Mass Index (BMI),Obesity class III (40.00 or more),2022–24,0.0,Proportion
+VIC,Victoria,Females,25–34,Body Mass Index (BMI),Obesity class III (40.00 or more),2022–24,2.3,Proportion
+VIC,Victoria,Females,35–44,Body Mass Index (BMI),Obesity class III (40.00 or more),2022–24,7.5,Proportion
+VIC,Victoria,Females,45–54,Body Mass Index (BMI),Obesity class III (40.00 or more),2022–24,3.7,Proportion
+VIC,Victoria,Females,55–64,Body Mass Index (BMI),Obesity class III (40.00 or more),2022–24,5.2,Proportion
+VIC,Victoria,Females,65 +,Body Mass Index (BMI),Obesity class III (40.00 or more),2022–24,7.8,Proportion
+VIC,Victoria,Females,25–44,Body Mass Index (BMI),Obesity class III (40.00 or more),2022–24,5.0,Proportion
+VIC,Victoria,Females,45–64,Body Mass Index (BMI),Obesity class III (40.00 or more),2022–24,3.1,Proportion
+VIC,Victoria,Females,65–74,Body Mass Index (BMI),Obesity class III (40.00 or more),2022–24,7.7,Proportion
+VIC,Victoria,Females,75 +,Body Mass Index (BMI),Obesity class III (40.00 or more),2022–24,4.6,Proportion
+VIC,Victoria,Females,18–44,Body Mass Index (BMI),Obesity class III (40.00 or more),2022–24,4.8,Proportion
+VIC,Victoria,Females,45 +,Body Mass Index (BMI),Obesity class III (40.00 or more),2022–24,5.0,Proportion
+VIC,Victoria,Females,Total 18 +,Body Mass Index (BMI),Obesity class III (40.00 or more),2022–24,4.8,Proportion

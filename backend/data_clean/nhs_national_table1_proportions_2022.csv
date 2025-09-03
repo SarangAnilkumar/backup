@@ -1,0 +1,33 @@
+state_code,state_name,sex,age_group,indicator,category,survey_period,value_pct,note
+AUS,Australia,Persons,All 18+,Alcohol consumption,Exceeded guideline(r),2022–24,27.1,Proportion
+AUS,Australia,Persons,All 18+,Alcohol consumption,Consumed more than 10 drinks in the last week,2022–24,18.3,Proportion
+AUS,Australia,Persons,All 18+,Alcohol consumption,Consumed 5 or more drinks on any day at least monthly in the last 12 months,2022–24,21.2,Proportion
+AUS,Australia,Persons,All 18+,Alcohol consumption,"Total persons, 18 years and over",2022–24,100.0,Proportion
+AUS,Australia,Persons,All 18+,Body Mass Index (BMI),Underweight (less than 18.50),2022–24,1.7,Proportion
+AUS,Australia,Persons,All 18+,Body Mass Index (BMI),Normal range (18.50–19.99),2022–24,3.7,Proportion
+AUS,Australia,Persons,All 18+,Body Mass Index (BMI),Normal range (20.00–24.99),2022–24,28.7,Proportion
+AUS,Australia,Persons,All 18+,Body Mass Index (BMI),Total Normal range (18.50–24.99),2022–24,32.5,Proportion
+AUS,Australia,Persons,All 18+,Body Mass Index (BMI),Overweight (25.00–29.99),2022–24,33.7,Proportion
+AUS,Australia,Persons,All 18+,Body Mass Index (BMI),Obesity class I (30.00–34.99),2022–24,18.6,Proportion
+AUS,Australia,Persons,All 18+,Body Mass Index (BMI),Obesity class II (35.00–39.99),2022–24,7.9,Proportion
+AUS,Australia,Persons,All 18+,Body Mass Index (BMI),Obesity class III (40.00 or more),2022–24,4.6,Proportion
+AUS,Australia,Persons,All 18+,Body Mass Index (BMI),Total Obese (30.00 or more),2022–24,31.1,Proportion
+AUS,Australia,Persons,All 18+,Body Mass Index (BMI),Total Overweight / Obese (25.00 or more),2022–24,64.8,Proportion
+AUS,Australia,Persons,All 18+,Body Mass Index (BMI),"Total persons, 18 years and over(v)(w)(x)",2022–24,100.0,Proportion
+AUS,Australia,Persons,All 18+,Waist circumference risk,Lowered risk,2022–24,32.9,Proportion
+AUS,Australia,Persons,All 18+,Waist circumference risk,Increased risk(z),2022–24,20.7,Proportion
+AUS,Australia,Persons,All 18+,Waist circumference risk,Substantially increased risk(aa),2022–24,45.4,Proportion
+AUS,Australia,Persons,All 18+,Waist circumference risk,"Total persons, 18 years and over(v)(w)(x)",2022–24,100.0,Proportion
+AUS,Australia,Persons,All 18+,Fruit/vegetable consumption,Daily consumption of fruit — Did not meet recommendation,2022–24,56.6,Proportion
+AUS,Australia,Persons,All 18+,Fruit/vegetable consumption,Daily consumption of vegetables — Did not meet recommendation,2022–24,93.7,Proportion
+AUS,Australia,Persons,All 18+,Fruit/vegetable consumption,Daily consumption of fruit and vegetables — Did not meet either recommendation,2022–24,54.4,Proportion
+AUS,Australia,Persons,All 18+,Fruit/vegetable consumption,Daily consumption of fruit and vegetables — Did not meet at least 1 recommendation,2022–24,95.9,Proportion
+AUS,Australia,Persons,All 18+,Fruit/vegetable consumption,"Total persons, 18 years and over(v)",2022–24,100.0,Proportion
+AUS,Australia,Persons,All 18+,Smoker status,Never smoked,2022–24,59.4,Proportion
+AUS,Australia,Persons,All 18+,Smoker status,Current daily smoker,2022–24,10.7,Proportion
+AUS,Australia,Persons,All 18+,Smoker status,"Total persons, 18 years and over",2022–24,100.0,Proportion
+AUS,Australia,Persons,All 18+,Physical activity (2014 guidelines),Met guidelines,2022–24,23.6,Proportion
+AUS,Australia,Persons,All 18+,Physical activity (2014 guidelines),Did not meet guideline,2022–24,76.5,Proportion
+AUS,Australia,Persons,All 18+,Physical activity (2014 guidelines),Zero minutes of physical activity in last week(ai),2022–24,14.2,Proportion
+AUS,Australia,Persons,All 18+,Physical activity (2014 guidelines),"Total persons, 18 years and over",2022–24,100.0,Proportion
+AUS,Australia,Persons,All 18+,Physical activity (2014 guidelines),"Total persons, 18 years and over",2022–24,100.0,Proportion
