@@ -16,13 +16,14 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
   const [mealPreferences, setMealPreferences] = useState([])
   const [allFoods, setAllFoods] = useState([])
   const [foodSuggestions, setFoodSuggestions] = useState({})
-  const [mealFoodList, setMealFoodList] = useState<{ [key: string]: string[] }>({
-    Breakfast: [''],
-    Brunch: [''],
-    Lunch: [''],
-    Dinner: [''],
-    'Evening Snacks': ['']
+  const [mealFoodList, setMealFoodList] = useState({
+    Breakfast: [{ name: '', quantity: '', id: '' }],
+    Brunch: [{ name: '', quantity: '', id: '' }],
+    Lunch: [{ name: '', quantity: '', id: '' }],
+    Dinner: [{ name: '', quantity: '', id: '' }],
+    'Evening Snacks': [{ name: '', quantity: '', id: '' }]
   })
+
   const navigate = useNavigate()
 
   // Animation state
@@ -73,7 +74,7 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
   const handleAddFood = (meal: string) => {
     setMealFoodList((prev) => ({
       ...prev,
-      [meal]: [...prev[meal], '']
+      [meal]: [...prev[meal], { name: '', quantity: '', id: '' }]
     }))
   }
 
@@ -805,7 +806,7 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
                                         <div className="relative w-1/2" data-suggestion-key={suggestionKey}>
                                           <input
                                             type="text"
-                                            value={food.name || food} // Handle both string and object cases
+                                            value={food?.name || ''} // Handle both string and object cases
                                             placeholder={`Enter food for ${meal}`}
                                             className="p-1 border border-gray-300 rounded-md text-sm w-full"
                                             onChange={(e) => {
