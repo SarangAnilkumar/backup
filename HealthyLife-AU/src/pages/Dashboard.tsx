@@ -234,6 +234,33 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
     }
   }, [open])
 
+  // Updated useEffect for click outside detection
+  useEffect(() => {
+    const handleClickOutside = (event) => {
+      // Check if clicked outside any food suggestion dropdown
+      Object.keys(foodSuggestions).forEach((suggestionKey) => {
+        if (foodSuggestions[suggestionKey]?.length > 0) {
+          // Find the input container for this specific suggestion key
+          const inputContainer = document.querySelector(`[data-suggestion-key="${suggestionKey}"]`)
+          if (inputContainer && !inputContainer.contains(event.target)) {
+            // Clear suggestions for this specific input if clicked outside
+            setFoodSuggestions((prev) => ({ ...prev, [suggestionKey]: [] }))
+          }
+        }
+      })
+    }
+
+    if (open) {
+      // Only add event listener when modal is open
+      document.addEventListener('mousedown', handleClickOutside)
+    }
+
+    return () => {
+      // Clean up event listener
+      document.removeEventListener('mousedown', handleClickOutside)
+    }
+  }, [foodSuggestions, open])
+
   return (
     <div className="min-h-screen bg-transparent">
       {/* HERO Section */}
@@ -261,8 +288,8 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
           <div className="grid lg:grid-cols-3 gap-10 items-center">
             {/* Left: headline */}
             <div className={`lg:col-span-1 transition-all duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-10 opacity-0'}`}>
-              <h1 className="text-[28px] sm:text-6xl font-extrabold leading-[1.05] tracking-tight text-gray-900" style={{fontSize : '46px'}}>
-                Guarding Your  <span className="bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent">Health</span> Like Gold
+              <h1 className="text-[28px] sm:text-6xl font-extrabold leading-[1.05] tracking-tight text-gray-900" style={{ fontSize: '46px' }}>
+                Guarding Your <span className="bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent">Health</span> Like Gold
                 {/* <br /> is an Asset */}
               </h1>
 
@@ -768,69 +795,83 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
                               {mealPreferences.includes(meal) && (
                                 <div className="mt-2">
                                   {/* Dynamic input for food */}
-                                  {mealFoodList[meal].map((food, index) => (
-                                    <div key={index} className="flex items-center space-x-2 mb-2">
-                                      <div className="relative w-1/2">
+                                  {mealFoodList[meal].map((food, index) => {
+                                    // Create unique suggestion key for each input
+                                    const suggestionKey = `${meal}-${index}`
+
+                                    return (
+                                      <div key={index} className="flex items-center space-x-2 mb-2">
+                                        {/* Use unique suggestion key for each input */}
+                                        <div className="relative w-1/2" data-suggestion-key={suggestionKey}>
+                                          <input
+                                            type="text"
+                                            value={food.name || food} // Handle both string and object cases
+                                            placeholder={`Enter food for ${meal}`}
+                                            className="p-1 border border-gray-300 rounded-md text-sm w-full"
+                                            onChange={(e) => {
+                                              const value = e.target.value
+                                              // Keep your original handleFoodChange logic
+                                              handleFoodChange(meal, index, { ...food, name: value })
+
+                                              if (value.length > 1) {
+                                                const results = allFoods.filter((f) => f.food_name.toLowerCase().includes(value.toLowerCase())).slice(0, 10)
+                                                // Use unique suggestion key instead of meal
+                                                setFoodSuggestions((prev) => ({ ...prev, [suggestionKey]: results }))
+                                              } else {
+                                                // Clear suggestions for this specific input
+                                                setFoodSuggestions((prev) => ({ ...prev, [suggestionKey]: [] }))
+                                              }
+                                            }}
+                                          />
+
+                                          {/* Food suggestions dropdown - use unique suggestion key */}
+                                          {foodSuggestions[suggestionKey]?.length > 0 && (
+                                            <ul className="absolute bg-white border border-gray-200 rounded-md shadow-md mt-1 max-h-40 overflow-y-auto text-sm z-50 w-full">
+                                              {foodSuggestions[suggestionKey].map((f) => (
+                                                <li
+                                                  key={f.public_food_key}
+                                                  onClick={() => {
+                                                    // Keep your original click handling logic
+                                                    handleFoodChange(meal, index, {
+                                                      id: f.public_food_key,
+                                                      name: f.food_name,
+                                                      quantity: food.quantity
+                                                    })
+                                                    // Clear suggestions for this specific input
+                                                    setFoodSuggestions((prev) => ({ ...prev, [suggestionKey]: [] }))
+                                                  }}
+                                                  className="px-2 py-1 cursor-pointer hover:bg-green-100"
+                                                >
+                                                  {f.food_name}
+                                                </li>
+                                              ))}
+                                            </ul>
+                                          )}
+                                        </div>
+
                                         <input
-                                          type="text"
-                                          value={food.name}
-                                          placeholder={`Enter food for ${meal}`}
-                                          className="p-1 border border-gray-300 rounded-md text-sm"
-                                          onChange={(e) => {
-                                            const value = e.target.value
-                                            handleFoodChange(meal, index, { ...food, name: value })
-                                            if (value.length > 1) {
-                                              const results = allFoods.filter((f) => f.food_name.toLowerCase().includes(value.toLowerCase())).slice(0, 10) // limit suggestions
-                                              setFoodSuggestions((prev) => ({ ...prev, [meal]: results }))
-                                            } else {
-                                              setFoodSuggestions((prev) => ({ ...prev, [meal]: [] }))
-                                            }
-                                          }}
+                                          type="number"
+                                          min="1"
+                                          placeholder="g"
+                                          className="w-20 p-1 border border-gray-300 rounded-md text-sm"
+                                          value={food.quantity || ''} // Handle both string and object cases
+                                          onChange={(e) => handleFoodChange(meal, index, { ...food, quantity: e.target.value })}
+                                          required
                                         />
 
-                                        {foodSuggestions[meal]?.length > 0 && (
-                                          <ul className="absolute bg-white border border-gray-200 rounded-md shadow-md mt-1 max-h-40 overflow-y-auto text-sm z-50">
-                                            {foodSuggestions[meal].map((f) => (
-                                              <li
-                                                key={f.public_food_key}
-                                                onClick={() => {
-                                                  handleFoodChange(meal, index, {
-                                                    id: f.public_food_key,
-                                                    name: f.food_name,
-                                                    quantity: food.quantity
-                                                  })
-                                                  setFoodSuggestions((prev) => ({ ...prev, [meal]: [] }))
-                                                }}
-                                                className="px-2 py-1 cursor-pointer hover:bg-green-100"
-                                              >
-                                                {f.food_name}
-                                              </li>
-                                            ))}
-                                          </ul>
+                                        {mealFoodList[meal].length > 1 && (
+                                          <button type="button" onClick={() => handleRemoveFood(meal, index)} className="text-xl text-gray-600">
+                                            ➖
+                                          </button>
+                                        )}
+                                        {index === mealFoodList[meal].length - 1 && (
+                                          <button type="button" onClick={() => handleAddFood(meal)} className="text-xl text-gray-600">
+                                            ➕
+                                          </button>
                                         )}
                                       </div>
-                                      <input
-                                        type="number"
-                                        min="1"
-                                        placeholder="g"
-                                        className="w-20 p-1 border border-gray-300 rounded-md text-sm"
-                                        value={food.quantity}
-                                        onChange={(e) => handleFoodChange(meal, index, { ...food, quantity: e.target.value })}
-                                        required
-                                      />
-
-                                      {mealFoodList[meal].length > 1 && (
-                                        <button type="button" onClick={() => handleRemoveFood(meal, index)} className="text-xl text-gray-600">
-                                          ➖
-                                        </button>
-                                      )}
-                                      {index === mealFoodList[meal].length - 1 && (
-                                        <button type="button" onClick={() => handleAddFood(meal)} className="text-xl text-gray-600">
-                                          ➕
-                                        </button>
-                                      )}
-                                    </div>
-                                  ))}
+                                    )
+                                  })}
                                 </div>
                               )}
                             </div>
