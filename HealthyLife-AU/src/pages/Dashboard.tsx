@@ -420,13 +420,13 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
             </div>
 
             {/* Regional Analytics Row - Gradient Style */}
-            <div className="group bg-gradient-to-r from-green-500 to-teal-600 rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-700 cursor-pointer">
+            {/* <div className="group bg-gradient-to-r from-green-500 to-teal-600 rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-700 cursor-pointer">
               <Link
                 to="/regional-health-analytics"
                 className="group bg-gradient-to-r from-green-500 to-teal-600 rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-700 cursor-pointer block"
               >
                 <div className="grid md:grid-cols-2 items-center">
-                  {/* Content Section (Left side) */}
+                 
                   <div className="p-8 md:p-12 text-white relative order-2 md:order-1">
                     <div className="absolute top-6 right-6 opacity-80 group-hover:opacity-100 group-hover:translate-x-2 transition-all duration-300">
                       <ArrowRight className="w-6 h-6 text-white" />
@@ -458,7 +458,7 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
                     </div>
                   </div>
 
-                  {/* Image Section */}
+
                   <div className="relative overflow-hidden h-80 md:h-96 order-1 md:order-2">
                     <img
                       src="/regional_pic.gif"
@@ -477,7 +477,6 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
                         <p className="font-medium text-lg">Analytics Dashboard</p>
                       </div>
                     </div>
-                    {/* Floating stats */}
                     <div className="absolute bottom-6 left-6 px-4 py-2 bg-white/90 backdrop-blur-sm rounded-xl text-sm font-medium text-gray-700 shadow-lg">
                       <div className="flex items-center">
                         <div className="w-2 h-2 bg-green-500 rounded-full mr-2"></div>
@@ -487,7 +486,7 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
                   </div>
                 </div>
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

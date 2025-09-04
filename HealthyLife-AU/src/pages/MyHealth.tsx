@@ -192,15 +192,15 @@ const MyHealth: React.FC<{ healthData?: any }> = ({ healthData }) => {
   }
 
   const habitControls = [
-    {
-      key: 'exercise',
-      label: 'Exercise (days/week)',
-      icon: <Activity className="w-4 h-4" />,
-      min: 0,
-      max: 7,
-      unit: 'days',
-      color: 'bg-blue-500'
-    },
+    // {
+    //   key: 'exercise',
+    //   label: 'Exercise (days/week)',
+    //   icon: <Activity className="w-4 h-4" />,
+    //   min: 0,
+    //   max: 7,
+    //   unit: 'days',
+    //   color: 'bg-blue-500'
+    // },
     {
       key: 'smoking',
       label: 'Smoking (cigarettes/day)',
@@ -228,24 +228,24 @@ const MyHealth: React.FC<{ healthData?: any }> = ({ healthData }) => {
       unit: 'kg',
       color: 'bg-orange-500'
     },
-    {
-      key: 'sleep',
-      label: 'Sleep (hours/night)',
-      icon: <Heart className="w-4 h-4" />,
-      min: 4,
-      max: 12,
-      unit: 'hours',
-      color: 'bg-indigo-500'
-    },
-    {
-      key: 'stress',
-      label: 'Stress Level (1-5)',
-      icon: <AlertTriangle className="w-4 h-4" />,
-      min: 1,
-      max: 5,
-      unit: 'level',
-      color: 'bg-pink-500'
-    }
+    // {
+    //   key: 'sleep',
+    //   label: 'Sleep (hours/night)',
+    //   icon: <Heart className="w-4 h-4" />,
+    //   min: 4,
+    //   max: 12,
+    //   unit: 'hours',
+    //   color: 'bg-indigo-500'
+    // },
+    // {
+    //   key: 'stress',
+    //   label: 'Stress Level (1-5)',
+    //   icon: <AlertTriangle className="w-4 h-4" />,
+    //   min: 1,
+    //   max: 5,
+    //   unit: 'level',
+    //   color: 'bg-pink-500'
+    // }
   ]
 
   const getBMIStatus = (bmi: number): string => {
@@ -280,7 +280,7 @@ const MyHealth: React.FC<{ healthData?: any }> = ({ healthData }) => {
               </div>
               <p className="text-gray-600 ">Comprehensive analysis report based on Australian health standards</p>
             </div>
-            <div className="hidden md:flex items-center space-x-4">
+            {/* <div className="hidden md:flex items-center space-x-4">
               <button
                 onClick={fetchHealthAnalysis}
                 disabled={loading}
@@ -296,7 +296,7 @@ const MyHealth: React.FC<{ healthData?: any }> = ({ healthData }) => {
               >
                 {nutritionLoading ? 'Loading Nutrition...' : 'Fetch Nutrition Data'}
               </button>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
