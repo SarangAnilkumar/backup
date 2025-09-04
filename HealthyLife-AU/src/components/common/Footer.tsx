@@ -37,7 +37,7 @@ const Footer: React.FC = () => {
             <ul className="space-y-3">
               <li>
                 <Link to="/" className="text-gray-600 hover:text-gray-900 transition-colors text-sm">
-                  Dashboard
+                  Home
                 </Link>
               </li>
               <li>

@@ -77,7 +77,7 @@ const NutritionAnalysisCard: React.FC<Props> = ({ nutritionData, loading, error 
                         {nutrient.intake_amount.toFixed(1)}/{nutrient.recommended_amount.toFixed(0)}
                         <span className="text-sm text-gray-500 ml-1">{nutrient.unit}</span>
                       </p>
-                      <p className="text-xs text-gray-600">{(nutrient.percent_of_recommendation * 100).toFixed(1)}% of daily needs</p>
+                      <p className="text-xs text-gray-600">{(nutrient.percent_of_recommendation).toFixed(1)}% of daily needs</p>
                     </div>
                   </div>
 
@@ -88,7 +88,7 @@ const NutritionAnalysisCard: React.FC<Props> = ({ nutritionData, loading, error 
                         className={`h-3 rounded-full transition-all duration-300 ${
                           nutrient.status === 'deficient' ? 'bg-red-400' : nutrient.status === 'adequate' ? 'bg-green-400' : 'bg-orange-400'
                         }`}
-                        style={{ width: `${Math.min(100, nutrient.percent_of_recommendation * 100)}%` }}
+                        style={{ width: `${Math.min(100, nutrient.percent_of_recommendation)}%` }}
                       ></div>
                     </div>
                   </div>
@@ -109,7 +109,7 @@ const NutritionAnalysisCard: React.FC<Props> = ({ nutritionData, loading, error 
                                 <p className="font-semibold text-gray-900">
                                   {contribution.intake_amount.toFixed(2)} {nutrient.unit}
                                 </p>
-                                <p className="text-xs text-gray-600">{(contribution.percent_of_recommendation * 100).toFixed(1)}% daily needs</p>
+                                <p className="text-xs text-gray-600">{(contribution.percent_of_recommendation).toFixed(1)}% daily needs</p>
                               </div>
                             </div>
                             <div className="mt-2">

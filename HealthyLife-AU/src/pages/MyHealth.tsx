@@ -273,12 +273,12 @@ const MyHealth: React.FC<{ healthData?: any }> = ({ healthData }) => {
           <div className="flex items-center justify-between">
             <div>
               <div className="flex items-center mb-2">
-                <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-emerald-500 rounded-xl flex items-center justify-center mr-4">
+                {/* <div className="w-12 h-12 bg-gradient-to-r from-green-500 to-emerald-500 rounded-xl flex items-center justify-center mr-4">
                   <Heart className="w-6 h-6 text-white" />
-                </div>
+                </div> */}
                 <h1 className="text-4xl font-bold bg-gradient-to-r from-green-600 to-emerald-600 bg-clip-text text-transparent">Key Indicators Overview</h1>
               </div>
-              <p className="text-gray-600 ml-16">Comprehensive analysis report based on Australian health standards</p>
+              <p className="text-gray-600 ">Comprehensive analysis report based on Australian health standards</p>
             </div>
             <div className="hidden md:flex items-center space-x-4">
               <button

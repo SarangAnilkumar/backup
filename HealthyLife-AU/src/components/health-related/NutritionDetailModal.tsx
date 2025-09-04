@@ -59,7 +59,7 @@ const NutritionDetailModal: React.FC<Props> = ({ isOpen, onClose, nutritionData 
   // Prepare radial chart data for top nutrients
   const radialData = nutritionData.totals.slice(0, 6).map((nutrient) => ({
     name: nutrient.nutrient_name.slice(0, 12),
-    value: Math.min(100, nutrient.percent_of_recommendation * 100),
+    value: Math.min(100, nutrient.percent_of_recommendation),
     fill: nutrient.status === 'deficient' ? '#ef4444' : nutrient.status === 'adequate' ? '#22c55e' : '#f97316'
   }))
 
@@ -95,8 +95,8 @@ const NutritionDetailModal: React.FC<Props> = ({ isOpen, onClose, nutritionData 
   }
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black bg-opacity-50">
-      <div className="bg-white rounded-2xl shadow-2xl w-full max-w-7xl max-h-[90vh] overflow-hidden">
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4  bg-black/20 backdrop-blur-sm" >
+      <div className="bg-white rounded-2xl shadow-2xl w-full max-w-7xl max-h-[90vh] overflow-hidden" >
         {/* Header */}
         <div className="bg-gradient-to-r from-green-600 to-blue-600 text-white p-6">
           <div className="flex items-center justify-between">
@@ -204,13 +204,13 @@ const NutritionDetailModal: React.FC<Props> = ({ isOpen, onClose, nutritionData 
 
               {/* Meal Contribution Bar Chart */}
               <div className="bg-white rounded-xl p-4 shadow-sm">
-                <h4 className="font-semibold text-gray-800 mb-3">Meal Contributions</h4>
+                <h4 className="font-semibold text-gray-800 mb-3">Meal Contributions For Each Nutrients</h4>
                 <ResponsiveContainer width="100%" height={200}>
                   <BarChart data={mealData}>
                     <CartesianGrid strokeDasharray="3 3" />
                     <XAxis dataKey="nutrient" tick={{ fontSize: 10 }} angle={-45} textAnchor="end" height={60} />
                     <YAxis tick={{ fontSize: 10 }} tickFormatter={(value) => `${value}%`} />
-                    <Tooltip formatter={(value) => `${value.toFixed(1)}%`} />
+                    <Tooltip formatter={(value) => `${(value ?? 0).toFixed(1)}%`} />
                     {allMeals.map((meal, index) => (
                       <Bar key={meal} dataKey={meal} fill={mealColors[index % mealColors.length]} />
                     ))}
@@ -276,17 +276,17 @@ const NutritionDetailModal: React.FC<Props> = ({ isOpen, onClose, nutritionData 
                     <div className="px-6 py-4 bg-gray-50">
                       <div className="grid grid-cols-3 gap-4">
                         <div className="text-center">
-                          <p className="text-2xl font-bold text-gray-900">{nutrient.intake_amount.toFixed(1)}</p>
+                          <p className="text-2xl font-bold text-gray-900">{(nutrient.intake_amount ?? 0).toFixed(1)}</p>
                           <p className="text-sm text-gray-600">Current Intake</p>
                           <p className="text-xs text-gray-500">{nutrient.unit}</p>
                         </div>
                         <div className="text-center">
-                          <p className="text-2xl font-bold text-gray-900">{nutrient.recommended_amount.toFixed(0)}</p>
+                          <p className="text-2xl font-bold text-gray-900">{(nutrient.recommended_amount ?? 0).toFixed(0)}</p>
                           <p className="text-sm text-gray-600">Recommended</p>
                           <p className="text-xs text-gray-500">{nutrient.unit}</p>
                         </div>
                         <div className="text-center">
-                          <p className="text-2xl font-bold text-blue-600">{(nutrient.percent_of_recommendation * 100).toFixed(1)}%</p>
+                          <p className="text-2xl font-bold text-blue-600">{(nutrient.percent_of_recommendation ?? 0).toFixed(1)}%</p>
                           <p className="text-sm text-gray-600">Achievement</p>
                           <p className="text-xs text-gray-500">of daily goal</p>
                         </div>
@@ -298,7 +298,7 @@ const NutritionDetailModal: React.FC<Props> = ({ isOpen, onClose, nutritionData 
                       <div className="mb-3">
                         <div className="flex justify-between items-center mb-2">
                           <span className="text-sm font-medium text-gray-700">Daily Goal Progress</span>
-                          <span className="text-sm text-gray-500">{(nutrient.percent_of_recommendation * 100).toFixed(1)}%</span>
+                          <span className="text-sm text-gray-500">{(nutrient.percent_of_recommendation ?? 0).toFixed(1)}%</span>
                         </div>
                         <div className="w-full bg-gray-200 rounded-full h-4 shadow-inner">
                           <div
@@ -309,7 +309,7 @@ const NutritionDetailModal: React.FC<Props> = ({ isOpen, onClose, nutritionData 
                                 ? 'bg-gradient-to-r from-green-400 to-green-500'
                                 : 'bg-gradient-to-r from-orange-400 to-orange-500'
                             }`}
-                            style={{ width: `${Math.min(100, nutrient.percent_of_recommendation * 100)}%` }}
+                            style={{ width: `${Math.min(100, nutrient.percent_of_recommendation)}%` }}
                           ></div>
                         </div>
                       </div>
@@ -352,14 +352,14 @@ const NutritionDetailModal: React.FC<Props> = ({ isOpen, onClose, nutritionData 
                                   </div>
                                   <div>
                                     <p className="font-semibold text-gray-800 capitalize">{contribution.meal}</p>
-                                    <p className="text-xs text-gray-500">{contribution.percent_of_total.toFixed(1)}% of total intake</p>
+                                    <p className="text-xs text-gray-500">{(contribution.percent_of_total ?? 0).toFixed(1)}% of total intake</p>
                                   </div>
                                 </div>
                                 <div className="text-right">
                                   <p className="font-bold text-gray-900">
-                                    {contribution.intake_amount.toFixed(2)} {nutrient.unit}
+                                    {(contribution.intake_amount ?? 0).toFixed(2)} {nutrient.unit}
                                   </p>
-                                  <p className="text-sm text-gray-600">{(contribution.percent_of_recommendation * 100).toFixed(1)}% daily goal</p>
+                                  <p className="text-sm text-gray-600">{(contribution.percent_of_recommendation ?? 0).toFixed(1)}% daily goal</p>
                                 </div>
                               </div>
                               <div className="w-full bg-gray-200 rounded-full h-2">
@@ -382,7 +382,7 @@ const NutritionDetailModal: React.FC<Props> = ({ isOpen, onClose, nutritionData 
           </div>
 
           {/* Recommendations */}
-          <div className="p-6">
+          {/* <div className="p-6">
             <h3 className="text-xl font-bold text-gray-900 mb-4">Personalized Recommendations</h3>
             <div className="space-y-3">
               {getRecommendations().map((rec, index) => (
@@ -399,7 +399,7 @@ const NutritionDetailModal: React.FC<Props> = ({ isOpen, onClose, nutritionData 
                 </div>
               ))}
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* Footer */}
