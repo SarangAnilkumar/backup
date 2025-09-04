@@ -61,7 +61,7 @@ const NutritionAnalysisCard: React.FC<Props> = ({ nutritionData, loading, error 
 
         <div className="space-y-4">
           {nutritionData?.totals ? (
-            nutritionData.totals.slice(0, 2).map((nutrient) => {
+            nutritionData.totals.slice(0, 3).map((nutrient) => {
               const colors = getStatusColor(nutrient.status)
 
               return (
@@ -141,12 +141,12 @@ const NutritionAnalysisCard: React.FC<Props> = ({ nutritionData, loading, error 
 
           {nutritionData?.totals && nutritionData.totals.length > 2 && (
             <div className="text-center pt-4 border-t border-gray-200">
-              <p className="text-sm text-gray-600 mb-3">Showing 2 of {nutritionData.totals.length} nutrients</p>
+              <p className="text-sm text-gray-600 mb-3 mt-3">Showing 3 of {nutritionData.totals.length} nutrients</p>
               <button
                 onClick={() => setShowDetailModal(true)}
-                className="w-full bg-gradient-to-r from-green-600 to-indigo-600 text-white py-3 px-4 rounded-lg hover:from-green-700 hover:to-indigo-700 transition-all duration-200 font-medium shadow-lg hover:shadow-xl"
+                className="w-full bg-gradient-to-r from-green-600 to-indigo-600 text-white py-3 px-4 rounded-lg hover:from-green-700 hover:to-indigo-700 transition-all duration-200 font-medium shadow-lg hover:shadow-xl mt-3"
               >
-                View Complete Nutrition Report →
+                View Complete Nutrition Report
               </button>
             </div>
           )}
