@@ -86,7 +86,7 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
   }
 
   const handleFoodChange = (meal: string, index: number, value: string) => {
-    console.log(meal, index, value, 'kmsmsd,d,d')
+
     const updatedFoods = [...mealFoodList[meal]]
     updatedFoods[index] = value
     setMealFoodList((prev) => ({
@@ -100,7 +100,6 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
     console.log('Form submitted at step:', step)
 
     let formattedSmokingFrequency = smokingFrequency
-    // Remove the "per week" part if you selected
     if (smokingFrequency.includes('per week')) {
       formattedSmokingFrequency = smokingFrequency.replace(' per week', '')
     }
@@ -134,9 +133,6 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
         }
       })
 
-      // console.log('=== API Format Data ===')
-      // console.log(JSON.stringify(apiFormatData, null, 2))
-
       const healthData = {
         age,
         gender,
@@ -149,7 +145,6 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
         mealFoodList,
         apiData: apiFormatData
       }
-
       onHealthDataSubmit?.(healthData)
       setOpen(false)
       navigate('/my-health')

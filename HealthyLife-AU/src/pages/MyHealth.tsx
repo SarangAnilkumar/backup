@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react'
 import { Activity, Heart, Cigarette, Wine, Weight, Calculator, TrendingUp, TrendingDown, AlertTriangle } from 'lucide-react'
 import HealthAdvice from '../components/health-related/HealthAdvice'
 import NutritionAnalysisCard from '../components/health-related/NutritionAnalysisCard'
+import DiseaseAnalysisCard from '../components/health-related/DiseaseAnalysisCard'
 
 const MyHealth: React.FC<{ healthData?: any }> = ({ healthData }) => {
   // Simulator state
@@ -18,15 +19,80 @@ const MyHealth: React.FC<{ healthData?: any }> = ({ healthData }) => {
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState(null)
   const [nutritionApiData, setNutritionApiData] = useState(null)
-  const [nutritionLoading, setNutritionLoading] = useState(false)
   const [nutritionError, setNutritionError] = useState(null)
+  const [diseaseData, setDiseaseData] = useState(null)
+  const [diseaseError, setDiseaseError] = useState(null)
+const [healthLoading, setHealthLoading] = useState(false);
+const [diseaseLoading, setDiseaseLoading] = useState(false);
+const [nutritionLoading, setNutritionLoading] = useState(false);
 
-  const fetchHealthAnalysis = async () => {
-    if (!healthData?.age || !healthData?.gender || !healthData?.alcoholConsumption || !healthData?.smokingStatus) {
-      return // If no necessary data is sent request
+
+  const fetchDiseaseAnalysis = async () => {
+
+  if (
+    !healthData?.age ||
+    !healthData?.gender ||
+    healthData.alcoholConsumption === undefined ||
+    !healthData?.smokingStatus ||
+    !healthData?.smokingFrequency 
+  ) {
+    console.warn("Missing required healthData fields for disease fetch");
+    return;
+  }
+
+  setDiseaseLoading(true);
+  setDiseaseError(null);
+
+  console.log(healthData,"jhaisnsisu")
+
+  try {
+    const response = await fetch(
+      "https://i5r58exmh9.execute-api.ap-southeast-2.amazonaws.com/prod/fetchDisease",
+      {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "x-api-key": "kQtOrJu6Ba9TExHVFhVAt6aI7VOwMC3pabxQMR1y",
+        },
+        body: JSON.stringify({
+          age: healthData.age || 25,
+          sex: healthData.gender,
+          alcohol_intake: healthData.alcoholConsumption,
+          smoking_status: healthData.smokingStatus,
+          smoking_frequency: healthData.smokingFrequency,
+          physical_activity_category: "Did not meet guideline",
+        }),
+      }
+    );
+
+    if (!response.ok) {
+      throw new Error(`HTTP error! status: ${response.status}`);
     }
 
-    setLoading(true)
+    const rawData = await response.json();
+    // const parsedData = JSON.parse(rawData.body); // response.body is stringified
+
+    console.log("=== Disease API Response ===");
+      console.log('Response Status:', response.status)
+      console.log('Raw Response:', rawData)
+      console.log('Formatted Response:', JSON.stringify(rawData, null, 2))
+
+    setDiseaseData(rawData); // save only results
+  } catch (err: any) {
+    setDiseaseError(err.message);
+    console.error("Disease API Error:", err);
+  } finally {
+    setDiseaseLoading(false);
+  }
+};
+
+
+  const fetchHealthAnalysis = async () => {
+    // if (!healthData?.age || !healthData?.gender || !healthData?.alcoholConsumption || !healthData?.smokingStatus) {
+    //   return // If no necessary data is sent request
+    // }
+
+    setHealthLoading(true)
     setError(null)
 
     try {
@@ -55,7 +121,7 @@ const MyHealth: React.FC<{ healthData?: any }> = ({ healthData }) => {
       setError(err.message)
       console.error('API Error:', err)
     } finally {
-      setLoading(false)
+      setHealthLoading(false)
     }
   }
 
@@ -107,6 +173,8 @@ const MyHealth: React.FC<{ healthData?: any }> = ({ healthData }) => {
   useEffect(() => {
     if (healthData?.apiData) {
       fetchNutritionAnalysis()
+      fetchHealthAnalysis()
+      fetchDiseaseAnalysis()
     }
   }, [healthData])
 
@@ -118,11 +186,20 @@ const MyHealth: React.FC<{ healthData?: any }> = ({ healthData }) => {
     bmi: 24.5
   })
 
-  useEffect(() => {
-    if (healthData) {
-      fetchHealthAnalysis()
-    }
-  }, [healthData])
+  // useEffect(() => {
+  //   if (healthData) {
+  //     fetchHealthAnalysis()
+  //   }
+  // }, [healthData])
+
+
+  //   useEffect(() => {
+  //   if (healthData) {
+  //     console.log("ssmmxmxm");
+  //     fetchDiseaseAnalysis()
+  //   }
+  // }, [healthData])
+
 
   const [comparison, setComparison] = useState(null)
 
@@ -220,12 +297,12 @@ const MyHealth: React.FC<{ healthData?: any }> = ({ healthData }) => {
       color: 'bg-purple-500'
     },
     {
-      key: 'weight',
-      label: 'Weight (kg)',
+      key: 'Physical Activity',
+      label: 'Physical Activity per week',
       icon: <Weight className="w-4 h-4" />,
-      min: 50,
-      max: 120,
-      unit: 'kg',
+      min: 1,
+      max: 10,
+      unit: 'scale',
       color: 'bg-orange-500'
     },
     // {
@@ -262,7 +339,33 @@ const MyHealth: React.FC<{ healthData?: any }> = ({ healthData }) => {
     return 'bg-red-100 text-red-800'
   }
 
+  const isLoading = healthLoading || diseaseLoading || nutritionLoading;
+
+  const Loader = () => {
   return (
+    <div
+      style={{
+        position: 'fixed',
+        top: 0,
+        left: 0,
+        width: '100%',
+        height: '100%',
+        backgroundColor: 'rgba(0, 0, 0, 0.5)',
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+        zIndex: 9999
+      }}
+    >
+      <div className="animate-spin rounded-full h-16 w-16 border-b-4 border-blue-500"></div>
+      <span className="ml-4 text-white">Loading...</span>
+    </div>
+  )
+}
+
+  return (
+     <div className="min-h-screen bg-transparent">
+    {isLoading && <Loader />}
     <div className="min-h-screen bg-transparent">
       {/* Header Section  */}
       <div className="bg-gradient-to-r from-green-50 via-emerald-50 to-teal-50 shadow-sm border-b border-green-100 relative">
@@ -453,7 +556,7 @@ const MyHealth: React.FC<{ healthData?: any }> = ({ healthData }) => {
           </div>
 
           {/* Disease Risk Assessment */}
-          <div className="bg-white rounded-xl shadow-lg border border-green-100 p-6">
+          {/* <div className="bg-white rounded-xl shadow-lg border border-green-100 p-6">
             <h3 className="text-xl font-bold text-gray-800 mb-6 flex items-center">
               <svg className="w-5 h-5 text-green-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path
@@ -483,10 +586,12 @@ const MyHealth: React.FC<{ healthData?: any }> = ({ healthData }) => {
                 <p className="text-green-600">Prevention Time</p>
               </div>
             </div>
-          </div>
+          </div> */}
+
+          <DiseaseAnalysisCard diseaseData ={diseaseData} loading={loading} error={diseaseError} />
 
           {/* Personalized Nutrition Advice */}
-          <NutritionAnalysisCard nutritionData={nutritionApiData} loading={nutritionLoading} error={nutritionError} />
+          <NutritionAnalysisCard nutritionData={nutritionApiData} loading={loading} error={nutritionError} />
         </div>
 
         {/* NEW CONTENT: Lifestyle Health Simulator */}
@@ -659,6 +764,7 @@ const MyHealth: React.FC<{ healthData?: any }> = ({ healthData }) => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   )
 }
