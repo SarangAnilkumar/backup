@@ -175,13 +175,13 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
     },
     {
       icon: Heart,
-      title: 'Nutrition & Wellness',
+      title: 'Nutritional Gaps',
       description: 'Get personalized nutrition recommendations and wellness tips for a balanced lifestyle.',
       color: 'bg-red-50 text-red-600'
     },
     {
       icon: Target,
-      title: 'Goal-Oriented Programs',
+      title: 'Personalized Reports',
       description: 'Set and achieve your fitness and wellness goals with customized plans and progress tracking.',
       color: 'bg-green-50 text-green-600'
     }
@@ -261,14 +261,14 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
           <div className="grid lg:grid-cols-3 gap-10 items-center">
             {/* Left: headline */}
             <div className={`lg:col-span-1 transition-all duration-1000 ${isVisible ? 'translate-x-0 opacity-100' : '-translate-x-10 opacity-0'}`}>
-              <h1 className="text-[42px] sm:text-6xl font-extrabold leading-[1.05] tracking-tight text-gray-900">
-                A <span className="bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent">Healthy</span> Mind
-                <br /> is an Asset
+              <h1 className="text-[28px] sm:text-6xl font-extrabold leading-[1.05] tracking-tight text-gray-900" style={{fontSize : '46px'}}>
+                Guarding Your  <span className="bg-gradient-to-r from-green-600 to-blue-600 bg-clip-text text-transparent">Health</span> Like Gold
+                {/* <br /> is an Asset */}
               </h1>
 
               <p className="mt-6 text-lg text-gray-600 leading-relaxed">
-                Transform your wellness journey with personalized insights, expert guidance, and a supportive community.
-                <span className="font-medium text-green-600"> We value your Health as the weight of Gold.</span>
+                Turn Your Daily Habits into Actionable Health Insights — Compare, Improve, Thrive.
+                {/* <br /><span className="font-medium text-green-600"> We value your Health as the weight of Gold.</span> */}
               </p>
 
               <div className="mt-8 flex flex-col sm:flex-row gap-4">
@@ -522,7 +522,7 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
       </section>
 
       {/* Testimonials Section */}
-      <section className="py-20 bg-transparent">
+      {/* <section className="py-20 bg-transparent">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">What our users say</h2>
           <p className="text-lg text-gray-600 mb-12">Join thousands who have transformed their health journey with AUVida</p>
@@ -556,7 +556,7 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* CTA Section */}
       <section className="py-20 bg-gradient-to-r from-green-600 to-blue-600">
