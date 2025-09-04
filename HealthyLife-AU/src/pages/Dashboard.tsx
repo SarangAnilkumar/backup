@@ -317,7 +317,7 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
                 </div>
 
                 {/* Floating cards */}
-                <div className="absolute -top-4 -left-4 bg-white rounded-2xl p-4 shadow-lg border border-gray-100 animate-bounce" style={{ animationDelay: '1s' }}>
+                {/* <div className="absolute -top-4 -left-4 bg-white rounded-2xl p-4 shadow-lg border border-gray-100 animate-bounce" style={{ animationDelay: '1s' }}>
                   <div className="flex items-center space-x-3">
                     <div className="w-10 h-10 bg-green-100 rounded-full flex items-center justify-center">
                       <Heart className="w-5 h-5 text-green-600" />
@@ -327,9 +327,9 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
                       <p className="text-xs text-gray-500">72 BPM</p>
                     </div>
                   </div>
-                </div>
+                </div> */}
 
-                <div className="absolute -bottom-4 -right-4 bg-white rounded-2xl p-4 shadow-lg border border-gray-100 animate-bounce" style={{ animationDelay: '2s' }}>
+                {/* <div className="absolute -bottom-4 -right-4 bg-white rounded-2xl p-4 shadow-lg border border-gray-100 animate-bounce" style={{ animationDelay: '2s' }}>
                   <div className="flex items-center space-x-3">
                     <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center">
                       <Activity className="w-5 h-5 text-blue-600" />
@@ -339,7 +339,7 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
                       <p className="text-xs text-gray-500">8,432</p>
                     </div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>
@@ -347,7 +347,7 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
       </section>
 
       {/* Stats Section */}
-      <section className="py-16 bg-transparent border-t border-gray-100/20">
+      {/* <section className="py-16 bg-transparent border-t border-gray-100/20">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
             {stats.map((stat, index) => (
@@ -366,10 +366,10 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Quick Access Section */}
-      <section className="py-20 bg-transparent">
+      {/* <section className="py-20 bg-transparent">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">
@@ -378,15 +378,15 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">Discover additional tools and insights to support your wellness journey</p>
           </div>
 
-          <div className="space-y-12">
+          <div className="space-y-12"> */}
             {/* Recipes Row - Modern Clean Style */}
-            <div className="group bg-white/95 backdrop-blur-sm rounded-2xl overflow-hidden shadow-2xl border border-white/40 hover:shadow-3xl transition-all duration-700 cursor-pointer">
+            {/* <div className="group bg-white/95 backdrop-blur-sm rounded-2xl overflow-hidden shadow-2xl border border-white/40 hover:shadow-3xl transition-all duration-700 cursor-pointer">
               <Link
                 to="/recipes"
                 className="group bg-white/95 backdrop-blur-sm rounded-2xl overflow-hidden shadow-2xl border border-white/40 hover:shadow-3xl transition-all duration-700 cursor-pointer block"
               >
                 <div className="grid md:grid-cols-2 items-center">
-                  {/* Image Section */}
+                  
                   <div className="relative overflow-hidden h-80 md:h-96">
                     <img
                       src="/recipe.webp"
@@ -405,13 +405,13 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
                         <p className="font-medium text-lg">Recipe Collection</p>
                       </div>
                     </div>
-                    {/* Floating tag */}
+                
                     <div className="absolute top-6 left-6 px-4 py-2 bg-white/90 backdrop-blur-sm rounded-full text-sm font-medium text-gray-700 shadow-lg">
                       New Recipes Added Weekly
                     </div>
                   </div>
 
-                  {/* Content Section */}
+
                   <div className="p-8 md:p-12 relative">
                     <div className="absolute top-6 right-6 opacity-60 group-hover:opacity-100 group-hover:translate-x-2 transition-all duration-300">
                       <ArrowRight className="w-6 h-6 text-gray-600" />
@@ -440,7 +440,7 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
                   </div>
                 </div>
               </Link>
-            </div>
+            </div> */}
 
             {/* Regional Analytics Row - Gradient Style */}
             {/* <div className="group bg-gradient-to-r from-green-500 to-teal-600 rounded-2xl overflow-hidden shadow-2xl hover:shadow-3xl transition-all duration-700 cursor-pointer">
@@ -510,9 +510,9 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
                 </div>
               </Link>
             </div> */}
-          </div>
+          {/* </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Features Section */}
       <section className="py-20 bg-transparent">
