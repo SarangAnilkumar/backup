@@ -1,9 +1,68 @@
 import React, { useState, useEffect } from 'react'
-import { Activity, Heart, Cigarette, Wine, Weight, Calculator, TrendingUp, TrendingDown, AlertTriangle } from 'lucide-react'
+import { Activity, Heart, Cigarette, Wine, Weight, Calculator, TrendingUp, TrendingDown, AlertTriangle, ArrowLeft } from 'lucide-react'
 import HealthAdvice from '../components/health-related/HealthAdvice'
 import NutritionAnalysisCard from '../components/health-related/NutritionAnalysisCard'
+import { useNavigate } from 'react-router-dom'
 
 const MyHealth: React.FC<{ healthData?: any }> = ({ healthData }) => {
+  const navigate = useNavigate()
+
+  // Check if health data exists and has required fields
+  const hasValidHealthData =
+    healthData &&
+    healthData.age &&
+    healthData.gender &&
+    healthData.bmi &&
+    healthData.currentWeight &&
+    healthData.smokingStatus !== undefined &&
+    healthData.alcoholConsumption !== undefined
+
+  // If no valid health data, show fallback UI
+  if (!hasValidHealthData) {
+    return (
+      <div className="min-h-screen to-purple-50 flex items-center justify-center p-4">
+        <div className="max-w-md w-full bg-white rounded-2xl shadow-xl border border-gray-100 p-8 text-center">
+          {/* Icon */}
+          <div className="w-16 h-16 bg-gradient-to-r from-green-100 to-blue-100 rounded-full flex items-center justify-center mx-auto mb-6">
+            <svg className="w-8 h-8 text-gray-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth={2}
+                d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z"
+              />
+            </svg>
+          </div>
+
+          {/* Title */}
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">No Health Data Found</h2>
+
+          {/* Description */}
+          <p className="text-gray-600 mb-8 leading-relaxed">
+            It looks like you haven't completed your health assessment yet. Please go back to the homepage and fill out the health assessment form to view your personalized health
+            insights.
+          </p>
+
+          {/* Action Buttons */}
+          <div className="space-y-3">
+            <button
+              onClick={() => navigate('/')}
+              className="w-full inline-flex items-center justify-center rounded-xl bg-gradient-to-r from-green-600 to-green-700 px-6 py-3 text-white font-semibold shadow-lg hover:shadow-xl hover:scale-105 transform transition-all duration-200"
+            >
+              <ArrowLeft className="w-5 h-5 mr-2" />
+              Go Back to Homepage
+            </button>
+          </div>
+
+          {/* Additional Info */}
+          <div className="mt-6 pt-6 border-t border-gray-100">
+            <p className="text-sm text-gray-500">Need help? The health assessment takes just a few minutes to complete.</p>
+          </div>
+        </div>
+      </div>
+    )
+  }
+
   // Simulator state
   const [habits, setHabits] = useState({
     exercise: 2, // days per week
@@ -304,23 +363,6 @@ const MyHealth: React.FC<{ healthData?: any }> = ({ healthData }) => {
       <div className="max-w-7xl mx-auto px-4 py-6">
         {/* Key Indicators Overview - ORIGINAL CONTENT */}
         <div className="mb-8">
-          {/* <div className="bg-gradient-to-r from-green-100 via-emerald-100 to-teal-100 rounded-2xl p-8 mb-8">
-            <h2 className="text-3xl font-bold text-gray-800 mb-2 flex items-center">
-              <div className="w-8 h-8 bg-gradient-to-r from-green-600 to-emerald-600 rounded-lg flex items-center justify-center mr-3">
-                <svg className="w-5 h-5 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth={2}
-                    d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v4a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
-                  />
-                </svg>
-              </div>
-              Key Indicators Overview
-            </h2>
-            <p className="text-gray-600 ml-11 text-sm">Your essential health metrics at a glance</p>
-          </div> */}
-
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-8">
             <div className="group bg-white/90 backdrop-blur-sm p-8 rounded-2xl shadow-xl border border-white/40 hover:shadow-2xl transition-all duration-300 hover:scale-105">
               <div className="text-center">
