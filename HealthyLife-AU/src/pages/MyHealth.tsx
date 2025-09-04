@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import { Activity, Heart, Cigarette, Wine, Weight, Calculator, TrendingUp, TrendingDown, AlertTriangle } from 'lucide-react'
-import HealthAdvice from '../components/health-projections/HealthAdvice'
+import HealthAdvice from '../components/health-related/HealthAdvice'
+import NutritionAnalysisCard from '../components/health-related/NutritionAnalysisCard'
 
 const MyHealth: React.FC<{ healthData?: any }> = ({ healthData }) => {
   // Simulator state
@@ -16,6 +17,9 @@ const MyHealth: React.FC<{ healthData?: any }> = ({ healthData }) => {
   const [apiData, setApiData] = useState(null)
   const [loading, setLoading] = useState(false)
   const [error, setError] = useState(null)
+  const [nutritionApiData, setNutritionApiData] = useState(null)
+  const [nutritionLoading, setNutritionLoading] = useState(false)
+  const [nutritionError, setNutritionError] = useState(null)
 
   const fetchHealthAnalysis = async () => {
     if (!healthData?.age || !healthData?.gender || !healthData?.alcoholConsumption || !healthData?.smokingStatus) {
@@ -54,6 +58,57 @@ const MyHealth: React.FC<{ healthData?: any }> = ({ healthData }) => {
       setLoading(false)
     }
   }
+
+  const fetchNutritionAnalysis = async () => {
+    if (!healthData?.apiData) {
+      console.log('No API data available for nutrition analysis')
+      return
+    }
+
+    setNutritionLoading(true)
+    setNutritionError(null)
+
+    try {
+      console.log('=== Sending Nutrition API Request ===')
+      console.log('URL: https://i5r58exmh9.execute-api.ap-southeast-2.amazonaws.com/prod/nutrientsIntakeData')
+      console.log('Request Data:', JSON.stringify(healthData.apiData, null, 2))
+
+      const response = await fetch('https://i5r58exmh9.execute-api.ap-southeast-2.amazonaws.com/prod/nutrientsIntakeData', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'x-api-key': 'kQtOrJu6Ba9TExHVFhVAt6aI7VOwMC3pabxQMR1y'
+        },
+        body: JSON.stringify(healthData.apiData)
+      })
+
+      if (!response.ok) {
+        throw new Error(`HTTP error! status: ${response.status}`)
+      }
+
+      const data = await response.json()
+
+      console.log('=== Nutrition API Response ===')
+      console.log('Response Status:', response.status)
+      console.log('Raw Response:', data)
+      console.log('Formatted Response:', JSON.stringify(data, null, 2))
+
+      setNutritionApiData(data)
+    } catch (err) {
+      console.error('=== Nutrition API Error ===')
+      console.error('Error:', err)
+      setNutritionError(err.message)
+    } finally {
+      setNutritionLoading(false)
+    }
+  }
+
+  // Auto-fetch when component mounts and has apiData
+  useEffect(() => {
+    if (healthData?.apiData) {
+      fetchNutritionAnalysis()
+    }
+  }, [healthData])
 
   const [predictions, setPredictions] = useState({
     cardiovascularRisk: 15,
@@ -232,6 +287,14 @@ const MyHealth: React.FC<{ healthData?: any }> = ({ healthData }) => {
                 className="bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white px-6 py-3 rounded-xl transition-all duration-200 font-medium disabled:opacity-50 shadow-lg hover:shadow-xl transform hover:scale-105"
               >
                 {loading ? 'Loading...' : 'Refresh Analysis'}
+              </button>
+
+              <button
+                onClick={fetchNutritionAnalysis}
+                disabled={nutritionLoading || !healthData?.apiData}
+                className="bg-gradient-to-r from-blue-600 to-blue-700 hover:from-blue-700 hover:to-blue-800 text-white px-6 py-3 rounded-xl transition-all duration-200 font-medium disabled:opacity-50 shadow-lg hover:shadow-xl transform hover:scale-105"
+              >
+                {nutritionLoading ? 'Loading Nutrition...' : 'Fetch Nutrition Data'}
               </button>
             </div>
           </div>
@@ -423,44 +486,7 @@ const MyHealth: React.FC<{ healthData?: any }> = ({ healthData }) => {
           </div>
 
           {/* Personalized Nutrition Advice */}
-          <div className="bg-white rounded-xl shadow-lg border border-green-100 p-6">
-            <h3 className="text-xl font-bold text-gray-800 mb-6 flex items-center">
-              <svg className="w-5 h-5 text-green-600 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth={2}
-                  d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
-                />
-              </svg>
-              Personalized Nutrition Advice
-            </h3>
-
-            <div className="space-y-4">
-              <div className="flex items-center justify-between p-4 bg-red-50 rounded-lg border border-red-200">
-                <div className="flex items-center space-x-3">
-                  <svg className="w-5 h-5 text-red-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={2}
-                      d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-2.5L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16.5c-.77.833.192 2.5 1.732 2.5z"
-                    />
-                  </svg>
-                  <span className="font-medium text-gray-800">Vitamin C</span>
-                </div>
-                <div className="text-right">
-                  <p className="font-semibold text-red-600">0.0/45 mg</p>
-                  <p className="text-xs text-red-500">0% met</p>
-                </div>
-              </div>
-
-              <div className="text-sm text-gray-600">
-                <p className="mb-2">Best sources: Citrus fruits • Strawberries • Bell peppers • Broccoli • Tomatoes</p>
-                <p className="text-green-600">Try for adults</p>
-              </div>
-            </div>
-          </div>
+          <NutritionAnalysisCard nutritionData={nutritionApiData} loading={nutritionLoading} error={nutritionError} />
         </div>
 
         {/* NEW CONTENT: Lifestyle Health Simulator */}

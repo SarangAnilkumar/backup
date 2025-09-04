@@ -19,7 +19,9 @@ function App() {
     smokingStatus: null,
     smokingFrequency: null,
     alcoholConsumption: null,
-    mealPreferences: []
+    mealPreferences: [],
+    mealFoodList: {}, // Add this for the detailed meal data
+    apiData: null // Add this for the API-ready format data
   })
 
   const handleHealthDataSubmit = (healthData) => {

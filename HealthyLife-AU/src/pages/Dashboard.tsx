@@ -2,7 +2,6 @@ import React, { useMemo, useState, useEffect } from 'react'
 import { Heart, Activity, Users, Target, TrendingUp, Award, CheckCircle, ArrowRight, Play, Star } from 'lucide-react'
 import { Link, useNavigate } from 'react-router-dom'
 
-
 const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onHealthDataSubmit }) => {
   // --- Modal & form state ---
   const [open, setOpen] = useState(false)
@@ -26,8 +25,6 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
   })
   const navigate = useNavigate()
 
-  
-
   // Animation state
   const [isVisible, setIsVisible] = useState(false)
   const [currentTestimonial, setCurrentTestimonial] = useState(0)
@@ -46,7 +43,7 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
     if (step === 2) return bmi >= 15 && bmi <= 50 // reasonable BMI range
     if (step === 3) return currentWeight >= 30 && currentWeight <= 200 // reasonable weight range
     if (step === 4) return Boolean(smokingStatus && alcoholConsumption >= 0)
-    if (step === 5) return Boolean(mealPreferences.length>0)
+    if (step === 5) return Boolean(mealPreferences.length > 0)
     return true
   }, [step, age, gender, bmi, currentWeight, smokingStatus, alcoholConsumption, mealPreferences])
 
@@ -89,7 +86,7 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
   }
 
   const handleFoodChange = (meal: string, index: number, value: string) => {
-    console.log(meal, index, value, "kmsmsd,d,d")
+    console.log(meal, index, value, 'kmsmsd,d,d')
     const updatedFoods = [...mealFoodList[meal]]
     updatedFoods[index] = value
     setMealFoodList((prev) => ({
@@ -111,6 +108,35 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
     console.log('Formatted Smoking Frequency:', formattedSmokingFrequency)
 
     if (step === 5) {
+      // Build API format data structure
+      const apiFormatData = {
+        sex: gender.toLowerCase(), // Convert to lowercase for API
+        age: age,
+        meals: {}
+      }
+
+      // Process selected meals into API format
+      mealPreferences.forEach((meal) => {
+        if (mealFoodList[meal] && mealFoodList[meal].length > 0) {
+          const mealKey = meal.toLowerCase().replace(' ', '_') // Convert "Evening Snacks" to "evening_snacks"
+          apiFormatData.meals[mealKey] = []
+
+          mealFoodList[meal].forEach((food) => {
+            // Only add foods that have valid data
+            if (food && typeof food === 'object' && food.name && food.quantity && food.id) {
+              apiFormatData.meals[mealKey].push({
+                public_food_key: food.id,
+                quantity: parseInt(food.quantity) || 1,
+                unit: 'g' // Hardcoded as requested
+              })
+            }
+          })
+        }
+      })
+
+      // console.log('=== API Format Data ===')
+      // console.log(JSON.stringify(apiFormatData, null, 2))
+
       const healthData = {
         age,
         gender,
@@ -119,7 +145,9 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
         smokingStatus,
         smokingFrequency: formattedSmokingFrequency,
         alcoholConsumption,
-        mealPreferences
+        mealPreferences,
+        mealFoodList,
+        apiData: apiFormatData
       }
 
       onHealthDataSubmit?.(healthData)
@@ -180,38 +208,31 @@ const Dashboard: React.FC<{ onHealthDataSubmit?: (data: any) => void }> = ({ onH
     }
   ]
 
-
-
-useEffect(() => {
-  if (open) {
-    const fetchFoods = async () => {
-      try {
-        const response = await fetch(
-          "https://i5r58exmh9.execute-api.ap-southeast-2.amazonaws.com/prod/searchFoodIntake",
-          {
-            method: "POST", // ✅ must be POST
+  useEffect(() => {
+    if (open) {
+      const fetchFoods = async () => {
+        try {
+          const response = await fetch('https://i5r58exmh9.execute-api.ap-southeast-2.amazonaws.com/prod/searchFoodIntake', {
+            method: 'POST', // ✅ must be POST
             headers: {
-              "Content-Type": "application/json",
-              "x-api-key": "kQtOrJu6Ba9TExHVFhVAt6aI7VOwMC3pabxQMR1y",
+              'Content-Type': 'application/json',
+              'x-api-key': 'kQtOrJu6Ba9TExHVFhVAt6aI7VOwMC3pabxQMR1y'
             },
             body: JSON.stringify({}) // ✅ explicitly empty body
-          }
-        )
+          })
 
-        const data = await response.json()
-        // Lambda behind API Gateway often wraps result in { body: "string" }
-        const foods = typeof data.body === "string" ? JSON.parse(data.body) : data
-        setAllFoods(foods)
-
-      } catch (error) {
-        console.error("Error fetching food list:", error)
+          const data = await response.json()
+          // Lambda behind API Gateway often wraps result in { body: "string" }
+          const foods = typeof data.body === 'string' ? JSON.parse(data.body) : data
+          setAllFoods(foods)
+        } catch (error) {
+          console.error('Error fetching food list:', error)
+        }
       }
+
+      fetchFoods()
     }
-
-    fetchFoods()
-  }
-}, [open])
-
+  }, [open])
 
   return (
     <div className="min-h-screen bg-transparent">
@@ -716,7 +737,7 @@ useEffect(() => {
                           <p className="mt-1 text-xs text-gray-500">Australian standard drink = 10g alcohol (285ml beer, 100ml wine, 30ml spirits)</p>
                         </label>
                       </div>
-                      </div>
+                    </div>
                   )}
                   {step === 5 && (
                     <div className="space-y-6">
@@ -750,58 +771,51 @@ useEffect(() => {
                                   {mealFoodList[meal].map((food, index) => (
                                     <div key={index} className="flex items-center space-x-2 mb-2">
                                       <div className="relative w-1/2">
-                                              <input
-                                                type="text"
-                                                value={food.name}
-                                                placeholder={`Enter food for ${meal}`}
-                                                className="p-1 border border-gray-300 rounded-md text-sm"
-                                                onChange={(e) => {
-                                                  const value = e.target.value
-                                                  handleFoodChange(meal, index, { ...food, name: value })
-                                                  if (value.length > 1) {
-                                                    const results = allFoods
-                                                      .filter((f) =>
-                                                        f.food_name.toLowerCase().includes(value.toLowerCase())
-                                                      )
-                                                      .slice(0, 10) // limit suggestions
-                                                    setFoodSuggestions((prev) => ({ ...prev, [meal]: results }))
-                                                  } else {
-                                                    setFoodSuggestions((prev) => ({ ...prev, [meal]: [] }))
-                                                  }
+                                        <input
+                                          type="text"
+                                          value={food.name}
+                                          placeholder={`Enter food for ${meal}`}
+                                          className="p-1 border border-gray-300 rounded-md text-sm"
+                                          onChange={(e) => {
+                                            const value = e.target.value
+                                            handleFoodChange(meal, index, { ...food, name: value })
+                                            if (value.length > 1) {
+                                              const results = allFoods.filter((f) => f.food_name.toLowerCase().includes(value.toLowerCase())).slice(0, 10) // limit suggestions
+                                              setFoodSuggestions((prev) => ({ ...prev, [meal]: results }))
+                                            } else {
+                                              setFoodSuggestions((prev) => ({ ...prev, [meal]: [] }))
+                                            }
+                                          }}
+                                        />
+
+                                        {foodSuggestions[meal]?.length > 0 && (
+                                          <ul className="absolute bg-white border border-gray-200 rounded-md shadow-md mt-1 max-h-40 overflow-y-auto text-sm z-50">
+                                            {foodSuggestions[meal].map((f) => (
+                                              <li
+                                                key={f.public_food_key}
+                                                onClick={() => {
+                                                  handleFoodChange(meal, index, {
+                                                    id: f.public_food_key,
+                                                    name: f.food_name,
+                                                    quantity: food.quantity
+                                                  })
+                                                  setFoodSuggestions((prev) => ({ ...prev, [meal]: [] }))
                                                 }}
-                                              />
-
-                                              {foodSuggestions[meal]?.length > 0 && (
-                                                <ul className="absolute bg-white border border-gray-200 rounded-md shadow-md mt-1 max-h-40 overflow-y-auto text-sm z-50">
-                                                  {foodSuggestions[meal].map((f) => (
-                                                    <li
-                                                      key={f.public_food_key}
-                                                      onClick={() => {
-                                                        handleFoodChange(meal, index, {
-                                                          id: f.public_food_key,
-                                                          name: f.food_name,
-                                                          quantity : food.quantity
-                                                        })
-                                                        setFoodSuggestions((prev) => ({ ...prev, [meal]: [] }))
-                                                      }}
-                                                      className="px-2 py-1 cursor-pointer hover:bg-green-100"
-                                                    >
-                                                      {f.food_name}
-                                                    </li>
-                                                  ))}
-                                                </ul>
-                                              )}
-
-                                        </div>
+                                                className="px-2 py-1 cursor-pointer hover:bg-green-100"
+                                              >
+                                                {f.food_name}
+                                              </li>
+                                            ))}
+                                          </ul>
+                                        )}
+                                      </div>
                                       <input
                                         type="number"
                                         min="1"
                                         placeholder="g"
                                         className="w-20 p-1 border border-gray-300 rounded-md text-sm"
                                         value={food.quantity}
-                                        onChange={(e) =>
-                                          handleFoodChange(meal, index, { ...food, quantity: e.target.value })
-                                        }
+                                        onChange={(e) => handleFoodChange(meal, index, { ...food, quantity: e.target.value })}
                                         required
                                       />
 
