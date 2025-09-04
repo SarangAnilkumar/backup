@@ -95,8 +95,8 @@ const NutritionDetailModal: React.FC<Props> = ({ isOpen, onClose, nutritionData 
   }
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center p-4  bg-black/20 backdrop-blur-sm" >
-      <div className="bg-white rounded-2xl shadow-2xl w-full max-w-7xl max-h-[90vh] overflow-hidden" >
+    <div className="fixed inset-0 z-50 flex items-center justify-center p-4  bg-black/20 backdrop-blur-sm">
+      <div className="bg-white rounded-2xl shadow-2xl w-full max-w-7xl max-h-[90vh] overflow-hidden">
         {/* Header */}
         <div className="bg-gradient-to-r from-green-600 to-blue-600 text-white p-6">
           <div className="flex items-center justify-between">
@@ -186,27 +186,51 @@ const NutritionDetailModal: React.FC<Props> = ({ isOpen, onClose, nutritionData 
                         <Cell key={`cell-${index}`} fill={entry.color} />
                       ))}
                     </Pie>
-                    <Tooltip />
+                    <Tooltip formatter={(value, name) => [value, name]} />
                   </PieChart>
                 </ResponsiveContainer>
+
+                {/* Custom Legend */}
+                <div className="flex justify-center mt-3 space-x-4">
+                  {statusData.map((entry, index) => (
+                    <div key={index} className="flex items-center space-x-2">
+                      <div className="w-3 h-3 rounded-full" style={{ backgroundColor: entry.color }}></div>
+                      <span className="text-xs text-gray-600">
+                        {entry.name} ({entry.value})
+                      </span>
+                    </div>
+                  ))}
+                </div>
               </div>
 
               {/* Nutrient Achievement Radial Chart */}
               <div className="bg-white rounded-xl p-4 shadow-sm">
                 <h4 className="font-semibold text-gray-800 mb-3">Nutrient Achievement (%)</h4>
                 <ResponsiveContainer width="100%" height={200}>
-                  <RadialBarChart cx="50%" cy="50%" innerRadius="10%" outerRadius="80%" data={radialData}>
+                  <RadialBarChart cx="50%" cy="50%" innerRadius="30%" outerRadius="100%" data={radialData}>
                     <RadialBar dataKey="value" cornerRadius={10} />
-                    <Tooltip />
+                    <Tooltip formatter={(value) => [`${value.toFixed(1)}%`, 'Achievement']} />
                   </RadialBarChart>
                 </ResponsiveContainer>
+
+                {/* Achievement Legend */}
+                <div className="mt-3 grid grid-cols-2 gap-2 text-xs">
+                  {radialData.slice(0, 4).map((item, index) => (
+                    <div key={index} className="flex items-center space-x-2">
+                      <div className="w-2 h-2 rounded-full" style={{ backgroundColor: item.fill }}></div>
+                      <span className="text-gray-600 truncate">
+                        {item.name}: {item.value.toFixed(0)}%
+                      </span>
+                    </div>
+                  ))}
+                </div>
               </div>
 
               {/* Meal Contribution Bar Chart */}
               <div className="bg-white rounded-xl p-4 shadow-sm">
                 <h4 className="font-semibold text-gray-800 mb-3">Meal Contributions For Each Nutrients</h4>
-                <ResponsiveContainer width="100%" height={200}>
-                  <BarChart data={mealData}>
+                <ResponsiveContainer width="100%" height={260}>
+                  <BarChart data={mealData} margin={{ top: 40, right: 30, left: 20 }}>
                     <CartesianGrid strokeDasharray="3 3" />
                     <XAxis dataKey="nutrient" tick={{ fontSize: 10 }} angle={-45} textAnchor="end" height={60} />
                     <YAxis tick={{ fontSize: 10 }} tickFormatter={(value) => `${value}%`} />
